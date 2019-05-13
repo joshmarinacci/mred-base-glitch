@@ -1,0 +1,400 @@
+{
+    "history": [
+        {
+            "type": "CREATE_ARRAY",
+            "host": "34160252",
+            "timestamp": 1553806273812,
+            "uuid": "34040241",
+            "seq": 1,
+            "id": "67614832"
+        },
+        {
+            "type": "CREATE_OBJECT",
+            "host": "34160252",
+            "timestamp": 1553806273812,
+            "uuid": "91574602",
+            "seq": 2,
+            "id": "50991024",
+            "defaults": {
+                "type": "root",
+                "title": "root",
+                "children": "67614832"
+            }
+        },
+        {
+            "type": "CREATE_ARRAY",
+            "host": "34160252",
+            "timestamp": 1553806273812,
+            "uuid": "14657137",
+            "seq": 3,
+            "id": "5785197"
+        },
+        {
+            "type": "CREATE_OBJECT",
+            "host": "34160252",
+            "timestamp": 1553806273812,
+            "uuid": "70015698",
+            "seq": 4,
+            "id": "10411020",
+            "defaults": {
+                "type": "scene",
+                "title": "Scene 1",
+                "defaultFloor": true,
+                "parent": "50991024",
+                "children": "5785197"
+            }
+        },
+        {
+            "type": "CREATE_OBJECT",
+            "host": "34160252",
+            "timestamp": 1553806273812,
+            "uuid": "73397441",
+            "seq": 5,
+            "id": "94788480",
+            "defaults": {
+                "type": "cube",
+                "title": "first cube",
+                "width": 1,
+                "height": 1,
+                "depth": 1,
+                "tx": 0,
+                "ty": 1.5,
+                "tz": -5,
+                "rx": 0,
+                "ry": 0,
+                "rz": 0,
+                "sx": 1,
+                "sy": 1,
+                "sz": 1,
+                "color": "#00ff00",
+                "action": 0,
+                "parent": "10411020"
+            }
+        },
+        {
+            "type": "CREATE_ARRAY",
+            "host": "34160252",
+            "timestamp": 1553806273812,
+            "uuid": "64725701",
+            "seq": 6,
+            "id": "65480127"
+        },
+        {
+            "type": "CREATE_OBJECT",
+            "host": "34160252",
+            "timestamp": 1553806273812,
+            "uuid": "37387162",
+            "seq": 7,
+            "id": "48523135",
+            "defaults": {
+                "type": "assets",
+                "title": "Assets",
+                "children": "65480127",
+                "parent": 0
+            }
+        },
+        {
+            "type": "CREATE_ARRAY",
+            "host": "34160252",
+            "timestamp": 1553806273812,
+            "uuid": "58434016",
+            "seq": 8,
+            "id": "23799078"
+        },
+        {
+            "type": "CREATE_OBJECT",
+            "host": "34160252",
+            "timestamp": 1553806273812,
+            "uuid": "54822106",
+            "seq": 9,
+            "id": "74964300",
+            "defaults": {
+                "type": "actions",
+                "title": "Actions",
+                "children": "23799078",
+                "parent": 0
+            }
+        },
+        {
+            "type": "SET_PROPERTY",
+            "host": "34160252",
+            "timestamp": 1553806273812,
+            "uuid": "60192011",
+            "seq": 10,
+            "object": "10411020",
+            "name": "parent",
+            "value": "50991024"
+        },
+        {
+            "type": "INSERT_ELEMENT",
+            "host": "34160252",
+            "timestamp": 1553806273813,
+            "uuid": "12871157",
+            "seq": 11,
+            "array": "67614832",
+            "value": "10411020",
+            "entryid": "39561226",
+            "prev": -1
+        },
+        {
+            "type": "SET_PROPERTY",
+            "host": "34160252",
+            "timestamp": 1553806273813,
+            "uuid": "34231536",
+            "seq": 12,
+            "object": "94788480",
+            "name": "parent",
+            "value": "10411020"
+        },
+        {
+            "type": "INSERT_ELEMENT",
+            "host": "34160252",
+            "timestamp": 1553806273813,
+            "uuid": "15455304",
+            "seq": 13,
+            "array": "5785197",
+            "value": "94788480",
+            "entryid": "37072790",
+            "prev": -1
+        },
+        {
+            "type": "SET_PROPERTY",
+            "host": "34160252",
+            "timestamp": 1553806273813,
+            "uuid": "33213420",
+            "seq": 14,
+            "object": "74964300",
+            "name": "parent",
+            "value": "50991024"
+        },
+        {
+            "type": "INSERT_ELEMENT",
+            "host": "34160252",
+            "timestamp": 1553806273813,
+            "uuid": "26117328",
+            "seq": 15,
+            "array": "67614832",
+            "value": "74964300",
+            "entryid": "77623654",
+            "prev": "39561226"
+        },
+        {
+            "type": "SET_PROPERTY",
+            "host": "34160252",
+            "timestamp": 1553806273813,
+            "uuid": "82084880",
+            "seq": 16,
+            "object": "48523135",
+            "name": "parent",
+            "value": "50991024"
+        },
+        {
+            "type": "INSERT_ELEMENT",
+            "host": "34160252",
+            "timestamp": 1553806273813,
+            "uuid": "14938750",
+            "seq": 17,
+            "array": "67614832",
+            "value": "48523135",
+            "entryid": "67385433",
+            "prev": "77623654"
+        },
+        {
+            "type": "SET_PROPERTY",
+            "host": "34160252",
+            "timestamp": 1553806292025,
+            "uuid": "76816822",
+            "seq": 106,
+            "object": "94788480",
+            "name": "ty",
+            "value": 2.51530093040408,
+            "prevValue": 1.5175051884552435
+        },
+        {
+            "type": "SET_PROPERTY",
+            "host": "34160252",
+            "timestamp": 1553806292023,
+            "uuid": "98805074",
+            "seq": 105,
+            "object": "94788480",
+            "name": "tx",
+            "value": 1.908065541621458,
+            "prevValue": 0.07002075382097028
+        },
+        {
+            "type": "CREATE_OBJECT",
+            "host": "544619",
+            "timestamp": 1553806477320,
+            "uuid": "16430891",
+            "seq": 1,
+            "id": "844371",
+            "defaults": {
+                "type": "asset",
+                "subtype": "image",
+                "format": "image/png",
+                "src": "https://cdn.glitch.com/169ba0f1-7df1-47eb-8231-375b0da8e6f5%2Fbizcard_duck.png",
+                "width": 100,
+                "height": 100,
+                "title": "bizcard_duck.png",
+                "parent": 0
+            }
+        },
+        {
+            "type": "SET_PROPERTY",
+            "host": "544619",
+            "timestamp": 1553806477322,
+            "uuid": "77617934",
+            "seq": 2,
+            "object": "844371",
+            "name": "parent",
+            "value": "48523135"
+        },
+        {
+            "type": "INSERT_ELEMENT",
+            "host": "544619",
+            "timestamp": 1553806477326,
+            "uuid": "77761187",
+            "seq": 3,
+            "array": "65480127",
+            "value": "844371",
+            "entryid": "31900652",
+            "prev": -1
+        },
+        {
+            "type": "SET_PROPERTY",
+            "host": "544619",
+            "timestamp": 1553806477370,
+            "uuid": "38619551",
+            "seq": 4,
+            "object": "844371",
+            "name": "width",
+            "value": 365
+        },
+        {
+            "type": "SET_PROPERTY",
+            "host": "544619",
+            "timestamp": 1553806477378,
+            "uuid": "66443341",
+            "seq": 5,
+            "object": "844371",
+            "name": "height",
+            "value": 244
+        },
+        {
+            "type": "CREATE_OBJECT",
+            "host": "544619",
+            "timestamp": 1553806481069,
+            "uuid": "52122953",
+            "seq": 9,
+            "id": "40851657",
+            "defaults": {
+                "type": "plane",
+                "title": "a plane",
+                "width": 3,
+                "height": 3,
+                "tx": 0,
+                "ty": 1.5,
+                "tz": -5,
+                "rx": 0,
+                "ry": 0,
+                "rz": 0,
+                "sx": 1,
+                "sy": 1,
+                "sz": 1,
+                "color": "#ffffff",
+                "asset": 0,
+                "parent": "10411020"
+            }
+        },
+        {
+            "type": "SET_PROPERTY",
+            "host": "544619",
+            "timestamp": 1553806481071,
+            "uuid": "59318436",
+            "seq": 10,
+            "object": "40851657",
+            "name": "parent",
+            "value": "10411020"
+        },
+        {
+            "type": "INSERT_ELEMENT",
+            "host": "544619",
+            "timestamp": 1553806481071,
+            "uuid": "46927092",
+            "seq": 11,
+            "array": "5785197",
+            "value": "40851657",
+            "entryid": "73221198",
+            "prev": -1
+        },
+        {
+            "type": "SET_PROPERTY",
+            "host": "544619",
+            "timestamp": 1553806483024,
+            "uuid": "77762564",
+            "seq": 21,
+            "object": "40851657",
+            "name": "asset",
+            "value": "844371",
+            "prevValue": 0
+        },
+        {
+            "type": "SET_PROPERTY",
+            "host": "544619",
+            "timestamp": 1553806483027,
+            "uuid": "65509422",
+            "seq": 22,
+            "object": "40851657",
+            "name": "height",
+            "value": 2.0054794520547947
+        },
+        {
+            "type": "SET_PROPERTY",
+            "host": "544619",
+            "timestamp": 1553806484585,
+            "uuid": "73644017",
+            "seq": 68,
+            "object": "40851657",
+            "name": "tx",
+            "value": -1.1903528149565057,
+            "prevValue": -0.03501037691048517
+        },
+        {
+            "type": "SET_PROPERTY",
+            "host": "544619",
+            "timestamp": 1553806484587,
+            "uuid": "48240917",
+            "seq": 69,
+            "object": "40851657",
+            "name": "ty",
+            "value": 2.340249045851651,
+            "prevValue": 1.5350103769104846
+        },
+        {
+            "type": "SET_PROPERTY",
+            "host": "40276411",
+            "timestamp": 1553807522329,
+            "uuid": "83390939",
+            "seq": 1,
+            "object": "50991024",
+            "name": "title",
+            "value": "good title",
+            "prevValue": "root"
+        },
+        {
+            "type": "SET_PROPERTY",
+            "host": "40276411",
+            "timestamp": 1553807525429,
+            "uuid": "8205142",
+            "seq": 2,
+            "object": "50991024",
+            "name": "title",
+            "value": "good title",
+            "prevValue": "good title"
+        }
+    ],
+    "type": "vr",
+    "id": "doc_254631135",
+    "graph": {},
+    "title": "good title"
+}

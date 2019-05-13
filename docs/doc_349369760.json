@@ -1,0 +1,632 @@
+{
+    "history": [
+        {
+            "type": "CREATE_ARRAY",
+            "host": "72035117",
+            "timestamp": 1556042320003,
+            "uuid": "50782807",
+            "seq": 1,
+            "id": "18665258"
+        },
+        {
+            "type": "CREATE_OBJECT",
+            "host": "72035117",
+            "timestamp": 1556042320003,
+            "uuid": "6436352",
+            "seq": 2,
+            "id": "24583731",
+            "defaults": {
+                "type": "root",
+                "title": "Untitled Project",
+                "defaultScene": 0,
+                "children": "18665258"
+            }
+        },
+        {
+            "type": "CREATE_ARRAY",
+            "host": "72035117",
+            "timestamp": 1556042320003,
+            "uuid": "27263596",
+            "seq": 3,
+            "id": "59279920"
+        },
+        {
+            "type": "CREATE_OBJECT",
+            "host": "72035117",
+            "timestamp": 1556042320004,
+            "uuid": "53047283",
+            "seq": 4,
+            "id": "5625868",
+            "defaults": {
+                "type": "scene",
+                "title": "Scene 1",
+                "defaultFloor": true,
+                "parent": "24583731",
+                "children": "59279920"
+            }
+        },
+        {
+            "type": "CREATE_ARRAY",
+            "host": "72035117",
+            "timestamp": 1556042320004,
+            "uuid": "11361149",
+            "seq": 5,
+            "id": "2686018"
+        },
+        {
+            "type": "CREATE_OBJECT",
+            "host": "72035117",
+            "timestamp": 1556042320004,
+            "uuid": "65494147",
+            "seq": 6,
+            "id": "70558958",
+            "defaults": {
+                "type": "cube",
+                "title": "cube 1",
+                "visible": true,
+                "width": 1,
+                "height": 1,
+                "depth": 1,
+                "tx": 0,
+                "ty": 1.5,
+                "tz": -5,
+                "rx": 0,
+                "ry": 0,
+                "rz": 0,
+                "sx": 1,
+                "sy": 1,
+                "sz": 1,
+                "color": "#00ff00",
+                "children": "2686018",
+                "parent": "5625868"
+            }
+        },
+        {
+            "type": "CREATE_ARRAY",
+            "host": "72035117",
+            "timestamp": 1556042320004,
+            "uuid": "69699984",
+            "seq": 7,
+            "id": "51108348"
+        },
+        {
+            "type": "CREATE_OBJECT",
+            "host": "72035117",
+            "timestamp": 1556042320004,
+            "uuid": "27664717",
+            "seq": 8,
+            "id": "77885514",
+            "defaults": {
+                "type": "assets",
+                "title": "Assets",
+                "children": "51108348",
+                "parent": 0
+            }
+        },
+        {
+            "type": "CREATE_ARRAY",
+            "host": "72035117",
+            "timestamp": 1556042320004,
+            "uuid": "94871021",
+            "seq": 9,
+            "id": "68478007"
+        },
+        {
+            "type": "CREATE_OBJECT",
+            "host": "72035117",
+            "timestamp": 1556042320004,
+            "uuid": "86666364",
+            "seq": 10,
+            "id": "78511579",
+            "defaults": {
+                "type": "behaviors",
+                "title": "Behaviors",
+                "children": "68478007",
+                "parent": 0
+            }
+        },
+        {
+            "type": "SET_PROPERTY",
+            "host": "72035117",
+            "timestamp": 1556042320004,
+            "uuid": "31879659",
+            "seq": 11,
+            "object": "5625868",
+            "name": "parent",
+            "value": "24583731"
+        },
+        {
+            "type": "INSERT_ELEMENT",
+            "host": "72035117",
+            "timestamp": 1556042320004,
+            "uuid": "27012560",
+            "seq": 12,
+            "array": "18665258",
+            "value": "5625868",
+            "entryid": "83592326",
+            "prev": -1
+        },
+        {
+            "type": "SET_PROPERTY",
+            "host": "72035117",
+            "timestamp": 1556042320004,
+            "uuid": "38454159",
+            "seq": 13,
+            "object": "70558958",
+            "name": "parent",
+            "value": "5625868"
+        },
+        {
+            "type": "INSERT_ELEMENT",
+            "host": "72035117",
+            "timestamp": 1556042320004,
+            "uuid": "99215762",
+            "seq": 14,
+            "array": "59279920",
+            "value": "70558958",
+            "entryid": "93888413",
+            "prev": -1
+        },
+        {
+            "type": "SET_PROPERTY",
+            "host": "72035117",
+            "timestamp": 1556042320004,
+            "uuid": "59353476",
+            "seq": 15,
+            "object": "78511579",
+            "name": "parent",
+            "value": "24583731"
+        },
+        {
+            "type": "INSERT_ELEMENT",
+            "host": "72035117",
+            "timestamp": 1556042320004,
+            "uuid": "57539579",
+            "seq": 16,
+            "array": "18665258",
+            "value": "78511579",
+            "entryid": "45200332",
+            "prev": "83592326"
+        },
+        {
+            "type": "SET_PROPERTY",
+            "host": "72035117",
+            "timestamp": 1556042320004,
+            "uuid": "93357624",
+            "seq": 17,
+            "object": "77885514",
+            "name": "parent",
+            "value": "24583731"
+        },
+        {
+            "type": "INSERT_ELEMENT",
+            "host": "72035117",
+            "timestamp": 1556042320004,
+            "uuid": "64681826",
+            "seq": 18,
+            "array": "18665258",
+            "value": "77885514",
+            "entryid": "89412171",
+            "prev": "45200332"
+        },
+        {
+            "type": "DELETE_ELEMENT",
+            "host": "72035117",
+            "timestamp": 1556042323998,
+            "uuid": "23854895",
+            "seq": 22,
+            "array": "59279920",
+            "entry": "93888413",
+            "value": "70558958"
+        },
+        {
+            "type": "SET_PROPERTY",
+            "host": "72035117",
+            "timestamp": 1556042335486,
+            "uuid": "97637508",
+            "seq": 26,
+            "object": "24583731",
+            "name": "title",
+            "value": "prox test",
+            "prevValue": "Untitled Project"
+        },
+        {
+            "type": "SET_PROPERTY",
+            "host": "72035117",
+            "timestamp": 1556042337194,
+            "uuid": "90614945",
+            "seq": 27,
+            "object": "24583731",
+            "name": "title",
+            "value": "prox test",
+            "prevValue": "prox test"
+        },
+        {
+            "type": "SET_PROPERTY",
+            "host": "72035117",
+            "timestamp": 1556042337817,
+            "uuid": "2640528",
+            "seq": 28,
+            "object": "24583731",
+            "name": "defaultScene",
+            "value": "5625868",
+            "prevValue": 0
+        },
+        {
+            "type": "CREATE_ARRAY",
+            "host": "72035117",
+            "timestamp": 1556042340200,
+            "uuid": "14994156",
+            "seq": 29,
+            "id": "98318152"
+        },
+        {
+            "type": "CREATE_OBJECT",
+            "host": "72035117",
+            "timestamp": 1556042340200,
+            "uuid": "86211648",
+            "seq": 30,
+            "id": "25608725",
+            "defaults": {
+                "type": "cube",
+                "title": "cube 2",
+                "visible": true,
+                "width": 1,
+                "height": 1,
+                "depth": 1,
+                "tx": 0,
+                "ty": 1.5,
+                "tz": -5,
+                "rx": 0,
+                "ry": 0,
+                "rz": 0,
+                "sx": 1,
+                "sy": 1,
+                "sz": 1,
+                "color": "#00ff00",
+                "children": "98318152",
+                "parent": "5625868"
+            }
+        },
+        {
+            "type": "SET_PROPERTY",
+            "host": "72035117",
+            "timestamp": 1556042340201,
+            "uuid": "67065062",
+            "seq": 31,
+            "object": "25608725",
+            "name": "parent",
+            "value": "5625868"
+        },
+        {
+            "type": "INSERT_ELEMENT",
+            "host": "72035117",
+            "timestamp": 1556042340201,
+            "uuid": "86031235",
+            "seq": 32,
+            "array": "59279920",
+            "value": "25608725",
+            "entryid": "91985227",
+            "prev": -1
+        },
+        {
+            "type": "CREATE_OBJECT",
+            "host": "72035117",
+            "timestamp": 1556042345817,
+            "uuid": "23443618",
+            "seq": 36,
+            "id": "17793902",
+            "defaults": {
+                "type": "behavior_script",
+                "title": " proximity event",
+                "description": " plays audio file when close enough to the target",
+                "src": "https://xred-v0.glitch.me/scripts/proximity.js",
+                "parent": 0
+            }
+        },
+        {
+            "type": "SET_PROPERTY",
+            "host": "72035117",
+            "timestamp": 1556042345819,
+            "uuid": "26905470",
+            "seq": 37,
+            "object": "17793902",
+            "name": "parent",
+            "value": "78511579"
+        },
+        {
+            "type": "INSERT_ELEMENT",
+            "host": "72035117",
+            "timestamp": 1556042345819,
+            "uuid": "83462718",
+            "seq": 38,
+            "array": "68478007",
+            "value": "17793902",
+            "entryid": "1013652",
+            "prev": -1
+        },
+        {
+            "type": "CREATE_OBJECT",
+            "host": "72035117",
+            "timestamp": 1556042349919,
+            "uuid": "92482487",
+            "seq": 39,
+            "id": "46936661",
+            "defaults": {
+                "type": "behavior_script",
+                "title": " toggle music",
+                "description": " does something",
+                "src": "https://xred-v0.glitch.me/scripts/playsound.js",
+                "parent": 0
+            }
+        },
+        {
+            "type": "SET_PROPERTY",
+            "host": "72035117",
+            "timestamp": 1556042349920,
+            "uuid": "17118947",
+            "seq": 40,
+            "object": "46936661",
+            "name": "parent",
+            "value": "78511579"
+        },
+        {
+            "type": "INSERT_ELEMENT",
+            "host": "72035117",
+            "timestamp": 1556042349921,
+            "uuid": "15935890",
+            "seq": 41,
+            "array": "68478007",
+            "value": "46936661",
+            "entryid": "91125491",
+            "prev": "1013652"
+        },
+        {
+            "type": "CREATE_OBJECT",
+            "host": "72035117",
+            "timestamp": 1556042360957,
+            "uuid": "65103138",
+            "seq": 42,
+            "id": "44994597",
+            "defaults": {
+                "type": "asset",
+                "subtype": "audio",
+                "format": "audio/mpeg",
+                "src": "https://cdn.glitch.com/169ba0f1-7df1-47eb-8231-375b0da8e6f5%2FDance%20Of%20The%20Sugar%20Plum%20Fairies.mp3",
+                "title": "Dance Of The Sugar Plum Fairies.mp3",
+                "parent": 0
+            }
+        },
+        {
+            "type": "SET_PROPERTY",
+            "host": "72035117",
+            "timestamp": 1556042360957,
+            "uuid": "84381137",
+            "seq": 43,
+            "object": "44994597",
+            "name": "parent",
+            "value": "77885514"
+        },
+        {
+            "type": "INSERT_ELEMENT",
+            "host": "72035117",
+            "timestamp": 1556042360958,
+            "uuid": "1869893",
+            "seq": 44,
+            "array": "51108348",
+            "value": "44994597",
+            "entryid": "27636127",
+            "prev": -1
+        },
+        {
+            "type": "SET_PROPERTY",
+            "host": "72035117",
+            "timestamp": 1556042365516,
+            "uuid": "34248235",
+            "seq": 45,
+            "object": "44994597",
+            "name": "title",
+            "value": "sugar.mp3",
+            "prevValue": "Dance Of The Sugar Plum Fairies.mp3"
+        },
+        {
+            "type": "CREATE_OBJECT",
+            "host": "72035117",
+            "timestamp": 1556042368867,
+            "uuid": "1684194",
+            "seq": 46,
+            "id": "37700283",
+            "defaults": {
+                "type": "behavior",
+                "title": " proximity event",
+                "description": " plays audio file when close enough to the target",
+                "parent": 0,
+                "behavior": "17793902",
+                "distance": 2,
+                "enterMessage": "entered",
+                "exitMessage": "exited"
+            }
+        },
+        {
+            "type": "SET_PROPERTY",
+            "host": "72035117",
+            "timestamp": 1556042368872,
+            "uuid": "83616108",
+            "seq": 47,
+            "object": "37700283",
+            "name": "parent",
+            "value": "25608725"
+        },
+        {
+            "type": "INSERT_ELEMENT",
+            "host": "72035117",
+            "timestamp": 1556042368875,
+            "uuid": "43125074",
+            "seq": 48,
+            "array": "98318152",
+            "value": "37700283",
+            "entryid": "91921181",
+            "prev": -1
+        },
+        {
+            "type": "SET_PROPERTY",
+            "host": "72035117",
+            "timestamp": 1556042371862,
+            "uuid": "91270909",
+            "seq": 49,
+            "object": "37700283",
+            "name": "enterMessage",
+            "value": "play",
+            "prevValue": "entered"
+        },
+        {
+            "type": "SET_PROPERTY",
+            "host": "72035117",
+            "timestamp": 1556042372761,
+            "uuid": "29543243",
+            "seq": 50,
+            "object": "37700283",
+            "name": "exitMessage",
+            "value": "stop",
+            "prevValue": "exited"
+        },
+        {
+            "type": "CREATE_OBJECT",
+            "host": "72035117",
+            "timestamp": 1556042375553,
+            "uuid": "3079663",
+            "seq": 54,
+            "id": "1904073",
+            "defaults": {
+                "type": "behavior",
+                "title": " toggle music",
+                "description": " does something",
+                "parent": 0,
+                "behavior": "46936661"
+            }
+        },
+        {
+            "type": "SET_PROPERTY",
+            "host": "72035117",
+            "timestamp": 1556042375555,
+            "uuid": "38847180",
+            "seq": 55,
+            "object": "1904073",
+            "name": "parent",
+            "value": "25608725"
+        },
+        {
+            "type": "INSERT_ELEMENT",
+            "host": "72035117",
+            "timestamp": 1556042375557,
+            "uuid": "37793485",
+            "seq": 56,
+            "array": "98318152",
+            "value": "1904073",
+            "entryid": "54602690",
+            "prev": "91921181"
+        }
+    ],
+    "type": "vr",
+    "id": "doc_349369760",
+    "graph": {
+        "type": "root",
+        "title": "prox test",
+        "defaultScene": "5625868",
+        "children": [
+            {
+                "type": "scene",
+                "title": "Scene 1",
+                "defaultFloor": true,
+                "parent": "24583731",
+                "children": [
+                    {
+                        "type": "cube",
+                        "title": "cube 2",
+                        "visible": true,
+                        "width": 1,
+                        "height": 1,
+                        "depth": 1,
+                        "tx": 0,
+                        "ty": 1.5,
+                        "tz": -5,
+                        "rx": 0,
+                        "ry": 0,
+                        "rz": 0,
+                        "sx": 1,
+                        "sy": 1,
+                        "sz": 1,
+                        "color": "#00ff00",
+                        "children": [
+                            {
+                                "type": "behavior",
+                                "title": " proximity event",
+                                "description": " plays audio file when close enough to the target",
+                                "parent": "25608725",
+                                "behavior": "17793902",
+                                "distance": 2,
+                                "enterMessage": "play",
+                                "exitMessage": "stop",
+                                "id": "37700283"
+                            },
+                            {
+                                "type": "behavior",
+                                "title": " toggle music",
+                                "description": " does something",
+                                "parent": "25608725",
+                                "behavior": "46936661",
+                                "id": "1904073"
+                            }
+                        ],
+                        "parent": "5625868",
+                        "id": "25608725"
+                    }
+                ],
+                "id": "5625868"
+            },
+            {
+                "type": "behaviors",
+                "title": "Behaviors",
+                "children": [
+                    {
+                        "type": "behavior_script",
+                        "title": " proximity event",
+                        "description": " plays audio file when close enough to the target",
+                        "src": "https://xred-v0.glitch.me/scripts/proximity.js",
+                        "parent": "78511579",
+                        "id": "17793902"
+                    },
+                    {
+                        "type": "behavior_script",
+                        "title": " toggle music",
+                        "description": " does something",
+                        "src": "https://xred-v0.glitch.me/scripts/playsound.js",
+                        "parent": "78511579",
+                        "id": "46936661"
+                    }
+                ],
+                "parent": "24583731",
+                "id": "78511579"
+            },
+            {
+                "type": "assets",
+                "title": "Assets",
+                "children": [
+                    {
+                        "type": "asset",
+                        "subtype": "audio",
+                        "format": "audio/mpeg",
+                        "src": "https://cdn.glitch.com/169ba0f1-7df1-47eb-8231-375b0da8e6f5%2FDance%20Of%20The%20Sugar%20Plum%20Fairies.mp3",
+                        "title": "sugar.mp3",
+                        "parent": "77885514",
+                        "id": "44994597"
+                    }
+                ],
+                "parent": "24583731",
+                "id": "77885514"
+            }
+        ],
+        "id": "24583731"
+    },
+    "title": "prox test"
+}
