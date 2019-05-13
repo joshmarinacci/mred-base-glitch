@@ -1,3 +1,8 @@
-body {
+.weblayer-div {
     border: 5px solid purple;
+    color: red;
+    font-size: 30pt;
+    width: 10em;
+    padding: 1em;
+    background-color: white;
 }
