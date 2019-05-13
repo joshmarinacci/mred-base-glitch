@@ -7,7 +7,8 @@
 	* type
 	* system
 	* props: properties of the 
-	* target
+	* target:  the ThreeJS object this behavior is attached to
+	* graphTarget: the graph document object this behavior is attached to
 * behaviors known events:
 	* init() called on system start, even if you aren’t in the current scene
 	* onEnter()
@@ -15,6 +16,7 @@
 	* onClick()
 	* onMessage()
 	* onTick()
+	* stop() called when the system stops
 * system methods
 	* getCurrentScene()
 	* getScene(name)
