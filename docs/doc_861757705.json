@@ -1,0 +1,614 @@
+{
+    "history": [
+        {
+            "type": "CREATE_ARRAY",
+            "host": "64047144",
+            "timestamp": 1557925874448,
+            "uuid": "49532609",
+            "seq": 1,
+            "id": "99642014"
+        },
+        {
+            "type": "CREATE_OBJECT",
+            "host": "64047144",
+            "timestamp": 1557925874449,
+            "uuid": "2602757",
+            "seq": 2,
+            "id": "3389763",
+            "defaults": {
+                "type": "root",
+                "title": "Untitled Project",
+                "defaultScene": 0,
+                "children": "99642014"
+            }
+        },
+        {
+            "type": "CREATE_ARRAY",
+            "host": "64047144",
+            "timestamp": 1557925874449,
+            "uuid": "8339192",
+            "seq": 3,
+            "id": "3564814"
+        },
+        {
+            "type": "CREATE_OBJECT",
+            "host": "64047144",
+            "timestamp": 1557925874449,
+            "uuid": "60194326",
+            "seq": 4,
+            "id": "1442372",
+            "defaults": {
+                "type": "scene",
+                "title": "Scene 0",
+                "defaultFloor": true,
+                "parent": "3389763",
+                "children": "3564814"
+            }
+        },
+        {
+            "type": "CREATE_ARRAY",
+            "host": "64047144",
+            "timestamp": 1557925874449,
+            "uuid": "31880276",
+            "seq": 5,
+            "id": "22471873"
+        },
+        {
+            "type": "CREATE_OBJECT",
+            "host": "64047144",
+            "timestamp": 1557925874449,
+            "uuid": "47005777",
+            "seq": 6,
+            "id": "77256867",
+            "defaults": {
+                "type": "cube",
+                "title": "cube 0",
+                "visible": true,
+                "width": 1,
+                "height": 1,
+                "depth": 1,
+                "tx": 0,
+                "ty": 0,
+                "tz": -5,
+                "rx": 0,
+                "ry": 0,
+                "rz": 0,
+                "sx": 1,
+                "sy": 1,
+                "sz": 1,
+                "color": "#00ff00",
+                "children": "22471873",
+                "parent": "1442372"
+            }
+        },
+        {
+            "type": "CREATE_ARRAY",
+            "host": "64047144",
+            "timestamp": 1557925874450,
+            "uuid": "76819909",
+            "seq": 7,
+            "id": "15594704"
+        },
+        {
+            "type": "CREATE_OBJECT",
+            "host": "64047144",
+            "timestamp": 1557925874450,
+            "uuid": "9415924",
+            "seq": 8,
+            "id": "34270296",
+            "defaults": {
+                "type": "assets",
+                "title": "Assets",
+                "children": "15594704",
+                "parent": 0
+            }
+        },
+        {
+            "type": "CREATE_ARRAY",
+            "host": "64047144",
+            "timestamp": 1557925874450,
+            "uuid": "23402154",
+            "seq": 9,
+            "id": "54661009"
+        },
+        {
+            "type": "CREATE_OBJECT",
+            "host": "64047144",
+            "timestamp": 1557925874450,
+            "uuid": "34441543",
+            "seq": 10,
+            "id": "98200692",
+            "defaults": {
+                "type": "behaviors",
+                "title": "Behaviors",
+                "children": "54661009",
+                "parent": 0
+            }
+        },
+        {
+            "type": "SET_PROPERTY",
+            "host": "64047144",
+            "timestamp": 1557925874450,
+            "uuid": "48419849",
+            "seq": 11,
+            "object": "1442372",
+            "name": "parent",
+            "value": "3389763"
+        },
+        {
+            "type": "INSERT_ELEMENT",
+            "host": "64047144",
+            "timestamp": 1557925874451,
+            "uuid": "32818067",
+            "seq": 12,
+            "array": "99642014",
+            "value": "1442372",
+            "entryid": "55271460",
+            "prev": -1
+        },
+        {
+            "type": "SET_PROPERTY",
+            "host": "64047144",
+            "timestamp": 1557925874451,
+            "uuid": "21654969",
+            "seq": 13,
+            "object": "77256867",
+            "name": "parent",
+            "value": "1442372"
+        },
+        {
+            "type": "INSERT_ELEMENT",
+            "host": "64047144",
+            "timestamp": 1557925874451,
+            "uuid": "82835831",
+            "seq": 14,
+            "array": "3564814",
+            "value": "77256867",
+            "entryid": "11417413",
+            "prev": -1
+        },
+        {
+            "type": "SET_PROPERTY",
+            "host": "64047144",
+            "timestamp": 1557925874451,
+            "uuid": "43591901",
+            "seq": 15,
+            "object": "98200692",
+            "name": "parent",
+            "value": "3389763"
+        },
+        {
+            "type": "INSERT_ELEMENT",
+            "host": "64047144",
+            "timestamp": 1557925874451,
+            "uuid": "29460591",
+            "seq": 16,
+            "array": "99642014",
+            "value": "98200692",
+            "entryid": "78940388",
+            "prev": "55271460"
+        },
+        {
+            "type": "SET_PROPERTY",
+            "host": "64047144",
+            "timestamp": 1557925874451,
+            "uuid": "2990434",
+            "seq": 17,
+            "object": "34270296",
+            "name": "parent",
+            "value": "3389763"
+        },
+        {
+            "type": "INSERT_ELEMENT",
+            "host": "64047144",
+            "timestamp": 1557925874451,
+            "uuid": "51961947",
+            "seq": 18,
+            "array": "99642014",
+            "value": "34270296",
+            "entryid": "70560237",
+            "prev": "78940388"
+        },
+        {
+            "type": "SET_PROPERTY",
+            "host": "64047144",
+            "timestamp": 1557925906372,
+            "uuid": "60832432",
+            "seq": 19,
+            "object": "3389763",
+            "name": "title",
+            "value": "Test Geo",
+            "prevValue": "Untitled Project"
+        },
+        {
+            "type": "SET_PROPERTY",
+            "host": "64047144",
+            "timestamp": 1557925907142,
+            "uuid": "916659",
+            "seq": 20,
+            "object": "3389763",
+            "name": "defaultScene",
+            "value": "1442372",
+            "prevValue": 0
+        },
+        {
+            "type": "SET_PROPERTY",
+            "host": "64047144",
+            "timestamp": 1557925910040,
+            "uuid": "11383417",
+            "seq": 21,
+            "object": "1442372",
+            "name": "defaultFloor",
+            "value": false,
+            "prevValue": true
+        },
+        {
+            "type": "CREATE_OBJECT",
+            "host": "64047144",
+            "timestamp": 1557925914639,
+            "uuid": "96083102",
+            "seq": 22,
+            "id": "58648731",
+            "defaults": {
+                "type": "asset",
+                "subtype": "geolocation",
+                "title": "new geo location",
+                "latitude": 0,
+                "longitude": 0,
+                "altitude": 0,
+                "useAltitude": false,
+                "parent": 0
+            }
+        },
+        {
+            "type": "SET_PROPERTY",
+            "host": "64047144",
+            "timestamp": 1557925914640,
+            "uuid": "46121579",
+            "seq": 23,
+            "object": "58648731",
+            "name": "parent",
+            "value": "34270296"
+        },
+        {
+            "type": "INSERT_ELEMENT",
+            "host": "64047144",
+            "timestamp": 1557925914640,
+            "uuid": "59272016",
+            "seq": 24,
+            "array": "15594704",
+            "value": "58648731",
+            "entryid": "58532506",
+            "prev": -1
+        },
+        {
+            "type": "SET_PROPERTY",
+            "host": "64047144",
+            "timestamp": 1557925920477,
+            "uuid": "13365242",
+            "seq": 25,
+            "object": "58648731",
+            "name": "latitude",
+            "value": 0,
+            "prevValue": 0
+        },
+        {
+            "type": "SET_PROPERTY",
+            "host": "64047144",
+            "timestamp": 1557925929176,
+            "uuid": "276810",
+            "seq": 26,
+            "object": "58648731",
+            "name": "latitude",
+            "value": 0,
+            "prevValue": 0
+        },
+        {
+            "type": "SET_PROPERTY",
+            "host": "64047144",
+            "timestamp": 1557925929852,
+            "uuid": "5040780",
+            "seq": 27,
+            "object": "58648731",
+            "name": "longitude",
+            "value": -84.3482447712763,
+            "prevValue": 0
+        },
+        {
+            "type": "SET_PROPERTY",
+            "host": "64047144",
+            "timestamp": 1557925930956,
+            "uuid": "54893923",
+            "seq": 28,
+            "object": "58648731",
+            "name": "longitude",
+            "value": -84.3482447712763,
+            "prevValue": -84.3482447712763
+        },
+        {
+            "type": "SET_PROPERTY",
+            "host": "64047144",
+            "timestamp": 1557925936722,
+            "uuid": "19102680",
+            "seq": 29,
+            "object": "58648731",
+            "name": "longitude",
+            "value": -84.3482447712763,
+            "prevValue": -84.3482447712763
+        },
+        {
+            "type": "SET_PROPERTY",
+            "host": "64047144",
+            "timestamp": 1557925938384,
+            "uuid": "65283185",
+            "seq": 30,
+            "object": "58648731",
+            "name": "latitude",
+            "value": "",
+            "prevValue": 0
+        },
+        {
+            "type": "SET_PROPERTY",
+            "host": "64047144",
+            "timestamp": 1557925941155,
+            "uuid": "46076015",
+            "seq": 31,
+            "object": "58648731",
+            "name": "longitude",
+            "value": -84.3482447712763,
+            "prevValue": -84.3482447712763
+        },
+        {
+            "type": "SET_PROPERTY",
+            "host": "64047144",
+            "timestamp": 1557925941792,
+            "uuid": "35773598",
+            "seq": 32,
+            "object": "58648731",
+            "name": "latitude",
+            "value": 33.7854583641713,
+            "prevValue": ""
+        },
+        {
+            "type": "SET_PROPERTY",
+            "host": "64047144",
+            "timestamp": 1557925944482,
+            "uuid": "99603161",
+            "seq": 33,
+            "object": "58648731",
+            "name": "latitude",
+            "value": 33.7854583641713,
+            "prevValue": 33.7854583641713
+        },
+        {
+            "type": "CREATE_ARRAY",
+            "host": "64047144",
+            "timestamp": 1557925950971,
+            "uuid": "11540830",
+            "seq": 34,
+            "id": "20745169"
+        },
+        {
+            "type": "CREATE_OBJECT",
+            "host": "64047144",
+            "timestamp": 1557925950973,
+            "uuid": "2126720",
+            "seq": 35,
+            "id": "73963344",
+            "defaults": {
+                "type": "geoanchor",
+                "title": "geo anchor 0",
+                "visible": true,
+                "tx": 0,
+                "ty": 0,
+                "tz": -5,
+                "rx": 0,
+                "ry": 0,
+                "rz": 0,
+                "sx": 1,
+                "sy": 1,
+                "sz": 1,
+                "color": "#00ff00",
+                "children": "20745169",
+                "targetGeoLocation": null,
+                "recType": "SCENE_START",
+                "parent": "1442372"
+            }
+        },
+        {
+            "type": "SET_PROPERTY",
+            "host": "64047144",
+            "timestamp": 1557925950973,
+            "uuid": "97584305",
+            "seq": 36,
+            "object": "73963344",
+            "name": "parent",
+            "value": "1442372"
+        },
+        {
+            "type": "INSERT_ELEMENT",
+            "host": "64047144",
+            "timestamp": 1557925950973,
+            "uuid": "18497271",
+            "seq": 37,
+            "array": "3564814",
+            "value": "73963344",
+            "entryid": "85967648",
+            "prev": -1
+        },
+        {
+            "type": "SET_PROPERTY",
+            "host": "64047144",
+            "timestamp": 1557925955552,
+            "uuid": "23068776",
+            "seq": 47,
+            "object": "73963344",
+            "name": "tz",
+            "value": 0,
+            "prevValue": -5
+        },
+        {
+            "type": "SET_PROPERTY",
+            "host": "64047144",
+            "timestamp": 1557925958524,
+            "uuid": "89611883",
+            "seq": 48,
+            "object": "73963344",
+            "name": "tz",
+            "value": 0,
+            "prevValue": 0
+        },
+        {
+            "type": "SET_PROPERTY",
+            "host": "64047144",
+            "timestamp": 1557925959761,
+            "uuid": "93278300",
+            "seq": 49,
+            "object": "73963344",
+            "name": "targetGeoLocation",
+            "value": "58648731",
+            "prevValue": null
+        },
+        {
+            "type": "DELETE_ELEMENT",
+            "host": "64047144",
+            "timestamp": 1557925962882,
+            "uuid": "45931924",
+            "seq": 53,
+            "array": "3564814",
+            "entry": "11417413",
+            "value": "77256867"
+        },
+        {
+            "type": "SET_PROPERTY",
+            "host": "64047144",
+            "timestamp": 1557925962883,
+            "uuid": "40709789",
+            "seq": 60,
+            "object": "77256867",
+            "name": "parent",
+            "value": "73963344"
+        },
+        {
+            "type": "INSERT_ELEMENT",
+            "host": "64047144",
+            "timestamp": 1557925962883,
+            "uuid": "74369535",
+            "seq": 61,
+            "array": "20745169",
+            "value": "77256867",
+            "entryid": "52173006",
+            "prev": -1
+        },
+        {
+            "type": "SET_PROPERTY",
+            "host": "64047144",
+            "timestamp": 1557925966368,
+            "uuid": "40032559",
+            "seq": 65,
+            "object": "77256867",
+            "name": "tz",
+            "value": 0,
+            "prevValue": -5
+        },
+        {
+            "type": "SET_PROPERTY",
+            "host": "64047144",
+            "timestamp": 1557925969186,
+            "uuid": "1231720",
+            "seq": 66,
+            "object": "77256867",
+            "name": "tz",
+            "value": 0,
+            "prevValue": 0
+        }
+    ],
+    "type": "vr",
+    "id": "doc_861757705",
+    "graph": {
+        "type": "root",
+        "title": "Test Geo",
+        "defaultScene": "1442372",
+        "children": [
+            {
+                "type": "scene",
+                "title": "Scene 0",
+                "defaultFloor": false,
+                "parent": "3389763",
+                "children": [
+                    {
+                        "type": "geoanchor",
+                        "title": "geo anchor 0",
+                        "visible": true,
+                        "tx": 0,
+                        "ty": 0,
+                        "tz": 0,
+                        "rx": 0,
+                        "ry": 0,
+                        "rz": 0,
+                        "sx": 1,
+                        "sy": 1,
+                        "sz": 1,
+                        "color": "#00ff00",
+                        "children": [
+                            {
+                                "type": "cube",
+                                "title": "cube 0",
+                                "visible": true,
+                                "width": 1,
+                                "height": 1,
+                                "depth": 1,
+                                "tx": 0,
+                                "ty": 0,
+                                "tz": 0,
+                                "rx": 0,
+                                "ry": 0,
+                                "rz": 0,
+                                "sx": 1,
+                                "sy": 1,
+                                "sz": 1,
+                                "color": "#00ff00",
+                                "children": [],
+                                "parent": "73963344",
+                                "id": "77256867"
+                            }
+                        ],
+                        "targetGeoLocation": "58648731",
+                        "recType": "SCENE_START",
+                        "parent": "1442372",
+                        "id": "73963344"
+                    }
+                ],
+                "id": "1442372"
+            },
+            {
+                "type": "behaviors",
+                "title": "Behaviors",
+                "children": [],
+                "parent": "3389763",
+                "id": "98200692"
+            },
+            {
+                "type": "assets",
+                "title": "Assets",
+                "children": [
+                    {
+                        "type": "asset",
+                        "subtype": "geolocation",
+                        "title": "new geo location",
+                        "latitude": 33.7854583641713,
+                        "longitude": -84.3482447712763,
+                        "altitude": 0,
+                        "useAltitude": false,
+                        "parent": "34270296",
+                        "id": "58648731"
+                    }
+                ],
+                "parent": "3389763",
+                "id": "34270296"
+            }
+        ],
+        "id": "3389763"
+    },
+    "title": "Test Geo"
+}
