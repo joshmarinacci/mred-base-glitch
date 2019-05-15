@@ -97,9 +97,9 @@ app.get("/userinfo", checkAuth, (req,res) => {
   })
 })
 
-app.get('/doc/list',checkAuth,(req,res) => {
+function getDocList(cb) {
   fs.readdir(paths.join(__dirname, dir),(e,files)=>{
-    if(e) return res.json({success:false})
+    if(e) return cb({success:false})
     files = files.map(name =>  {
       const id = name.substring(0,name.length-'.json'.length)
       let title = id
@@ -109,8 +109,12 @@ app.get('/doc/list',checkAuth,(req,res) => {
         title:title,
       }
     })
-    res.json(files)
+    cb(files)
   })
+}
+
+app.get('/doc/list',checkAuth,(req,res) => {
+  getDocList((out)=> res.json(out))
 })
 
 app.get("/doc/:id", (req, res) => {
@@ -240,13 +244,30 @@ app.get("/scripts/:id", (req, res) => {
 
 // http://expressjs.com/en/starter/basic-routing.html
 app.get('/', function(request, response) {
+  getDocList((docs)=>{
+    const list = docs.map(doc => {
+      return `
+      <li>
+          ${doc.title}
+        <a href="./.build/?SERVER_URL=${process.env.PROJECT_DOMAIN}.glitch.me&mode=edit&doc=${doc.id}">
+          edit
+        </a>
+        <a href="./.build/?SERVER_URL=${process.env.PROJECT_DOMAIN}.glitch.me&mode=vrview&doc=${doc.id}">
+          view
+        </a>
+      </li>
+    `
+    })
   response.send(`<html>
 <body>
-<!--<a href="./.build/?SERVER_URL=${process.env.PROJECT_DOMAIN}.glitch.me&mode=vrview">view</a>-->
-<a href="./.build/?SERVER_URL=${process.env.PROJECT_DOMAIN}.glitch.me&mode=edit">edit</a>
+<a href="./.build/?SERVER_URL=${process.env.PROJECT_DOMAIN}.glitch.me&mode=edit">edit new project</a>
+<ul>
+${list.join("")}
+</ul>
 </body>
 </html>
 `)
+  })
  // const pth = __dirname + '/views/index.html'
   // const pth = docPath('foo')
   // console.log('sending',pth)
