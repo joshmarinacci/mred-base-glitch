@@ -1,39 +1,36 @@
-This is an XR editor. The page has two buttons, one to view your creations and one to open
-the editor. Any scenes you create will be yours to keep.  The actual editor is hosted
-on vr.josh.earth but all your documents are kept here on this glitch.
+MrEd: the Mixed Reality EDitor
 
-foo
-bar
+to get started open the `show` menu above and choose `in a new window`.  This will open a new browser window/tab with
+a page that just says 'edit'. Click on the edit link to get started.  
 
-
+Now you can add new objects to your scene, attach behaviors, and preview your work in VR and AR.
 
 
 
+=======
 
-Welcome to Glitch
-=================
+If you are viewing this file on Github and want to use it in Glitch, follow these steps.  
 
-Click `Show` in the header to see your app live. Updates to your code will instantly deploy and update live.
-
-**Glitch** is the friendly community where you'll build the app of your dreams. Glitch lets you instantly create, remix, edit, and host an app, bot or site, and you can invite collaborators or helpers to simultaneously edit code with you.
-
-Find out more [about Glitch](https://glitch.com/about).
-
-
-Your Project
-------------
-
-On the front-end,
-- edit `public/client.js`, `public/style.css` and `views/index.html`
-- drag in `assets`, like images or music, to add them to your project
-
-On the back-end,
-- your app starts at `server.js`
-- add frameworks and packages in `package.json`
-- safely store app secrets in `.env` (nobody can see this but you and people you invite)
+* click the `clone or download` button above and copy the https repo link into the clipboard.
+* Go to Glitch.com and log in.
+* create a new project. In the new project dropdown menu choose `Clone from git repo` then paste in the URL.
+* Glitch will clone the repo and automatically install the required dependencies.  Your project is now set up.
+* You can now create new documents, new behaviors, and upload assets. Once you are done anyone else can remix this
+Glitch to use as a starting point.
 
 
-Made by [Glitch](https://glitch.com/)
--------------------
 
-\ ゜o゜)ノ
+To update this repo with a newer build of the editor follow these steps:
+
+* Check out the `general-editor` repo in a new directory
+* Install deps and build it
+  * `npm install`
+  * `npm run build`
+* Copy the built files to the `public/.build` directory in this repo. Notice the period before build. This makes 
+the generated editor files be hidden in Glitch.
+* Push the changes back to github. 
+* Create a new Glitch from the repo following the instructions in the previous section
+
+
+
+
