@@ -249,22 +249,33 @@ app.get('/', function(request, response) {
       return `
       <li>
           ${doc.title}
-        <a href="./.build/?SERVER_URL=${process.env.PROJECT_DOMAIN}.glitch.me&mode=edit&doc=${doc.id}">
+        <a class='edit'
+href="./.build/?SERVER_URL=${process.env.PROJECT_DOMAIN}.glitch.me&mode=edit&doc=${doc.id}">
           edit
         </a>
-        <a href="./.build/?SERVER_URL=${process.env.PROJECT_DOMAIN}.glitch.me&mode=vrview&doc=${doc.id}">
+        <a class='view'
+href="./.build/?SERVER_URL=${process.env.PROJECT_DOMAIN}.glitch.me&mode=vrview&doc=${doc.id}">
           view
         </a>
       </li>
     `
     })
   response.send(`<html>
+<head>
+ <link rel='stylesheet' href="./frontpage.css">
+</head>
 <body>
-<a href="./.build/?SERVER_URL=${process.env.PROJECT_DOMAIN}.glitch.me&mode=edit">edit new project</a>
+<a href="./.build/?SERVER_URL=${process.env.PROJECT_DOMAIN}.glitch.me&mode=edit">make new project</a>
+<h3>existing projects</h3>
 <ul>
 ${list.join("")}
 </ul>
 </body>
+<script>
+if(navigator.xr) {
+  document.body.classList.add('xrviewer')
+}
+</script>
 </html>
 `)
   })
