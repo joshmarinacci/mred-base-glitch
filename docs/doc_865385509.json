@@ -935,6 +935,122 @@
             "name": "scene",
             "value": "14030726",
             "prevValue": null
+        },
+        {
+            "type": "DELETE_ELEMENT",
+            "host": "53755064",
+            "timestamp": 1558031760165,
+            "uuid": "69818297",
+            "seq": 4,
+            "array": "84552401",
+            "entry": "22196485",
+            "value": "12447256"
+        },
+        {
+            "type": "CREATE_OBJECT",
+            "host": "53755064",
+            "timestamp": 1558031762996,
+            "uuid": "20340215",
+            "seq": 14,
+            "id": "76130533",
+            "defaults": {
+                "type": "behavior",
+                "title": " Click to Nav",
+                "description": " adds click handler to navigate to a new scene",
+                "parent": 0,
+                "behavior": "76252377",
+                "scene": null
+            }
+        },
+        {
+            "type": "SET_PROPERTY",
+            "host": "53755064",
+            "timestamp": 1558031763004,
+            "uuid": "25053555",
+            "seq": 15,
+            "object": "76130533",
+            "name": "parent",
+            "value": "57652351"
+        },
+        {
+            "type": "INSERT_ELEMENT",
+            "host": "53755064",
+            "timestamp": 1558031763014,
+            "uuid": "31072793",
+            "seq": 16,
+            "array": "5411030",
+            "value": "76130533",
+            "entryid": "34747782",
+            "prev": -1
+        },
+        {
+            "type": "SET_PROPERTY",
+            "host": "53755064",
+            "timestamp": 1558031769536,
+            "uuid": "90863907",
+            "seq": 17,
+            "object": "76130533",
+            "name": "scene",
+            "value": "55925900",
+            "prevValue": null
+        },
+        {
+            "type": "DELETE_ELEMENT",
+            "host": "53755064",
+            "timestamp": 1558031772179,
+            "uuid": "20115101",
+            "seq": 18,
+            "array": "81334230",
+            "entry": "43388195",
+            "value": "9703707"
+        },
+        {
+            "type": "CREATE_OBJECT",
+            "host": "53755064",
+            "timestamp": 1558031774989,
+            "uuid": "4266862",
+            "seq": 28,
+            "id": "29683008",
+            "defaults": {
+                "type": "behavior",
+                "title": " Click to Nav",
+                "description": " adds click handler to navigate to a new scene",
+                "parent": 0,
+                "behavior": "76252377",
+                "scene": null
+            }
+        },
+        {
+            "type": "SET_PROPERTY",
+            "host": "53755064",
+            "timestamp": 1558031774995,
+            "uuid": "57877442",
+            "seq": 29,
+            "object": "29683008",
+            "name": "parent",
+            "value": "99870155"
+        },
+        {
+            "type": "INSERT_ELEMENT",
+            "host": "53755064",
+            "timestamp": 1558031774999,
+            "uuid": "24278638",
+            "seq": 30,
+            "array": "64440541",
+            "value": "29683008",
+            "entryid": "91920068",
+            "prev": -1
+        },
+        {
+            "type": "SET_PROPERTY",
+            "host": "53755064",
+            "timestamp": 1558031780088,
+            "uuid": "92977856",
+            "seq": 37,
+            "object": "29683008",
+            "name": "scene",
+            "value": "14030726",
+            "prevValue": null
         }
     ],
     "type": "vr",
@@ -983,19 +1099,20 @@
                                 "sy": 1,
                                 "sz": 1,
                                 "color": "#00ffff",
-                                "children": [],
+                                "children": [
+                                    {
+                                        "type": "behavior",
+                                        "title": " Click to Nav",
+                                        "description": " adds click handler to navigate to a new scene",
+                                        "parent": "57652351",
+                                        "behavior": "76252377",
+                                        "scene": "55925900",
+                                        "id": "76130533"
+                                    }
+                                ],
                                 "asset": 0,
                                 "parent": "58357066",
                                 "id": "57652351"
-                            },
-                            {
-                                "type": "behavior",
-                                "title": " Click to Nav",
-                                "description": " adds click handler to navigate to a new scene",
-                                "parent": "58357066",
-                                "behavior": "76252377",
-                                "scene": "55925900",
-                                "id": "12447256"
                             }
                         ],
                         "targetGeoLocation": "70957701",
@@ -1045,19 +1162,20 @@
                                 "sy": 1,
                                 "sz": 1,
                                 "color": "#00ff00",
-                                "children": [],
+                                "children": [
+                                    {
+                                        "type": "behavior",
+                                        "title": " Click to Nav",
+                                        "description": " adds click handler to navigate to a new scene",
+                                        "parent": "99870155",
+                                        "behavior": "76252377",
+                                        "scene": "14030726",
+                                        "id": "29683008"
+                                    }
+                                ],
                                 "asset": 0,
                                 "parent": "85449612",
                                 "id": "99870155"
-                            },
-                            {
-                                "type": "behavior",
-                                "title": " Click to Nav",
-                                "description": " adds click handler to navigate to a new scene",
-                                "parent": "85449612",
-                                "behavior": "76252377",
-                                "scene": "14030726",
-                                "id": "9703707"
                             }
                         ],
                         "targetGeoLocation": "70957701",
