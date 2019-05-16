@@ -1964,6 +1964,153 @@
             "name": "imageRealworldWidth",
             "value": 0.2,
             "prevValue": 0.2
+        },
+        {
+            "type": "SET_PROPERTY",
+            "host": "55765836",
+            "timestamp": 1558039604723,
+            "uuid": "85460869",
+            "seq": 44,
+            "object": "67876360",
+            "name": "color",
+            "value": "#0000ff",
+            "prevValue": "#00ff00"
+        },
+        {
+            "type": "SET_PROPERTY",
+            "host": "55765836",
+            "timestamp": 1558039605654,
+            "uuid": "4574514",
+            "seq": 45,
+            "object": "67876360",
+            "name": "color",
+            "value": "#0000ff",
+            "prevValue": "#0000ff"
+        },
+        {
+            "type": "CREATE_OBJECT",
+            "host": "55765836",
+            "timestamp": 1558039615606,
+            "uuid": "86356974",
+            "seq": 46,
+            "id": "95360884",
+            "defaults": {
+                "type": "behavior",
+                "title": " Click to Nav",
+                "description": " adds click handler to navigate to a new scene",
+                "parent": 0,
+                "behavior": "49912306",
+                "scene": null
+            }
+        },
+        {
+            "type": "SET_PROPERTY",
+            "host": "96996780",
+            "timestamp": 1558039293491,
+            "uuid": "80520128",
+            "seq": 26,
+            "object": "67876360",
+            "name": "color",
+            "value": "#ff0000",
+            "prevValue": "#00ff00"
+        },
+        {
+            "type": "SET_PROPERTY",
+            "host": "96996780",
+            "timestamp": 1558039332363,
+            "uuid": "41965976",
+            "seq": 81,
+            "object": "67876360",
+            "name": "ty",
+            "value": 0,
+            "prevValue": 0
+        },
+        {
+            "type": "SET_PROPERTY",
+            "host": "96996780",
+            "timestamp": 1558039335028,
+            "uuid": "10200629",
+            "seq": 85,
+            "object": "67876360",
+            "name": "depth",
+            "value": 0,
+            "prevValue": 1
+        },
+        {
+            "type": "SET_PROPERTY",
+            "host": "96996780",
+            "timestamp": 1558039337227,
+            "uuid": "23274057",
+            "seq": 89,
+            "object": "67876360",
+            "name": "height",
+            "value": 0,
+            "prevValue": 1
+        },
+        {
+            "type": "SET_PROPERTY",
+            "host": "96996780",
+            "timestamp": 1558039338812,
+            "uuid": "7303507",
+            "seq": 93,
+            "object": "67876360",
+            "name": "height",
+            "value": 0.1,
+            "prevValue": 0
+        },
+        {
+            "type": "SET_PROPERTY",
+            "host": "96996780",
+            "timestamp": 1558039342772,
+            "uuid": "67742368",
+            "seq": 97,
+            "object": "67876360",
+            "name": "width",
+            "value": 0,
+            "prevValue": 0
+        },
+        {
+            "type": "SET_PROPERTY",
+            "host": "55765836",
+            "timestamp": 1558039615614,
+            "uuid": "11105108",
+            "seq": 47,
+            "object": "95360884",
+            "name": "parent",
+            "value": "67876360"
+        },
+        {
+            "type": "INSERT_ELEMENT",
+            "host": "55765836",
+            "timestamp": 1558039615624,
+            "uuid": "37768978",
+            "seq": 48,
+            "array": "94909917",
+            "value": "95360884",
+            "entryid": "15803231",
+            "prev": -1
+        },
+        {
+            "type": "SET_PROPERTY",
+            "host": "55765836",
+            "timestamp": 1558039620862,
+            "uuid": "34202593",
+            "seq": 49,
+            "object": "95360884",
+            "name": "scene",
+            "value": "64069629",
+            "prevValue": null
+        },
+        {
+            "type": "SET_PROPERTY",
+            "host": "55765836",
+            "timestamp": 1558039648800,
+            "uuid": "7491603",
+            "seq": 59,
+            "object": "30798944",
+            "name": "reactivate",
+            "value": true,
+            "prevValue": false
         }
     ],
     "type": "vr",
@@ -1984,7 +2131,7 @@
                         "type": "imageanchor",
                         "title": "image anchor 0",
                         "visible": true,
-                        "reactivate": false,
+                        "reactivate": true,
                         "tx": 0,
                         "ty": 0,
                         "tz": 0,
@@ -2012,8 +2159,18 @@
                                 "sx": 1,
                                 "sy": 1,
                                 "sz": 1,
-                                "color": "#00ff00",
-                                "children": [],
+                                "color": "#0000ff",
+                                "children": [
+                                    {
+                                        "type": "behavior",
+                                        "title": " Click to Nav",
+                                        "description": " adds click handler to navigate to a new scene",
+                                        "parent": "67876360",
+                                        "behavior": "49912306",
+                                        "scene": "64069629",
+                                        "id": "95360884"
+                                    }
+                                ],
                                 "asset": 0,
                                 "parent": "30798944",
                                 "id": "67876360"
