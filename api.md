@@ -34,8 +34,16 @@
 	* sendMessage(name, payload) sends message to the event’s target
 	* getTweenManager(): get a reference to the tween manager. See below for details
 	* globals() get a reference to useful global variables
+	* logger() get the logger
 	
-	
+#### logger
+
+Instead of using `console.log()` you can use `e.system.logger().log()`. This will print
+output to the console prepended with `LOGGER` and also send it over the network to any other instance
+of the editor that is editing the same document. This means you can use the desktop editor to view the output
+of a document running on your iPhone.  You can also use `e.system.logger().error()` which does the same thing
+but prepends the output text with `LOGGER ERROR`.
+
 #### globals
 
 You can call `evt.system.globals()` to get an object full of globals.  Currently the following globals are defined
