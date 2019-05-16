@@ -208,8 +208,3 @@ The Tween API lets you create animations that are chained together in parallel o
 ```
 
 
-## Global Functions
-* toRadians(degrees)
-* 
-
-
