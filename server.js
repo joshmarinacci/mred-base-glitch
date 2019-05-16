@@ -156,11 +156,12 @@ app.post('/doc/delete/:id', checkAuth, (req,res)=>{
 })
 
 
-function supportedMimetype(type) {
-  console.log('checking type',type)
+function supportedMimetype(type,name) {
+  console.log('checking type',type,name)
   if(type === 'image/png') return true
   if(type === 'image/jpeg') return true
   if(type === 'audio/mpeg') return true
+  if(type === 'model/gltf-binary') return true
   return false
 }
 
@@ -172,17 +173,21 @@ app.get('/asset/list',(req,res) => {
     .filter(e => !e.deleted)
     .map(el => {
        console.log("element",el)
-       console.log('type',el.type)
+       console.log('type',el.type, el.name)
+       let type = el.type
+       if(el.name.toLowerCase().endsWith('.glb')) {         
+         type = 'model/gltf-binary'
+       }
        el = {
          kind:'asset',
          id:el.uuid,
          url:el.url,
-         mimeType:el.type,
+         mimeType:type,
          title:el.name,
        }
       return el
     })
-     .filter(e => supportedMimetype(e.mimeType))
+     .filter(e => supportedMimetype(e.mimeType, e.title))
     console.log("assets", assets)
     res.json(assets)
 })
