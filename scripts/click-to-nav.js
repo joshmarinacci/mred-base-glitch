@@ -18,7 +18,7 @@
     
     //called when object is clicked on
     click: function(e) {
-      e.logger.log("navigate to " , e.props.scene)
+      e.system.logger().log("navigate to " , e.props.scene)
       e.system.navigateScene(e.props.scene)
     }
 })
