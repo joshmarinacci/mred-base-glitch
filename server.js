@@ -22,7 +22,7 @@ app.use(express.static('public'));
 app.use(cors());
 app.use(bodyParser.json({limit: '50mb'}));
 
-
+ 
 console.log("the domains is", process.env.PROJECT_DOMAIN)
 let DB
 
