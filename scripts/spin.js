@@ -1,0 +1,15 @@
+/*
+#title Spinner
+#description spins shape around the y axis at a certain speed
+*/
+({
+    properties: {
+        speed: {
+            type:'number',
+            value: 1,
+        }
+    },
+    tick: function(e) {
+        e.target.rotation.y += e.props.speed/100
+    },
+})
