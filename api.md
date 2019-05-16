@@ -33,6 +33,36 @@
 	* hasKeyValue(key): returns true if the key is stored
 	* sendMessage(name, payload) sends message to the event’s target
 	* getTweenManager(): get a reference to the tween manager. See below for details
+	* globals() get a reference to useful global variables
+	
+	
+#### globals
+
+You can call `evt.system.globals()` to get an object full of globals.  Currently the following globals are defined
+* THREE: the ThreeJS top level object
+
+Ex: to create a new Mesh at runtime with ThreeJS do:
+
+```javascript
+
+({
+  start:function(evt) {
+      const THREE = evt.system.globals().THREE
+      const mesh = new THREE.Mesh(
+          new THREE.SphereGeometry(1),
+          new THREE.MeshLambertMaterial({color:'red'})
+      )
+      mesh.position.set(3,0,-5)
+      const sc = evt.system.getCurrentScene()
+      console.log("the scene is",sc)
+      const scene = evt.system.getObject(sc.title)
+      scene.add(mesh)
+  }
+})
+
+```
+
+#### Asset object
 	
 * Asset object, returned by getAsset(name)
 	* play()
