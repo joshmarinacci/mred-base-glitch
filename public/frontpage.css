@@ -1,0 +1,25 @@
+body {
+  font-size: 150%;
+  font-family:sans-serif;
+}
+
+ul {
+  list-style:none;
+  padding:0;
+}
+li {
+  padding: 1em;
+}
+
+li a {
+  display: inline-block;
+  border: 1px solid darkgray;
+  padding: 0.5em;
+  color:black;
+  background-color:#ccc;
+}
+
+
+.xrviewer a.edit {
+  display:none;
+}
