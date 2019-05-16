@@ -2111,6 +2111,94 @@
             "name": "reactivate",
             "value": true,
             "prevValue": false
+        },
+        {
+            "type": "SET_PROPERTY",
+            "host": "96996780",
+            "timestamp": 1558039330334,
+            "uuid": "75442353",
+            "seq": 79,
+            "object": "67876360",
+            "name": "tz",
+            "value": 0,
+            "prevValue": 0
+        },
+        {
+            "type": "SET_PROPERTY",
+            "host": "96996780",
+            "timestamp": 1558039333173,
+            "uuid": "34095494",
+            "seq": 83,
+            "object": "67876360",
+            "name": "ty",
+            "value": 0.05,
+            "prevValue": 0.05
+        },
+        {
+            "type": "SET_PROPERTY",
+            "host": "96996780",
+            "timestamp": 1558039335412,
+            "uuid": "37155034",
+            "seq": 87,
+            "object": "67876360",
+            "name": "depth",
+            "value": 0.1,
+            "prevValue": 0
+        },
+        {
+            "type": "SET_PROPERTY",
+            "host": "96996780",
+            "timestamp": 1558039338268,
+            "uuid": "46260190",
+            "seq": 91,
+            "object": "67876360",
+            "name": "height",
+            "value": 0,
+            "prevValue": 1
+        },
+        {
+            "type": "SET_PROPERTY",
+            "host": "96996780",
+            "timestamp": 1558039340164,
+            "uuid": "4621811",
+            "seq": 95,
+            "object": "67876360",
+            "name": "width",
+            "value": 0,
+            "prevValue": 1
+        },
+        {
+            "type": "SET_PROPERTY",
+            "host": "96996780",
+            "timestamp": 1558039344933,
+            "uuid": "93409471",
+            "seq": 99,
+            "object": "67876360",
+            "name": "width",
+            "value": 0.1,
+            "prevValue": 0.1
+        },
+        {
+            "type": "SET_PROPERTY",
+            "host": "9624365",
+            "timestamp": 1558041088150,
+            "uuid": "17155834",
+            "seq": 4,
+            "object": "30798944",
+            "name": "title",
+            "value": "image anchor 0",
+            "prevValue": "image anchor 0"
+        },
+        {
+            "type": "SET_PROPERTY",
+            "host": "9624365",
+            "timestamp": 1558041088216,
+            "uuid": "39039106",
+            "seq": 5,
+            "object": "30798944",
+            "name": "reactivate",
+            "value": false,
+            "prevValue": true
         }
     ],
     "type": "vr",
@@ -2131,7 +2219,7 @@
                         "type": "imageanchor",
                         "title": "image anchor 0",
                         "visible": true,
-                        "reactivate": true,
+                        "reactivate": false,
                         "tx": 0,
                         "ty": 0,
                         "tz": 0,
