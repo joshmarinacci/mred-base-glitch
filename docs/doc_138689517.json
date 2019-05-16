@@ -1,0 +1,689 @@
+{
+    "history": [
+        {
+            "type": "CREATE_ARRAY",
+            "host": "74838633",
+            "timestamp": 1558035375879,
+            "uuid": "34949035",
+            "seq": 1,
+            "id": "94527765"
+        },
+        {
+            "type": "CREATE_OBJECT",
+            "host": "74838633",
+            "timestamp": 1558035375879,
+            "uuid": "24738385",
+            "seq": 2,
+            "id": "38458800",
+            "defaults": {
+                "type": "root",
+                "title": "Untitled Project",
+                "defaultScene": 0,
+                "children": "94527765"
+            }
+        },
+        {
+            "type": "CREATE_ARRAY",
+            "host": "74838633",
+            "timestamp": 1558035375879,
+            "uuid": "22079917",
+            "seq": 3,
+            "id": "87605262"
+        },
+        {
+            "type": "CREATE_OBJECT",
+            "host": "74838633",
+            "timestamp": 1558035375879,
+            "uuid": "91435968",
+            "seq": 4,
+            "id": "64069629",
+            "defaults": {
+                "type": "scene",
+                "title": "Scene 0",
+                "autoRecenter": true,
+                "defaultFloor": false,
+                "parent": "38458800",
+                "children": "87605262"
+            }
+        },
+        {
+            "type": "CREATE_ARRAY",
+            "host": "74838633",
+            "timestamp": 1558035375879,
+            "uuid": "68761422",
+            "seq": 5,
+            "id": "8194832"
+        },
+        {
+            "type": "CREATE_OBJECT",
+            "host": "74838633",
+            "timestamp": 1558035375879,
+            "uuid": "99583784",
+            "seq": 6,
+            "id": "54264080",
+            "defaults": {
+                "type": "cube",
+                "title": "cube 0",
+                "visible": true,
+                "width": 1,
+                "height": 1,
+                "depth": 1,
+                "tx": 0,
+                "ty": 0,
+                "tz": -5,
+                "rx": 0,
+                "ry": 0,
+                "rz": 0,
+                "sx": 1,
+                "sy": 1,
+                "sz": 1,
+                "color": "#00ff00",
+                "children": "8194832",
+                "asset": 0,
+                "parent": "64069629"
+            }
+        },
+        {
+            "type": "CREATE_ARRAY",
+            "host": "74838633",
+            "timestamp": 1558035375879,
+            "uuid": "24992527",
+            "seq": 7,
+            "id": "72300617"
+        },
+        {
+            "type": "CREATE_OBJECT",
+            "host": "74838633",
+            "timestamp": 1558035375879,
+            "uuid": "67201002",
+            "seq": 8,
+            "id": "6562890",
+            "defaults": {
+                "type": "assets",
+                "title": "Assets",
+                "children": "72300617",
+                "parent": 0
+            }
+        },
+        {
+            "type": "CREATE_ARRAY",
+            "host": "74838633",
+            "timestamp": 1558035375879,
+            "uuid": "23348106",
+            "seq": 9,
+            "id": "96881676"
+        },
+        {
+            "type": "CREATE_OBJECT",
+            "host": "74838633",
+            "timestamp": 1558035375879,
+            "uuid": "3670788",
+            "seq": 10,
+            "id": "19803436",
+            "defaults": {
+                "type": "behaviors",
+                "title": "Behaviors",
+                "children": "96881676",
+                "parent": 0
+            }
+        },
+        {
+            "type": "SET_PROPERTY",
+            "host": "74838633",
+            "timestamp": 1558035375879,
+            "uuid": "81683311",
+            "seq": 11,
+            "object": "64069629",
+            "name": "parent",
+            "value": "38458800"
+        },
+        {
+            "type": "INSERT_ELEMENT",
+            "host": "74838633",
+            "timestamp": 1558035375879,
+            "uuid": "33340424",
+            "seq": 12,
+            "array": "94527765",
+            "value": "64069629",
+            "entryid": "94624538",
+            "prev": -1
+        },
+        {
+            "type": "SET_PROPERTY",
+            "host": "74838633",
+            "timestamp": 1558035375879,
+            "uuid": "87258099",
+            "seq": 13,
+            "object": "54264080",
+            "name": "parent",
+            "value": "64069629"
+        },
+        {
+            "type": "INSERT_ELEMENT",
+            "host": "74838633",
+            "timestamp": 1558035375879,
+            "uuid": "59314642",
+            "seq": 14,
+            "array": "87605262",
+            "value": "54264080",
+            "entryid": "24387706",
+            "prev": -1
+        },
+        {
+            "type": "SET_PROPERTY",
+            "host": "74838633",
+            "timestamp": 1558035375879,
+            "uuid": "3733825",
+            "seq": 15,
+            "object": "19803436",
+            "name": "parent",
+            "value": "38458800"
+        },
+        {
+            "type": "INSERT_ELEMENT",
+            "host": "74838633",
+            "timestamp": 1558035375879,
+            "uuid": "4642273",
+            "seq": 16,
+            "array": "94527765",
+            "value": "19803436",
+            "entryid": "19439924",
+            "prev": "94624538"
+        },
+        {
+            "type": "SET_PROPERTY",
+            "host": "74838633",
+            "timestamp": 1558035375879,
+            "uuid": "10542009",
+            "seq": 17,
+            "object": "6562890",
+            "name": "parent",
+            "value": "38458800"
+        },
+        {
+            "type": "INSERT_ELEMENT",
+            "host": "74838633",
+            "timestamp": 1558035375879,
+            "uuid": "93072486",
+            "seq": 18,
+            "array": "94527765",
+            "value": "6562890",
+            "entryid": "13291266",
+            "prev": "19439924"
+        },
+        {
+            "type": "SET_PROPERTY",
+            "host": "74838633",
+            "timestamp": 1558035394643,
+            "uuid": "1977103",
+            "seq": 19,
+            "object": "38458800",
+            "name": "title",
+            "value": "Image Target",
+            "prevValue": "Untitled Project"
+        },
+        {
+            "type": "SET_PROPERTY",
+            "host": "74838633",
+            "timestamp": 1558035395470,
+            "uuid": "1867925",
+            "seq": 20,
+            "object": "38458800",
+            "name": "defaultScene",
+            "value": "64069629",
+            "prevValue": 0
+        },
+        {
+            "type": "CREATE_OBJECT",
+            "host": "74838633",
+            "timestamp": 1558035500543,
+            "uuid": "74775366",
+            "seq": 21,
+            "id": "74731322",
+            "defaults": {
+                "type": "asset",
+                "subtype": "audio",
+                "format": "audio/mpeg",
+                "src": "https://cdn.glitch.com/9191dd8a-88c4-4c0a-98a7-fc980ff8421c%2Fquack.mp3",
+                "title": "quack.mp3",
+                "parent": 0
+            }
+        },
+        {
+            "type": "SET_PROPERTY",
+            "host": "74838633",
+            "timestamp": 1558035500544,
+            "uuid": "65177326",
+            "seq": 22,
+            "object": "74731322",
+            "name": "parent",
+            "value": "6562890"
+        },
+        {
+            "type": "INSERT_ELEMENT",
+            "host": "74838633",
+            "timestamp": 1558035500544,
+            "uuid": "85789686",
+            "seq": 23,
+            "array": "72300617",
+            "value": "74731322",
+            "entryid": "99857257",
+            "prev": -1
+        },
+        {
+            "type": "CREATE_OBJECT",
+            "host": "74838633",
+            "timestamp": 1558035504318,
+            "uuid": "66732589",
+            "seq": 24,
+            "id": "55775127",
+            "defaults": {
+                "type": "asset",
+                "subtype": "image",
+                "format": "image/png",
+                "src": "https://cdn.glitch.com/9191dd8a-88c4-4c0a-98a7-fc980ff8421c%2Fhubs.png",
+                "width": 100,
+                "height": 100,
+                "title": "hubs.png",
+                "parent": 0
+            }
+        },
+        {
+            "type": "SET_PROPERTY",
+            "host": "74838633",
+            "timestamp": 1558035504319,
+            "uuid": "51545598",
+            "seq": 25,
+            "object": "55775127",
+            "name": "parent",
+            "value": "6562890"
+        },
+        {
+            "type": "INSERT_ELEMENT",
+            "host": "74838633",
+            "timestamp": 1558035504319,
+            "uuid": "74635584",
+            "seq": 26,
+            "array": "72300617",
+            "value": "55775127",
+            "entryid": "93361777",
+            "prev": "99857257"
+        },
+        {
+            "type": "SET_PROPERTY",
+            "host": "74838633",
+            "timestamp": 1558035504702,
+            "uuid": "40545020",
+            "seq": 27,
+            "object": "55775127",
+            "name": "width",
+            "value": 709
+        },
+        {
+            "type": "SET_PROPERTY",
+            "host": "74838633",
+            "timestamp": 1558035504706,
+            "uuid": "50830769",
+            "seq": 28,
+            "object": "55775127",
+            "name": "height",
+            "value": 516
+        },
+        {
+            "type": "CREATE_OBJECT",
+            "host": "74838633",
+            "timestamp": 1558035518660,
+            "uuid": "25394870",
+            "seq": 29,
+            "id": "28065839",
+            "defaults": {
+                "type": "model",
+                "title": "a model",
+                "visible": true,
+                "tx": 0,
+                "ty": 0,
+                "tz": -5,
+                "rx": 0,
+                "ry": 0,
+                "rz": 0,
+                "sx": 1,
+                "sy": 1,
+                "sz": 1,
+                "color": "#ffffff",
+                "asset": 0,
+                "parent": "64069629"
+            }
+        },
+        {
+            "type": "SET_PROPERTY",
+            "host": "74838633",
+            "timestamp": 1558035518660,
+            "uuid": "65540319",
+            "seq": 30,
+            "object": "28065839",
+            "name": "parent",
+            "value": "64069629"
+        },
+        {
+            "type": "INSERT_ELEMENT",
+            "host": "74838633",
+            "timestamp": 1558035518660,
+            "uuid": "39288821",
+            "seq": 31,
+            "array": "87605262",
+            "value": "28065839",
+            "entryid": "19255604",
+            "prev": -1
+        },
+        {
+            "type": "DELETE_ELEMENT",
+            "host": "74838633",
+            "timestamp": 1558035847163,
+            "uuid": "63762301",
+            "seq": 74,
+            "array": "87605262",
+            "entry": "19255604",
+            "value": "28065839"
+        },
+        {
+            "type": "CREATE_ARRAY",
+            "host": "74838633",
+            "timestamp": 1558035851507,
+            "uuid": "55310887",
+            "seq": 78,
+            "id": "6210883"
+        },
+        {
+            "type": "CREATE_OBJECT",
+            "host": "74838633",
+            "timestamp": 1558035851507,
+            "uuid": "36570150",
+            "seq": 79,
+            "id": "90894491",
+            "defaults": {
+                "type": "imageanchor",
+                "title": "image anchor 0",
+                "visible": true,
+                "reactivate": false,
+                "tx": 0,
+                "ty": 0,
+                "tz": 0,
+                "rx": 0,
+                "ry": 0,
+                "rz": 0,
+                "sx": 1,
+                "sy": 1,
+                "sz": 1,
+                "color": "#00ff00",
+                "children": "6210883",
+                "targetImage": null,
+                "imageRealworldWidth": 1,
+                "recType": "SCENE_START",
+                "parent": "64069629"
+            }
+        },
+        {
+            "type": "SET_PROPERTY",
+            "host": "74838633",
+            "timestamp": 1558035851508,
+            "uuid": "28421694",
+            "seq": 80,
+            "object": "90894491",
+            "name": "parent",
+            "value": "64069629"
+        },
+        {
+            "type": "INSERT_ELEMENT",
+            "host": "74838633",
+            "timestamp": 1558035851508,
+            "uuid": "12692243",
+            "seq": 81,
+            "array": "87605262",
+            "value": "90894491",
+            "entryid": "56403334",
+            "prev": -1
+        },
+        {
+            "type": "SET_PROPERTY",
+            "host": "74838633",
+            "timestamp": 1558035854577,
+            "uuid": "77949002",
+            "seq": 85,
+            "object": "90894491",
+            "name": "targetImage",
+            "value": "55775127",
+            "prevValue": null
+        },
+        {
+            "type": "SET_PROPERTY",
+            "host": "74838633",
+            "timestamp": 1558035862948,
+            "uuid": "83701382",
+            "seq": 86,
+            "object": "90894491",
+            "name": "imageRealworldWidth",
+            "value": 0,
+            "prevValue": 1
+        },
+        {
+            "type": "SET_PROPERTY",
+            "host": "74838633",
+            "timestamp": 1558035863347,
+            "uuid": "61182699",
+            "seq": 87,
+            "object": "90894491",
+            "name": "imageRealworldWidth",
+            "value": 0,
+            "prevValue": 0
+        },
+        {
+            "type": "SET_PROPERTY",
+            "host": "74838633",
+            "timestamp": 1558035864292,
+            "uuid": "86105351",
+            "seq": 88,
+            "object": "90894491",
+            "name": "imageRealworldWidth",
+            "value": 0.2,
+            "prevValue": 0
+        },
+        {
+            "type": "SET_PROPERTY",
+            "host": "74838633",
+            "timestamp": 1558035865003,
+            "uuid": "2360533",
+            "seq": 89,
+            "object": "90894491",
+            "name": "imageRealworldWidth",
+            "value": 0.2,
+            "prevValue": 0.2
+        },
+        {
+            "type": "SET_PROPERTY",
+            "host": "74838633",
+            "timestamp": 1558035876514,
+            "uuid": "39706327",
+            "seq": 1160,
+            "object": "54264080",
+            "name": "tz",
+            "value": -0.738239101979298,
+            "prevValue": -4.978389759887703
+        },
+        {
+            "type": "SET_PROPERTY",
+            "host": "74838633",
+            "timestamp": 1558035884349,
+            "uuid": "6009427",
+            "seq": 1179,
+            "object": "54264080",
+            "name": "tz",
+            "value": 0,
+            "prevValue": -0.738239101979298
+        },
+        {
+            "type": "SET_PROPERTY",
+            "host": "74838633",
+            "timestamp": 1558035884635,
+            "uuid": "85218212",
+            "seq": 1180,
+            "object": "54264080",
+            "name": "tz",
+            "value": 0,
+            "prevValue": 0
+        },
+        {
+            "type": "SET_PROPERTY",
+            "host": "74838633",
+            "timestamp": 1558035885155,
+            "uuid": "39959663",
+            "seq": 1181,
+            "object": "54264080",
+            "name": "tz",
+            "value": 0.5,
+            "prevValue": 0
+        },
+        {
+            "type": "SET_PROPERTY",
+            "host": "74838633",
+            "timestamp": 1558035888219,
+            "uuid": "76891761",
+            "seq": 1215,
+            "object": "54264080",
+            "name": "tz",
+            "value": 0.5,
+            "prevValue": 0.5
+        },
+        {
+            "type": "DELETE_ELEMENT",
+            "host": "74838633",
+            "timestamp": 1558035897171,
+            "uuid": "91253869",
+            "seq": 1216,
+            "array": "87605262",
+            "entry": "24387706",
+            "value": "54264080"
+        },
+        {
+            "type": "SET_PROPERTY",
+            "host": "74838633",
+            "timestamp": 1558035897172,
+            "uuid": "65766202",
+            "seq": 1217,
+            "object": "54264080",
+            "name": "parent",
+            "value": "90894491"
+        },
+        {
+            "type": "INSERT_ELEMENT",
+            "host": "74838633",
+            "timestamp": 1558035897172,
+            "uuid": "26885612",
+            "seq": 1218,
+            "array": "6210883",
+            "value": "54264080",
+            "entryid": "60780962",
+            "prev": -1
+        }
+    ],
+    "type": "vr",
+    "id": "doc_138689517",
+    "graph": {
+        "type": "root",
+        "title": "Image Target",
+        "defaultScene": "64069629",
+        "children": [
+            {
+                "type": "scene",
+                "title": "Scene 0",
+                "autoRecenter": true,
+                "defaultFloor": false,
+                "parent": "38458800",
+                "children": [
+                    {
+                        "type": "imageanchor",
+                        "title": "image anchor 0",
+                        "visible": true,
+                        "reactivate": false,
+                        "tx": 0,
+                        "ty": 0,
+                        "tz": 0,
+                        "rx": 0,
+                        "ry": 0,
+                        "rz": 0,
+                        "sx": 1,
+                        "sy": 1,
+                        "sz": 1,
+                        "color": "#00ff00",
+                        "children": [
+                            {
+                                "type": "cube",
+                                "title": "cube 0",
+                                "visible": true,
+                                "width": 1,
+                                "height": 1,
+                                "depth": 1,
+                                "tx": 0,
+                                "ty": 0,
+                                "tz": 0.5,
+                                "rx": 0,
+                                "ry": 0,
+                                "rz": 0,
+                                "sx": 1,
+                                "sy": 1,
+                                "sz": 1,
+                                "color": "#00ff00",
+                                "children": [],
+                                "asset": 0,
+                                "parent": "90894491",
+                                "id": "54264080"
+                            }
+                        ],
+                        "targetImage": "55775127",
+                        "imageRealworldWidth": 0.2,
+                        "recType": "SCENE_START",
+                        "parent": "64069629",
+                        "id": "90894491"
+                    }
+                ],
+                "id": "64069629"
+            },
+            {
+                "type": "behaviors",
+                "title": "Behaviors",
+                "children": [],
+                "parent": "38458800",
+                "id": "19803436"
+            },
+            {
+                "type": "assets",
+                "title": "Assets",
+                "children": [
+                    {
+                        "type": "asset",
+                        "subtype": "audio",
+                        "format": "audio/mpeg",
+                        "src": "https://cdn.glitch.com/9191dd8a-88c4-4c0a-98a7-fc980ff8421c%2Fquack.mp3",
+                        "title": "quack.mp3",
+                        "parent": "6562890",
+                        "id": "74731322"
+                    },
+                    {
+                        "type": "asset",
+                        "subtype": "image",
+                        "format": "image/png",
+                        "src": "https://cdn.glitch.com/9191dd8a-88c4-4c0a-98a7-fc980ff8421c%2Fhubs.png",
+                        "width": 709,
+                        "height": 516,
+                        "title": "hubs.png",
+                        "parent": "6562890",
+                        "id": "55775127"
+                    }
+                ],
+                "parent": "38458800",
+                "id": "6562890"
+            }
+        ],
+        "id": "38458800"
+    },
+    "title": "Image Target"
+}
