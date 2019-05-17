@@ -20,6 +20,8 @@
 
     },
     tick: function(e) {
-      e.system.navigateScene(e.props.scene)
+      if (e.time > e.props.delay) {
+        e.system.navigateScene(e.props.scene)
+      }
     },
 })
