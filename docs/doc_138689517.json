@@ -2221,13 +2221,46 @@
             "name": "autoRecenter",
             "value": false,
             "prevValue": true
+        },
+        {
+            "type": "SET_PROPERTY",
+            "host": "55106456",
+            "timestamp": 1558085946320,
+            "uuid": "23821402",
+            "seq": 10,
+            "object": "38458800",
+            "name": "title",
+            "value": "Image Target",
+            "prevValue": "Image Target"
+        },
+        {
+            "type": "SET_PROPERTY",
+            "host": "55106456",
+            "timestamp": 1558085964003,
+            "uuid": "43777587",
+            "seq": 11,
+            "object": "38458800",
+            "name": "title",
+            "value": "testing: image target",
+            "prevValue": "Image Target"
+        },
+        {
+            "type": "SET_PROPERTY",
+            "host": "55106456",
+            "timestamp": 1558085969566,
+            "uuid": "38411993",
+            "seq": 12,
+            "object": "38458800",
+            "name": "title",
+            "value": "testing: image target",
+            "prevValue": "testing: image target"
         }
     ],
     "type": "vr",
     "id": "doc_138689517",
     "graph": {
         "type": "root",
-        "title": "Image Target",
+        "title": "testing: image target",
         "defaultScene": "64069629",
         "children": [
             {
@@ -2434,5 +2467,5 @@
         ],
         "id": "38458800"
     },
-    "title": "Image Target"
+    "title": "testing: image target"
 }

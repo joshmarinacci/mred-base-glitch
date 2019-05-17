@@ -1547,13 +1547,24 @@
             "name": "title",
             "value": " Navigate After Delay",
             "prevValue": " Navigate After Delay"
+        },
+        {
+            "type": "SET_PROPERTY",
+            "host": "40854318",
+            "timestamp": 1558086033772,
+            "uuid": "45445831",
+            "seq": 1,
+            "object": "44831614",
+            "name": "title",
+            "value": "testing: geo",
+            "prevValue": "simple geo"
         }
     ],
     "type": "vr",
     "id": "doc_865385509",
     "graph": {
         "type": "root",
-        "title": "simple geo",
+        "title": "testing: geo",
         "defaultScene": "55925900",
         "children": [
             {
@@ -1809,5 +1820,5 @@
         ],
         "id": "44831614"
     },
-    "title": "simple geo"
+    "title": "testing: geo"
 }
