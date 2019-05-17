@@ -2199,6 +2199,28 @@
             "name": "reactivate",
             "value": false,
             "prevValue": true
+        },
+        {
+            "type": "SET_PROPERTY",
+            "host": "24138774",
+            "timestamp": 1558084135786,
+            "uuid": "52768022",
+            "seq": 352,
+            "object": "67876360",
+            "name": "tx",
+            "value": -0.15047433499327068,
+            "prevValue": 0.00009709142008346161
+        },
+        {
+            "type": "SET_PROPERTY",
+            "host": "24138774",
+            "timestamp": 1558084304261,
+            "uuid": "12771617",
+            "seq": 397,
+            "object": "78748029",
+            "name": "autoRecenter",
+            "value": false,
+            "prevValue": true
         }
     ],
     "type": "vr",
@@ -2211,7 +2233,7 @@
             {
                 "type": "scene",
                 "title": "Scene 1",
-                "autoRecenter": true,
+                "autoRecenter": false,
                 "defaultFloor": false,
                 "parent": "38458800",
                 "children": [
@@ -2238,7 +2260,7 @@
                                 "width": 0.1,
                                 "height": 0.1,
                                 "depth": 0.1,
-                                "tx": 0,
+                                "tx": -0.15047433499327068,
                                 "ty": 0.05,
                                 "tz": 0,
                                 "rx": 0,
