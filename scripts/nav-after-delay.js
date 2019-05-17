@@ -19,10 +19,15 @@
         },
 
     },
+    enter: function (e) {
+      e.props.startTime = e.time
+    },
+  
     tick: function(e) {
-            e.system.logger().log("time " , e.props.scene)
+      
+      //e.system.logger().log("time " , e.time - e.props.startTime)
 
-      if (e.time > e.props.delay) {
+      if ((e.time - e.props.startTime) > e.props.delay) {
         e.system.navigateScene(e.props.scene)
       }
     },
