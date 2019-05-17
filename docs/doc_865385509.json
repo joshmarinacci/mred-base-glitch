@@ -1218,6 +1218,335 @@
             "name": "tx",
             "value": 2.5831728532659044,
             "prevValue": -0.0020109975948328085
+        },
+        {
+            "type": "CREATE_ARRAY",
+            "host": "9206181",
+            "timestamp": 1558060877671,
+            "uuid": "61982015",
+            "seq": 1,
+            "id": "12346385"
+        },
+        {
+            "type": "CREATE_OBJECT",
+            "host": "9206181",
+            "timestamp": 1558060877671,
+            "uuid": "23049394",
+            "seq": 2,
+            "id": "85759492",
+            "defaults": {
+                "type": "scene",
+                "title": "Scene 1",
+                "autoRecenter": true,
+                "defaultFloor": false,
+                "parent": "44831614",
+                "children": "12346385"
+            }
+        },
+        {
+            "type": "SET_PROPERTY",
+            "host": "9206181",
+            "timestamp": 1558060877672,
+            "uuid": "20526324",
+            "seq": 3,
+            "object": "85759492",
+            "name": "parent",
+            "value": "44831614"
+        },
+        {
+            "type": "INSERT_ELEMENT",
+            "host": "9206181",
+            "timestamp": 1558060877672,
+            "uuid": "38495641",
+            "seq": 4,
+            "array": "4500329",
+            "value": "85759492",
+            "entryid": "95782572",
+            "prev": -1
+        },
+        {
+            "type": "SET_PROPERTY",
+            "host": "9206181",
+            "timestamp": 1558060882212,
+            "uuid": "80297496",
+            "seq": 5,
+            "object": "85759492",
+            "name": "title",
+            "value": "Scene 2",
+            "prevValue": "Scene 1"
+        },
+        {
+            "type": "SET_PROPERTY",
+            "host": "9206181",
+            "timestamp": 1558060883011,
+            "uuid": "42028697",
+            "seq": 6,
+            "object": "85759492",
+            "name": "title",
+            "value": "Scene 2",
+            "prevValue": "Scene 2"
+        },
+        {
+            "type": "CREATE_ARRAY",
+            "host": "9206181",
+            "timestamp": 1558060900549,
+            "uuid": "715025",
+            "seq": 7,
+            "id": "88622457"
+        },
+        {
+            "type": "CREATE_OBJECT",
+            "host": "9206181",
+            "timestamp": 1558060900549,
+            "uuid": "21028815",
+            "seq": 8,
+            "id": "26421699",
+            "defaults": {
+                "type": "sphere",
+                "title": "a sphere",
+                "visible": true,
+                "radius": 0.15,
+                "tx": 0,
+                "ty": 0,
+                "tz": 0,
+                "rx": 0,
+                "ry": 0,
+                "rz": 0,
+                "sx": 1,
+                "sy": 1,
+                "sz": 1,
+                "color": "#0000ff",
+                "children": "88622457",
+                "asset": 0,
+                "parent": "85759492"
+            }
+        },
+        {
+            "type": "SET_PROPERTY",
+            "host": "9206181",
+            "timestamp": 1558060900550,
+            "uuid": "96516199",
+            "seq": 9,
+            "object": "26421699",
+            "name": "parent",
+            "value": "85759492"
+        },
+        {
+            "type": "INSERT_ELEMENT",
+            "host": "9206181",
+            "timestamp": 1558060900550,
+            "uuid": "55615582",
+            "seq": 10,
+            "array": "12346385",
+            "value": "26421699",
+            "entryid": "12043670",
+            "prev": -1
+        },
+        {
+            "type": "SET_PROPERTY",
+            "host": "9206181",
+            "timestamp": 1558060904641,
+            "uuid": "55008140",
+            "seq": 425,
+            "object": "26421699",
+            "name": "tx",
+            "value": 1.5337876911062458,
+            "prevValue": 0.011151350491479528
+        },
+        {
+            "type": "SET_PROPERTY",
+            "host": "9206181",
+            "timestamp": 1558060909795,
+            "uuid": "27335851",
+            "seq": 602,
+            "object": "26421699",
+            "name": "tx",
+            "value": 1.9307027016622937,
+            "prevValue": 1.544472973986864
+        },
+        {
+            "type": "SET_PROPERTY",
+            "host": "9206181",
+            "timestamp": 1558060912963,
+            "uuid": "47384903",
+            "seq": 620,
+            "object": "26421699",
+            "name": "color",
+            "value": "#ffff00",
+            "prevValue": "#0000ff"
+        },
+        {
+            "type": "CREATE_OBJECT",
+            "host": "9206181",
+            "timestamp": 1558060935342,
+            "uuid": "7725740",
+            "seq": 636,
+            "id": "28239088",
+            "defaults": {
+                "type": "behavior_script",
+                "title": " Navigate After Delay",
+                "description": " wait for a certain amount of time and then transition",
+                "src": "https://blairmacintyre-mred-base-glitch.glitch.me/scripts/nav-after-delay.js",
+                "parent": 0
+            }
+        },
+        {
+            "type": "SET_PROPERTY",
+            "host": "9206181",
+            "timestamp": 1558060935342,
+            "uuid": "28054110",
+            "seq": 637,
+            "object": "28239088",
+            "name": "parent",
+            "value": "98148730"
+        },
+        {
+            "type": "INSERT_ELEMENT",
+            "host": "9206181",
+            "timestamp": 1558060935342,
+            "uuid": "28416725",
+            "seq": 638,
+            "array": "50349587",
+            "value": "28239088",
+            "entryid": "38854929",
+            "prev": "39652045"
+        },
+        {
+            "type": "CREATE_OBJECT",
+            "host": "9206181",
+            "timestamp": 1558060946321,
+            "uuid": "91334298",
+            "seq": 639,
+            "id": "43519791",
+            "defaults": {
+                "type": "behavior",
+                "title": " Navigate After Delay",
+                "description": " wait for a certain amount of time and then transition",
+                "parent": 0,
+                "behavior": "28239088",
+                "delay": 1,
+                "scene": null
+            }
+        },
+        {
+            "type": "SET_PROPERTY",
+            "host": "9206181",
+            "timestamp": 1558060946326,
+            "uuid": "79140881",
+            "seq": 640,
+            "object": "43519791",
+            "name": "parent",
+            "value": "26421699"
+        },
+        {
+            "type": "INSERT_ELEMENT",
+            "host": "9206181",
+            "timestamp": 1558060946333,
+            "uuid": "38726912",
+            "seq": 641,
+            "array": "88622457",
+            "value": "43519791",
+            "entryid": "20255512",
+            "prev": -1
+        },
+        {
+            "type": "SET_PROPERTY",
+            "host": "9206181",
+            "timestamp": 1558060951458,
+            "uuid": "61202119",
+            "seq": 642,
+            "object": "43519791",
+            "name": "delay",
+            "value": 2,
+            "prevValue": 1
+        },
+        {
+            "type": "SET_PROPERTY",
+            "host": "9206181",
+            "timestamp": 1558060952524,
+            "uuid": "86302781",
+            "seq": 643,
+            "object": "43519791",
+            "name": "delay",
+            "value": 2,
+            "prevValue": 2
+        },
+        {
+            "type": "SET_PROPERTY",
+            "host": "9206181",
+            "timestamp": 1558060954804,
+            "uuid": "4544135",
+            "seq": 644,
+            "object": "43519791",
+            "name": "scene",
+            "value": "55925900",
+            "prevValue": null
+        },
+        {
+            "type": "SET_PROPERTY",
+            "host": "9206181",
+            "timestamp": 1558060960331,
+            "uuid": "6033097",
+            "seq": 645,
+            "object": "76130533",
+            "name": "scene",
+            "value": "85759492",
+            "prevValue": "55925900"
+        },
+        {
+            "type": "SET_PROPERTY",
+            "host": "26023117",
+            "timestamp": 1558061250310,
+            "uuid": "60790435",
+            "seq": 1,
+            "object": "43519791",
+            "name": "delay",
+            "value": 20,
+            "prevValue": 2
+        },
+        {
+            "type": "SET_PROPERTY",
+            "host": "26023117",
+            "timestamp": 1558061250480,
+            "uuid": "1028505",
+            "seq": 2,
+            "object": "43519791",
+            "name": "delay",
+            "value": 200,
+            "prevValue": 20
+        },
+        {
+            "type": "SET_PROPERTY",
+            "host": "26023117",
+            "timestamp": 1558061250673,
+            "uuid": "82349285",
+            "seq": 3,
+            "object": "43519791",
+            "name": "delay",
+            "value": 2000,
+            "prevValue": 200
+        },
+        {
+            "type": "SET_PROPERTY",
+            "host": "26023117",
+            "timestamp": 1558061255867,
+            "uuid": "43108739",
+            "seq": 4,
+            "object": "43519791",
+            "name": "delay",
+            "value": 2000,
+            "prevValue": 2000
+        },
+        {
+            "type": "SET_PROPERTY",
+            "host": "26023117",
+            "timestamp": 1558061273260,
+            "uuid": "47534127",
+            "seq": 5,
+            "object": "43519791",
+            "name": "title",
+            "value": " Navigate After Delay",
+            "prevValue": " Navigate After Delay"
         }
     ],
     "type": "vr",
@@ -1227,6 +1556,47 @@
         "title": "simple geo",
         "defaultScene": "55925900",
         "children": [
+            {
+                "type": "scene",
+                "title": "Scene 2",
+                "autoRecenter": true,
+                "defaultFloor": false,
+                "parent": "44831614",
+                "children": [
+                    {
+                        "type": "sphere",
+                        "title": "a sphere",
+                        "visible": true,
+                        "radius": 0.15,
+                        "tx": 1.9307027016622937,
+                        "ty": 0,
+                        "tz": 0,
+                        "rx": 0,
+                        "ry": 0,
+                        "rz": 0,
+                        "sx": 1,
+                        "sy": 1,
+                        "sz": 1,
+                        "color": "#ffff00",
+                        "children": [
+                            {
+                                "type": "behavior",
+                                "title": " Navigate After Delay",
+                                "description": " wait for a certain amount of time and then transition",
+                                "parent": "26421699",
+                                "behavior": "28239088",
+                                "delay": 2000,
+                                "scene": "55925900",
+                                "id": "43519791"
+                            }
+                        ],
+                        "asset": 0,
+                        "parent": "85759492",
+                        "id": "26421699"
+                    }
+                ],
+                "id": "85759492"
+            },
             {
                 "type": "scene",
                 "title": "Scene 1",
@@ -1293,7 +1663,7 @@
                                         "description": " adds click handler to navigate to a new scene",
                                         "parent": "57652351",
                                         "behavior": "76252377",
-                                        "scene": "55925900",
+                                        "scene": "85759492",
                                         "id": "76130533"
                                     }
                                 ],
@@ -1404,6 +1774,14 @@
                         "src": "https://blairmacintyre-mred-base-glitch.glitch.me/scripts/click-to-nav.js",
                         "parent": "98148730",
                         "id": "76252377"
+                    },
+                    {
+                        "type": "behavior_script",
+                        "title": " Navigate After Delay",
+                        "description": " wait for a certain amount of time and then transition",
+                        "src": "https://blairmacintyre-mred-base-glitch.glitch.me/scripts/nav-after-delay.js",
+                        "parent": "98148730",
+                        "id": "28239088"
                     }
                 ],
                 "parent": "44831614",
