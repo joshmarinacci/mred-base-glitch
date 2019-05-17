@@ -2199,19 +2199,74 @@
             "name": "reactivate",
             "value": false,
             "prevValue": true
+        },
+        {
+            "type": "SET_PROPERTY",
+            "host": "24138774",
+            "timestamp": 1558084135786,
+            "uuid": "52768022",
+            "seq": 352,
+            "object": "67876360",
+            "name": "tx",
+            "value": -0.15047433499327068,
+            "prevValue": 0.00009709142008346161
+        },
+        {
+            "type": "SET_PROPERTY",
+            "host": "24138774",
+            "timestamp": 1558084304261,
+            "uuid": "12771617",
+            "seq": 397,
+            "object": "78748029",
+            "name": "autoRecenter",
+            "value": false,
+            "prevValue": true
+        },
+        {
+            "type": "SET_PROPERTY",
+            "host": "55106456",
+            "timestamp": 1558085946320,
+            "uuid": "23821402",
+            "seq": 10,
+            "object": "38458800",
+            "name": "title",
+            "value": "Image Target",
+            "prevValue": "Image Target"
+        },
+        {
+            "type": "SET_PROPERTY",
+            "host": "55106456",
+            "timestamp": 1558085964003,
+            "uuid": "43777587",
+            "seq": 11,
+            "object": "38458800",
+            "name": "title",
+            "value": "testing: image target",
+            "prevValue": "Image Target"
+        },
+        {
+            "type": "SET_PROPERTY",
+            "host": "55106456",
+            "timestamp": 1558085969566,
+            "uuid": "38411993",
+            "seq": 12,
+            "object": "38458800",
+            "name": "title",
+            "value": "testing: image target",
+            "prevValue": "testing: image target"
         }
     ],
     "type": "vr",
     "id": "doc_138689517",
     "graph": {
         "type": "root",
-        "title": "Image Target",
+        "title": "testing: image target",
         "defaultScene": "64069629",
         "children": [
             {
                 "type": "scene",
                 "title": "Scene 1",
-                "autoRecenter": true,
+                "autoRecenter": false,
                 "defaultFloor": false,
                 "parent": "38458800",
                 "children": [
@@ -2238,7 +2293,7 @@
                                 "width": 0.1,
                                 "height": 0.1,
                                 "depth": 0.1,
-                                "tx": 0,
+                                "tx": -0.15047433499327068,
                                 "ty": 0.05,
                                 "tz": 0,
                                 "rx": 0,
@@ -2412,5 +2467,5 @@
         ],
         "id": "38458800"
     },
-    "title": "Image Target"
+    "title": "testing: image target"
 }
