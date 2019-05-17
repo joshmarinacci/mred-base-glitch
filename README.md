@@ -32,5 +32,3 @@ the generated editor files be hidden in Glitch.
 * Create a new Glitch from the repo following the instructions in the previous section
 
 
-rainbow-unicorn from https://poly.google.com/user/4nBWjoc7tIG
-
