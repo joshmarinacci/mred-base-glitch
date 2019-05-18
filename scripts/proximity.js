@@ -27,8 +27,8 @@
         let near = event.props.near || 1
         let far = event.props.far || (near+1)
         let focus = event.props.focus || 0
-
-        // far must be EQUAL TO OR farther than near; and to avoid firing a zillion events best to have (far-near)>0
+        
+        // far must be EQUAL TO OR farther than near; and to avoid firing a zillion events best to have (far-near)>(some small number)
         if(far<near)far=near+1
         
         // Is there another object to focus on aside from the camera?
@@ -59,26 +59,22 @@
           target.proximityCandidates = []
         }
         
-        // setup such that latch is cleared, so that the system sends an immediate proximity message
-        let isFar = target.proximityCandidates[focus.uuid] || 0
-
-        if(isFar) {
-          
+        // state latched?
+        let isNear = target.proximityCandidates[focus.uuid] || 0
+        if(isNear) {
+          // note - far may be EQUAL TO or farther than near, so test for any infinitesmal value greater than far
+          if(distance > far) {
+            // clear near state
+            target.proximityCandidates[focus.uuid] = 0
+            console.log("further than far radius - send an exciting message now")
+          }
+        } else {
           // testing on the boundary condition of being EQUAL TO or closer
           if(distance <= near) {
             target.proximityCandidates[focus.uuid] = 1
             console.log("nearer than near radius - send an exciting message now")
           }
-        } else {
-          
-          // note - far may be EQUAL TO or farther than near, so test for any infinitesmal value greater than far
-          if(distance > far) {
-            // send an exciting message
-            target.proximityCandidates[focus.uuid] = 0
-            console.log("further than far radius - send an exciting message now")
-          }
         }
-
       
     },
 })
