@@ -1724,6 +1724,516 @@
             "name": "print",
             "value": "message!",
             "prevValue": ""
+        },
+        {
+            "type": "CREATE_ARRAY",
+            "host": "94797342",
+            "timestamp": 1558215582580,
+            "uuid": "71057709",
+            "seq": 10,
+            "id": "38905179"
+        },
+        {
+            "type": "CREATE_OBJECT",
+            "host": "94797342",
+            "timestamp": 1558215582581,
+            "uuid": "18485017",
+            "seq": 11,
+            "id": "76395043",
+            "defaults": {
+                "type": "group",
+                "title": "group 0",
+                "visible": true,
+                "tx": 0,
+                "ty": 0,
+                "tz": 0,
+                "rx": 0,
+                "ry": 0,
+                "rz": 0,
+                "sx": 1,
+                "sy": 1,
+                "sz": 1,
+                "color": "#00ff00",
+                "children": "38905179",
+                "parent": "14030726"
+            }
+        },
+        {
+            "type": "INSERT_ELEMENT",
+            "host": "94797342",
+            "timestamp": 1558215582581,
+            "uuid": "71397412",
+            "seq": 13,
+            "array": "75632324",
+            "value": "76395043",
+            "entryid": "42472504",
+            "prev": -1
+        },
+        {
+            "type": "CREATE_ARRAY",
+            "host": "94797342",
+            "timestamp": 1558215588889,
+            "uuid": "48854682",
+            "seq": 29,
+            "id": "26863236"
+        },
+        {
+            "type": "CREATE_OBJECT",
+            "host": "94797342",
+            "timestamp": 1558215588889,
+            "uuid": "5467672",
+            "seq": 30,
+            "id": "17241543",
+            "defaults": {
+                "type": "group",
+                "title": "group 1",
+                "visible": true,
+                "tx": 0,
+                "ty": 0,
+                "tz": 0,
+                "rx": 0,
+                "ry": 0,
+                "rz": 0,
+                "sx": 1,
+                "sy": 1,
+                "sz": 1,
+                "color": "#00ff00",
+                "children": "26863236",
+                "parent": "76395043"
+            }
+        },
+        {
+            "type": "INSERT_ELEMENT",
+            "host": "94797342",
+            "timestamp": 1558215588890,
+            "uuid": "40242636",
+            "seq": 32,
+            "array": "38905179",
+            "value": "17241543",
+            "entryid": "41492865",
+            "prev": -1
+        },
+        {
+            "type": "CREATE_ARRAY",
+            "host": "94797342",
+            "timestamp": 1558215593573,
+            "uuid": "71011725",
+            "seq": 51,
+            "id": "35614867"
+        },
+        {
+            "type": "CREATE_OBJECT",
+            "host": "94797342",
+            "timestamp": 1558215593573,
+            "uuid": "10797899",
+            "seq": 52,
+            "id": "40808608",
+            "defaults": {
+                "type": "group",
+                "title": "group 2",
+                "visible": true,
+                "tx": 0,
+                "ty": 0,
+                "tz": 0,
+                "rx": 0,
+                "ry": 0,
+                "rz": 0,
+                "sx": 1,
+                "sy": 1,
+                "sz": 1,
+                "color": "#00ff00",
+                "children": "35614867",
+                "parent": "17241543"
+            }
+        },
+        {
+            "type": "INSERT_ELEMENT",
+            "host": "94797342",
+            "timestamp": 1558215593574,
+            "uuid": "44903319",
+            "seq": 54,
+            "array": "26863236",
+            "value": "40808608",
+            "entryid": "86987738",
+            "prev": -1
+        },
+        {
+            "type": "DELETE_ELEMENT",
+            "host": "94797342",
+            "timestamp": 1558215597453,
+            "uuid": "23256773",
+            "seq": 67,
+            "array": "75632324",
+            "entry": "58420600",
+            "value": "12263359"
+        },
+        {
+            "type": "INSERT_ELEMENT",
+            "host": "94797342",
+            "timestamp": 1558215597455,
+            "uuid": "76247918",
+            "seq": 72,
+            "array": "35614867",
+            "value": "12263359",
+            "entryid": "69326441",
+            "prev": -1
+        },
+        {
+            "type": "SET_PROPERTY",
+            "host": "94797342",
+            "timestamp": 1558215597454,
+            "uuid": "12874083",
+            "seq": 71,
+            "object": "12263359",
+            "name": "parent",
+            "value": "40808608"
+        },
+        {
+            "type": "DELETE_ELEMENT",
+            "host": "94797342",
+            "timestamp": 1558215613485,
+            "uuid": "73764714",
+            "seq": 73,
+            "array": "84552401",
+            "entry": "63588387",
+            "value": "42846154"
+        },
+        {
+            "type": "CREATE_ARRAY",
+            "host": "52118145",
+            "timestamp": 1558215792913,
+            "uuid": "85572193",
+            "seq": 7,
+            "id": "87705572"
+        },
+        {
+            "type": "CREATE_OBJECT",
+            "host": "52118145",
+            "timestamp": 1558215792913,
+            "uuid": "35983522",
+            "seq": 8,
+            "id": "80747004",
+            "defaults": {
+                "type": "group",
+                "title": "group 0",
+                "visible": true,
+                "tx": 0,
+                "ty": 0,
+                "tz": 0,
+                "rx": 0,
+                "ry": 0,
+                "rz": 0,
+                "sx": 1,
+                "sy": 1,
+                "sz": 1,
+                "color": "#00ff00",
+                "children": "87705572",
+                "parent": "14030726"
+            }
+        },
+        {
+            "type": "SET_PROPERTY",
+            "host": "52118145",
+            "timestamp": 1558215792914,
+            "uuid": "59540929",
+            "seq": 9,
+            "object": "80747004",
+            "name": "parent",
+            "value": "14030726"
+        },
+        {
+            "type": "INSERT_ELEMENT",
+            "host": "52118145",
+            "timestamp": 1558215792914,
+            "uuid": "54727442",
+            "seq": 10,
+            "array": "75632324",
+            "value": "80747004",
+            "entryid": "25962202",
+            "prev": -1
+        },
+        {
+            "type": "DELETE_ELEMENT",
+            "host": "52118145",
+            "timestamp": 1558215800595,
+            "uuid": "30408648",
+            "seq": 38,
+            "array": "75632324",
+            "entry": "25962202",
+            "value": "80747004"
+        },
+        {
+            "type": "DELETE_ELEMENT",
+            "host": "52118145",
+            "timestamp": 1558215822983,
+            "uuid": "99031190",
+            "seq": 42,
+            "array": "75632324",
+            "entry": "42472504",
+            "value": "76395043"
+        },
+        {
+            "type": "SET_PROPERTY",
+            "host": "52118145",
+            "timestamp": 1558215822985,
+            "uuid": "75472967",
+            "seq": 43,
+            "object": "76395043",
+            "name": "parent",
+            "value": "58357066"
+        },
+        {
+            "type": "INSERT_ELEMENT",
+            "host": "52118145",
+            "timestamp": 1558215822985,
+            "uuid": "62514564",
+            "seq": 44,
+            "array": "84552401",
+            "value": "76395043",
+            "entryid": "99721534",
+            "prev": -1
+        },
+        {
+            "type": "DELETE_ELEMENT",
+            "host": "52118145",
+            "timestamp": 1558215831893,
+            "uuid": "21123480",
+            "seq": 45,
+            "array": "35614867",
+            "entry": "69326441",
+            "value": "12263359"
+        },
+        {
+            "type": "SET_PROPERTY",
+            "host": "52118145",
+            "timestamp": 1558215831894,
+            "uuid": "34177855",
+            "seq": 46,
+            "object": "12263359",
+            "name": "parent",
+            "value": "14030726"
+        },
+        {
+            "type": "INSERT_ELEMENT",
+            "host": "52118145",
+            "timestamp": 1558215831895,
+            "uuid": "59494259",
+            "seq": 47,
+            "array": "75632324",
+            "value": "12263359",
+            "entryid": "18070040",
+            "prev": -1
+        },
+        {
+            "type": "DELETE_ELEMENT",
+            "host": "52118145",
+            "timestamp": 1558215835175,
+            "uuid": "74212604",
+            "seq": 48,
+            "array": "84552401",
+            "entry": "35205055",
+            "value": "57652351"
+        },
+        {
+            "type": "SET_PROPERTY",
+            "host": "52118145",
+            "timestamp": 1558215835176,
+            "uuid": "3997065",
+            "seq": 49,
+            "object": "57652351",
+            "name": "parent",
+            "value": "40808608"
+        },
+        {
+            "type": "INSERT_ELEMENT",
+            "host": "52118145",
+            "timestamp": 1558215835176,
+            "uuid": "8485903",
+            "seq": 50,
+            "array": "35614867",
+            "value": "57652351",
+            "entryid": "59387317",
+            "prev": -1
+        },
+        {
+            "type": "CREATE_OBJECT",
+            "host": "52118145",
+            "timestamp": 1558215843683,
+            "uuid": "96227106",
+            "seq": 60,
+            "id": "43565159",
+            "defaults": {
+                "type": "behavior",
+                "title": " Wheee",
+                "description": " logs something when you get a wheee event",
+                "parent": 0,
+                "behavior": "48697104",
+                "print": "",
+                "capture": false
+            }
+        },
+        {
+            "type": "SET_PROPERTY",
+            "host": "52118145",
+            "timestamp": 1558215843694,
+            "uuid": "41071184",
+            "seq": 61,
+            "object": "43565159",
+            "name": "parent",
+            "value": "57652351"
+        },
+        {
+            "type": "INSERT_ELEMENT",
+            "host": "52118145",
+            "timestamp": 1558215843704,
+            "uuid": "14158004",
+            "seq": 62,
+            "array": "5411030",
+            "value": "43565159",
+            "entryid": "27199466",
+            "prev": "34747782"
+        },
+        {
+            "type": "SET_PROPERTY",
+            "host": "52118145",
+            "timestamp": 1558215860140,
+            "uuid": "59061681",
+            "seq": 81,
+            "object": "43565159",
+            "name": "print",
+            "value": "on cube",
+            "prevValue": ""
+        },
+        {
+            "type": "CREATE_OBJECT",
+            "host": "52118145",
+            "timestamp": 1558215865936,
+            "uuid": "16776111",
+            "seq": 91,
+            "id": "69689694",
+            "defaults": {
+                "type": "behavior",
+                "title": " Wheee",
+                "description": " logs something when you get a wheee event",
+                "parent": 0,
+                "behavior": "48697104",
+                "print": "",
+                "capture": false
+            }
+        },
+        {
+            "type": "SET_PROPERTY",
+            "host": "52118145",
+            "timestamp": 1558215865951,
+            "uuid": "30046496",
+            "seq": 92,
+            "object": "69689694",
+            "name": "parent",
+            "value": "40808608"
+        },
+        {
+            "type": "INSERT_ELEMENT",
+            "host": "52118145",
+            "timestamp": 1558215865961,
+            "uuid": "91862614",
+            "seq": 93,
+            "array": "35614867",
+            "value": "69689694",
+            "entryid": "69420276",
+            "prev": "59387317"
+        },
+        {
+            "type": "SET_PROPERTY",
+            "host": "52118145",
+            "timestamp": 1558215888442,
+            "uuid": "92247735",
+            "seq": 94,
+            "object": "69689694",
+            "name": "print",
+            "value": "on group2",
+            "prevValue": ""
+        },
+        {
+            "type": "CREATE_OBJECT",
+            "host": "52118145",
+            "timestamp": 1558215891299,
+            "uuid": "66086737",
+            "seq": 104,
+            "id": "69852089",
+            "defaults": {
+                "type": "behavior",
+                "title": " Wheee",
+                "description": " logs something when you get a wheee event",
+                "parent": 0,
+                "behavior": "48697104",
+                "print": "",
+                "capture": false
+            }
+        },
+        {
+            "type": "SET_PROPERTY",
+            "host": "52118145",
+            "timestamp": 1558215891309,
+            "uuid": "61135089",
+            "seq": 105,
+            "object": "69852089",
+            "name": "parent",
+            "value": "17241543"
+        },
+        {
+            "type": "INSERT_ELEMENT",
+            "host": "52118145",
+            "timestamp": 1558215891319,
+            "uuid": "88089234",
+            "seq": 106,
+            "array": "26863236",
+            "value": "69852089",
+            "entryid": "74848029",
+            "prev": "86987738"
+        },
+        {
+            "type": "SET_PROPERTY",
+            "host": "52118145",
+            "timestamp": 1558215899645,
+            "uuid": "19015784",
+            "seq": 107,
+            "object": "69852089",
+            "name": "print",
+            "value": "on group1",
+            "prevValue": ""
+        },
+        {
+            "type": "SET_PROPERTY",
+            "host": "52118145",
+            "timestamp": 1558215904841,
+            "uuid": "44575338",
+            "seq": 117,
+            "object": "69689694",
+            "name": "capture",
+            "value": true,
+            "prevValue": false
+        },
+        {
+            "type": "SET_PROPERTY",
+            "host": "52118145",
+            "timestamp": 1558215970244,
+            "uuid": "77049965",
+            "seq": 118,
+            "object": "69689694",
+            "name": "capture",
+            "value": false,
+            "prevValue": true
+        },
+        {
+            "type": "SET_PROPERTY",
+            "host": "52118145",
+            "timestamp": 1558215972929,
+            "uuid": "17730095",
+            "seq": 119,
+            "object": "69852089",
+            "name": "capture",
+            "value": true,
+            "prevValue": false
         }
     ],
     "type": "vr",
@@ -1817,12 +2327,9 @@
                         "color": "#00ff00",
                         "children": [
                             {
-                                "type": "cube",
-                                "title": "cube 1",
+                                "type": "group",
+                                "title": "group 0",
                                 "visible": true,
-                                "width": 1,
-                                "height": 1,
-                                "depth": 1,
                                 "tx": 0,
                                 "ty": 0,
                                 "tz": 0,
@@ -1832,31 +2339,111 @@
                                 "sx": 1,
                                 "sy": 1,
                                 "sz": 1,
-                                "color": "#00ffff",
+                                "color": "#00ff00",
                                 "children": [
                                     {
-                                        "type": "behavior",
-                                        "title": " Click to Nav",
-                                        "description": " adds click handler to navigate to a new scene",
-                                        "parent": "57652351",
-                                        "behavior": "76252377",
-                                        "scene": "85759492",
-                                        "id": "76130533"
+                                        "type": "group",
+                                        "title": "group 1",
+                                        "visible": true,
+                                        "tx": 0,
+                                        "ty": 0,
+                                        "tz": 0,
+                                        "rx": 0,
+                                        "ry": 0,
+                                        "rz": 0,
+                                        "sx": 1,
+                                        "sy": 1,
+                                        "sz": 1,
+                                        "color": "#00ff00",
+                                        "children": [
+                                            {
+                                                "type": "group",
+                                                "title": "group 2",
+                                                "visible": true,
+                                                "tx": 0,
+                                                "ty": 0,
+                                                "tz": 0,
+                                                "rx": 0,
+                                                "ry": 0,
+                                                "rz": 0,
+                                                "sx": 1,
+                                                "sy": 1,
+                                                "sz": 1,
+                                                "color": "#00ff00",
+                                                "children": [
+                                                    {
+                                                        "type": "cube",
+                                                        "title": "cube 1",
+                                                        "visible": true,
+                                                        "width": 1,
+                                                        "height": 1,
+                                                        "depth": 1,
+                                                        "tx": 0,
+                                                        "ty": 0,
+                                                        "tz": 0,
+                                                        "rx": 0,
+                                                        "ry": 0,
+                                                        "rz": 0,
+                                                        "sx": 1,
+                                                        "sy": 1,
+                                                        "sz": 1,
+                                                        "color": "#00ffff",
+                                                        "children": [
+                                                            {
+                                                                "type": "behavior",
+                                                                "title": " Click to Nav",
+                                                                "description": " adds click handler to navigate to a new scene",
+                                                                "parent": "57652351",
+                                                                "behavior": "76252377",
+                                                                "scene": "85759492",
+                                                                "id": "76130533"
+                                                            },
+                                                            {
+                                                                "type": "behavior",
+                                                                "title": " Wheee",
+                                                                "description": " logs something when you get a wheee event",
+                                                                "parent": "57652351",
+                                                                "behavior": "48697104",
+                                                                "print": "on cube",
+                                                                "capture": false,
+                                                                "id": "43565159"
+                                                            }
+                                                        ],
+                                                        "asset": 0,
+                                                        "parent": "40808608",
+                                                        "id": "57652351"
+                                                    },
+                                                    {
+                                                        "type": "behavior",
+                                                        "title": " Wheee",
+                                                        "description": " logs something when you get a wheee event",
+                                                        "parent": "40808608",
+                                                        "behavior": "48697104",
+                                                        "print": "on group2",
+                                                        "capture": false,
+                                                        "id": "69689694"
+                                                    }
+                                                ],
+                                                "parent": "17241543",
+                                                "id": "40808608"
+                                            },
+                                            {
+                                                "type": "behavior",
+                                                "title": " Wheee",
+                                                "description": " logs something when you get a wheee event",
+                                                "parent": "17241543",
+                                                "behavior": "48697104",
+                                                "print": "on group1",
+                                                "capture": true,
+                                                "id": "69852089"
+                                            }
+                                        ],
+                                        "parent": "76395043",
+                                        "id": "17241543"
                                     }
                                 ],
-                                "asset": 0,
                                 "parent": "58357066",
-                                "id": "57652351"
-                            },
-                            {
-                                "type": "behavior",
-                                "title": " Wheee",
-                                "description": " logs something when you get a wheee event",
-                                "parent": "58357066",
-                                "behavior": "48697104",
-                                "print": "message!",
-                                "capture": false,
-                                "id": "42846154"
+                                "id": "76395043"
                             }
                         ],
                         "targetGeoLocation": "70957701",
