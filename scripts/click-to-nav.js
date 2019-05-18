@@ -20,8 +20,12 @@
     click: function(e) {
       var props = this.properties
       this.logger.log("navigate to ", props.scene)
-      this.sendMessage("whheee", {})
+      this.fireEvent("whheee", {})
       this.navigateScene(props.scene)
+    },
+  
+    wheee: function(e) {
+      this.logger.log ("received wheeee");
     },
   
     message: function(e) {
