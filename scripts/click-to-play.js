@@ -17,7 +17,7 @@
     },
 
     click: function(e) {
-        const sound = e.system.getObjectById(e.props.sound)
-        e.system.getAsset(sound.title).play()
+        const sound = this.getObjectById(this.properties().sound)
+        this.getAsset(sound.title).play()
     }
 })
