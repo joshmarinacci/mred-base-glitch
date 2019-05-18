@@ -24,7 +24,7 @@
     },
   
     tick: function(e) {
-      props= this.properties()      
+      var props= this.properties()      
       //this.logger().log("time " , e.time - this.startTime)
 
       if ((e.time - this.startTime) > props.delay) {
