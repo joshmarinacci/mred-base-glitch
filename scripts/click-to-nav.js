@@ -20,6 +20,9 @@
     click: function(e) {
       var props = this.properties
       this.logger.log("navigate to ", props.scene)
+      this.sendMessage("whheee", {})
       this.navigateScene(props.scene)
     }
+  
+     
 })
