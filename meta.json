@@ -1,5 +1,4 @@
 {
-"doc_duck":            {"title":"A duck (Simple Example)"},
 "doc_duck_spin":       {"title":"Spinning duck (Simple Example)"},
 "doc_duck_quack":      {"title":"Duck quacking when nearby (Behavior)"},
 "doc_duck_follow":     {"title":"Duck follows you around (Behavior)"},
