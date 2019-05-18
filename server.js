@@ -22,30 +22,27 @@ app.use(express.static('public'));
 app.use(cors());
 app.use(bodyParser.json({limit: '50mb'}));
 
- 
+
 console.log("the domains is", process.env.PROJECT_DOMAIN)
 let DB
 
-function loadDB() {
-  fs.readFile(paths.join(__dirname,'meta.json'),(err,data) => {
-  if(err) data = '{}'
-    try {
-      console.log('errors',err)
-    console.log('data',data.toString())
-    DB = JSON.parse(data.toString())
-    // DB = {}
-    console.log("loaded database ",DB)
-    } catch(e) {
-      DB = {}
-    }
-    saveDB()
-  })
-}
 
-function saveDB() {
-  fs.writeFile(paths.join(__dirname,'meta.json'), JSON.stringify(DB),(err,data) => {
-    console.log('writing data. err',err)
-  })
+function loadDB() {
+    DB = {}
+    fs.readdir(paths.join(__dirname, dir),(e,files)=>{
+        files = files.map(name =>  {
+            console.log("reading file",name)
+            const id = name.substring(0,name.length-'.json'.length)
+            fs.readFile(paths.join(__dirname,dir,name),(e,contents) => {
+                const content = JSON.parse(contents.toString())
+                console.log("contents = ", content.title);
+                DB[id] = {
+                    title:content.title,
+                    id:id,
+                }
+            })
+        })
+    })
 }
 
 loadDB()
@@ -62,13 +59,13 @@ function docPath(id) {
 }
 
 app.get("/info", (req,res) => {
-   res.json({
-     assetUpload:false,
-     authentication:true,
-     scriptEditing:false,     
-     passwordSupported:true,
-     docDeleteSupported:true,
-   })
+    res.json({
+        assetUpload:false,
+        authentication:true,
+        scriptEditing:false,
+        passwordSupported:true,
+        docDeleteSupported:true,
+    })
 })
 
 const OWNER_USER = {
@@ -76,45 +73,45 @@ const OWNER_USER = {
 }
 
 function checkAuth(req,res,next) {
-  if(req.query.password && req.query.password === process.env.PASSWORD) {
-    const token=req.query.password
-    req.username = OWNER_USER.username
-    return next()
-  }
-  if(req.headers['access-key'] && req.headers['access-key'] === process.env.PASSWORD) {
-    req.user = OWNER_USER
-    req.username = OWNER_USER.username
-    return next()
-  }
-  
-  return res.json({success:false,message:'invalid access token, cannot find user'})
+    if(req.query.password && req.query.password === process.env.PASSWORD) {
+        const token=req.query.password
+        req.username = OWNER_USER.username
+        return next()
+    }
+    if(req.headers['access-key'] && req.headers['access-key'] === process.env.PASSWORD) {
+        req.user = OWNER_USER
+        req.username = OWNER_USER.username
+        return next()
+    }
+
+    return res.json({success:false,message:'invalid access token, cannot find user'})
 }
 
 app.get("/userinfo", checkAuth, (req,res) => {
-  res.json({
-    success:true,
-    username:req.username,
-  })
+    res.json({
+        success:true,
+        username:req.username,
+    })
 })
 
 function getDocList(cb) {
-  fs.readdir(paths.join(__dirname, dir),(e,files)=>{
-    if(e) return cb({success:false})
-    files = files.map(name =>  {
-      const id = name.substring(0,name.length-'.json'.length)
-      let title = id
-      if(DB[id]) title = DB[id].title
-      return {
-        id:id,
-        title:title,
-      }
+    fs.readdir(paths.join(__dirname, dir),(e,files)=>{
+        if(e) return cb({success:false})
+        files = files.map(name =>  {
+            const id = name.substring(0,name.length-'.json'.length)
+            let title = id
+            if(DB[id]) title = DB[id].title
+            return {
+                id:id,
+                title:title,
+            }
+        })
+        cb(files)
     })
-    cb(files)
-  })
 }
 
 app.get('/doc/list',checkAuth,(req,res) => {
-  getDocList((out)=> res.json(out))
+    getDocList((out)=> res.json(out))
 })
 
 app.get("/doc/:id", (req, res) => {
@@ -139,9 +136,7 @@ app.post("/doc/:id",checkAuth, (req, res) => {
         res.json({success:true,message:"saved it!"})
     })
     if(!DB[id]) DB[id] = {}
-    let info = DB[id]
-    info.title = req.body.title
-    saveDB()
+    DB[id].title = req.body.title
 })
 
 
@@ -151,43 +146,42 @@ app.post('/doc/delete/:id', checkAuth, (req,res)=>{
     console.log("trying to delete",id,pth)
     fs.unlinkSync(pth)
     delete DB[id]
-    saveDB()
     res.json({success:true, script:id, message:'deleted'})
 })
 
 
 function supportedMimetype(type,name) {
-  console.log('checking type',type,name)
-  if(type === 'image/png') return true
-  if(type === 'image/jpeg') return true
-  if(type === 'audio/mpeg') return true
-  if(type === 'model/gltf-binary') return true
-  return false
+    console.log('checking type',type,name)
+    if(type === 'image/png') return true
+    if(type === 'image/jpeg') return true
+    if(type === 'audio/mpeg') return true
+    if(type === 'model/gltf-binary') return true
+    return false
 }
 
 app.get('/asset/list',(req,res) => {
-  let assetsStr = (fs.readFileSync(paths.join(process.cwd(),'.glitch-assets')).toString())
-  const assets = assetsStr.split("\n")
-    .filter(str => str.trim().length > 0)
-    .map(e => JSON.parse(e))
-    .filter(e => !e.deleted)
-    .map(el => {
-       console.log("element",el)
-       console.log('type',el.type, el.name)
-       let type = el.type
-       if(el.name.toLowerCase().endsWith('.glb')) {         
-         type = 'model/gltf-binary'
-       }
-       el = {
-         kind:'asset',
-         id:el.uuid,
-         url:el.url,
-         mimeType:type,
-         title:el.name,
-       }
-      return el
-    })
-     .filter(e => supportedMimetype(e.mimeType, e.title))
+    let assetsStr = (fs.readFileSync(paths.join(process.cwd(),'.glitch-assets')).toString())
+    const assets = assetsStr.split("\n")
+        .filter(str => str.trim().length > 0)
+        .map(e => JSON.parse(e))
+        .filter(e => !e.deleted)
+        .map(el => {
+            console.log("element",el)
+            console.log('type',el.type, el.name)
+            let type = el.type
+            if(el.name.toLowerCase().endsWith('.glb')) {
+                type = 'model/gltf-binary'
+            }
+            el = {
+                kind:'asset',
+                id:el.uuid,
+                url:el.url,
+                mimeType:type,
+                title:el.name,
+            }
+            return el
+        })
+        .filter(e => supportedMimetype(e.mimeType, e.title))
     console.log("assets", assets)
     res.json(assets)
 })
@@ -216,28 +210,28 @@ function parseScriptMetadata(fpath) {
 
 
 app.get('/scripts/list',(req,res) => {
-  console.log(process.env.PROJECT_DOMAIN)
-  fs.readdir(paths.join(__dirname, scripts_dir),(e,files)=>{
-    if(e) return res.json({success:false})
-    Promise.all(files.map(name =>  {
-      const fpath = paths.join(__dirname, scripts_dir,name)
-      return parseScriptMetadata(fpath).then(meta => {
-        const id = name.substring(0,name.length-'.js'.length)
-        let title = id
-        if(DB[id]) title = DB[id].title
-        meta.name = name       
-        meta.url = `https://${process.env.PROJECT_DOMAIN}.glitch.me/scripts/${name}`
-        return meta
-        // return {
-          // id:id,
-          // title:title,
-          // name:name,
-        // }
-      })
-    })).then(outs => {
-      res.json(outs)
+    console.log(process.env.PROJECT_DOMAIN)
+    fs.readdir(paths.join(__dirname, scripts_dir),(e,files)=>{
+        if(e) return res.json({success:false})
+        Promise.all(files.map(name =>  {
+            const fpath = paths.join(__dirname, scripts_dir,name)
+            return parseScriptMetadata(fpath).then(meta => {
+                const id = name.substring(0,name.length-'.js'.length)
+                let title = id
+                if(DB[id]) title = DB[id].title
+                meta.name = name
+                meta.url = `https://${process.env.PROJECT_DOMAIN}.glitch.me/scripts/${name}`
+                return meta
+                // return {
+                // id:id,
+                // title:title,
+                // name:name,
+                // }
+            })
+        })).then(outs => {
+            res.json(outs)
+        })
     })
-  })
 })
 
 app.get("/scripts/:id", (req, res) => {
@@ -249,9 +243,9 @@ app.get("/scripts/:id", (req, res) => {
 
 // http://expressjs.com/en/starter/basic-routing.html
 app.get('/', function(request, response) {
-  getDocList((docs)=>{
-    const list = docs.map(doc => {
-      return `
+    getDocList((docs)=>{
+        const list = docs.map(doc => {
+            return `
       <li>
           ${doc.title}
         <a class='edit'
@@ -264,8 +258,8 @@ href="./.build/?SERVER_URL=${process.env.PROJECT_DOMAIN}.glitch.me&mode=vrview&d
         </a>
       </li>
     `
-    })
-  response.send(`<html>
+        })
+        response.send(`<html>
 <head>
  <link rel='stylesheet' href="./frontpage.css">
 </head>
@@ -283,15 +277,15 @@ if(navigator.xr) {
 </script>
 </html>
 `)
-  })
- // const pth = __dirname + '/views/index.html'
-  // const pth = docPath('foo')
-  // console.log('sending',pth)
-  // response.sendFile(pth);
+    })
+    // const pth = __dirname + '/views/index.html'
+    // const pth = docPath('foo')
+    // console.log('sending',pth)
+    // response.sendFile(pth);
 });
 
 
 // listen for requests :)
 const listener = app.listen(process.env.PORT, function() {
-  console.log('Your app is listening on port ' + listener.address().port);
+    console.log('Your app is listening on port ' + listener.address().port);
 });
