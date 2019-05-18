@@ -19,13 +19,18 @@
 * tick()
 * stop() called when the system stops
 	
-#### system methods
+#### properties available to behavior event handlers
 
 
 * `this.logger`: the logger for logging messages remotely. ex:  `this.logger.log("i'm doing cool stuff here")`
 * `this.camera`: a reference to the current ThreeJS camera. ex: `console.log(this.camera.position)`
 * `this.tween`: a reference to the tween manager. ex: `this.tween.prop({from:0, to:1.5})`
 * `this.properties`: the property settings for this behavior. ex: if a behavior has a speed property you can access it with `this.properties.speed`.
+* `this.globalState`: a place to set values that every behavior can access
+* `this.globals` get a reference to useful global variables
+
+### methods available to behavior event handlers
+
 * `this.getCurrentScene()`: a reference to the current scene
 * `this.getThreeObjectByTitle(title)`: find the ThreeJS object by its title
 * `this.getThreeObjectById(id)`: find the ThreeJS object by its title
@@ -33,8 +38,6 @@
 * `this.getAssetByTitle(title)`: find an asset by its title
 * `this.navigateScene(id)`: navigate to a new scene, by id
 * `this.playSound(id)`: play a sound by id
-* `this.globalState`: a place to set values that every behavior can access
-* `this.globals` get a reference to useful global variables
 	
 #### logger
 
