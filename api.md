@@ -5,18 +5,18 @@
 
 #### event
 
-* *type*: the type of the event. `tick`, `exit`, etc.
-* *target*:  the ThreeJS object this behavior is attached to
-* *graphTarget*: the graph document object this behavior is attached to
+* `event.type`: the type of the event. `tick`, `exit`, etc.
+* `event.target`:  the ThreeJS object this behavior is attached to
+* `event.graphTarget`: the graph document object this behavior is attached to
 	
 #### behavior event handlers:
 
-* start() called on system start, even if you aren’t in the current scene
-* enter() called when entering a scene
-* exit() called when exiting a scene
-* message()
-* tick()
-* stop() called when the system stops
+* `start()` called on system start, even if you aren’t in the current scene
+* `enter()` called when entering a scene
+* `exit()` called when exiting a scene
+* `message()`
+* `tick()`
+* `stop()` called when the system stops
 	
 #### properties available to behavior event handlers
 
