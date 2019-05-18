@@ -1558,6 +1558,172 @@
             "name": "title",
             "value": "testing: geo",
             "prevValue": "simple geo"
+        },
+        {
+            "type": "CREATE_OBJECT",
+            "host": "21237255",
+            "timestamp": 1558215369133,
+            "uuid": "5357783",
+            "seq": 1,
+            "id": "48697104",
+            "defaults": {
+                "type": "behavior_script",
+                "title": " Wheee",
+                "description": " logs something when you get a wheee event",
+                "src": "https://blairmacintyre-mred-base-glitch.glitch.me/scripts/wheee.js",
+                "parent": 0
+            }
+        },
+        {
+            "type": "SET_PROPERTY",
+            "host": "21237255",
+            "timestamp": 1558215369134,
+            "uuid": "512907",
+            "seq": 2,
+            "object": "48697104",
+            "name": "parent",
+            "value": "98148730"
+        },
+        {
+            "type": "INSERT_ELEMENT",
+            "host": "21237255",
+            "timestamp": 1558215369135,
+            "uuid": "36561114",
+            "seq": 3,
+            "array": "50349587",
+            "value": "48697104",
+            "entryid": "82581192",
+            "prev": "38854929"
+        },
+        {
+            "type": "CREATE_OBJECT",
+            "host": "21237255",
+            "timestamp": 1558215446976,
+            "uuid": "10682875",
+            "seq": 28,
+            "id": "90083539",
+            "defaults": {
+                "type": "behavior",
+                "title": " Wheee",
+                "description": " logs something when you get a wheee event",
+                "parent": 0,
+                "behavior": "48697104",
+                "print": "",
+                "capture": false
+            }
+        },
+        {
+            "type": "SET_PROPERTY",
+            "host": "21237255",
+            "timestamp": 1558215446988,
+            "uuid": "55032185",
+            "seq": 29,
+            "object": "90083539",
+            "name": "parent",
+            "value": "58357066"
+        },
+        {
+            "type": "INSERT_ELEMENT",
+            "host": "21237255",
+            "timestamp": 1558215447000,
+            "uuid": "57285857",
+            "seq": 30,
+            "array": "84552401",
+            "value": "90083539",
+            "entryid": "11298583",
+            "prev": "35205055"
+        },
+        {
+            "type": "SET_PROPERTY",
+            "host": "21237255",
+            "timestamp": 1558215455530,
+            "uuid": "60697963",
+            "seq": 31,
+            "object": "90083539",
+            "name": "title",
+            "value": " Wheee",
+            "prevValue": " Wheee"
+        },
+        {
+            "type": "SET_PROPERTY",
+            "host": "21237255",
+            "timestamp": 1558215457459,
+            "uuid": "21722729",
+            "seq": 32,
+            "object": "90083539",
+            "name": "capture",
+            "value": true,
+            "prevValue": false
+        },
+        {
+            "type": "SET_PROPERTY",
+            "host": "21237255",
+            "timestamp": 1558215458146,
+            "uuid": "64139254",
+            "seq": 33,
+            "object": "90083539",
+            "name": "capture",
+            "value": false,
+            "prevValue": true
+        },
+        {
+            "type": "DELETE_ELEMENT",
+            "host": "21237255",
+            "timestamp": 1558215476404,
+            "uuid": "4453865",
+            "seq": 34,
+            "array": "84552401",
+            "entry": "11298583",
+            "value": "90083539"
+        },
+        {
+            "type": "CREATE_OBJECT",
+            "host": "21237255",
+            "timestamp": 1558215481254,
+            "uuid": "77901714",
+            "seq": 38,
+            "id": "42846154",
+            "defaults": {
+                "type": "behavior",
+                "title": " Wheee",
+                "description": " logs something when you get a wheee event",
+                "parent": 0,
+                "behavior": "48697104",
+                "print": "",
+                "capture": false
+            }
+        },
+        {
+            "type": "SET_PROPERTY",
+            "host": "21237255",
+            "timestamp": 1558215481265,
+            "uuid": "23377185",
+            "seq": 39,
+            "object": "42846154",
+            "name": "parent",
+            "value": "58357066"
+        },
+        {
+            "type": "INSERT_ELEMENT",
+            "host": "21237255",
+            "timestamp": 1558215481275,
+            "uuid": "44285438",
+            "seq": 40,
+            "array": "84552401",
+            "value": "42846154",
+            "entryid": "63588387",
+            "prev": "35205055"
+        },
+        {
+            "type": "SET_PROPERTY",
+            "host": "21237255",
+            "timestamp": 1558215491002,
+            "uuid": "11526302",
+            "seq": 41,
+            "object": "42846154",
+            "name": "print",
+            "value": "message!",
+            "prevValue": ""
         }
     ],
     "type": "vr",
@@ -1681,6 +1847,16 @@
                                 "asset": 0,
                                 "parent": "58357066",
                                 "id": "57652351"
+                            },
+                            {
+                                "type": "behavior",
+                                "title": " Wheee",
+                                "description": " logs something when you get a wheee event",
+                                "parent": "58357066",
+                                "behavior": "48697104",
+                                "print": "message!",
+                                "capture": false,
+                                "id": "42846154"
                             }
                         ],
                         "targetGeoLocation": "70957701",
@@ -1793,6 +1969,14 @@
                         "src": "https://blairmacintyre-mred-base-glitch.glitch.me/scripts/nav-after-delay.js",
                         "parent": "98148730",
                         "id": "28239088"
+                    },
+                    {
+                        "type": "behavior_script",
+                        "title": " Wheee",
+                        "description": " logs something when you get a wheee event",
+                        "src": "https://blairmacintyre-mred-base-glitch.glitch.me/scripts/wheee.js",
+                        "parent": "98148730",
+                        "id": "48697104"
                     }
                 ],
                 "parent": "44831614",
