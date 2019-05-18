@@ -15,25 +15,23 @@
         far: {
             type:'number',
             value: 5,
-        }
+        },
     },
     tick: function(event) {
-
-        const THREE = event.system.globals().THREE
-
-        let camera = event.system.getCamera()
+      
+        let THREE = this.globals.THREE
+        let camera = this.camera
         let target = event.target
+        let near = this.properties.near || 1
+        let far = this.properties.far || (near+1)
+        let focus = this.properties.focus || 0
 
-        let near = event.props.near || 1
-        let far = event.props.far || (near+1)
-        let focus = event.props.focus || 0
-        
         // far must be EQUAL TO OR farther than near; and to avoid firing a zillion events best to have (far-near)>(some small number)
         if(far<near)far=near+1
         
         // Is there another object to focus on aside from the camera?
         if(focus && focus.length) {
-          focus = event.system.getObject(focus)
+          focus = this.getThreeObjectByTitle(focus)
         } else {
           focus = 0
         }
@@ -51,7 +49,7 @@
         
         // I need a lookaside list of who the target is already near
         if(!focus.uuid) {
-          console.error("no uuid")
+          this.logger.error("no uuid")
           return
         }
 
@@ -66,15 +64,16 @@
           if(distance > far) {
             // clear near state
             target.proximityCandidates[focus.uuid] = 0
-            console.log("further than far radius - send an exciting message now")
+            this.logger.log("further than far radius - send an exciting message now")
+            this.fireEvent("faraway",{})
           }
         } else {
           // testing on the boundary condition of being EQUAL TO or closer
           if(distance <= near) {
             target.proximityCandidates[focus.uuid] = 1
-            console.log("nearer than near radius - send an exciting message now")
+            this.logger.log("nearer than near radius - send an exciting message now")
+            this.fireEvent("trigger",{})
           }
-        }
-      
+        }      
     },
 })
