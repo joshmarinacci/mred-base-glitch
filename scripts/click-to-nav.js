@@ -22,7 +22,9 @@
       this.logger.log("navigate to ", props.scene)
       this.sendMessage("whheee", {})
       this.navigateScene(props.scene)
-    }
+    },
   
-     
+    message: function(e) {
+      this.logger.log ("received wheeee");
+    }
 })
