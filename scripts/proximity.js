@@ -8,6 +8,10 @@
             type:'string',
             value: null,
         },
+        message: {
+            type:'string',
+            value: "trigger",
+        },
         near: {
             type:'number',
             value: 3,
@@ -25,6 +29,7 @@
         let near = this.properties.near || 1
         let far = this.properties.far || (near+1)
         let focus = this.properties.focus || 0
+        let message = this.properties.message || "trigger"
 
         // far must be EQUAL TO OR farther than near; and to avoid firing a zillion events best to have (far-near)>(some small number)
         if(far<near)far=near+1
@@ -72,7 +77,7 @@
           if(distance <= near) {
             target.proximityCandidates[focus.uuid] = 1
             this.logger.log("nearer than near radius - send an exciting message now")
-            this.fireEvent("trigger",{})
+            this.fireEvent(message,{})
           }
         }      
     },
