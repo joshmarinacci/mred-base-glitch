@@ -10,6 +10,6 @@
         }
     },
     tick: function(e) {
-        this.target.rotation.y += this.properties().speed/100
+        this.target.rotation.y += this.properties.speed/100
     },
 })
