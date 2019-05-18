@@ -1,8 +1,7 @@
 # scripting cheat sheet
 
-* get an object in the scene with getObjectById() or getObjectByTitle()
-* the event has a ‘system’ property which gives you access to lots of things.
-* the event has a target property which is the object the event happened on. In most cases this will be the object the behavior is added to
+* the behavior script itself has a bunch of special properties which gives you access to lots of things. 
+* the event passed to your event handler has a target property which is the object the event happened on. In most cases this will be the object the behavior is added to
 
 #### event
 
