@@ -42,25 +42,22 @@
     },
     tick: function(event) {
 
-        const THREE = event.system.globals().THREE
-
-        //const sc = event.system.getCurrentScene()
-        //const scene = event.system.getObject(sc.title)
+        let THREE = this.globals.THREE
         
-        let camera = event.system.getCamera()
+        let camera = this.camera
         let target = event.target
 
-        let near = event.props.near || 0
-        let far = event.props.far || 0
-        let size = event.props.size || 0.1
-        let distance = event.props.distance || 0
-        let lookat = event.props.lookat || 0
-        let infrontof = event.props.infrontof || 0
-        let focus = event.props.focus || 0
+        let near = this.properties.near || 0
+        let far = this.properties.far || 0
+        let size = this.properties.size || 0.1
+        let distance = this.properties.distance || 0
+        let lookat = this.properties.lookat || 0
+        let infrontof = this.properties.infrontof || 0
+        let focus = this.properties.focus || 0
 
         // Is there another object to focus on aside from the camera?
         if(focus && focus.length) {
-          focus = event.system.getObject(focus)
+          focus = this.getThreeObjectByTitle(focus)
         } else {
           focus = 0
         }
