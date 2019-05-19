@@ -18,13 +18,12 @@
     start: function (e) {      
       let snippet = this.properties.code
       let code = "function(e) { ((e) => {" + snippet + "}).call(this, e)}"
-      this.logger.log ("click function: ", code)
+      //this.logger.log ("click function: ", code)
       this.clickFunction = Function('"use strict";return (' + code + ')')()
-    this.logger.log("set click function")
+      //this.logger.log("set click function")
     },
   
     click: function(e) {
-      let that = this
       this.clickFunction.call(this, e)      
     }
 })
