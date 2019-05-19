@@ -436,7 +436,7 @@ function _patchXRDevice() {
         return ret
     };
     var __XRDevice_supportsSession = XRDevice.prototype.supportsSession;
-    XRDevice.prototype.supportsSession = function (options={}) {
+    XRDevice.prototype.supportsSession = async function (options={}) {
         let bindrequest = __XRDevice_supportsSession.bind(this);
         let newOptions = Object.assign({}, options);
         var _wantsGeo = false;
@@ -444,8 +444,12 @@ function _patchXRDevice() {
             _wantsGeo = true;
             delete newOptions.geolocation;
         }
-        let ret = bindrequest(options);
-        return  ret && (!_wantsGeo || options.hasOwnProperty("alignEUS"))
+        let ret = await bindrequest(options);
+        if (!_wantsGeo || options.hasOwnProperty("alignEUS")) {
+            return true
+        } else {
+            throw(null)
+        }
     };
 }
 async function useSession(session) {
@@ -664,8 +668,6 @@ class XRGeospatialAnchor extends XRAnchor {
         anchor.addEventListener("update", this._updateLocalNotifier);
         this._updateLocalCartesian();
     }
-    get cartesian() { return this._cartesian}
-    get cartographic() { return this._cartographic}
     _newGeoAnchor(event) {
         event.oldAnchor.removeEventListener("newGeoAnchor", this._newGeoOriginNotifier);
         event.oldAnchor.removeEventListener("updateCartesian", this._updateCartesianNotifier);
@@ -688,6 +690,23 @@ class XRGeospatialAnchor extends XRAnchor {
         add$2(_scratchVec3, _scratchVec3, this._localCartesian);
         fromTranslation(_scratchMat4, _scratchVec3);
         super.updateModelMatrix(_scratchMat4, currentGeoOriginAnchor.timeStamp);
+    }
+    get cartographic () {
+        if (this._cartographic == null) {
+            this._cartographic = Cesium.Cartographic.fromCartesian(this._cartesian);
+        }
+        return this._cartographic
+    }
+    set cartographic (cartographic) {
+        this._cartographic = cartographic;
+        this._cartesian = Cesium.Cartographic.toCartesian(cartographic);
+        this._updateLocalCartesian();
+    }
+    get cartesian () { return this._cartesian}
+    set cartesian (cartesian) {
+        this._cartesian = cartesian;
+        this._cartographic = null;
+        this._updateLocalCartesian();
     }
     static getGeoOriginPose() {
         if (currentGeoOriginAnchor()) {
