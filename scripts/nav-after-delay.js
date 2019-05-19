@@ -20,15 +20,15 @@
 
     },
     enter: function (e) {
-      e.props.startTime = e.time
+      this.properties.startTime = e.time
     },
   
     tick: function(e) {
       
-      //e.system.logger().log("time " , e.time - e.props.startTime)
+      //this.logger.log("time " , e.time - e.props.startTime)
 
-      if ((e.time - e.props.startTime) > e.props.delay) {
-        e.system.navigateScene(e.props.scene)
+      if ((e.time - this.properties.startTime) > this.properties.delay) {
+        this.navigateScene(this.properties.scene)
       }
     },
 })
