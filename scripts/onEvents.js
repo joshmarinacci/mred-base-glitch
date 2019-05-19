@@ -83,20 +83,20 @@
       this.stopFunction.call(this, e)      
     },
   
-    click: function(e) {
-      this.clickFunction.call(this, e)      
+    enter: function(e) {
+      this.enterFunction.call(this, e)      
     },
   
-    click: function(e) {
-      this.clickFunction.call(this, e)      
+    exit: function(e) {
+      this.exitFunction.call(this, e)      
     },
   
-    click: function(e) {
-      this.clickFunction.call(this, e)      
+    message: function(e) {
+      this.messageFunction.call(this, e)      
     },
   
-    click: function(e) {
-      this.clickFunction.call(this, e)      
+    tick: function(e) {
+      this.tickFunction.call(this, e)      
     }
   
 })
