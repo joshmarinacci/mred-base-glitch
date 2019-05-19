@@ -1,0 +1,6 @@
+{
+    "doc_duck":            {"title":"A duck (Simple Example)"},
+    "doc_duck_quack":      {"title":"Duck quacking when nearby (Behavior)"},
+    "doc_duck_geo":        {"title":"Duck and Geolocation)"},
+    "doc_duck_image":      {"title":"Duck and Image Tracking"},
+}
