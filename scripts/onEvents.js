@@ -58,22 +58,22 @@
       let props = this.properties
       
       let start = "function(e) { ((e) => {" + props.start + "}).call(this, e)}"
-      this.startFunction = Function('"use strict";return (' + props.start + ')')()
+      this.startFunction = Function('"use strict";return (' + start + ')')()
       
       let stop = "function(e) { ((e) => {" + props.stop + "}).call(this, e)}"
-      this.stopFunction = Function('"use strict";return (' + props.stop + ')')()
+      this.stopFunction = Function('"use strict";return (' + stop + ')')()
 
       let enter = "function(e) { ((e) => {" + props.enter + "}).call(this, e)}"
-      this.enterFunction = Function('"use strict";return (' + props.enter + ')')()
+      this.enterFunction = Function('"use strict";return (' + enter + ')')()
 
       let exit = "function(e) { ((e) => {" + props.exit + "}).call(this, e)}"
-      this.exitFunction = Function('"use strict";return (' + props.exit + ')')()
+      this.exitFunction = Function('"use strict";return (' + exit + ')')()
 
       let message = "function(e) { ((e) => {" + props.message + "}).call(this, e)}"
-      this.messageFunction = Function('"use strict";return (' + props.message + ')')()
+      this.messageFunction = Function('"use strict";return (' + message + ')')()
 
       let tick = "function(e) { ((e) => {" + props.tick + "}).call(this, e)}"
-      this.tickFunction = Function('"use strict";return (' + props.tick + ')')()
+      this.tickFunction = Function('"use strict";return (' + tick + ')')()
 
       // and run the start method!
       this.startFunction.call(this, e)
