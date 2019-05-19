@@ -937,6 +937,609 @@
             "object": "56340771",
             "name": "sz",
             "value": 10
+        },
+        {
+            "type": "SET_PROPERTY",
+            "host": "59781248",
+            "timestamp": 1558297349452,
+            "uuid": "98659302",
+            "seq": 360,
+            "object": "56340771",
+            "name": "tz",
+            "value": -3.1419900226035633,
+            "prevValue": 0.8849531536461783
+        },
+        {
+            "type": "SET_PROPERTY",
+            "host": "59781248",
+            "timestamp": 1558297393712,
+            "uuid": "28210680",
+            "seq": 373,
+            "object": "56340771",
+            "name": "sx",
+            "value": 9.9
+        },
+        {
+            "type": "SET_PROPERTY",
+            "host": "59781248",
+            "timestamp": 1558297393713,
+            "uuid": "97359698",
+            "seq": 374,
+            "object": "56340771",
+            "name": "sy",
+            "value": 10
+        },
+        {
+            "type": "SET_PROPERTY",
+            "host": "59781248",
+            "timestamp": 1558297393713,
+            "uuid": "22521623",
+            "seq": 375,
+            "object": "56340771",
+            "name": "sz",
+            "value": 10
+        },
+        {
+            "type": "SET_PROPERTY",
+            "host": "59781248",
+            "timestamp": 1558297393930,
+            "uuid": "82331773",
+            "seq": 376,
+            "object": "56340771",
+            "name": "sx",
+            "value": 9.8
+        },
+        {
+            "type": "SET_PROPERTY",
+            "host": "59781248",
+            "timestamp": 1558297393931,
+            "uuid": "28561503",
+            "seq": 377,
+            "object": "56340771",
+            "name": "sy",
+            "value": 10
+        },
+        {
+            "type": "SET_PROPERTY",
+            "host": "59781248",
+            "timestamp": 1558297393931,
+            "uuid": "17606729",
+            "seq": 378,
+            "object": "56340771",
+            "name": "sz",
+            "value": 10
+        },
+        {
+            "type": "SET_PROPERTY",
+            "host": "59781248",
+            "timestamp": 1558297394117,
+            "uuid": "8891220",
+            "seq": 379,
+            "object": "56340771",
+            "name": "sx",
+            "value": 9.7
+        },
+        {
+            "type": "SET_PROPERTY",
+            "host": "59781248",
+            "timestamp": 1558297394118,
+            "uuid": "45894536",
+            "seq": 380,
+            "object": "56340771",
+            "name": "sy",
+            "value": 10
+        },
+        {
+            "type": "SET_PROPERTY",
+            "host": "59781248",
+            "timestamp": 1558297394118,
+            "uuid": "4568512",
+            "seq": 381,
+            "object": "56340771",
+            "name": "sz",
+            "value": 10
+        },
+        {
+            "type": "SET_PROPERTY",
+            "host": "59781248",
+            "timestamp": 1558297394288,
+            "uuid": "44907181",
+            "seq": 382,
+            "object": "56340771",
+            "name": "sx",
+            "value": 9.6
+        },
+        {
+            "type": "SET_PROPERTY",
+            "host": "59781248",
+            "timestamp": 1558297394289,
+            "uuid": "23524719",
+            "seq": 383,
+            "object": "56340771",
+            "name": "sy",
+            "value": 10
+        },
+        {
+            "type": "SET_PROPERTY",
+            "host": "59781248",
+            "timestamp": 1558297394289,
+            "uuid": "6855432",
+            "seq": 384,
+            "object": "56340771",
+            "name": "sz",
+            "value": 10
+        },
+        {
+            "type": "SET_PROPERTY",
+            "host": "59781248",
+            "timestamp": 1558297396948,
+            "uuid": "36249179",
+            "seq": 385,
+            "object": "56340771",
+            "name": "sx",
+            "value": 3
+        },
+        {
+            "type": "SET_PROPERTY",
+            "host": "59781248",
+            "timestamp": 1558297396948,
+            "uuid": "20511212",
+            "seq": 386,
+            "object": "56340771",
+            "name": "sy",
+            "value": 10
+        },
+        {
+            "type": "SET_PROPERTY",
+            "host": "59781248",
+            "timestamp": 1558297396948,
+            "uuid": "27009499",
+            "seq": 387,
+            "object": "56340771",
+            "name": "sz",
+            "value": 10
+        },
+        {
+            "type": "SET_PROPERTY",
+            "host": "59781248",
+            "timestamp": 1558297398404,
+            "uuid": "38871506",
+            "seq": 388,
+            "object": "56340771",
+            "name": "sx",
+            "value": 3
+        },
+        {
+            "type": "SET_PROPERTY",
+            "host": "59781248",
+            "timestamp": 1558297398404,
+            "uuid": "10178190",
+            "seq": 389,
+            "object": "56340771",
+            "name": "sy",
+            "value": 3
+        },
+        {
+            "type": "SET_PROPERTY",
+            "host": "59781248",
+            "timestamp": 1558297398405,
+            "uuid": "91807668",
+            "seq": 390,
+            "object": "56340771",
+            "name": "sz",
+            "value": 10
+        },
+        {
+            "type": "SET_PROPERTY",
+            "host": "59781248",
+            "timestamp": 1558297398980,
+            "uuid": "35689697",
+            "seq": 391,
+            "object": "56340771",
+            "name": "sx",
+            "value": 3
+        },
+        {
+            "type": "SET_PROPERTY",
+            "host": "59781248",
+            "timestamp": 1558297398980,
+            "uuid": "4285158",
+            "seq": 392,
+            "object": "56340771",
+            "name": "sy",
+            "value": 3
+        },
+        {
+            "type": "SET_PROPERTY",
+            "host": "59781248",
+            "timestamp": 1558297398980,
+            "uuid": "89649561",
+            "seq": 393,
+            "object": "56340771",
+            "name": "sz",
+            "value": 3
+        },
+        {
+            "type": "CREATE_OBJECT",
+            "host": "59781248",
+            "timestamp": 1558297425128,
+            "uuid": "57953910",
+            "seq": 400,
+            "id": "37861956",
+            "defaults": {
+                "type": "behavior_script",
+                "title": " click to play sound",
+                "description": " play the audio asset attached to this behavior",
+                "src": "https://blairmacintyre-mred-base-glitch.glitch.me/scripts/click-to-play.js",
+                "parent": 0
+            }
+        },
+        {
+            "type": "SET_PROPERTY",
+            "host": "59781248",
+            "timestamp": 1558297425129,
+            "uuid": "66400912",
+            "seq": 401,
+            "object": "37861956",
+            "name": "parent",
+            "value": "36738294"
+        },
+        {
+            "type": "INSERT_ELEMENT",
+            "host": "59781248",
+            "timestamp": 1558297425130,
+            "uuid": "5632567",
+            "seq": 402,
+            "array": "12618515",
+            "value": "37861956",
+            "entryid": "91358826",
+            "prev": "55520890"
+        },
+        {
+            "type": "CREATE_OBJECT",
+            "host": "59781248",
+            "timestamp": 1558297425240,
+            "uuid": "80947646",
+            "seq": 403,
+            "id": "43304539",
+            "defaults": {
+                "type": "behavior",
+                "title": " click to play sound",
+                "description": " play the audio asset attached to this behavior",
+                "parent": 0,
+                "behavior": "37861956",
+                "sound": null
+            }
+        },
+        {
+            "type": "SET_PROPERTY",
+            "host": "59781248",
+            "timestamp": 1558297425246,
+            "uuid": "22046116",
+            "seq": 404,
+            "object": "43304539",
+            "name": "parent",
+            "value": "56340771"
+        },
+        {
+            "type": "INSERT_ELEMENT",
+            "host": "59781248",
+            "timestamp": 1558297425259,
+            "uuid": "84696212",
+            "seq": 405,
+            "array": "71023912",
+            "value": "43304539",
+            "entryid": "44536505",
+            "prev": -1
+        },
+        {
+            "type": "DELETE_ELEMENT",
+            "host": "59781248",
+            "timestamp": 1558297431664,
+            "uuid": "16845359",
+            "seq": 406,
+            "array": "71023912",
+            "entry": "44536505",
+            "value": "43304539"
+        },
+        {
+            "type": "CREATE_OBJECT",
+            "host": "59781248",
+            "timestamp": 1558297440704,
+            "uuid": "79360088",
+            "seq": 416,
+            "id": "54720159",
+            "defaults": {
+                "type": "behavior",
+                "title": " click to play sound",
+                "description": " play the audio asset attached to this behavior",
+                "parent": 0,
+                "behavior": "37861956",
+                "sound": null
+            }
+        },
+        {
+            "type": "SET_PROPERTY",
+            "host": "59781248",
+            "timestamp": 1558297440713,
+            "uuid": "94459115",
+            "seq": 417,
+            "object": "54720159",
+            "name": "parent",
+            "value": "76476629"
+        },
+        {
+            "type": "INSERT_ELEMENT",
+            "host": "59781248",
+            "timestamp": 1558297440722,
+            "uuid": "67297090",
+            "seq": 418,
+            "array": "70727955",
+            "value": "54720159",
+            "entryid": "61688438",
+            "prev": -1
+        },
+        {
+            "type": "CREATE_OBJECT",
+            "host": "59781248",
+            "timestamp": 1558297483627,
+            "uuid": "73268063",
+            "seq": 422,
+            "id": "95884513",
+            "defaults": {
+                "type": "behavior_script",
+                "title": " onEvents",
+                "description": " runs the provided code in the common event handlers",
+                "src": "https://blairmacintyre-mred-base-glitch.glitch.me/scripts/onEvents.js",
+                "parent": 0
+            }
+        },
+        {
+            "type": "SET_PROPERTY",
+            "host": "59781248",
+            "timestamp": 1558297483628,
+            "uuid": "80396368",
+            "seq": 423,
+            "object": "95884513",
+            "name": "parent",
+            "value": "36738294"
+        },
+        {
+            "type": "INSERT_ELEMENT",
+            "host": "59781248",
+            "timestamp": 1558297483628,
+            "uuid": "50807716",
+            "seq": 424,
+            "array": "12618515",
+            "value": "95884513",
+            "entryid": "1743514",
+            "prev": "91358826"
+        },
+        {
+            "type": "CREATE_OBJECT",
+            "host": "59781248",
+            "timestamp": 1558297483745,
+            "uuid": "58126114",
+            "seq": 425,
+            "id": "10475998",
+            "defaults": {
+                "type": "behavior",
+                "title": " onEvents",
+                "description": " runs the provided code in the common event handlers",
+                "parent": 0,
+                "behavior": "95884513",
+                "start": "",
+                "stop": "",
+                "enter": "",
+                "exit": "",
+                "tick": "",
+                "message": ""
+            }
+        },
+        {
+            "type": "SET_PROPERTY",
+            "host": "59781248",
+            "timestamp": 1558297483752,
+            "uuid": "67395063",
+            "seq": 426,
+            "object": "10475998",
+            "name": "parent",
+            "value": "56340771"
+        },
+        {
+            "type": "INSERT_ELEMENT",
+            "host": "59781248",
+            "timestamp": 1558297483760,
+            "uuid": "78098591",
+            "seq": 427,
+            "array": "71023912",
+            "value": "10475998",
+            "entryid": "576245",
+            "prev": -1
+        },
+        {
+            "type": "SET_PROPERTY",
+            "host": "59781248",
+            "timestamp": 1558297521637,
+            "uuid": "83065884",
+            "seq": 428,
+            "object": "10475998",
+            "name": "enter",
+            "value": "this.playMedia(",
+            "prevValue": ""
+        },
+        {
+            "type": "SET_PROPERTY",
+            "host": "59781248",
+            "timestamp": 1558297535948,
+            "uuid": "43841126",
+            "seq": 429,
+            "object": "10475998",
+            "name": "enter",
+            "value": "this.playMedia(60803668)",
+            "prevValue": "this.playMedia("
+        },
+        {
+            "type": "SET_PROPERTY",
+            "host": "59781248",
+            "timestamp": 1558297688908,
+            "uuid": "18802218",
+            "seq": 430,
+            "object": "10475998",
+            "name": "enter",
+            "value": "this.playMedia(60803668)",
+            "prevValue": "this.playMedia(60803668)"
+        },
+        {
+            "type": "SET_PROPERTY",
+            "host": "59781248",
+            "timestamp": 1558297689442,
+            "uuid": "85422113",
+            "seq": 431,
+            "object": "10475998",
+            "name": "exit",
+            "value": "",
+            "prevValue": ""
+        },
+        {
+            "type": "SET_PROPERTY",
+            "host": "59781248",
+            "timestamp": 1558297690407,
+            "uuid": "5098376",
+            "seq": 432,
+            "object": "10475998",
+            "name": "tick",
+            "value": "",
+            "prevValue": ""
+        },
+        {
+            "type": "SET_PROPERTY",
+            "host": "59781248",
+            "timestamp": 1558297691312,
+            "uuid": "39148364",
+            "seq": 433,
+            "object": "10475998",
+            "name": "message",
+            "value": "",
+            "prevValue": ""
+        },
+        {
+            "type": "SET_PROPERTY",
+            "host": "59781248",
+            "timestamp": 1558297691664,
+            "uuid": "39577292",
+            "seq": 434,
+            "object": "10475998",
+            "name": "start",
+            "value": "",
+            "prevValue": ""
+        },
+        {
+            "type": "SET_PROPERTY",
+            "host": "59781248",
+            "timestamp": 1558297704298,
+            "uuid": "7150524",
+            "seq": 435,
+            "object": "10475998",
+            "name": "stop",
+            "value": "",
+            "prevValue": ""
+        },
+        {
+            "type": "SET_PROPERTY",
+            "host": "59781248",
+            "timestamp": 1558297763080,
+            "uuid": "83649894",
+            "seq": 436,
+            "object": "10475998",
+            "name": "stop",
+            "value": "",
+            "prevValue": ""
+        },
+        {
+            "type": "SET_PROPERTY",
+            "host": "59781248",
+            "timestamp": 1558297822200,
+            "uuid": "88355895",
+            "seq": 437,
+            "object": "10475998",
+            "name": "enter",
+            "value": "",
+            "prevValue": "this.playMedia(60803668)"
+        },
+        {
+            "type": "DELETE_ELEMENT",
+            "host": "59781248",
+            "timestamp": 1558297823051,
+            "uuid": "24088410",
+            "seq": 438,
+            "array": "71023912",
+            "entry": "576245",
+            "value": "10475998"
+        },
+        {
+            "type": "CREATE_OBJECT",
+            "host": "59781248",
+            "timestamp": 1558297826807,
+            "uuid": "57882297",
+            "seq": 448,
+            "id": "47180204",
+            "defaults": {
+                "type": "behavior",
+                "title": " onEvents",
+                "description": " runs the provided code in the common event handlers",
+                "parent": 0,
+                "behavior": "95884513",
+                "start": "",
+                "stop": "",
+                "enter": "",
+                "exit": "",
+                "tick": "",
+                "message": ""
+            }
+        },
+        {
+            "type": "SET_PROPERTY",
+            "host": "59781248",
+            "timestamp": 1558297826816,
+            "uuid": "45883318",
+            "seq": 449,
+            "object": "47180204",
+            "name": "parent",
+            "value": "56340771"
+        },
+        {
+            "type": "INSERT_ELEMENT",
+            "host": "59781248",
+            "timestamp": 1558297826824,
+            "uuid": "44632740",
+            "seq": 450,
+            "array": "71023912",
+            "value": "47180204",
+            "entryid": "67191059",
+            "prev": -1
+        },
+        {
+            "type": "SET_PROPERTY",
+            "host": "59781248",
+            "timestamp": 1558297831521,
+            "uuid": "11406033",
+            "seq": 463,
+            "object": "47180204",
+            "name": "stop",
+            "value": "",
+            "prevValue": ""
+        },
+        {
+            "type": "SET_PROPERTY",
+            "host": "59781248",
+            "timestamp": 1558297835872,
+            "uuid": "23729424",
+            "seq": 464,
+            "object": "47180204",
+            "name": "enter",
+            "value": "this.playMedia(60803668)",
+            "prevValue": ""
         }
     ],
     "type": "vr",
@@ -961,15 +1564,30 @@
                         "height": 0.5,
                         "tx": 0,
                         "ty": 0,
-                        "tz": 0.8942914261605299,
+                        "tz": -3.1419900226035633,
                         "rx": 0,
                         "ry": 0,
                         "rz": 0,
-                        "sx": 10,
-                        "sy": 10,
-                        "sz": 10,
+                        "sx": 3,
+                        "sy": 3,
+                        "sz": 3,
                         "color": "#ffffff",
-                        "children": [],
+                        "children": [
+                            {
+                                "type": "behavior",
+                                "title": " onEvents",
+                                "description": " runs the provided code in the common event handlers",
+                                "parent": "56340771",
+                                "behavior": "95884513",
+                                "start": "",
+                                "stop": "",
+                                "enter": "this.playMedia(60803668)",
+                                "exit": "",
+                                "tick": "",
+                                "message": "",
+                                "id": "47180204"
+                            }
+                        ],
                         "asset": "60803668",
                         "parent": "51140613",
                         "id": "56340771"
@@ -991,7 +1609,17 @@
                         "sy": 1,
                         "sz": 1,
                         "color": "#00ff00",
-                        "children": [],
+                        "children": [
+                            {
+                                "type": "behavior",
+                                "title": " click to play sound",
+                                "description": " play the audio asset attached to this behavior",
+                                "parent": "76476629",
+                                "behavior": "37861956",
+                                "sound": null,
+                                "id": "54720159"
+                            }
+                        ],
                         "asset": 0,
                         "parent": "51140613",
                         "id": "76476629"
@@ -1039,6 +1667,22 @@
                         "src": "https://joshmarinacci-mred-base-glitch-3.glitch.me/scripts/spin.js",
                         "parent": "36738294",
                         "id": "80367415"
+                    },
+                    {
+                        "type": "behavior_script",
+                        "title": " click to play sound",
+                        "description": " play the audio asset attached to this behavior",
+                        "src": "https://blairmacintyre-mred-base-glitch.glitch.me/scripts/click-to-play.js",
+                        "parent": "36738294",
+                        "id": "37861956"
+                    },
+                    {
+                        "type": "behavior_script",
+                        "title": " onEvents",
+                        "description": " runs the provided code in the common event handlers",
+                        "src": "https://blairmacintyre-mred-base-glitch.glitch.me/scripts/onEvents.js",
+                        "parent": "36738294",
+                        "id": "95884513"
                     }
                 ],
                 "parent": "85377762",
