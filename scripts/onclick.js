@@ -1,5 +1,5 @@
 /*
-#title Wheee
+#title onClick
 #description logs something when you get a wheee event
 */
 ({
@@ -15,11 +15,13 @@
         }
     },
 
+    init: function (e) {
+      let snippet = this.properties.code
+      let code = "function(this,e) {" + snippet + "}"
+      this.clickFunction = Function('"use strict";return (' + code + ')')()
+    },
+  
     click: function(e) {
-      let code = this.properties.code
-      if (code.length > 0) {
-        
-      }
-
+      this.clickFunction(this,e)      
     }
 })
