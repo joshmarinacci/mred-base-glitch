@@ -2234,6 +2234,112 @@
             "name": "capture",
             "value": true,
             "prevValue": false
+        },
+        {
+            "type": "SET_PROPERTY",
+            "host": "41489778",
+            "timestamp": 1558264672403,
+            "uuid": "32934141",
+            "seq": 1,
+            "object": "43565159",
+            "name": "print",
+            "value": "on cube",
+            "prevValue": "on cube"
+        },
+        {
+            "type": "SET_PROPERTY",
+            "host": "41489778",
+            "timestamp": 1558264693242,
+            "uuid": "12434102",
+            "seq": 2,
+            "object": "43565159",
+            "name": "title",
+            "value": " Wheee",
+            "prevValue": " Wheee"
+        },
+        {
+            "type": "CREATE_OBJECT",
+            "host": "41489778",
+            "timestamp": 1558265967795,
+            "uuid": "56657366",
+            "seq": 3,
+            "id": "85677487",
+            "defaults": {
+                "type": "behavior_script",
+                "title": " onClick",
+                "description": " runs the provided code in the click event handler",
+                "src": "https://blairmacintyre-mred-base-glitch.glitch.me/scripts/onclick.js",
+                "parent": 0
+            }
+        },
+        {
+            "type": "SET_PROPERTY",
+            "host": "41489778",
+            "timestamp": 1558265967799,
+            "uuid": "49342119",
+            "seq": 4,
+            "object": "85677487",
+            "name": "parent",
+            "value": "98148730"
+        },
+        {
+            "type": "INSERT_ELEMENT",
+            "host": "41489778",
+            "timestamp": 1558265967799,
+            "uuid": "99480211",
+            "seq": 5,
+            "array": "50349587",
+            "value": "85677487",
+            "entryid": "84367344",
+            "prev": "82581192"
+        },
+        {
+            "type": "CREATE_OBJECT",
+            "host": "41489778",
+            "timestamp": 1558265979636,
+            "uuid": "168747",
+            "seq": 9,
+            "id": "4834994",
+            "defaults": {
+                "type": "behavior",
+                "title": " onClick",
+                "description": " runs the provided code in the click event handler",
+                "parent": 0,
+                "behavior": "85677487",
+                "code": ""
+            }
+        },
+        {
+            "type": "SET_PROPERTY",
+            "host": "41489778",
+            "timestamp": 1558265979653,
+            "uuid": "58077035",
+            "seq": 10,
+            "object": "4834994",
+            "name": "parent",
+            "value": "12263359"
+        },
+        {
+            "type": "INSERT_ELEMENT",
+            "host": "41489778",
+            "timestamp": 1558265979671,
+            "uuid": "79528572",
+            "seq": 11,
+            "array": "70147028",
+            "value": "4834994",
+            "entryid": "60467436",
+            "prev": -1
+        },
+        {
+            "type": "SET_PROPERTY",
+            "host": "41489778",
+            "timestamp": 1558265998134,
+            "uuid": "72321623",
+            "seq": 12,
+            "object": "4834994",
+            "name": "code",
+            "value": "this.logger.log(\"clicked red sphere\")",
+            "prevValue": ""
         }
     ],
     "type": "vr",
@@ -2306,7 +2412,17 @@
                         "sy": 1,
                         "sz": 1,
                         "color": "#ff0000",
-                        "children": [],
+                        "children": [
+                            {
+                                "type": "behavior",
+                                "title": " onClick",
+                                "description": " runs the provided code in the click event handler",
+                                "parent": "12263359",
+                                "behavior": "85677487",
+                                "code": "this.logger.log(\"clicked red sphere\")",
+                                "id": "4834994"
+                            }
+                        ],
                         "asset": 0,
                         "parent": "14030726",
                         "id": "12263359"
@@ -2564,6 +2680,14 @@
                         "src": "https://blairmacintyre-mred-base-glitch.glitch.me/scripts/wheee.js",
                         "parent": "98148730",
                         "id": "48697104"
+                    },
+                    {
+                        "type": "behavior_script",
+                        "title": " onClick",
+                        "description": " runs the provided code in the click event handler",
+                        "src": "https://blairmacintyre-mred-base-glitch.glitch.me/scripts/onclick.js",
+                        "parent": "98148730",
+                        "id": "85677487"
                     }
                 ],
                 "parent": "44831614",

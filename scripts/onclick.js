@@ -1,6 +1,6 @@
 /*
 #title onClick
-#description logs something when you get a wheee event
+#description runs the provided code in the click event handler
 */
 ({
     properties: {
@@ -15,7 +15,10 @@
         }
     },
 
-    init: function (e) {
+    start: function (e) {
+      let Three = THREE
+      this.logger.log("did we find THREE?", Three)
+      
       let snippet = this.properties.code
       let code = "function(this,e) {" + snippet + "}"
       this.clickFunction = Function('"use strict";return (' + code + ')')()
