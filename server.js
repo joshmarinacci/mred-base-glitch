@@ -155,6 +155,8 @@ function supportedMimetype(type,name) {
     if(type === 'image/png') return true
     if(type === 'image/jpeg') return true
     if(type === 'audio/mpeg') return true
+    if(type === 'audio/aac') return true
+    if(type === 'video/mp4') return true
     if(type === 'model/gltf-binary') return true
     return false
 }
