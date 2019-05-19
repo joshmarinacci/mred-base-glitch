@@ -673,10 +673,274 @@
             "object": "11271340",
             "name": "sz",
             "value": 8
+        },
+        {
+            "type": "CREATE_OBJECT",
+            "host": "26491834",
+            "timestamp": 1558295949916,
+            "uuid": "857366",
+            "seq": 1,
+            "id": "60803668",
+            "defaults": {
+                "type": "asset",
+                "subtype": "video",
+                "format": "video/mp4",
+                "src": "https://cdn.glitch.com/9191dd8a-88c4-4c0a-98a7-fc980ff8421c%2Fjon-awesome.mp4",
+                "title": "jon-awesome.mp4",
+                "parent": 0
+            }
+        },
+        {
+            "type": "SET_PROPERTY",
+            "host": "26491834",
+            "timestamp": 1558295949917,
+            "uuid": "77344032",
+            "seq": 2,
+            "object": "60803668",
+            "name": "parent",
+            "value": "31107067"
+        },
+        {
+            "type": "INSERT_ELEMENT",
+            "host": "26491834",
+            "timestamp": 1558295949918,
+            "uuid": "28986768",
+            "seq": 3,
+            "array": "59722625",
+            "value": "60803668",
+            "entryid": "30256344",
+            "prev": "10406605"
+        },
+        {
+            "type": "CREATE_ARRAY",
+            "host": "26491834",
+            "timestamp": 1558295964145,
+            "uuid": "54312624",
+            "seq": 7,
+            "id": "70727955"
+        },
+        {
+            "type": "CREATE_OBJECT",
+            "host": "26491834",
+            "timestamp": 1558295964146,
+            "uuid": "35211832",
+            "seq": 8,
+            "id": "76476629",
+            "defaults": {
+                "type": "cube",
+                "title": "cube 1",
+                "visible": true,
+                "width": 0.3,
+                "height": 0.3,
+                "depth": 0.3,
+                "tx": 0,
+                "ty": 0,
+                "tz": 0,
+                "rx": 0,
+                "ry": 0,
+                "rz": 0,
+                "sx": 1,
+                "sy": 1,
+                "sz": 1,
+                "color": "#00ff00",
+                "children": "70727955",
+                "asset": 0,
+                "parent": "51140613"
+            }
+        },
+        {
+            "type": "SET_PROPERTY",
+            "host": "26491834",
+            "timestamp": 1558295964146,
+            "uuid": "99750737",
+            "seq": 9,
+            "object": "76476629",
+            "name": "parent",
+            "value": "51140613"
+        },
+        {
+            "type": "INSERT_ELEMENT",
+            "host": "26491834",
+            "timestamp": 1558295964147,
+            "uuid": "93401361",
+            "seq": 10,
+            "array": "73531306",
+            "value": "76476629",
+            "entryid": "40334744",
+            "prev": -1
+        },
+        {
+            "type": "CREATE_ARRAY",
+            "host": "26491834",
+            "timestamp": 1558295978770,
+            "uuid": "13295369",
+            "seq": 14,
+            "id": "71023912"
+        },
+        {
+            "type": "CREATE_OBJECT",
+            "host": "26491834",
+            "timestamp": 1558295978770,
+            "uuid": "60334679",
+            "seq": 15,
+            "id": "56340771",
+            "defaults": {
+                "type": "plane",
+                "title": "a plane",
+                "visible": true,
+                "width": 0.5,
+                "height": 0.5,
+                "tx": 0,
+                "ty": 0,
+                "tz": 0,
+                "rx": 0,
+                "ry": 0,
+                "rz": 0,
+                "sx": 1,
+                "sy": 1,
+                "sz": 1,
+                "color": "#ffffff",
+                "children": "71023912",
+                "asset": 0,
+                "parent": "51140613"
+            }
+        },
+        {
+            "type": "SET_PROPERTY",
+            "host": "26491834",
+            "timestamp": 1558295978771,
+            "uuid": "23025184",
+            "seq": 16,
+            "object": "56340771",
+            "name": "parent",
+            "value": "51140613"
+        },
+        {
+            "type": "INSERT_ELEMENT",
+            "host": "26491834",
+            "timestamp": 1558295978771,
+            "uuid": "35191830",
+            "seq": 17,
+            "array": "73531306",
+            "value": "56340771",
+            "entryid": "64168044",
+            "prev": -1
+        },
+        {
+            "type": "SET_PROPERTY",
+            "host": "26491834",
+            "timestamp": 1558295981525,
+            "uuid": "18056591",
+            "seq": 21,
+            "object": "56340771",
+            "name": "asset",
+            "value": "60803668",
+            "prevValue": 0
+        },
+        {
+            "type": "SET_PROPERTY",
+            "host": "26491834",
+            "timestamp": 1558295995188,
+            "uuid": "88090027",
+            "seq": 1320,
+            "object": "56340771",
+            "name": "tz",
+            "value": 0.8942914261605299,
+            "prevValue": 0.009978993095118405
+        },
+        {
+            "type": "SET_PROPERTY",
+            "host": "26491834",
+            "timestamp": 1558296000284,
+            "uuid": "63010714",
+            "seq": 1327,
+            "object": "56340771",
+            "name": "sx",
+            "value": 10
+        },
+        {
+            "type": "SET_PROPERTY",
+            "host": "26491834",
+            "timestamp": 1558296000286,
+            "uuid": "12862697",
+            "seq": 1328,
+            "object": "56340771",
+            "name": "sy",
+            "value": 1
+        },
+        {
+            "type": "SET_PROPERTY",
+            "host": "26491834",
+            "timestamp": 1558296000286,
+            "uuid": "73390751",
+            "seq": 1329,
+            "object": "56340771",
+            "name": "sz",
+            "value": 1
+        },
+        {
+            "type": "SET_PROPERTY",
+            "host": "26491834",
+            "timestamp": 1558296004127,
+            "uuid": "29565593",
+            "seq": 1330,
+            "object": "56340771",
+            "name": "sx",
+            "value": 10
+        },
+        {
+            "type": "SET_PROPERTY",
+            "host": "26491834",
+            "timestamp": 1558296004127,
+            "uuid": "35185718",
+            "seq": 1331,
+            "object": "56340771",
+            "name": "sy",
+            "value": 10
+        },
+        {
+            "type": "SET_PROPERTY",
+            "host": "26491834",
+            "timestamp": 1558296004128,
+            "uuid": "94272844",
+            "seq": 1332,
+            "object": "56340771",
+            "name": "sz",
+            "value": 1
+        },
+        {
+            "type": "SET_PROPERTY",
+            "host": "26491834",
+            "timestamp": 1558296006183,
+            "uuid": "94098176",
+            "seq": 1333,
+            "object": "56340771",
+            "name": "sx",
+            "value": 10
+        },
+        {
+            "type": "SET_PROPERTY",
+            "host": "26491834",
+            "timestamp": 1558296006183,
+            "uuid": "37160493",
+            "seq": 1334,
+            "object": "56340771",
+            "name": "sy",
+            "value": 10
+        },
+        {
+            "type": "SET_PROPERTY",
+            "host": "26491834",
+            "timestamp": 1558296006183,
+            "uuid": "32913092",
+            "seq": 1335,
+            "object": "56340771",
+            "name": "sz",
+            "value": 10
         }
     ],
     "type": "vr",
-    "id": "doc_996110885",
+    "id": "doc_duck",
     "graph": {
         "type": "root",
         "title": "Untitled Project",
@@ -689,6 +953,49 @@
                 "defaultFloor": false,
                 "parent": "85377762",
                 "children": [
+                    {
+                        "type": "plane",
+                        "title": "a plane",
+                        "visible": true,
+                        "width": 0.5,
+                        "height": 0.5,
+                        "tx": 0,
+                        "ty": 0,
+                        "tz": 0.8942914261605299,
+                        "rx": 0,
+                        "ry": 0,
+                        "rz": 0,
+                        "sx": 10,
+                        "sy": 10,
+                        "sz": 10,
+                        "color": "#ffffff",
+                        "children": [],
+                        "asset": "60803668",
+                        "parent": "51140613",
+                        "id": "56340771"
+                    },
+                    {
+                        "type": "cube",
+                        "title": "cube 1",
+                        "visible": true,
+                        "width": 0.3,
+                        "height": 0.3,
+                        "depth": 0.3,
+                        "tx": 0,
+                        "ty": 0,
+                        "tz": 0,
+                        "rx": 0,
+                        "ry": 0,
+                        "rz": 0,
+                        "sx": 1,
+                        "sy": 1,
+                        "sz": 1,
+                        "color": "#00ff00",
+                        "children": [],
+                        "asset": 0,
+                        "parent": "51140613",
+                        "id": "76476629"
+                    },
                     {
                         "type": "model",
                         "title": "a model",
@@ -758,6 +1065,15 @@
                         "title": "quack.mp3",
                         "parent": "31107067",
                         "id": "99473034"
+                    },
+                    {
+                        "type": "asset",
+                        "subtype": "video",
+                        "format": "video/mp4",
+                        "src": "https://cdn.glitch.com/9191dd8a-88c4-4c0a-98a7-fc980ff8421c%2Fjon-awesome.mp4",
+                        "title": "jon-awesome.mp4",
+                        "parent": "31107067",
+                        "id": "60803668"
                     }
                 ],
                 "parent": "85377762",
@@ -766,5 +1082,5 @@
         ],
         "id": "85377762"
     },
-    "title": "Simple Duck project"
+    "title": "Untitled Project"
 }
