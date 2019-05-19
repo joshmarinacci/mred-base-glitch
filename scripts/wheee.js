@@ -6,7 +6,12 @@
     properties: {
         print: {
             type:'string',
-            value: ""
+          title: "text to log:",
+            value: "",
+          hints: {
+                multiline:true,
+            }
+
         },
         capture: {
           type: 'boolean',
