@@ -2340,6 +2340,64 @@
             "name": "code",
             "value": "this.logger.log(\"clicked red sphere\")",
             "prevValue": ""
+        },
+        {
+            "type": "DELETE_ELEMENT",
+            "host": "41489778",
+            "timestamp": 1558266942139,
+            "uuid": "37175832",
+            "seq": 13,
+            "array": "70147028",
+            "entry": "60467436",
+            "value": "4834994"
+        },
+        {
+            "type": "CREATE_OBJECT",
+            "host": "73663600",
+            "timestamp": 1558267143078,
+            "uuid": "16471274",
+            "seq": 10,
+            "id": "57008091",
+            "defaults": {
+                "type": "behavior",
+                "title": " onClick",
+                "description": " runs the provided code in the click event handler",
+                "parent": 0,
+                "behavior": "85677487",
+                "code": ""
+            }
+        },
+        {
+            "type": "SET_PROPERTY",
+            "host": "73663600",
+            "timestamp": 1558267143111,
+            "uuid": "71159434",
+            "seq": 11,
+            "object": "57008091",
+            "name": "parent",
+            "value": "83751544"
+        },
+        {
+            "type": "INSERT_ELEMENT",
+            "host": "73663600",
+            "timestamp": 1558267143149,
+            "uuid": "70405174",
+            "seq": 12,
+            "array": "97239430",
+            "value": "57008091",
+            "entryid": "8353981",
+            "prev": -1
+        },
+        {
+            "type": "SET_PROPERTY",
+            "host": "73663600",
+            "timestamp": 1558267159400,
+            "uuid": "24533300",
+            "seq": 13,
+            "object": "57008091",
+            "name": "code",
+            "value": "this.logger.log(\"click!!!!\")",
+            "prevValue": ""
         }
     ],
     "type": "vr",
@@ -2412,17 +2470,7 @@
                         "sy": 1,
                         "sz": 1,
                         "color": "#ff0000",
-                        "children": [
-                            {
-                                "type": "behavior",
-                                "title": " onClick",
-                                "description": " runs the provided code in the click event handler",
-                                "parent": "12263359",
-                                "behavior": "85677487",
-                                "code": "this.logger.log(\"clicked red sphere\")",
-                                "id": "4834994"
-                            }
-                        ],
+                        "children": [],
                         "asset": 0,
                         "parent": "14030726",
                         "id": "12263359"
@@ -2592,7 +2640,17 @@
                         "sy": 1,
                         "sz": 1,
                         "color": "#00ffff",
-                        "children": [],
+                        "children": [
+                            {
+                                "type": "behavior",
+                                "title": " onClick",
+                                "description": " runs the provided code in the click event handler",
+                                "parent": "83751544",
+                                "behavior": "85677487",
+                                "code": "this.logger.log(\"click!!!!\")",
+                                "id": "57008091"
+                            }
+                        ],
                         "asset": 0,
                         "parent": "55925900",
                         "id": "83751544"

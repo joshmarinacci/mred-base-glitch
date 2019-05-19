@@ -16,12 +16,15 @@
     },
 
     start: function (e) {
-      let Three = THREE
+      this.logger.log("looking for THREE?")
+      let Three = window.THREE
       this.logger.log("did we find THREE?", Three)
       
       let snippet = this.properties.code
       let code = "function(this,e) {" + snippet + "}"
+    this.logger.log ("click function: ", code)
       this.clickFunction = Function('"use strict";return (' + code + ')')()
+    this.logger.log("set click function")
     },
   
     click: function(e) {
