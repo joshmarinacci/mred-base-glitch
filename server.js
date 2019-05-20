@@ -92,7 +92,7 @@ function getDocList(cb) {
             res(files)
         })
     }).then(files => {
-        return Promise.all(files.map(name => loadDocInfo(name))
+        return Promise.all(files.map(name => loadDocInfo(name)))
     })
 }
 
@@ -221,7 +221,7 @@ app.get("/scripts/:id", (req, res) => {
 
 // http://expressjs.com/en/starter/basic-routing.html
 app.get('/', function(request, response) {
-    getDocList((docs)=>{
+    getDocList().then(docs=>{
         const list = docs.map(doc => {
             return `
       <li>
