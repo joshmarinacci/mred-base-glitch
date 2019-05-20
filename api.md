@@ -36,9 +36,7 @@
 * `this.getObjectById(id)`: find the document object by its id
 * `this.getAssetByTitle(title)`: find an asset by its title
 * `this.navigateScene(id)`: navigate to a new scene, by id
-* `this.playMedia(id)`: play a sound or video by id
-* `this.stopMedia(id)`: stop a sound or video by id
-* [deprecated] `this.playSound(id)`: play a sound by id
+* `this.playSound(id)`: play a sound by id
 	
 #### logger
 

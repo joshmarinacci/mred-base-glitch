@@ -18,17 +18,8 @@
     
     //called when object is clicked on
     click: function(e) {
-      var props = this.properties
-      this.logger.log("navigate to ", props.scene)
-      this.fireEvent("wheee", {})
-      this.navigateScene(props.scene)
-    },
-  
-    wheee: function(e) {
-      this.logger.log ("received event wheee");
-    },
-  
-    message: function(e) {
-      this.logger.log ("received message wheee");
-    }
+        var props = this.properties
+        this.logger.log("navigate to ", props.scene)
+        this.navigateScene(props.scene)
+      }
 })

@@ -24,30 +24,6 @@ app.use(bodyParser.json({limit: '50mb'}));
 
 
 console.log("the domains is", process.env.PROJECT_DOMAIN)
-let DB
-
-
-function loadDB() {
-    DB = {}
-    fs.readdir(paths.join(__dirname, dir),(e,files)=>{
-        files = files.map(name =>  {
-            console.log("reading file",name)
-            const id = name.substring(0,name.length-'.json'.length)
-            fs.readFile(paths.join(__dirname,dir,name),(e,contents) => {
-                const content = JSON.parse(contents.toString())
-                console.log("contents = ", content.title);
-                DB[id] = {
-                    title:content.title,
-                    id:id,
-                }
-            })
-        })
-    })
-}
-
-loadDB()
-
-
 
 function parseId(req) {
     //strip out non-alphanumeric characters for safety
@@ -94,24 +70,34 @@ app.get("/userinfo", checkAuth, (req,res) => {
     })
 })
 
-function getDocList(cb) {
-    fs.readdir(paths.join(__dirname, dir),(e,files)=>{
-        if(e) return cb({success:false})
-        files = files.map(name =>  {
-            const id = name.substring(0,name.length-'.json'.length)
-            let title = id
-            if(DB[id]) title = DB[id].title
-            return {
+function loadDocInfo(fname) {
+    const fpath = paths.join(__dirname,dir,fname)
+    const id = fname.substring(0,fname.length-'.json'.length)
+    return new Promise((res,rej) => {
+        fs.readFile(fpath,(e,contents) => {
+            if(e) return rej(e)
+            const content = JSON.parse(contents.toString())
+            res({
                 id:id,
-                title:title,
-            }
+                title:content.title
+            })
         })
-        cb(files)
+    })
+}
+
+function getDocList(cb) {
+    return new Promise((res,rej) => {
+        fs.readdir(paths.join(__dirname, dir),(e,files)=> {
+            if (e) return rej(e)
+            res(files)
+        })
+    }).then(files => {
+        return Promise.all(files.map(name => loadDocInfo(name)))
     })
 }
 
 app.get('/doc/list',checkAuth,(req,res) => {
-    getDocList((out)=> res.json(out))
+    getDocList().then(list => res.json(list))
 })
 
 app.get("/doc/:id", (req, res) => {
@@ -135,8 +121,6 @@ app.post("/doc/:id",checkAuth, (req, res) => {
         }
         res.json({success:true,message:"saved it!"})
     })
-    if(!DB[id]) DB[id] = {}
-    DB[id].title = req.body.title
 })
 
 
@@ -145,7 +129,6 @@ app.post('/doc/delete/:id', checkAuth, (req,res)=>{
     const pth = docPath(id)
     console.log("trying to delete",id,pth)
     fs.unlinkSync(pth)
-    delete DB[id]
     res.json({success:true, script:id, message:'deleted'})
 })
 
@@ -155,7 +138,6 @@ function supportedMimetype(type,name) {
     if(type === 'image/png') return true
     if(type === 'image/jpeg') return true
     if(type === 'audio/mpeg') return true
-    if(type === 'audio/aac') return true
     if(type === 'video/mp4') return true
     if(type === 'model/gltf-binary') return true
     return false
@@ -220,15 +202,9 @@ app.get('/scripts/list',(req,res) => {
             return parseScriptMetadata(fpath).then(meta => {
                 const id = name.substring(0,name.length-'.js'.length)
                 let title = id
-                if(DB[id]) title = DB[id].title
                 meta.name = name
                 meta.url = `https://${process.env.PROJECT_DOMAIN}.glitch.me/scripts/${name}`
                 return meta
-                // return {
-                // id:id,
-                // title:title,
-                // name:name,
-                // }
             })
         })).then(outs => {
             res.json(outs)
@@ -245,7 +221,7 @@ app.get("/scripts/:id", (req, res) => {
 
 // http://expressjs.com/en/starter/basic-routing.html
 app.get('/', function(request, response) {
-    getDocList((docs)=>{
+    getDocList().then(docs=>{
         const list = docs.map(doc => {
             return `
       <li>

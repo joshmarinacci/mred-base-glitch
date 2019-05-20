@@ -1,8 +1,6 @@
-{"doc_duck_quack":{"title":"doc duck quack"},
- "doc_duck_image":{"title":"doc duck image"},
- "doc_duck_geo":{"title":"doc duck geo"},
- "doc_duck":{"title":"doc duck"},
- "doc_865385509":{"title":"testing: geo"},
- "doc_138689517":{"title":"testing: image target"},
- "doc_882476357":{"title":"geo test"},
- "doc_738277223":{"title":"unicorn"}}
+{
+    "doc_duck":            {"title":"A duck (Simple Example)"},
+    "doc_duck_quack":      {"title":"Duck quacking when nearby (Behavior)"},
+    "doc_duck_geo":        {"title":"Duck and Geolocation)"},
+    "doc_duck_image":      {"title":"Duck and Image Tracking"},
+}

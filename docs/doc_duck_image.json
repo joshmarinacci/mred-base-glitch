@@ -2254,6 +2254,271 @@
             "name": "title",
             "value": "testing: image target",
             "prevValue": "testing: image target"
+        },
+        {
+            "type": "CREATE_OBJECT",
+            "host": "65069756",
+            "timestamp": 1558086468651,
+            "uuid": "76383513",
+            "seq": 16,
+            "id": "95409447",
+            "defaults": {
+                "type": "behavior",
+                "title": " Click to Nav",
+                "description": " adds click handler to navigate to a new scene",
+                "parent": 0,
+                "behavior": "49912306",
+                "scene": null
+            }
+        },
+        {
+            "type": "SET_PROPERTY",
+            "host": "65069756",
+            "timestamp": 1558086468671,
+            "uuid": "47697575",
+            "seq": 17,
+            "object": "95409447",
+            "name": "parent",
+            "value": "93280283"
+        },
+        {
+            "type": "CREATE_ARRAY",
+            "host": "96410823",
+            "timestamp": 1558117441364,
+            "uuid": "45861679",
+            "seq": 1,
+            "id": "11717900"
+        },
+        {
+            "type": "CREATE_OBJECT",
+            "host": "96410823",
+            "timestamp": 1558117441365,
+            "uuid": "16225712",
+            "seq": 2,
+            "id": "29284974",
+            "defaults": {
+                "type": "model",
+                "title": "a model",
+                "visible": true,
+                "tx": 0,
+                "ty": 0,
+                "tz": 0,
+                "rx": 0,
+                "ry": 0,
+                "rz": 0,
+                "sx": 1,
+                "sy": 1,
+                "sz": 1,
+                "color": "#ffffff",
+                "children": "11717900",
+                "asset": 0,
+                "parent": "78748029"
+            }
+        },
+        {
+            "type": "INSERT_ELEMENT",
+            "host": "96410823",
+            "timestamp": 1558117441365,
+            "uuid": "10827294",
+            "seq": 4,
+            "array": "35940944",
+            "value": "29284974",
+            "entryid": "76672917",
+            "prev": -1
+        },
+        {
+            "type": "SET_PROPERTY",
+            "host": "96410823",
+            "timestamp": 1558117446106,
+            "uuid": "26411833",
+            "seq": 14,
+            "object": "29284974",
+            "name": "asset",
+            "value": "3138993",
+            "prevValue": 0
+        },
+        {
+            "type": "CREATE_OBJECT",
+            "host": "31576969",
+            "timestamp": 1558117498752,
+            "uuid": "33232574",
+            "seq": 17,
+            "id": "4960722",
+            "defaults": {
+                "type": "behavior",
+                "title": " Click to Nav",
+                "description": " adds click handler to navigate to a new scene",
+                "parent": 0,
+                "behavior": "49912306",
+                "scene": null
+            }
+        },
+        {
+            "type": "INSERT_ELEMENT",
+            "host": "31576969",
+            "timestamp": 1558117498764,
+            "uuid": "203311",
+            "seq": 19,
+            "array": "11717900",
+            "value": "4960722",
+            "entryid": "18182690",
+            "prev": -1
+        },
+        {
+            "type": "SET_PROPERTY",
+            "host": "31576969",
+            "timestamp": 1558117498758,
+            "uuid": "59415557",
+            "seq": 18,
+            "object": "4960722",
+            "name": "parent",
+            "value": "29284974"
+        },
+        {
+            "type": "CREATE_OBJECT",
+            "host": "31576969",
+            "timestamp": 1558117505245,
+            "uuid": "11190084",
+            "seq": 29,
+            "id": "14977780",
+            "defaults": {
+                "type": "behavior_script",
+                "title": " Spinner",
+                "description": " spins shape around the y axis at a certain speed",
+                "src": "https://joshmarinacci-mred-base-glitch-8.glitch.me/scripts/spin.js",
+                "parent": 0
+            }
+        },
+        {
+            "type": "SET_PROPERTY",
+            "host": "31576969",
+            "timestamp": 1558117505246,
+            "uuid": "65753085",
+            "seq": 30,
+            "object": "14977780",
+            "name": "parent",
+            "value": "19803436"
+        },
+        {
+            "type": "INSERT_ELEMENT",
+            "host": "31576969",
+            "timestamp": 1558117505247,
+            "uuid": "4478388",
+            "seq": 31,
+            "array": "96881676",
+            "value": "14977780",
+            "entryid": "48137729",
+            "prev": "84695261"
+        },
+        {
+            "type": "INSERT_ELEMENT",
+            "host": "31576969",
+            "timestamp": 1558117505380,
+            "uuid": "49257650",
+            "seq": 34,
+            "array": "11717900",
+            "value": "13789934",
+            "entryid": "63916275",
+            "prev": "18182690"
+        },
+        {
+            "type": "CREATE_OBJECT",
+            "host": "31576969",
+            "timestamp": 1558117505370,
+            "uuid": "164783",
+            "seq": 32,
+            "id": "13789934",
+            "defaults": {
+                "type": "behavior",
+                "title": " Spinner",
+                "description": " spins shape around the y axis at a certain speed",
+                "parent": 0,
+                "behavior": "14977780",
+                "speed": 1
+            }
+        },
+        {
+            "type": "SET_PROPERTY",
+            "host": "31576969",
+            "timestamp": 1558117505375,
+            "uuid": "83155369",
+            "seq": 33,
+            "object": "13789934",
+            "name": "parent",
+            "value": "29284974"
+        },
+        {
+            "type": "CREATE_OBJECT",
+            "host": "31576969",
+            "timestamp": 1558117513323,
+            "uuid": "62415997",
+            "seq": 44,
+            "id": "37923037",
+            "defaults": {
+                "type": "behavior_script",
+                "title": " Spinner",
+                "description": " spins shape around the y axis at a certain speed",
+                "src": "https://joshmarinacci-mred-base-glitch-8.glitch.me/scripts/spin.js",
+                "parent": 0
+            }
+        },
+        {
+            "type": "INSERT_ELEMENT",
+            "host": "31576969",
+            "timestamp": 1558117513324,
+            "uuid": "77116513",
+            "seq": 46,
+            "array": "96881676",
+            "value": "37923037",
+            "entryid": "39004539",
+            "prev": "48137729"
+        },
+        {
+            "type": "SET_PROPERTY",
+            "host": "31576969",
+            "timestamp": 1558117513324,
+            "uuid": "16101786",
+            "seq": 45,
+            "object": "37923037",
+            "name": "parent",
+            "value": "19803436"
+        },
+        {
+            "type": "CREATE_OBJECT",
+            "host": "31576969",
+            "timestamp": 1558117513446,
+            "uuid": "61339912",
+            "seq": 47,
+            "id": "16683700",
+            "defaults": {
+                "type": "behavior",
+                "title": " Spinner",
+                "description": " spins shape around the y axis at a certain speed",
+                "parent": 0,
+                "behavior": "37923037",
+                "speed": 1
+            }
+        },
+        {
+            "type": "SET_PROPERTY",
+            "host": "31576969",
+            "timestamp": 1558117513449,
+            "uuid": "35278325",
+            "seq": 48,
+            "object": "16683700",
+            "name": "parent",
+            "value": "29284974"
+        },
+        {
+            "type": "INSERT_ELEMENT",
+            "host": "31576969",
+            "timestamp": 1558117513452,
+            "uuid": "41961145",
+            "seq": 49,
+            "array": "11717900",
+            "value": "16683700",
+            "entryid": "43337014",
+            "prev": "63916275"
         }
     ],
     "type": "vr",
@@ -2271,6 +2536,56 @@
                 "parent": "38458800",
                 "children": [
                     {
+<<<<<<< HEAD
+=======
+                        "type": "model",
+                        "title": "a model",
+                        "visible": true,
+                        "tx": 0,
+                        "ty": 0,
+                        "tz": 0,
+                        "rx": 0,
+                        "ry": 0,
+                        "rz": 0,
+                        "sx": 1,
+                        "sy": 1,
+                        "sz": 1,
+                        "color": "#ffffff",
+                        "children": [
+                            {
+                                "type": "behavior",
+                                "title": " Click to Nav",
+                                "description": " adds click handler to navigate to a new scene",
+                                "parent": "29284974",
+                                "behavior": "49912306",
+                                "scene": null,
+                                "id": "4960722"
+                            },
+                            {
+                                "type": "behavior",
+                                "title": " Spinner",
+                                "description": " spins shape around the y axis at a certain speed",
+                                "parent": "29284974",
+                                "behavior": "14977780",
+                                "speed": 1,
+                                "id": "13789934"
+                            },
+                            {
+                                "type": "behavior",
+                                "title": " Spinner",
+                                "description": " spins shape around the y axis at a certain speed",
+                                "parent": "29284974",
+                                "behavior": "37923037",
+                                "speed": 1,
+                                "id": "16683700"
+                            }
+                        ],
+                        "asset": "3138993",
+                        "parent": "78748029",
+                        "id": "29284974"
+                    },
+                    {
+>>>>>>> upstream/master
                         "type": "imageanchor",
                         "title": "image anchor 0",
                         "visible": true,
@@ -2422,6 +2737,25 @@
                         "src": "https://blairmacintyre-mred-base-glitch.glitch.me/scripts/click-to-nav.js",
                         "parent": "19803436",
                         "id": "49912306"
+<<<<<<< HEAD
+=======
+                    },
+                    {
+                        "type": "behavior_script",
+                        "title": " Spinner",
+                        "description": " spins shape around the y axis at a certain speed",
+                        "src": "https://joshmarinacci-mred-base-glitch-8.glitch.me/scripts/spin.js",
+                        "parent": "19803436",
+                        "id": "14977780"
+                    },
+                    {
+                        "type": "behavior_script",
+                        "title": " Spinner",
+                        "description": " spins shape around the y axis at a certain speed",
+                        "src": "https://joshmarinacci-mred-base-glitch-8.glitch.me/scripts/spin.js",
+                        "parent": "19803436",
+                        "id": "37923037"
+>>>>>>> upstream/master
                     }
                 ],
                 "parent": "38458800",
@@ -2467,5 +2801,9 @@
         ],
         "id": "38458800"
     },
+<<<<<<< HEAD
     "title": "Duck with image target"
+=======
+    "title": "testing: image target"
+>>>>>>> upstream/master
 }
