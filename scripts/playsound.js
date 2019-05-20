@@ -1,16 +1,25 @@
-
 /*
- #title toggle music
- #description does something
+#title Play Sound on event
+#description play a sound on a "trigger" event
 */
 ({
-  onMessage: function(e) {
-      console.log("got a message",e)
-      if(e.message === 'play') {
-          e.system.getAsset('sugar.mp3').play()
-      }
-      if(e.message === 'stop') {
-          e.system.getAsset('sugar.mp3').stop()
-      }
-  },
+    // defines a target property. must be a scene
+    properties: {
+        sound: {
+            type:'enum',
+                title: 'sound',
+                value:null,
+                hints: {
+                type:'audio',
+            }
+        },
+    },
+    trigger: function(e) {
+        let sound = this.properties.sound
+        if(!sound) {
+          this.logger.error("No sound property set")
+          return
+        }
+        this.playMediaAsset(sound)
+    }
 })

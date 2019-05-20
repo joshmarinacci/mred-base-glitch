@@ -1,55 +1,84 @@
-
 /*
- #title proximity event
- #description plays audio file when close enough to the target
+#title Proximity
+#description sends messages on proximity events
 */
 ({
-  // defines a target property. must be a scene
-  properties: {
-    distance: { 
-      type:'number', 
-      title: 'distance', 
-      value:2, 
+    properties: {
+        focus: {
+            type:'string',
+            value: null,
+        },
+        near: {
+            type:'number',
+            value: 3,
+        },
+        far: {
+            type:'number',
+            value: 5,
+        },
+        message: {
+            type:'string',
+            value: "trigger",
+        },      
     },
-    enterMessage: {
-        type:'string',
-        title:'enter message',
-        value:'entered',
+    tick: function(event) {
+      
+        let THREE = this.globals.THREE
+        let camera = this.camera
+        let target = event.target
+        let near = this.properties.near || 1
+        let far = this.properties.far || (near+1)
+        let focus = this.properties.focus || 0
+        let message = this.properties.message || "trigger"
+
+        // far must be EQUAL TO OR farther than near; and to avoid firing a zillion events best to have (far-near)>(some small number)
+        if(far<near)far=near+1
+        
+        // Is there another object to focus on aside from the camera?
+        if(focus && focus.length) {
+          focus = this.getThreeObjectByTitle(focus)
+        } else {
+          focus = 0
+        }
+
+        if(!focus) {
+          focus = camera
+        }
+
+        // TODO: unsure if these are automatically updated when camera matrix is directly updated
+        let focusPosition = new THREE.Vector3()
+        let focusQuaternion = new THREE.Quaternion()
+        focus.matrixWorld.decompose (focusPosition,focusQuaternion,new THREE.Vector3())
+
+        let distance = target.getWorldPosition(new THREE.Vector3()).distanceTo(focusPosition)
+        
+        // I need a lookaside list of who the target is already near
+        if(!focus.uuid) {
+          this.logger.error("no uuid")
+          return
+        }
+
+        if(!target.proximityCandidates) {
+          target.proximityCandidates = []
+        }
+        
+        // state latched?
+        let isNear = target.proximityCandidates[focus.uuid] || 0
+        if(isNear) {
+          // note - far may be EQUAL TO or farther than near, so test for any infinitesmal value greater than far
+          if(distance > far) {
+            // clear near state
+            target.proximityCandidates[focus.uuid] = 0
+            this.logger.log("further than far radius - send an exciting message now")
+            this.fireEvent("faraway",{})
+          }
+        } else {
+          // testing on the boundary condition of being EQUAL TO or closer
+          if(distance <= near) {
+            target.proximityCandidates[focus.uuid] = 1
+            this.logger.log("nearer than near radius - send an exciting message now")
+            this.fireEvent(message,{})
+          }
+        }      
     },
-    exitMessage: {
-        type:'string',
-        title:'exit message',
-        value:'exited',
-    },
-  },
-  init: function() {
-      console.log("initing the proximity detector")
-    //called when the program starts
-  },
-  onTick: function(e) {
-    const cam = e.system.getCamera()
-    const target = e.target
-    const dist = cam.position.distanceTo(target.getPosition())
-    let inside = e.system.getKeyValue('inside')
-    //console.log("dist",dist, e.props.distance, inside)
-    if(typeof inside === 'undefined') {
-        //console.log("setting first inside")
-        inside = dist < e.props.distance
-        e.system.setKeyValue('inside',inside)
-    }
-    if(dist < e.props.distance && !inside) {
-        inside = true
-        e.system.setKeyValue('inside',inside)
-        //console.log("went inside")
-        e.system.sendMessage('enter',e.props.enterMessage)
-        //e.system.getAsset('machines').play()
-    } 
-    if(dist >= e.props.distance && inside) {
-        inside = false
-        e.system.setKeyValue('inside',inside)
-        //e.system.getAsset('machines').stop()
-        e.system.sendMessage('exit',e.props.exitMessage)
-        //console.log("went outside")
-    }
-  }
 })
