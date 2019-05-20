@@ -136,7 +136,7 @@ function deleteDoc(id) {
 }
 app.post('/doc/delete/:id', checkAuth, (req,res)=>{
     deleteDoc(parseId(req))
-        .then(()=>res.json({success:true, script:id, message:'deleted'}))
+        .then(()=>res.json({success:true, script:req.params.id, message:'deleted'}))
         .catch((e)=> res.json({success:false, message:e}))
 })
 
@@ -243,12 +243,12 @@ app.get('/scripts/list',(req,res) => {
                     meta.url = `https://${process.env.PROJECT_DOMAIN}.glitch.me/scripts/${fileName}`
                     return meta
                 })
-        })).then(outs => {
-            res.json(outs)
-        }).catch(e => {
-            return res.json({success:false})
+            })).then(outs => {
+                res.json(outs)
+            }).catch(e => {
+                return res.json({success:false})
+            })
         })
-    })
 })
 
 app.get("/scripts/:id", (req, res) => {
@@ -281,6 +281,7 @@ function saveScript(name,req) {
         req.on('end', () => {
             file.end()
             parseScriptMetadata(filePath).then((info)=>{
+                console.log("saved",info)
                 res(info)
             })
         })
