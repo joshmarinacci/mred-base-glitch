@@ -38,7 +38,7 @@ app.get("/info", (req,res) => {
     res.json({
         assetUpload:false,
         authentication:true,
-        scriptEditing:false,
+        scriptEditing:true,
         passwordSupported:true,
         docDeleteSupported:true,
     })
@@ -96,78 +96,109 @@ function getDocList(cb) {
     })
 }
 
-app.get('/doc/list',checkAuth,(req,res) => {
+app.get('/doc/list',(req,res) => {
     getDocList().then(list => res.json(list))
 })
 
 app.get("/doc/:id", (req, res) => {
     const id = parseId(req)
     const pth = docPath(id)
-    console.log('docpath is',pth)
     res.sendFile(pth)
 })
 
+function saveDoc(id,body) {
+    console.log(`saving ${body.title}`)
+    const data = JSON.stringify(body, null, '    ');
+    return new Promise((res,rej) => {
+        fs.writeFile(docPath(id),data,(err)=>{
+            if(err) return rej(err)
+            return res(id)
+        })
+    })
+}
 
 app.post("/doc/:id",checkAuth, (req, res) => {
     const id = parseId(req)
-    console.log("body is",req.body)
-    console.log('title is',req.body.title)
-    const data = JSON.stringify(req.body, null, '    ');
-    //console.log("writing",data)
-    fs.writeFile(docPath(id),data,(err)=>{
-        if(err) {
-            console.log("failed",err)
-            res.json({success:false,message:"could not save"})
-        }
-        res.json({success:true,message:"saved it!"})
-    })
+    saveDoc(id,req.body)
+        .then(()=> res.json({success:true,message:"saved it!"}))
+        .catch((e) =>  res.json({success:false,message:"could not save"}))
 })
 
-
+function deleteDoc(id) {
+    return new Promise((res,rej)=>{
+        const pth = docPath(id)
+        console.log("deleting",id,pth)
+        fs.unlink(pth,(err)=>{
+            if(err) return rej(err)
+            return res(id)
+        })
+    })
+}
 app.post('/doc/delete/:id', checkAuth, (req,res)=>{
-    const id = parseId(req)
-    const pth = docPath(id)
-    console.log("trying to delete",id,pth)
-    fs.unlinkSync(pth)
-    res.json({success:true, script:id, message:'deleted'})
+    deleteDoc(parseId(req))
+        .then(()=>res.json({success:true, script:req.params.id, message:'deleted'}))
+        .catch((e)=> res.json({success:false, message:e}))
 })
 
 
 function supportedMimetype(type,name) {
-    console.log('checking type',type,name)
+    console.log('checking mimetype type',type,name)
+
     if(type === 'image/png') return true
     if(type === 'image/jpeg') return true
+    if(type === 'image/gif') return true
+
     if(type === 'audio/mpeg') return true
+    if(type === 'audio/aac') return true
+    if(type === 'audio/wav') return true
+    if(type === 'audio/x-wav') return true
+
     if(type === 'video/mp4') return true
     if(type === 'model/gltf-binary') return true
     return false
 }
 
-app.get('/asset/list',(req,res) => {
-    let assetsStr = (fs.readFileSync(paths.join(process.cwd(),'.glitch-assets')).toString())
-    const assets = assetsStr.split("\n")
-        .filter(str => str.trim().length > 0)
-        .map(e => JSON.parse(e))
-        .filter(e => !e.deleted)
-        .map(el => {
-            console.log("element",el)
-            console.log('type',el.type, el.name)
-            let type = el.type
-            if(el.name.toLowerCase().endsWith('.glb')) {
-                type = 'model/gltf-binary'
-            }
-            el = {
-                kind:'asset',
-                id:el.uuid,
-                url:el.url,
-                mimeType:type,
-                title:el.name,
-            }
-            return el
+function fixMimetype(type, name) {
+    if(name.toLowerCase().endsWith('.glb')) {
+        console.log("setting .glb to model/gltf-binary")
+        return 'model/gltf-binary'
+    }
+    return type
+}
+function listAssets() {
+    return new Promise((res,rej)=>{
+        fs.readFile(paths.join(process.cwd(),'.glitch-assets'),(err,buffer)=>{
+            if(err) return rej(err)
+            let assetsStr = buffer.toString()
+            const assets = assetsStr
+                .split("\n")
+                .filter(str => str.trim().length > 0)
+                .map(e => JSON.parse(e))
+                .filter(e => !e.deleted)
+            res(assets)
         })
-        .filter(e => supportedMimetype(e.mimeType, e.title))
-    console.log("assets", assets)
-    res.json(assets)
+        // let assetsStr = (fs.readFile(paths.join(process.cwd(),'.glitch-assets')).toString())
+    })
+}
+app.get('/asset/list',(req,res) => {
+    listAssets().then(assets => {
+        assets = assets
+            .map(el => {
+                return {
+                    kind:'asset',
+                    id:el.uuid,
+                    url:el.url,
+                    mimeType:fixMimetype(el.type,el.name),
+                    title:el.name,
+                }
+            })
+            .filter(e => supportedMimetype(e.mimeType, e.title))
+        console.log("final assets list", assets)
+        res.json(assets)
+    }).catch(()=>{
+        console.log("problem loading assets. file missing? returning empty list")
+        res.json([])
+    })
 })
 
 
@@ -192,30 +223,77 @@ function parseScriptMetadata(fpath) {
     })
 }
 
-
-app.get('/scripts/list',(req,res) => {
-    console.log(process.env.PROJECT_DOMAIN)
-    fs.readdir(paths.join(__dirname, scripts_dir),(e,files)=>{
-        if(e) return res.json({success:false})
-        Promise.all(files.map(name =>  {
-            const fpath = paths.join(__dirname, scripts_dir,name)
-            return parseScriptMetadata(fpath).then(meta => {
-                const id = name.substring(0,name.length-'.js'.length)
-                let title = id
-                meta.name = name
-                meta.url = `https://${process.env.PROJECT_DOMAIN}.glitch.me/scripts/${name}`
-                return meta
-            })
-        })).then(outs => {
-            res.json(outs)
+function listScripts() {
+    return new Promise((res,rej)=>{
+        fs.readdir(paths.join(__dirname, scripts_dir),(e,files)=> {
+            if(e) return rej(e)
+            res(files)
         })
     })
+}
+
+app.get('/scripts/list',(req,res) => {
+    listScripts()
+        .then((files)=>{
+            console.log("the project domain is",process.env.PROJECT_DOMAIN)
+            Promise.all(files.map(fileName =>  {
+                const fpath = paths.join(__dirname, scripts_dir,fileName)
+                return parseScriptMetadata(fpath).then(meta => {
+                    meta.name = fileName
+                    meta.url = `https://${process.env.PROJECT_DOMAIN}.glitch.me/scripts/${fileName}`
+                    return meta
+                })
+            })).then(outs => {
+                res.json(outs)
+            }).catch(e => {
+                return res.json({success:false})
+            })
+        })
 })
 
 app.get("/scripts/:id", (req, res) => {
-    const pth = paths.join(__dirname,scripts_dir,req.params.id)
-    console.log('docpath is',pth)
-    res.sendFile(pth)
+    res.sendFile(paths.join(__dirname,scripts_dir,req.params.id))
+})
+
+function deleteScript(name) {
+    const filePath = paths.join(__dirname,scripts_dir,name)
+    return new Promise((res,rej)=>{
+        console.log("deleting",filePath)
+        fs.unlink(filePath,(err)=>{
+            if(err) return rej(err)
+            return res(name)
+        })
+    })
+}
+app.post('/scripts/delete/:name', checkAuth, (req,res)=>{
+    deleteScript(req.params.name)
+        .then(()=>{
+            res.json({success:true, script:req.params.name, message:'deleted'})
+        })
+        .catch(e => res.json({success:false, message:e.message}))
+})
+
+function saveScript(name,req) {
+    const filePath = paths.join(__dirname,scripts_dir,name)
+    return new Promise((res,rej)=>{
+        const file = fs.createWriteStream(filePath)
+        req.on('data',(chunk) => file.write(chunk))
+        req.on('end', () => {
+            file.end()
+            parseScriptMetadata(filePath).then((info)=>{
+                console.log("saved",info)
+                res(info)
+            })
+        })
+        req.on('error',(e)=>{
+            rej(e)
+        })
+    })
+}
+app.post('/scripts/:name',checkAuth, (req,res)=>{
+    saveScript(req.params.name,req)
+        .then((script)=>res.json({success:true, script:script, message:'saved'}))
+        .catch(e => res.json({success:false, message:e.message}))
 })
 
 
@@ -256,10 +334,6 @@ if(navigator.xr) {
 </html>
 `)
     })
-    // const pth = __dirname + '/views/index.html'
-    // const pth = docPath('foo')
-    // console.log('sending',pth)
-    // response.sendFile(pth);
 });
 
 
