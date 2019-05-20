@@ -255,6 +255,46 @@ app.get("/scripts/:id", (req, res) => {
     res.sendFile(paths.join(__dirname,scripts_dir,req.params.id))
 })
 
+function deleteScript(name) {
+    const filePath = paths.join(__dirname,scripts_dir,name)
+    return new Promise((res,rej)=>{
+        console.log("deleting",filePath)
+        fs.unlink(filePath,(err)=>{
+            if(err) return rej(err)
+            return res(name)
+        })
+    })
+}
+app.post('/scripts/delete/:name', checkAuth, (req,res)=>{
+    deleteScript(req.params.name)
+        .then(()=>{
+            res.json({success:true, script:req.params.name, message:'deleted'})
+        })
+        .catch(e => res.json({success:false, message:e.message}))
+})
+
+function saveScript(name,req) {
+    const filePath = paths.join(__dirname,scripts_dir,name)
+    return new Promise((res,rej)=>{
+        const file = fs.createWriteStream(filePath)
+        req.on('data',(chunk) => file.write(chunk))
+        req.on('end', () => {
+            file.end()
+            parseScriptMetadata(filePath).then((info)=>{
+                res(info)
+            })
+        })
+        req.on('error',(e)=>{
+            rej(e)
+        })
+    })
+}
+app.post('/scripts/:name',checkAuth, (req,res)=>{
+    saveScript(req.params.name,req)
+        .then((script)=>res.json({success:true, script:script, message:'saved'}))
+        .catch(e => res.json({success:false, message:e.message}))
+})
+
 
 // http://expressjs.com/en/starter/basic-routing.html
 app.get('/', function(request, response) {
