@@ -283,14 +283,72 @@
             "value": "65770342",
             "entryid": "54063218",
             "prev": -1
+        },
+        {
+            "type": "CREATE_OBJECT",
+            "host": "35889825",
+            "timestamp": 1558400496143,
+            "uuid": "20119424",
+            "seq": 1,
+            "id": "9721",
+            "defaults": {
+                "type": "behavior_script",
+                "title": " Billboard",
+                "description": " face you and stay at a constant size regardless of distance or camera fov",
+                "src": "billboard.js",
+                "parent": 0
+            }
+        },
+        {
+            "type": "SET_PROPERTY",
+            "host": "35889825",
+            "timestamp": 1558400501344,
+            "uuid": "49230701",
+            "seq": 2,
+            "object": "9721",
+            "name": "parent",
+            "value": "26307193"
+        },
+        {
+            "type": "INSERT_ELEMENT",
+            "host": "35889825",
+            "timestamp": 1558400501344,
+            "uuid": "33462843",
+            "seq": 3,
+            "array": "63431201",
+            "value": "9721",
+            "entryid": "44978237",
+            "prev": "99271468"
+        },
+        {
+            "type": "SET_PROPERTY",
+            "host": "35889825",
+            "timestamp": 1558400525212,
+            "uuid": "93820040",
+            "seq": 4,
+            "object": "42834946",
+            "name": "title",
+            "value": "Simple Cube",
+            "prevValue": "Untitled Project"
+        },
+        {
+            "type": "SET_PROPERTY",
+            "host": "35889825",
+            "timestamp": 1558400525761,
+            "uuid": "51232698",
+            "seq": 5,
+            "object": "42834946",
+            "name": "defaultScene",
+            "value": "12117089",
+            "prevValue": 0
         }
     ],
     "type": "vr",
     "id": "doc_86609581",
     "graph": {
         "type": "root",
-        "title": "Untitled Project",
-        "defaultScene": 0,
+        "title": "Simple Cube",
+        "defaultScene": "12117089",
         "children": [
             {
                 "type": "scene",
@@ -345,6 +403,14 @@
                         "src": "spin.js",
                         "parent": "26307193",
                         "id": "94534420"
+                    },
+                    {
+                        "type": "behavior_script",
+                        "title": " Billboard",
+                        "description": " face you and stay at a constant size regardless of distance or camera fov",
+                        "src": "billboard.js",
+                        "parent": "26307193",
+                        "id": "9721"
                     }
                 ],
                 "parent": "42834946",
@@ -360,5 +426,5 @@
         ],
         "id": "42834946"
     },
-    "title": "Untitled Project"
+    "title": "Simple Cube"
 }
