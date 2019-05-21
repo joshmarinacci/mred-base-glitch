@@ -41,6 +41,7 @@
           focus = 0
         }
 
+        // always use the camera if target not found
         if(!focus) {
           focus = camera
         }
@@ -50,32 +51,22 @@
         let focusQuaternion = new THREE.Quaternion()
         focus.matrixWorld.decompose (focusPosition,focusQuaternion,new THREE.Vector3())
 
+        // distance between parties?
         let distance = target.getWorldPosition(new THREE.Vector3()).distanceTo(focusPosition)
         
-        // I need a lookaside list of who the target is already near
-        if(!focus.uuid) {
-          this.logger.error("no uuid")
-          return
-        }
-
-        if(!target.proximityCandidates) {
-          target.proximityCandidates = []
-        }
-        
         // state latched?
-        let isNear = target.proximityCandidates[focus.uuid] || 0
-        if(isNear) {
+        if(this.isNear) {
           // note - far may be EQUAL TO or farther than near, so test for any infinitesmal value greater than far
           if(distance > far) {
             // clear near state
-            target.proximityCandidates[focus.uuid] = 0
+            this.isNear = 0
             this.logger.log("further than far radius - send an exciting message now")
             this.fireEvent("faraway",{})
           }
         } else {
           // testing on the boundary condition of being EQUAL TO or closer
           if(distance <= near) {
-            target.proximityCandidates[focus.uuid] = 1
+            this.isNear = 1
             this.logger.log("nearer than near radius - send an exciting message now")
             this.fireEvent(message,{})
           }
