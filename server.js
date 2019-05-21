@@ -314,11 +314,11 @@ app.get('/', function(request, response) {
       <li>
           ${doc.title}
         <a class='edit'
-href="./.build/?SERVER_URL=${process.env.PROJECT_DOMAIN}.glitch.me&mode=edit&doc=${doc.id}">
+href="./.general-editor/build/?SERVER_URL=${process.env.PROJECT_DOMAIN}.glitch.me&mode=edit&doc=${doc.id}">
           edit
         </a>
         <a class='view'
-href="./.build/?SERVER_URL=${process.env.PROJECT_DOMAIN}.glitch.me&mode=vrview&doc=${doc.id}">
+href="./.general-editor/build/?SERVER_URL=${process.env.PROJECT_DOMAIN}.glitch.me&mode=vrview&doc=${doc.id}">
           view
         </a>
       </li>
@@ -329,7 +329,7 @@ href="./.build/?SERVER_URL=${process.env.PROJECT_DOMAIN}.glitch.me&mode=vrview&d
  <link rel='stylesheet' href="./frontpage.css">
 </head>
 <body>
-<a href="./.build/?SERVER_URL=${process.env.PROJECT_DOMAIN}.glitch.me&mode=edit">make new project</a>
+<a href="./.general-editor/build/?SERVER_URL=${process.env.PROJECT_DOMAIN}.glitch.me&mode=edit">make new project</a>
 <h3>existing projects</h3>
 <ul>
 ${list.join("")}
