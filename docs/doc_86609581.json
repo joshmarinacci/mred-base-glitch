@@ -1092,6 +1092,50 @@
             "name": "enter",
             "value": "let vid = this.getObjectById(51545841)\nthis.playMedia(vid.id)",
             "prevValue": "let vid = this.getObjectByTitle(\"jon-awesome.mp4\")\nthis.playMedia(vid.id)"
+        },
+        {
+            "type": "SET_PROPERTY",
+            "host": "41741124",
+            "timestamp": 1558438600947,
+            "uuid": "80504088",
+            "seq": 10,
+            "object": "8298078",
+            "name": "enter",
+            "value": "let vid1 = this.getObjectByTitle(\"jon-awesome.mp4\")\nthis.logger.log(\"bytitle\", vid1)\n\nlet vid = this.getObjectById(51545841)\nthis.logger.log(\"byId\", vid)\nthis.playMedia(vid.id)",
+            "prevValue": "let vid = this.getObjectById(51545841)\nthis.playMedia(vid.id)"
+        },
+        {
+            "type": "SET_PROPERTY",
+            "host": "41741124",
+            "timestamp": 1558438611150,
+            "uuid": "21672696",
+            "seq": 11,
+            "object": "8298078",
+            "name": "enter",
+            "value": "let vid1 = this.getObjectByTitle(\"jon-awesome.mp4\")\nthis.logger.log(\"bytitle\", vid1)\n\nlet vid = this.getObjectById(51545841)\nthis.logger.log(\"byId\", vid)\nthis.playMedia(vid.id)",
+            "prevValue": "let vid1 = this.getObjectByTitle(\"jon-awesome.mp4\")\nthis.logger.log(\"bytitle\", vid1)\n\nlet vid = this.getObjectById(51545841)\nthis.logger.log(\"byId\", vid)\nthis.playMedia(vid.id)"
+        },
+        {
+            "type": "SET_PROPERTY",
+            "host": "41741124",
+            "timestamp": 1558438617824,
+            "uuid": "85164101",
+            "seq": 12,
+            "object": "8298078",
+            "name": "enter",
+            "value": "let vid1 = this.getObjectByTitle(\"jon-awesome.mp4\")\nthis.logger.log(\"bytitle\", vid1)\n\nlet vid = this.getObjectById(51545841)\nthis.logger.log(\"byId\", vid)\nthis.playMedia(vid.id)",
+            "prevValue": "let vid1 = this.getObjectByTitle(\"jon-awesome.mp4\")\nthis.logger.log(\"bytitle\", vid1)\n\nlet vid = this.getObjectById(51545841)\nthis.logger.log(\"byId\", vid)\nthis.playMedia(vid.id)"
+        },
+        {
+            "type": "SET_PROPERTY",
+            "host": "41741124",
+            "timestamp": 1558438624603,
+            "uuid": "17877961",
+            "seq": 13,
+            "object": "8298078",
+            "name": "enter",
+            "value": "let vid1 = this.getObjectByTitle(\"jon-awesome.mp4\")\nthis.logger.log(\"bytitle\", vid1)\n\nlet vid = this.getObjectById(51545841)\nthis.logger.log(\"byId\", vid)\nthis.playMedia(vid.id)",
+            "prevValue": "let vid1 = this.getObjectByTitle(\"jon-awesome.mp4\")\nthis.logger.log(\"bytitle\", vid1)\n\nlet vid = this.getObjectById(51545841)\nthis.logger.log(\"byId\", vid)\nthis.playMedia(vid.id)"
         }
     ],
     "type": "vr",
@@ -1142,7 +1186,7 @@
                                 "behavior": "53474490",
                                 "start": "",
                                 "stop": "",
-                                "enter": "let vid = this.getObjectById(51545841)\nthis.playMedia(vid.id)",
+                                "enter": "let vid1 = this.getObjectByTitle(\"jon-awesome.mp4\")\nthis.logger.log(\"bytitle\", vid1)\n\nlet vid = this.getObjectById(51545841)\nthis.logger.log(\"byId\", vid)\nthis.playMedia(vid.id)",
                                 "exit": "",
                                 "tick": "",
                                 "message": "",
