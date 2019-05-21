@@ -14,8 +14,10 @@ If you are viewing this file on Github and want to use it in Glitch, follow thes
 * click the `clone or download` button above and copy the https repo link into the clipboard.
 * Go to Glitch.com and log in.
 * create a new project. In the new project dropdown menu choose `Clone from git repo` then paste in the URL.
-* Glitch will clone the repo and automatically install the required dependencies.  Your project is now set up.
+* Glitch will clone the repo and automatically install some of the required dependencies.  
+* Open the glitch console and run `git submodule init` and `git submodule update` to fetch the appropriate version of the editor build
 * Create a .env file at the top level, and add a password with the line `PASSWORD=mypassword`
+* Your project is now set up.
 * You can now create new documents, new behaviors, and upload assets. Once you are done anyone else can remix this
 Glitch to use as a starting point.
 
