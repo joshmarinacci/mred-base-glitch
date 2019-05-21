@@ -1,6 +1,6 @@
 /*
 #title Spinner
-#description spins shape around the y axis at a certain speed
+#description spins shape around the y axis at "speed" times per second
 */
 ({
     properties: {
@@ -10,7 +10,7 @@
         }
     },
     tick: function(e) {
-        let degrees = 2 * Math.PI * e.deltaTime * this.properties.speed 
+        let degrees = 2 * Math.PI * (e.deltaTime/1000) * this.properties.speed 
         e.target.rotation.y += degrees
     },
 })
