@@ -15,6 +15,8 @@
         },
     },
     trigger: function(e) {
+        this.logger.error("received trigger, playing sound")
+
         let sound = this.properties.sound
         if(!sound) {
           this.logger.error("No sound property set")
