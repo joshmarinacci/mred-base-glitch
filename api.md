@@ -11,7 +11,7 @@
 * `event.time`: the time of the most recent tick event
 * `event.deltaTime`: (only in `tick`) the elapsed time since last tick
 * `event.name`: (only in `message`) the name of the message
-* `event.payload`: (only in `message` and som)
+* `event.data`: arbitrary data in `message`, and optional event specific data in other events
 	
 #### behavior event handlers:
 
@@ -19,7 +19,7 @@
 * `enter()`: called when entering a scene
 * `exit()`: called when exiting a scene
 * `message()`: called when a message is received
-* `tick()`
+* `tick()`: called each time the graphics will be rendered, 30 or more times per second
 * `stop()` called when the system stops
 	
 #### properties available to behavior event handlers
