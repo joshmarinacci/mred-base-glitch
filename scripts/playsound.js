@@ -14,12 +14,12 @@
             }
         },
     },
-    trigger: function(e) {
+    trigger: function(event) {
         let sound = this.properties.sound
         if(!sound) {
           this.logger.error("No sound property set")
           return
         }
-        this.playMediaAsset(sound)
+        this.playSound(sound)
     }
 })

@@ -9,7 +9,7 @@
             value: 1,
         }
     },
-    tick: function(e) {
-        this.target.rotation.y += this.properties.speed/100
+    tick: function(event) {
+        event.target.rotation.y += this.properties.speed/100
     },
 })
