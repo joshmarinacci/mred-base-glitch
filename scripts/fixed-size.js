@@ -20,6 +20,13 @@
             help:"Scaling factor to apply as a function of the distance"
         }
     },
+    start: function (event) {
+        let THREE = this.globals.THREE
+
+        this.cameraPos = new THREE.Vector3()
+        this.thisPos = new THREE.Vector3()
+    },
+
     tick: function(event) {
         let THREE = this.globals.THREE
         
@@ -29,52 +36,26 @@
         let props = this.properties
         let near = props.near || 0
         let far = props.far || 0
-        let size = pros.size || 0.1
+        let size = props.size || 1
 
-        if(!focus) {
-          focus = camera
-        }
-      
-        // TODO: unsure if these are automatically updated when camera matrix is directly updated
-        let focusPosition = new THREE.Vector3()
-        let focusQuaternion = new THREE.Quaternion()
-        focus.matrixWorld.decompose (focusPosition,focusQuaternion,new THREE.Vector3())
-
-        // if no distance is supplied then use the current distance
-        if(!distance) {
-            distance = target.getWorldPosition(new THREE.Vector3()).distanceTo(focusPosition)
-        }
+        camera.getWorldPosition(this.cameraPos);
+        target.getWorldPosition(this.thisPos);
+        var distance = this.thisPos.distanceTo(this.cameraPos);
       
         // optional limits
         if(near) {
           if(distance < near) distance = near
+        } else {
+          if (distance < camera.near) distance = camera.near 
         }
+      
         if(far) {
           if(distance > far) distance = far
         }
 
-        // if a size is supplied then adjust the size to remain constant
-        // note this option fights with infrontof somewhat and probably should not be used at the same time
-        // also fov would need to be added as a property above since this code now has a generic focus
-        if(size) {
-            // for a 45' aperture camera the apparent size of an object is linear with distance
-            let scale = distance * size
-            // let scale = distance * size * Math.tan(THREE.Math.degToRad(camera.fov) / 2) * 2;
-            target.scale.set(scale,scale,scale)
-        }
-
-        // look at the focus if desired
-        if(lookat) {
-            target.lookAt(focusPosition)
-            target.matrixWorldNeedsUpdate = true
-        }
-
-        // be in front of the focus if desired
-        if(infrontof) {
-            target.position.set(0,0,distance)
-            target.position.applyQuaternion( focusQuaternion )
-            target.matrixWorldNeedsUpdate = true
-        }
-
+        // for a 45' aperture camera the apparent size of an object is linear with distance
+        let scale = distance * size
+        // let scale = distance * size * Math.tan(THREE.Math.degToRad(camera.fov) / 2) * 2;
+        target.scale.set(scale,scale,scale)
     },
 })
