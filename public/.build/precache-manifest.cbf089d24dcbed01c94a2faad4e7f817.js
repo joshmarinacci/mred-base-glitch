@@ -1,10 +1,24 @@
 self.__precacheManifest = [
   {
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD:public/.build/precache-manifest.4ff49dc6b9c651c66c45d4586abb6eb5.js
+    "revision": "b06871f281fee6b241d60582ae9369b9",
+    "url": "./static/media/fontawesome-webfont.b06871f2.ttf"
+  },
+  {
+    "revision": "6d2a127a62e631e4cb65",
+=======
+>>>>>>> upstream/master
     "revision": "fee66e712a8a08eef5805a46892932ad",
     "url": "./static/media/fontawesome-webfont.fee66e71.woff"
   },
   {
     "revision": "0fbb0134b6099fc8c5ae",
+<<<<<<< HEAD
+=======
+>>>>>>> upstream/master:public/.build/precache-manifest.cbf089d24dcbed01c94a2faad4e7f817.js
+>>>>>>> upstream/master
     "url": "./static/css/main.0033c942.chunk.css"
   },
   {
@@ -20,14 +34,39 @@ self.__precacheManifest = [
     "url": "./static/js/runtime~main.4a686d48.js"
   },
   {
+<<<<<<< HEAD
     "revision": "0fbb0134b6099fc8c5ae",
     "url": "./static/js/main.0fbb0134.chunk.js"
+  },
+  {
+=======
+<<<<<<< HEAD:public/.build/precache-manifest.4ff49dc6b9c651c66c45d4586abb6eb5.js
+    "revision": "6d2a127a62e631e4cb65",
+    "url": "./static/js/main.6d2a127a.chunk.js"
+=======
+    "revision": "0fbb0134b6099fc8c5ae",
+    "url": "./static/js/main.0fbb0134.chunk.js"
+>>>>>>> upstream/master:public/.build/precache-manifest.cbf089d24dcbed01c94a2faad4e7f817.js
   },
   {
     "revision": "af7ae505a9eed503f8b8e6982036873e",
     "url": "./static/media/fontawesome-webfont.af7ae505.woff2"
   },
   {
+<<<<<<< HEAD:public/.build/precache-manifest.4ff49dc6b9c651c66c45d4586abb6eb5.js
+>>>>>>> upstream/master
+    "revision": "af7ae505a9eed503f8b8e6982036873e",
+    "url": "./static/media/fontawesome-webfont.af7ae505.woff2"
+  },
+  {
+<<<<<<< HEAD
+=======
+    "revision": "912ec66d7572ff821749319396470bde",
+    "url": "./static/media/fontawesome-webfont.912ec66d.svg"
+  },
+  {
+=======
+>>>>>>> upstream/master
     "revision": "b06871f281fee6b241d60582ae9369b9",
     "url": "./static/media/fontawesome-webfont.b06871f2.ttf"
   },
@@ -36,11 +75,23 @@ self.__precacheManifest = [
     "url": "./static/media/fontawesome-webfont.674f50d2.eot"
   },
   {
+<<<<<<< HEAD
+=======
+>>>>>>> upstream/master:public/.build/precache-manifest.cbf089d24dcbed01c94a2faad4e7f817.js
+>>>>>>> upstream/master
     "revision": "bd8464668dc9c26c7e9b",
     "url": "./static/css/1.50a1c615.chunk.css"
   },
   {
+<<<<<<< HEAD
     "revision": "34b6e17119f65eeae4f72f60c6c4fb8e",
+=======
+<<<<<<< HEAD:public/.build/precache-manifest.4ff49dc6b9c651c66c45d4586abb6eb5.js
+    "revision": "2ddc569b44fb114e8673a1bbfc46030a",
+=======
+    "revision": "34b6e17119f65eeae4f72f60c6c4fb8e",
+>>>>>>> upstream/master:public/.build/precache-manifest.cbf089d24dcbed01c94a2faad4e7f817.js
+>>>>>>> upstream/master
     "url": "./index.html"
   }
 ];
