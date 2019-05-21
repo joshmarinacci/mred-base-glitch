@@ -176,10 +176,13 @@ function listAssets() {
                 .map(e => JSON.parse(e))
             const deleted = assets.filter(e => e.deleted)
             const cleanAssets = assets.filter(ae => {
+              var keep = true
               deleted.forEach(de => {
-                if (ae.uuid === de.uuid) return false
+                if (ae.uuid === de.uuid) {
+                  keep = false
+                }
               })
-              return true
+              return keep
             })
             res(cleanAssets)
         })
