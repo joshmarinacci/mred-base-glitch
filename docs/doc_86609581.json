@@ -916,6 +916,83 @@
             "array": "82195921",
             "entry": "99972293",
             "value": "24644236"
+        },
+        {
+            "type": "SET_PROPERTY",
+            "host": "51624646",
+            "timestamp": 1558435600272,
+            "uuid": "42287068",
+            "seq": 1,
+            "object": "51545841",
+            "name": "title",
+            "value": "jon-awesome.mp4",
+            "prevValue": "jon-awesome.mp4"
+        },
+        {
+            "type": "SET_PROPERTY",
+            "host": "51624646",
+            "timestamp": 1558435841867,
+            "uuid": "60638166",
+            "seq": 2,
+            "object": "51545841",
+            "name": "title",
+            "value": "jon-awesome.mp4",
+            "prevValue": "jon-awesome.mp4"
+        },
+        {
+            "type": "SET_PROPERTY",
+            "host": "51624646",
+            "timestamp": 1558435860206,
+            "uuid": "97262515",
+            "seq": 3,
+            "object": "51545841",
+            "name": "title",
+            "value": "jon-awesome.mp4",
+            "prevValue": "jon-awesome.mp4"
+        },
+        {
+            "type": "SET_PROPERTY",
+            "host": "51624646",
+            "timestamp": 1558436321094,
+            "uuid": "43862372",
+            "seq": 4,
+            "object": "8298078",
+            "name": "enter",
+            "value": "        this.getAsset(sound.title).play()\n",
+            "prevValue": "this.playMedia(51545841)"
+        },
+        {
+            "type": "SET_PROPERTY",
+            "host": "51624646",
+            "timestamp": 1558436338730,
+            "uuid": "69408634",
+            "seq": 5,
+            "object": "8298078",
+            "name": "enter",
+            "value": "this.getAsset(\"jon-awesome.mp4\").play()\n",
+            "prevValue": "        this.getAsset(sound.title).play()\n"
+        },
+        {
+            "type": "SET_PROPERTY",
+            "host": "51624646",
+            "timestamp": 1558436461779,
+            "uuid": "67209751",
+            "seq": 6,
+            "object": "8298078",
+            "name": "enter",
+            "value": "this.getAssetByTitle(\"jon-awesome.mp4\").play()\n",
+            "prevValue": "this.getAsset(\"jon-awesome.mp4\").play()\n"
+        },
+        {
+            "type": "SET_PROPERTY",
+            "host": "51624646",
+            "timestamp": 1558436462657,
+            "uuid": "16279035",
+            "seq": 7,
+            "object": "8298078",
+            "name": "exit",
+            "value": "",
+            "prevValue": ""
         }
     ],
     "type": "vr",
@@ -966,7 +1043,7 @@
                                 "behavior": "53474490",
                                 "start": "",
                                 "stop": "",
-                                "enter": "this.playMedia(51545841)",
+                                "enter": "this.getAssetByTitle(\"jon-awesome.mp4\").play()\n",
                                 "exit": "",
                                 "tick": "",
                                 "message": "",
