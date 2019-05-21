@@ -42,8 +42,9 @@ Note: `message` events are directed at one object by a script, and only go to th
 * `this.getCurrentScene()`: a reference to the current scene
 * `this.getThreeObjectByTitle(title)`: find the ThreeJS object by its title
 * `this.getThreeObjectById(id)`: find the ThreeJS object by its title
+* `this.getObjectByTitle(title)`: find an object by its title
 * `this.getObjectById(id)`: find the document object by its id
-* `this.getAssetByTitle(title)`: find an asset by its title
+* `this.getAssetByTitle(title)`: find an asset by its title. Assets have `play()` and `stop()` methods on them
 * `this.navigateScene(id)`: navigate to a new scene, by id
 * `this.playSound(id)`: (deprecated) play a sound by id
 * `this.playMedia(id)` : play a sound or video by id
