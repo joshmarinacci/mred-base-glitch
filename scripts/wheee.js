@@ -17,7 +17,7 @@
           type: 'boolean',
           value: false
         }
-    },
+    }, 
 
     wheee: function(e) {
       let props = this.properties
