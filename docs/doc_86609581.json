@@ -352,6 +352,570 @@
             "name": "title",
             "value": "spinning cube",
             "prevValue": "Simple Cube"
+        },
+        {
+            "type": "CREATE_OBJECT",
+            "host": "73534561",
+            "timestamp": 1558432338347,
+            "uuid": "46205014",
+            "seq": 1,
+            "id": "51545841",
+            "defaults": {
+                "type": "asset",
+                "subtype": "video",
+                "assetId": "eHA4s4Z3yIVvrw6N",
+                "format": "video/mp4",
+                "src": "https://cdn.glitch.com/d08bbb6e-bd26-4c39-b1e0-7c580818c692%2Fjon-awesome.mp4",
+                "title": "jon-awesome.mp4",
+                "parent": 0
+            }
+        },
+        {
+            "type": "SET_PROPERTY",
+            "host": "73534561",
+            "timestamp": 1558432338348,
+            "uuid": "53806846",
+            "seq": 2,
+            "object": "51545841",
+            "name": "parent",
+            "value": "56394886"
+        },
+        {
+            "type": "INSERT_ELEMENT",
+            "host": "73534561",
+            "timestamp": 1558432338349,
+            "uuid": "37462275",
+            "seq": 3,
+            "array": "82195921",
+            "value": "51545841",
+            "entryid": "65853904",
+            "prev": -1
+        },
+        {
+            "type": "CREATE_ARRAY",
+            "host": "73534561",
+            "timestamp": 1558432366330,
+            "uuid": "80942077",
+            "seq": 4,
+            "id": "50201767"
+        },
+        {
+            "type": "CREATE_OBJECT",
+            "host": "73534561",
+            "timestamp": 1558432366331,
+            "uuid": "27464127",
+            "seq": 5,
+            "id": "19444882",
+            "defaults": {
+                "type": "plane",
+                "title": "a plane",
+                "visible": true,
+                "width": 0.5,
+                "height": 0.5,
+                "tx": 0,
+                "ty": 0,
+                "tz": 0,
+                "rx": 0,
+                "ry": 0,
+                "rz": 0,
+                "sx": 1,
+                "sy": 1,
+                "sz": 1,
+                "color": "#ffffff",
+                "children": "50201767",
+                "asset": -30,
+                "parent": "12117089"
+            }
+        },
+        {
+            "type": "SET_PROPERTY",
+            "host": "73534561",
+            "timestamp": 1558432366331,
+            "uuid": "78638245",
+            "seq": 6,
+            "object": "19444882",
+            "name": "parent",
+            "value": "12117089"
+        },
+        {
+            "type": "INSERT_ELEMENT",
+            "host": "73534561",
+            "timestamp": 1558432366332,
+            "uuid": "58172000",
+            "seq": 7,
+            "array": "5367196",
+            "value": "19444882",
+            "entryid": "56259161",
+            "prev": -1
+        },
+        {
+            "type": "SET_PROPERTY",
+            "host": "73534561",
+            "timestamp": 1558432370998,
+            "uuid": "55050493",
+            "seq": 11,
+            "object": "19444882",
+            "name": "asset",
+            "value": "51545841",
+            "prevValue": -30
+        },
+        {
+            "type": "SET_PROPERTY",
+            "host": "3444616",
+            "timestamp": 1558432655946,
+            "uuid": "20469739",
+            "seq": 293,
+            "object": "19444882",
+            "name": "ty",
+            "value": 0.5045329323768419,
+            "prevValue": 0.009112526060579995
+        },
+        {
+            "type": "SET_PROPERTY",
+            "host": "3444616",
+            "timestamp": 1558432670304,
+            "uuid": "48115816",
+            "seq": 785,
+            "object": "19444882",
+            "name": "ty",
+            "value": 0.40120346163243736,
+            "prevValue": 0.5022026431095927
+        },
+        {
+            "type": "CREATE_OBJECT",
+            "host": "20751728",
+            "timestamp": 1558433587110,
+            "uuid": "31715533",
+            "seq": 10,
+            "id": "72202057",
+            "defaults": {
+                "type": "behavior",
+                "title": " Spinner",
+                "description": " spins shape around the y axis at a certain speed",
+                "parent": 0,
+                "behavior": "94534420",
+                "speed": 1
+            }
+        },
+        {
+            "type": "SET_PROPERTY",
+            "host": "20751728",
+            "timestamp": 1558433587125,
+            "uuid": "13002690",
+            "seq": 11,
+            "object": "72202057",
+            "name": "parent",
+            "value": "19444882"
+        },
+        {
+            "type": "INSERT_ELEMENT",
+            "host": "20751728",
+            "timestamp": 1558433587138,
+            "uuid": "44214598",
+            "seq": 12,
+            "array": "50201767",
+            "value": "72202057",
+            "entryid": "5595414",
+            "prev": -1
+        },
+        {
+            "type": "SET_PROPERTY",
+            "host": "20751728",
+            "timestamp": 1558433595201,
+            "uuid": "88820758",
+            "seq": 19,
+            "object": "72202057",
+            "name": "speed",
+            "value": 1,
+            "prevValue": 1
+        },
+        {
+            "type": "SET_PROPERTY",
+            "host": "20751728",
+            "timestamp": 1558433595530,
+            "uuid": "11923176",
+            "seq": 20,
+            "object": "72202057",
+            "name": "speed",
+            "value": 0.1,
+            "prevValue": 1
+        },
+        {
+            "type": "SET_PROPERTY",
+            "host": "20751728",
+            "timestamp": 1558433597014,
+            "uuid": "286716",
+            "seq": 21,
+            "object": "72202057",
+            "name": "speed",
+            "value": 0.1,
+            "prevValue": 0.1
+        },
+        {
+            "type": "CREATE_OBJECT",
+            "host": "20751728",
+            "timestamp": 1558433607170,
+            "uuid": "85797188",
+            "seq": 31,
+            "id": "53474490",
+            "defaults": {
+                "type": "behavior_script",
+                "title": " onEvents",
+                "description": " runs the provided code in the common event handlers",
+                "src": "onEvents.js",
+                "parent": 0
+            }
+        },
+        {
+            "type": "SET_PROPERTY",
+            "host": "20751728",
+            "timestamp": 1558433607171,
+            "uuid": "87185266",
+            "seq": 32,
+            "object": "53474490",
+            "name": "parent",
+            "value": "26307193"
+        },
+        {
+            "type": "INSERT_ELEMENT",
+            "host": "20751728",
+            "timestamp": 1558433607171,
+            "uuid": "21448158",
+            "seq": 33,
+            "array": "63431201",
+            "value": "53474490",
+            "entryid": "68460060",
+            "prev": "44978237"
+        },
+        {
+            "type": "CREATE_OBJECT",
+            "host": "20751728",
+            "timestamp": 1558433607274,
+            "uuid": "55138149",
+            "seq": 34,
+            "id": "8298078",
+            "defaults": {
+                "type": "behavior",
+                "title": " onEvents",
+                "description": " runs the provided code in the common event handlers",
+                "parent": 0,
+                "behavior": "53474490",
+                "start": "",
+                "stop": "",
+                "enter": "",
+                "exit": "",
+                "tick": "",
+                "message": ""
+            }
+        },
+        {
+            "type": "SET_PROPERTY",
+            "host": "20751728",
+            "timestamp": 1558433607283,
+            "uuid": "86224284",
+            "seq": 35,
+            "object": "8298078",
+            "name": "parent",
+            "value": "19444882"
+        },
+        {
+            "type": "INSERT_ELEMENT",
+            "host": "20751728",
+            "timestamp": 1558433607291,
+            "uuid": "5293307",
+            "seq": 36,
+            "array": "50201767",
+            "value": "8298078",
+            "entryid": "96499883",
+            "prev": "5595414"
+        },
+        {
+            "type": "SET_PROPERTY",
+            "host": "56472048",
+            "timestamp": 1558433753826,
+            "uuid": "15855453",
+            "seq": 1,
+            "object": "8298078",
+            "name": "start",
+            "value": "",
+            "prevValue": ""
+        },
+        {
+            "type": "SET_PROPERTY",
+            "host": "56472048",
+            "timestamp": 1558433762807,
+            "uuid": "99645903",
+            "seq": 2,
+            "object": "8298078",
+            "name": "enter",
+            "value": "this.playMedia(51545841)",
+            "prevValue": ""
+        },
+        {
+            "type": "CREATE_OBJECT",
+            "host": "26255180",
+            "timestamp": 1558433919185,
+            "uuid": "73311036",
+            "seq": 1,
+            "id": "24644236",
+            "defaults": {
+                "type": "asset",
+                "subtype": "gltf",
+                "assetId": "xSC3vcDjP8uNOeKM",
+                "format": "model/gltf-binary",
+                "src": "https://cdn.glitch.com/d08bbb6e-bd26-4c39-b1e0-7c580818c692%2FDuckyMesh.glb",
+                "title": "DuckyMesh.glb",
+                "parent": 0
+            }
+        },
+        {
+            "type": "SET_PROPERTY",
+            "host": "26255180",
+            "timestamp": 1558433919186,
+            "uuid": "99844075",
+            "seq": 2,
+            "object": "24644236",
+            "name": "parent",
+            "value": "56394886"
+        },
+        {
+            "type": "INSERT_ELEMENT",
+            "host": "26255180",
+            "timestamp": 1558433919186,
+            "uuid": "12830332",
+            "seq": 3,
+            "array": "82195921",
+            "value": "24644236",
+            "entryid": "99972293",
+            "prev": "65853904"
+        },
+        {
+            "type": "CREATE_ARRAY",
+            "host": "26255180",
+            "timestamp": 1558433929767,
+            "uuid": "18437170",
+            "seq": 4,
+            "id": "80823002"
+        },
+        {
+            "type": "CREATE_OBJECT",
+            "host": "26255180",
+            "timestamp": 1558433929768,
+            "uuid": "61843604",
+            "seq": 5,
+            "id": "69744113",
+            "defaults": {
+                "type": "model",
+                "title": "a model",
+                "visible": true,
+                "tx": 0,
+                "ty": 0,
+                "tz": 0,
+                "rx": 0,
+                "ry": 0,
+                "rz": 0,
+                "sx": 1,
+                "sy": 1,
+                "sz": 1,
+                "color": "#ffffff",
+                "children": "80823002",
+                "asset": -30,
+                "parent": "12117089"
+            }
+        },
+        {
+            "type": "SET_PROPERTY",
+            "host": "26255180",
+            "timestamp": 1558433929768,
+            "uuid": "99473562",
+            "seq": 6,
+            "object": "69744113",
+            "name": "parent",
+            "value": "12117089"
+        },
+        {
+            "type": "INSERT_ELEMENT",
+            "host": "26255180",
+            "timestamp": 1558433929768,
+            "uuid": "82774238",
+            "seq": 7,
+            "array": "5367196",
+            "value": "69744113",
+            "entryid": "8221104",
+            "prev": -1
+        },
+        {
+            "type": "SET_PROPERTY",
+            "host": "26255180",
+            "timestamp": 1558433932740,
+            "uuid": "69388589",
+            "seq": 11,
+            "object": "69744113",
+            "name": "asset",
+            "value": "24644236",
+            "prevValue": -30
+        },
+        {
+            "type": "SET_PROPERTY",
+            "host": "26255180",
+            "timestamp": 1558433936141,
+            "uuid": "8199015",
+            "seq": 264,
+            "object": "69744113",
+            "name": "tx",
+            "value": -0.2993608130459029,
+            "prevValue": -0.007798026892128718
+        },
+        {
+            "type": "SET_PROPERTY",
+            "host": "28741527",
+            "timestamp": 1558434050720,
+            "uuid": "11399837",
+            "seq": 4,
+            "object": "69744113",
+            "name": "visible",
+            "value": false,
+            "prevValue": true
+        },
+        {
+            "type": "DELETE_ELEMENT",
+            "host": "28741527",
+            "timestamp": 1558434082602,
+            "uuid": "4891780",
+            "seq": 17,
+            "array": "5367196",
+            "entry": "8221104",
+            "value": "69744113"
+        },
+        {
+            "type": "SET_PROPERTY",
+            "host": "28741527",
+            "timestamp": 1558434129636,
+            "uuid": "85143598",
+            "seq": 24,
+            "object": "19444882",
+            "name": "visible",
+            "value": false,
+            "prevValue": true
+        },
+        {
+            "type": "SET_PROPERTY",
+            "host": "28741527",
+            "timestamp": 1558434180279,
+            "uuid": "17747642",
+            "seq": 25,
+            "object": "19444882",
+            "name": "visible",
+            "value": true,
+            "prevValue": false
+        },
+        {
+            "type": "CREATE_ARRAY",
+            "host": "28741527",
+            "timestamp": 1558434186711,
+            "uuid": "91447243",
+            "seq": 32,
+            "id": "86305768"
+        },
+        {
+            "type": "CREATE_OBJECT",
+            "host": "28741527",
+            "timestamp": 1558434186711,
+            "uuid": "69401875",
+            "seq": 33,
+            "id": "98754285",
+            "defaults": {
+                "type": "model",
+                "title": "a model",
+                "visible": true,
+                "tx": 0,
+                "ty": 0,
+                "tz": 0,
+                "rx": 0,
+                "ry": 0,
+                "rz": 0,
+                "sx": 1,
+                "sy": 1,
+                "sz": 1,
+                "color": "#ffffff",
+                "children": "86305768",
+                "asset": -30,
+                "parent": "12117089"
+            }
+        },
+        {
+            "type": "SET_PROPERTY",
+            "host": "28741527",
+            "timestamp": 1558434186711,
+            "uuid": "6254069",
+            "seq": 34,
+            "object": "98754285",
+            "name": "parent",
+            "value": "12117089"
+        },
+        {
+            "type": "INSERT_ELEMENT",
+            "host": "28741527",
+            "timestamp": 1558434186712,
+            "uuid": "58440640",
+            "seq": 35,
+            "array": "5367196",
+            "value": "98754285",
+            "entryid": "47512122",
+            "prev": -1
+        },
+        {
+            "type": "SET_PROPERTY",
+            "host": "28741527",
+            "timestamp": 1558434190651,
+            "uuid": "56857513",
+            "seq": 45,
+            "object": "98754285",
+            "name": "asset",
+            "value": "24644236",
+            "prevValue": -30
+        },
+        {
+            "type": "SET_PROPERTY",
+            "host": "28741527",
+            "timestamp": 1558434193893,
+            "uuid": "41044037",
+            "seq": 596,
+            "object": "98754285",
+            "name": "ty",
+            "value": 0.44369680672704326,
+            "prevValue": -0.011570968509213131
+        },
+        {
+            "type": "SET_PROPERTY",
+            "host": "28741527",
+            "timestamp": 1558434201985,
+            "uuid": "12696592",
+            "seq": 841,
+            "object": "98754285",
+            "name": "tx",
+            "value": -0.40699700943926476,
+            "prevValue": -0.001966549049435634
+        },
+        {
+            "type": "DELETE_ELEMENT",
+            "host": "28741527",
+            "timestamp": 1558434352754,
+            "uuid": "39065337",
+            "seq": 856,
+            "array": "5367196",
+            "entry": "47512122",
+            "value": "98754285"
+        },
+        {
+            "type": "DELETE_ELEMENT",
+            "host": "28741527",
+            "timestamp": 1558434394672,
+            "uuid": "23379042",
+            "seq": 860,
+            "array": "82195921",
+            "entry": "99972293",
+            "value": "24644236"
         }
     ],
     "type": "vr",
@@ -368,6 +932,51 @@
                 "defaultFloor": false,
                 "parent": "42834946",
                 "children": [
+                    {
+                        "type": "plane",
+                        "title": "a plane",
+                        "visible": true,
+                        "width": 0.5,
+                        "height": 0.5,
+                        "tx": 0,
+                        "ty": 0.40120346163243736,
+                        "tz": 0,
+                        "rx": 0,
+                        "ry": 0,
+                        "rz": 0,
+                        "sx": 1,
+                        "sy": 1,
+                        "sz": 1,
+                        "color": "#ffffff",
+                        "children": [
+                            {
+                                "type": "behavior",
+                                "title": " Spinner",
+                                "description": " spins shape around the y axis at a certain speed",
+                                "parent": "19444882",
+                                "behavior": "94534420",
+                                "speed": 0.1,
+                                "id": "72202057"
+                            },
+                            {
+                                "type": "behavior",
+                                "title": " onEvents",
+                                "description": " runs the provided code in the common event handlers",
+                                "parent": "19444882",
+                                "behavior": "53474490",
+                                "start": "",
+                                "stop": "",
+                                "enter": "this.playMedia(51545841)",
+                                "exit": "",
+                                "tick": "",
+                                "message": "",
+                                "id": "8298078"
+                            }
+                        ],
+                        "asset": "51545841",
+                        "parent": "12117089",
+                        "id": "19444882"
+                    },
                     {
                         "type": "cube",
                         "title": "cube 0",
@@ -422,6 +1031,14 @@
                         "src": "billboard.js",
                         "parent": "26307193",
                         "id": "9721"
+                    },
+                    {
+                        "type": "behavior_script",
+                        "title": " onEvents",
+                        "description": " runs the provided code in the common event handlers",
+                        "src": "onEvents.js",
+                        "parent": "26307193",
+                        "id": "53474490"
                     }
                 ],
                 "parent": "42834946",
@@ -430,7 +1047,18 @@
             {
                 "type": "assets",
                 "title": "Assets",
-                "children": [],
+                "children": [
+                    {
+                        "type": "asset",
+                        "subtype": "video",
+                        "assetId": "eHA4s4Z3yIVvrw6N",
+                        "format": "video/mp4",
+                        "src": "https://cdn.glitch.com/d08bbb6e-bd26-4c39-b1e0-7c580818c692%2Fjon-awesome.mp4",
+                        "title": "jon-awesome.mp4",
+                        "parent": "56394886",
+                        "id": "51545841"
+                    }
+                ],
                 "parent": "42834946",
                 "id": "56394886"
             }
