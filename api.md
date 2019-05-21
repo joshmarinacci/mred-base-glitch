@@ -5,6 +5,8 @@
 
 #### event
 
+Each event handler receives a single parameter, `event`, which contains the following properties.
+
 * `event.type`: the type of the event. `tick`, `exit`, etc.
 * `event.target`:  the ThreeJS object this behavior is attached to
 * `event.graphTarget`: the graph document object this behavior is attached to
@@ -18,16 +20,20 @@
 * `start()`: called on system start, even if you aren’t in the current scene
 * `enter()`: called when entering a scene
 * `exit()`: called when exiting a scene
-* `message()`: called when a message is received
 * `tick()`: called each time the graphics will be rendered, 30 or more times per second
 * `stop()` called when the system stops
-	
+* `click()` called when a user taps (touch device) or clicks (mouse) on an object
+* `message()`: called when a message is received
+
+Note: `message` events are directed at one object by a script, and only go to that object. `start`and `stop` events go to all behaviors in the project when the system starts are stops. `enter` and `exit` go to all behaviors in a scene when the scene is entered or exited. `tick` events go to all behaviors in a scene each frame.  `click` events go to the object clicked on, and then bubble up their ancestors in sequence until a script captures the event with `this.captureEvent`, of the root of the scene is reached.  `message` events only go to the object they were directed at.
+
 #### properties available to behavior event handlers
 
+* `this.behavior` get the behavior object for this instance of the behavior
 * `this.logger`: the logger for logging messages remotely. ex:  `this.logger.log("i'm doing cool stuff here")`
 * `this.camera`: a reference to the current ThreeJS camera. ex: `console.log(this.camera.position)`
 * `this.tween`: a reference to the tween manager. ex: `this.tween.prop({from:0, to:1.5})`
-* `this.properties`: the property settings for this behavior. ex: if a behavior has a speed property you can access it with `this.properties.speed`.
+* `this.properties`: the property settings for this behavior. ex: if a behavior has a speed property you can access it with `this.properties.speed`.  Note that accessing `this.properties` may be expensive in some instances, so calling it once at the beginning of an event handler and using the saved values later is suggested (e.g., `let props = this.properties`) 
 * `this.globalState`: a place to set values that every behavior can access
 * `this.globals` get a reference to useful global variables
 
@@ -39,8 +45,13 @@
 * `this.getObjectById(id)`: find the document object by its id
 * `this.getAssetByTitle(title)`: find an asset by its title
 * `this.navigateScene(id)`: navigate to a new scene, by id
-* `this.playSound(id)`: play a sound by id
-	
+* `this.playSound(id)`: (deprecated) play a sound by id
+* `this.playMedia(id)` : play a sound or video by id
+* `this.stopMedia(id)` : stop a sound or video by id
+* `this.fireEvent(type, data, (optional) target)`: send an event to a target object (default is object behavior is attached to). `data` will be in the event `data` property.  Note that any event sent with `this.fireEvent` bubbles up the graph, so sending an event to an object will cause all of the ancestors of the object to see it as well, unless it is `captured` by a handler.
+* `this.captureEvent()` : capture a received event so it does not bubble up to the ancestors above this event 
+* `this.sendMessage(name, data, (optional) target)`: send a `message` event to a target object (default is object behavior is attached to). `data` and `name` will be in the event `data` and `name` properties.  `message` events sent this way do not bubble up to the ancestors of the target object.
+
 #### logger
 
 Instead of using `console.log()` you can use `this.logger.log()`. This will print
@@ -85,19 +96,29 @@ Ex: to create a new Mesh at runtime with ThreeJS do:
 	* stop()
 
 Properties for behaviors are specified as a map of key names to prop definitions. The definitions look like this:
-```
+```javascript
 properties: {
 	//a number property
 	distance: { 
 		type:'number',  //the type
-		value:2,  //initial value
+		value:2  //initial value
 	},
 
   //a string
 	enterMessage: {
 		type:'string',
 		title:'enter message',
-		value:'entered',
+		value:'entered'
+	},
+
+  //a multiline string
+	enterMessage: {
+		type:'string',
+		title:'enter message',
+    value:'entered',
+    hints: {
+        multiline:true,
+    }    
 	},
 
   // a reference to another node
@@ -123,21 +144,25 @@ properties: {
 ```
 
 ## Examples
-```
+```javascript
 //move object two meters to the right when it is clicked
 click(evt) {
    evt.target.position.x += 2
 }
+
 //spin target object using configurable speed
 tick(evt) {
-	e.target.rotation.y += this.properties.speed
+    let degrees = 2 * Math.PI * (evt.deltaTime/1000) * this.properties.speed 
+    evt.target.rotation.y += degrees
 }
-//listen for proximity event and start particles
+
+//listen for message event with name "proximity-enter" and start particles
 message(evt) {
-	if(e.type === 'proximity-enter') {
+	if(evt.name === 'proximity-enter') {
 		this.getObjectByTitle('fountain').start()
   }
 }
+
 //when scene enters, rotate target 4 times then play a sound
 enter(evt) {
 	this.tween.prop({
@@ -153,10 +178,7 @@ enter(evt) {
 }
 ```
 
-
-
 The Tween API lets you create animations that are chained together in parallel or sequence.
-
 
 ### rotate the target object once
 ``` javascript
