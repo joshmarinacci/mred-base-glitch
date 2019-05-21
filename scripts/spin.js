@@ -10,6 +10,7 @@
         }
     },
     tick: function(e) {
-        e.target.rotation.y += this.properties.speed/100
+        let degrees = 2 * Math.PI * e.deltaTime * this.properties.speed 
+        e.target.rotation.y += degrees
     },
 })
