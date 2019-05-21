@@ -5,8 +5,12 @@
 ({
     properties: {
         focus: {
-            type:'string',
-            value: null,
+            type:'enum',
+                title: 'object to compare location to',
+                value:null,
+                hints: {
+                  type:'node',
+                }
         },
         near: {
             type:'number',
@@ -28,14 +32,14 @@
         let target = event.target
         let near = this.properties.near || 1
         let far = this.properties.far || (near+1)
-        let focus = this.properties.focus || 0
+        let focus = this.properties.focus || null
         let message = this.properties.message || "trigger"
 
         // far must be EQUAL TO OR farther than near; and to avoid firing a zillion events best to have (far-near)>(some small number)
         if(far<near)far=near+1
         
         // Is there another object to focus on aside from the camera?
-        if(focus && focus.length) {
+        if(focus) {
           focus = this.getThreeObjectByTitle(focus)
         } else {
           focus = 0

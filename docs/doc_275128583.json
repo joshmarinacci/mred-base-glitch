@@ -716,6 +716,112 @@
             "name": "near",
             "value": 1,
             "prevValue": 1
+        },
+        {
+            "type": "SET_PROPERTY",
+            "host": "89710956",
+            "timestamp": 1558481101171,
+            "uuid": "59715837",
+            "seq": 1,
+            "object": "33584273",
+            "name": "title",
+            "value": " Play Sound on event",
+            "prevValue": " Play Sound on event"
+        },
+        {
+            "type": "SET_PROPERTY",
+            "host": "89710956",
+            "timestamp": 1558481104740,
+            "uuid": "53345372",
+            "seq": 2,
+            "object": "33584273",
+            "name": "description",
+            "value": " play a sound on a \"trigger\" event",
+            "prevValue": " play a sound on a \"trigger\" event"
+        },
+        {
+            "type": "SET_PROPERTY",
+            "host": "89710956",
+            "timestamp": 1558481109455,
+            "uuid": "11375356",
+            "seq": 3,
+            "object": "7694138",
+            "name": "near",
+            "value": 1,
+            "prevValue": 1
+        },
+        {
+            "type": "SET_PROPERTY",
+            "host": "89710956",
+            "timestamp": 1558481139310,
+            "uuid": "45821918",
+            "seq": 4,
+            "object": "7694138",
+            "name": "near",
+            "value": 1,
+            "prevValue": 1
+        },
+        {
+            "type": "DELETE_ELEMENT",
+            "host": "89710956",
+            "timestamp": 1558481140039,
+            "uuid": "26181748",
+            "seq": 5,
+            "array": "79398103",
+            "entry": "17012989",
+            "value": "74009956"
+        },
+        {
+            "type": "SET_PROPERTY",
+            "host": "89710956",
+            "timestamp": 1558481140040,
+            "uuid": "89963301",
+            "seq": 6,
+            "object": "74009956",
+            "name": "parent",
+            "value": "81747493"
+        },
+        {
+            "type": "INSERT_ELEMENT",
+            "host": "89710956",
+            "timestamp": 1558481140041,
+            "uuid": "88234186",
+            "seq": 7,
+            "array": "48280605",
+            "value": "74009956",
+            "entryid": "74421145",
+            "prev": -1
+        },
+        {
+            "type": "DELETE_ELEMENT",
+            "host": "89710956",
+            "timestamp": 1558481142407,
+            "uuid": "31535177",
+            "seq": 8,
+            "array": "79398103",
+            "entry": "78322654",
+            "value": "7694138"
+        },
+        {
+            "type": "SET_PROPERTY",
+            "host": "89710956",
+            "timestamp": 1558481142408,
+            "uuid": "75710317",
+            "seq": 9,
+            "object": "7694138",
+            "name": "parent",
+            "value": "81747493"
+        },
+        {
+            "type": "INSERT_ELEMENT",
+            "host": "89710956",
+            "timestamp": 1558481142409,
+            "uuid": "5514800",
+            "seq": 10,
+            "array": "48280605",
+            "value": "7694138",
+            "entryid": "47300300",
+            "prev": -1
         }
     ],
     "type": "vr",
@@ -749,6 +855,27 @@
                         "children": [
                             {
                                 "type": "behavior",
+                                "title": " Proximity",
+                                "description": " sends messages on proximity events",
+                                "parent": "81747493",
+                                "behavior": "2717840",
+                                "focus": "duck",
+                                "near": 1,
+                                "far": 2,
+                                "message": "trigger",
+                                "id": "7694138"
+                            },
+                            {
+                                "type": "behavior",
+                                "title": " Spinner",
+                                "description": " spins shape around the y axis at \"speed\" times per second",
+                                "parent": "81747493",
+                                "behavior": "629434",
+                                "speed": 1,
+                                "id": "74009956"
+                            },
+                            {
+                                "type": "behavior",
                                 "title": " Play Sound on event",
                                 "description": " play a sound on a \"trigger\" event",
                                 "parent": "81747493",
@@ -760,27 +887,6 @@
                         "asset": "38924438",
                         "parent": "28398257",
                         "id": "81747493"
-                    },
-                    {
-                        "type": "behavior",
-                        "title": " Spinner",
-                        "description": " spins shape around the y axis at \"speed\" times per second",
-                        "parent": "28398257",
-                        "behavior": "629434",
-                        "speed": 1,
-                        "id": "74009956"
-                    },
-                    {
-                        "type": "behavior",
-                        "title": " Proximity",
-                        "description": " sends messages on proximity events",
-                        "parent": "28398257",
-                        "behavior": "2717840",
-                        "focus": "duck",
-                        "near": 1,
-                        "far": 2,
-                        "message": "trigger",
-                        "id": "7694138"
                     }
                 ],
                 "id": "28398257"
