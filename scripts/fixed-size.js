@@ -53,9 +53,7 @@
           if(distance > far) distance = far
         }
 
-        // for a 45' aperture camera the apparent size of an object is linear with distance
         let scale = distance * size
-        // let scale = distance * size * Math.tan(THREE.Math.degToRad(camera.fov) / 2) * 2;
         target.scale.set(scale,scale,scale)
     },
 })
