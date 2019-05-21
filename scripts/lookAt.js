@@ -4,7 +4,7 @@
 */
 ({
     properties: {
-        target: {
+        focus: {
             type:'enum',
                 title: 'object to look at',
                 value:null,
@@ -16,18 +16,16 @@
     start: function (event) {
         let THREE = this.globals.THREE
 
-        this.cameraPos = new THREE.Vector3()
+        this.nodePos = new THREE.Vector3()
     },
     tick: function(event) {
         let THREE = this.globals.THREE
 
-        const node = this.getObjectById(this.properties.sound)
-        
-        let camera = this.camera
+        const node = this.getThreeObjectById(this.properties.focus)
         let target = event.target
 
-        camera.getWorldPosition(this.cameraPos);
-        target.lookAt(this.cameraPos);
+        node.getWorldPosition(this.targetPos);
+        target.lookAt(this.targetPos);
         target.matrixWorldNeedsUpdate = true
     },
 })
