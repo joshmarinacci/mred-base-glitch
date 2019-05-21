@@ -32,5 +32,3 @@ the generated editor files be hidden in Glitch.
 * Create a new Glitch from the repo following the instructions in the previous section
 
 
-
-

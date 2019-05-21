@@ -17,18 +17,17 @@
                 nodeType:'scene'
             }
         },
-
     },
     enter: function (e) {
-      e.props.startTime = e.time
+      this.startTime = e.time
     },
   
     tick: function(e) {
-      
-      //e.system.logger().log("time " , e.time - e.props.startTime)
+      var props = this.properties   
+      //this.logger().log("time " , e.time - this.startTime)
 
-      if ((e.time - e.props.startTime) > e.props.delay) {
-        e.system.navigateScene(e.props.scene)
+      if ((e.time - this.startTime) > props.delay) {
+        this.navigateScene(props.scene)
       }
     },
 })

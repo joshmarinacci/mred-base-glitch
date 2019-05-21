@@ -15,7 +15,7 @@
             }
         },
     },
-    
+     
     //called when object is clicked on
     click: function(e) {
         var props = this.properties
