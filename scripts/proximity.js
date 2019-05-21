@@ -19,7 +19,7 @@
         exitMessage: {
             type:'string',
             value: "faraway",
-        },      
+        } 
     },
     start: function (event) {
         let THREE = this.globals.THREE
@@ -57,7 +57,7 @@
         } else {
           // testing on the boundary condition of being EQUAL TO or closer
           if(distance <= near) {
-            this.isNear = 1
+            this.isNear = true
             this.logger.log("nearer than near radius - send an enter message now")
             this.fireEvent(message,{})
           }

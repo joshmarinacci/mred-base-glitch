@@ -1104,6 +1104,228 @@
             "object": "7694138",
             "name": "exitMessage",
             "value": "faraway"
+        },
+        {
+            "type": "SET_PROPERTY",
+            "host": "43263984",
+            "timestamp": 1558482272349,
+            "uuid": "22315788",
+            "seq": 33,
+            "object": "7694138",
+            "name": "enterMessage"
+        },
+        {
+            "type": "SET_PROPERTY",
+            "host": "43263984",
+            "timestamp": 1558482278073,
+            "uuid": "98910071",
+            "seq": 34,
+            "object": "7694138",
+            "name": "exitMessage"
+        },
+        {
+            "type": "SET_PROPERTY",
+            "host": "43263984",
+            "timestamp": 1558482283435,
+            "uuid": "17514600",
+            "seq": 35,
+            "object": "7694138",
+            "name": "exitMessage"
+        },
+        {
+            "type": "DELETE_ELEMENT",
+            "host": "43263984",
+            "timestamp": 1558482285563,
+            "uuid": "77247822",
+            "seq": 36,
+            "array": "48280605",
+            "entry": "47300300",
+            "value": "7694138"
+        },
+        {
+            "type": "DELETE_ELEMENT",
+            "host": "43263984",
+            "timestamp": 1558482288247,
+            "uuid": "610903",
+            "seq": 37,
+            "array": "83363021",
+            "entry": "436489",
+            "value": "2717840"
+        },
+        {
+            "type": "CREATE_OBJECT",
+            "host": "43263984",
+            "timestamp": 1558482296607,
+            "uuid": "27604542",
+            "seq": 41,
+            "id": "28543473",
+            "defaults": {
+                "type": "behavior_script",
+                "title": " Proximity",
+                "description": " sends messages on proximity events",
+                "src": "proximity.js",
+                "parent": 0
+            }
+        },
+        {
+            "type": "SET_PROPERTY",
+            "host": "43263984",
+            "timestamp": 1558482296608,
+            "uuid": "68702546",
+            "seq": 42,
+            "object": "28543473",
+            "name": "parent",
+            "value": "41940857"
+        },
+        {
+            "type": "INSERT_ELEMENT",
+            "host": "43263984",
+            "timestamp": 1558482296608,
+            "uuid": "47216098",
+            "seq": 43,
+            "array": "83363021",
+            "value": "28543473",
+            "entryid": "58138065",
+            "prev": "68631579"
+        },
+        {
+            "type": "CREATE_OBJECT",
+            "host": "43263984",
+            "timestamp": 1558482296666,
+            "uuid": "92951813",
+            "seq": 44,
+            "id": "98839325",
+            "defaults": {
+                "type": "behavior",
+                "title": " Proximity",
+                "description": " sends messages on proximity events",
+                "parent": 0,
+                "behavior": "28543473",
+                "near": 3,
+                "far": 5,
+                "enterMessage": "trigger",
+                "exitMessage": "faraway"
+            }
+        },
+        {
+            "type": "SET_PROPERTY",
+            "host": "43263984",
+            "timestamp": 1558482296669,
+            "uuid": "32866121",
+            "seq": 45,
+            "object": "98839325",
+            "name": "parent",
+            "value": "81747493"
+        },
+        {
+            "type": "INSERT_ELEMENT",
+            "host": "43263984",
+            "timestamp": 1558482296672,
+            "uuid": "15571097",
+            "seq": 46,
+            "array": "48280605",
+            "value": "98839325",
+            "entryid": "81189671",
+            "prev": "67763023"
+        },
+        {
+            "type": "SET_PROPERTY",
+            "host": "43263984",
+            "timestamp": 1558482306714,
+            "uuid": "68141679",
+            "seq": 47,
+            "object": "98839325",
+            "name": "near",
+            "value": 0,
+            "prevValue": 3
+        },
+        {
+            "type": "SET_PROPERTY",
+            "host": "43263984",
+            "timestamp": 1558482307057,
+            "uuid": "80427847",
+            "seq": 48,
+            "object": "98839325",
+            "name": "near",
+            "value": 0,
+            "prevValue": 0
+        },
+        {
+            "type": "SET_PROPERTY",
+            "host": "43263984",
+            "timestamp": 1558482307345,
+            "uuid": "32605168",
+            "seq": 49,
+            "object": "98839325",
+            "name": "near",
+            "value": 0.5,
+            "prevValue": 0
+        },
+        {
+            "type": "SET_PROPERTY",
+            "host": "43263984",
+            "timestamp": 1558482307649,
+            "uuid": "28312548",
+            "seq": 50,
+            "object": "98839325",
+            "name": "near",
+            "value": 0.5,
+            "prevValue": 0.5
+        },
+        {
+            "type": "SET_PROPERTY",
+            "host": "43263984",
+            "timestamp": 1558482308692,
+            "uuid": "77706002",
+            "seq": 51,
+            "object": "98839325",
+            "name": "far",
+            "value": 0,
+            "prevValue": 5
+        },
+        {
+            "type": "SET_PROPERTY",
+            "host": "43263984",
+            "timestamp": 1558482308961,
+            "uuid": "67202746",
+            "seq": 52,
+            "object": "98839325",
+            "name": "far",
+            "value": 0,
+            "prevValue": 0
+        },
+        {
+            "type": "SET_PROPERTY",
+            "host": "43263984",
+            "timestamp": 1558482309785,
+            "uuid": "34235522",
+            "seq": 53,
+            "object": "98839325",
+            "name": "far",
+            "value": 0.7,
+            "prevValue": 0
+        },
+        {
+            "type": "SET_PROPERTY",
+            "host": "43263984",
+            "timestamp": 1558482313722,
+            "uuid": "17668821",
+            "seq": 54,
+            "object": "98839325",
+            "name": "far",
+            "value": 0.7,
+            "prevValue": 0.7
+        },
+        {
+            "type": "SET_PROPERTY",
+            "host": "43263984",
+            "timestamp": 1558482368808,
+            "uuid": "67919298",
+            "seq": 70,
+            "object": "81747493",
+            "name": "color",
+            "value": "#ffff00",
+            "prevValue": "#ffffff"
         }
     ],
     "type": "vr",
@@ -1133,20 +1355,8 @@
                         "sx": 1,
                         "sy": 1,
                         "sz": 1,
-                        "color": "#ffffff",
+                        "color": "#ffff00",
                         "children": [
-                            {
-                                "type": "behavior",
-                                "title": " Proximity",
-                                "description": " sends messages on proximity events",
-                                "parent": "81747493",
-                                "behavior": "2717840",
-                                "focus": "duck",
-                                "near": 0.5,
-                                "far": 0.6,
-                                "message": "trigger",
-                                "id": "7694138"
-                            },
                             {
                                 "type": "behavior",
                                 "title": " Spinner",
@@ -1164,6 +1374,18 @@
                                 "behavior": "87424713",
                                 "sound": "6534931",
                                 "id": "33584273"
+                            },
+                            {
+                                "type": "behavior",
+                                "title": " Proximity",
+                                "description": " sends messages on proximity events",
+                                "parent": "81747493",
+                                "behavior": "28543473",
+                                "near": 0.5,
+                                "far": 0.7,
+                                "enterMessage": "trigger",
+                                "exitMessage": "faraway",
+                                "id": "98839325"
                             }
                         ],
                         "asset": "38924438",
@@ -1187,19 +1409,19 @@
                     },
                     {
                         "type": "behavior_script",
-                        "title": " Proximity",
-                        "description": " sends messages on proximity events",
-                        "src": "proximity.js",
-                        "parent": "41940857",
-                        "id": "2717840"
-                    },
-                    {
-                        "type": "behavior_script",
                         "title": " Play Sound on event",
                         "description": " play a sound on a \"trigger\" event",
                         "src": "playsound.js",
                         "parent": "41940857",
                         "id": "87424713"
+                    },
+                    {
+                        "type": "behavior_script",
+                        "title": " Proximity",
+                        "description": " sends messages on proximity events",
+                        "src": "proximity.js",
+                        "parent": "41940857",
+                        "id": "28543473"
                     }
                 ],
                 "parent": "9770111",
