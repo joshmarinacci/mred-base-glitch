@@ -1,0 +1,364 @@
+{
+    "history": [
+        {
+            "type": "CREATE_ARRAY",
+            "host": "80469337",
+            "timestamp": 1558399736967,
+            "uuid": "24658618",
+            "seq": 1,
+            "id": "42821457"
+        },
+        {
+            "type": "CREATE_OBJECT",
+            "host": "80469337",
+            "timestamp": 1558399736967,
+            "uuid": "63084650",
+            "seq": 2,
+            "id": "42834946",
+            "defaults": {
+                "type": "root",
+                "title": "Untitled Project",
+                "defaultScene": 0,
+                "children": "42821457"
+            }
+        },
+        {
+            "type": "CREATE_ARRAY",
+            "host": "80469337",
+            "timestamp": 1558399736967,
+            "uuid": "75775138",
+            "seq": 3,
+            "id": "5367196"
+        },
+        {
+            "type": "CREATE_OBJECT",
+            "host": "80469337",
+            "timestamp": 1558399736967,
+            "uuid": "3371994",
+            "seq": 4,
+            "id": "12117089",
+            "defaults": {
+                "type": "scene",
+                "title": "Scene 0",
+                "autoRecenter": true,
+                "defaultFloor": false,
+                "parent": "42834946",
+                "children": "5367196"
+            }
+        },
+        {
+            "type": "CREATE_ARRAY",
+            "host": "80469337",
+            "timestamp": 1558399736968,
+            "uuid": "60592411",
+            "seq": 5,
+            "id": "70217856"
+        },
+        {
+            "type": "CREATE_OBJECT",
+            "host": "80469337",
+            "timestamp": 1558399736968,
+            "uuid": "57895356",
+            "seq": 6,
+            "id": "17517305",
+            "defaults": {
+                "type": "cube",
+                "title": "cube 0",
+                "visible": true,
+                "width": 0.3,
+                "height": 0.3,
+                "depth": 0.3,
+                "tx": 0,
+                "ty": 0,
+                "tz": 0,
+                "rx": 0,
+                "ry": 0,
+                "rz": 0,
+                "sx": 1,
+                "sy": 1,
+                "sz": 1,
+                "color": "#00ff00",
+                "children": "70217856",
+                "asset": -30,
+                "parent": "12117089"
+            }
+        },
+        {
+            "type": "CREATE_ARRAY",
+            "host": "80469337",
+            "timestamp": 1558399736968,
+            "uuid": "9138603",
+            "seq": 7,
+            "id": "82195921"
+        },
+        {
+            "type": "CREATE_OBJECT",
+            "host": "80469337",
+            "timestamp": 1558399736968,
+            "uuid": "84808360",
+            "seq": 8,
+            "id": "56394886",
+            "defaults": {
+                "type": "assets",
+                "title": "Assets",
+                "children": "82195921",
+                "parent": 0
+            }
+        },
+        {
+            "type": "CREATE_ARRAY",
+            "host": "80469337",
+            "timestamp": 1558399736968,
+            "uuid": "48206893",
+            "seq": 9,
+            "id": "63431201"
+        },
+        {
+            "type": "CREATE_OBJECT",
+            "host": "80469337",
+            "timestamp": 1558399736968,
+            "uuid": "51435955",
+            "seq": 10,
+            "id": "26307193",
+            "defaults": {
+                "type": "behaviors",
+                "title": "Behaviors",
+                "children": "63431201",
+                "parent": 0
+            }
+        },
+        {
+            "type": "SET_PROPERTY",
+            "host": "80469337",
+            "timestamp": 1558399736968,
+            "uuid": "91537574",
+            "seq": 11,
+            "object": "12117089",
+            "name": "parent",
+            "value": "42834946"
+        },
+        {
+            "type": "INSERT_ELEMENT",
+            "host": "80469337",
+            "timestamp": 1558399736968,
+            "uuid": "86486579",
+            "seq": 12,
+            "array": "42821457",
+            "value": "12117089",
+            "entryid": "20117888",
+            "prev": -1
+        },
+        {
+            "type": "SET_PROPERTY",
+            "host": "80469337",
+            "timestamp": 1558399736968,
+            "uuid": "92889877",
+            "seq": 13,
+            "object": "17517305",
+            "name": "parent",
+            "value": "12117089"
+        },
+        {
+            "type": "INSERT_ELEMENT",
+            "host": "80469337",
+            "timestamp": 1558399736968,
+            "uuid": "91400297",
+            "seq": 14,
+            "array": "5367196",
+            "value": "17517305",
+            "entryid": "7824450",
+            "prev": -1
+        },
+        {
+            "type": "SET_PROPERTY",
+            "host": "80469337",
+            "timestamp": 1558399736968,
+            "uuid": "35115587",
+            "seq": 15,
+            "object": "26307193",
+            "name": "parent",
+            "value": "42834946"
+        },
+        {
+            "type": "INSERT_ELEMENT",
+            "host": "80469337",
+            "timestamp": 1558399736968,
+            "uuid": "55363499",
+            "seq": 16,
+            "array": "42821457",
+            "value": "26307193",
+            "entryid": "61211277",
+            "prev": "20117888"
+        },
+        {
+            "type": "SET_PROPERTY",
+            "host": "80469337",
+            "timestamp": 1558399736968,
+            "uuid": "58039197",
+            "seq": 17,
+            "object": "56394886",
+            "name": "parent",
+            "value": "42834946"
+        },
+        {
+            "type": "INSERT_ELEMENT",
+            "host": "80469337",
+            "timestamp": 1558399736968,
+            "uuid": "1321502",
+            "seq": 18,
+            "array": "42821457",
+            "value": "56394886",
+            "entryid": "20433975",
+            "prev": "61211277"
+        },
+        {
+            "type": "CREATE_OBJECT",
+            "host": "80469337",
+            "timestamp": 1558399758059,
+            "uuid": "95125779",
+            "seq": 19,
+            "id": "94534420",
+            "defaults": {
+                "type": "behavior_script",
+                "title": " Spinner",
+                "description": " spins shape around the y axis at a certain speed",
+                "src": "spin.js",
+                "parent": 0
+            }
+        },
+        {
+            "type": "SET_PROPERTY",
+            "host": "80469337",
+            "timestamp": 1558399758063,
+            "uuid": "29693609",
+            "seq": 20,
+            "object": "94534420",
+            "name": "parent",
+            "value": "26307193"
+        },
+        {
+            "type": "INSERT_ELEMENT",
+            "host": "80469337",
+            "timestamp": 1558399758064,
+            "uuid": "24703231",
+            "seq": 21,
+            "array": "63431201",
+            "value": "94534420",
+            "entryid": "99271468",
+            "prev": -1
+        },
+        {
+            "type": "CREATE_OBJECT",
+            "host": "80469337",
+            "timestamp": 1558399775107,
+            "uuid": "81436043",
+            "seq": 22,
+            "id": "65770342",
+            "defaults": {
+                "type": "behavior",
+                "title": " Spinner",
+                "description": " spins shape around the y axis at a certain speed",
+                "parent": 0,
+                "behavior": "94534420",
+                "speed": 1
+            }
+        },
+        {
+            "type": "SET_PROPERTY",
+            "host": "80469337",
+            "timestamp": 1558399775120,
+            "uuid": "36564243",
+            "seq": 23,
+            "object": "65770342",
+            "name": "parent",
+            "value": "17517305"
+        },
+        {
+            "type": "INSERT_ELEMENT",
+            "host": "80469337",
+            "timestamp": 1558399775131,
+            "uuid": "77050580",
+            "seq": 24,
+            "array": "70217856",
+            "value": "65770342",
+            "entryid": "54063218",
+            "prev": -1
+        }
+    ],
+    "type": "vr",
+    "id": "doc_86609581",
+    "graph": {
+        "type": "root",
+        "title": "Untitled Project",
+        "defaultScene": 0,
+        "children": [
+            {
+                "type": "scene",
+                "title": "Scene 0",
+                "autoRecenter": true,
+                "defaultFloor": false,
+                "parent": "42834946",
+                "children": [
+                    {
+                        "type": "cube",
+                        "title": "cube 0",
+                        "visible": true,
+                        "width": 0.3,
+                        "height": 0.3,
+                        "depth": 0.3,
+                        "tx": 0,
+                        "ty": 0,
+                        "tz": 0,
+                        "rx": 0,
+                        "ry": 0,
+                        "rz": 0,
+                        "sx": 1,
+                        "sy": 1,
+                        "sz": 1,
+                        "color": "#00ff00",
+                        "children": [
+                            {
+                                "type": "behavior",
+                                "title": " Spinner",
+                                "description": " spins shape around the y axis at a certain speed",
+                                "parent": "17517305",
+                                "behavior": "94534420",
+                                "speed": 1,
+                                "id": "65770342"
+                            }
+                        ],
+                        "asset": -30,
+                        "parent": "12117089",
+                        "id": "17517305"
+                    }
+                ],
+                "id": "12117089"
+            },
+            {
+                "type": "behaviors",
+                "title": "Behaviors",
+                "children": [
+                    {
+                        "type": "behavior_script",
+                        "title": " Spinner",
+                        "description": " spins shape around the y axis at a certain speed",
+                        "src": "spin.js",
+                        "parent": "26307193",
+                        "id": "94534420"
+                    }
+                ],
+                "parent": "42834946",
+                "id": "26307193"
+            },
+            {
+                "type": "assets",
+                "title": "Assets",
+                "children": [],
+                "parent": "42834946",
+                "id": "56394886"
+            }
+        ],
+        "id": "42834946"
+    },
+    "title": "Untitled Project"
+}
