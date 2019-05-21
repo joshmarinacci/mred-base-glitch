@@ -174,8 +174,17 @@ function listAssets() {
                 .split("\n")
                 .filter(str => str.trim().length > 0)
                 .map(e => JSON.parse(e))
-                .filter(e => !e.deleted)
-            res(assets)
+            const deleted = assets.filter(e => e.deleted)
+            const cleanAssets = assets.filter(ae => {
+              var keep = true
+              deleted.forEach(de => {
+                if (ae.uuid === de.uuid) {
+                  keep = false
+                }
+              })
+              return keep
+            })
+            res(cleanAssets)
         })
         // let assetsStr = (fs.readFile(paths.join(process.cwd(),'.glitch-assets')).toString())
     })
