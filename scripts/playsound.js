@@ -20,6 +20,6 @@
           this.logger.error("No sound property set")
           return
         }
-        this.playMediaAsset(sound)
+        this.playMedia(sound)
     }
 })
