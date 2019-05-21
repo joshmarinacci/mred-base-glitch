@@ -17,7 +17,6 @@
                 nodeType:'scene'
             }
         },
-
     },
     enter: function (e) {
       this.startTime = e.time

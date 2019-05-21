@@ -44,7 +44,7 @@
         if(!focus) {
           focus = camera
         }
-
+      
         // TODO: unsure if these are automatically updated when camera matrix is directly updated
         let focusPosition = new THREE.Vector3()
         let focusQuaternion = new THREE.Quaternion()
