@@ -341,13 +341,24 @@
             "name": "defaultScene",
             "value": "12117089",
             "prevValue": 0
+        },
+        {
+            "type": "SET_PROPERTY",
+            "host": "30550054",
+            "timestamp": 1558402628274,
+            "uuid": "43997397",
+            "seq": 1,
+            "object": "42834946",
+            "name": "title",
+            "value": "spinning cube",
+            "prevValue": "Simple Cube"
         }
     ],
     "type": "vr",
     "id": "doc_86609581",
     "graph": {
         "type": "root",
-        "title": "Simple Cube",
+        "title": "spinning cube",
         "defaultScene": "12117089",
         "children": [
             {
@@ -426,5 +437,5 @@
         ],
         "id": "42834946"
     },
-    "title": "Simple Cube"
+    "title": "spinning cube"
 }

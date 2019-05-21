@@ -1463,14 +1463,36 @@
             "name": "depth",
             "value": 1,
             "prevValue": 1
+        },
+        {
+            "type": "SET_PROPERTY",
+            "host": "70313086",
+            "timestamp": 1558402585567,
+            "uuid": "92238709",
+            "seq": 1,
+            "object": "70056907",
+            "name": "title",
+            "value": "cube at geo",
+            "prevValue": "Untitled Project"
+        },
+        {
+            "type": "SET_PROPERTY",
+            "host": "70313086",
+            "timestamp": 1558402586332,
+            "uuid": "57727750",
+            "seq": 2,
+            "object": "70056907",
+            "name": "defaultScene",
+            "value": "31917244",
+            "prevValue": 0
         }
     ],
     "type": "vr",
     "id": "doc_366298421",
     "graph": {
         "type": "root",
-        "title": "Untitled Project",
-        "defaultScene": 0,
+        "title": "cube at geo",
+        "defaultScene": "31917244",
         "children": [
             {
                 "type": "scene",
@@ -1554,5 +1576,5 @@
         ],
         "id": "70056907"
     },
-    "title": "Untitled Project"
+    "title": "cube at geo"
 }
