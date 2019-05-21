@@ -18,6 +18,6 @@
  
     click: function(e) {
         const sound = this.getObjectById(this.properties.sound)
-        this.getAsset(sound.title).play()
+        this.getAssetByTitle(sound.title).play()
     }
 })
