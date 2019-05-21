@@ -23,12 +23,13 @@ Glitch to use as a starting point.
 
 
 
-To update this repo with a newer build of the editor follow these steps:
+To make updates to the `general-editor` and update this repo with the newer build of the editor follow these steps:
 
 * Check out the `general-editor` repo in a new directory
 * Install deps and build it
   * `npm install`
   * `npm run build`
+  
 * Copy the built files to the `public/.build` directory in this repo. Notice the period before build. This makes 
 the generated editor files be hidden in Glitch.
 * Push the changes back to github. 
