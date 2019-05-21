@@ -480,6 +480,312 @@
             "name": "ty",
             "value": 0.40120346163243736,
             "prevValue": 0.5022026431095927
+        },
+        {
+            "type": "CREATE_OBJECT",
+            "host": "20751728",
+            "timestamp": 1558433587110,
+            "uuid": "31715533",
+            "seq": 10,
+            "id": "72202057",
+            "defaults": {
+                "type": "behavior",
+                "title": " Spinner",
+                "description": " spins shape around the y axis at a certain speed",
+                "parent": 0,
+                "behavior": "94534420",
+                "speed": 1
+            }
+        },
+        {
+            "type": "SET_PROPERTY",
+            "host": "20751728",
+            "timestamp": 1558433587125,
+            "uuid": "13002690",
+            "seq": 11,
+            "object": "72202057",
+            "name": "parent",
+            "value": "19444882"
+        },
+        {
+            "type": "INSERT_ELEMENT",
+            "host": "20751728",
+            "timestamp": 1558433587138,
+            "uuid": "44214598",
+            "seq": 12,
+            "array": "50201767",
+            "value": "72202057",
+            "entryid": "5595414",
+            "prev": -1
+        },
+        {
+            "type": "SET_PROPERTY",
+            "host": "20751728",
+            "timestamp": 1558433595201,
+            "uuid": "88820758",
+            "seq": 19,
+            "object": "72202057",
+            "name": "speed",
+            "value": 1,
+            "prevValue": 1
+        },
+        {
+            "type": "SET_PROPERTY",
+            "host": "20751728",
+            "timestamp": 1558433595530,
+            "uuid": "11923176",
+            "seq": 20,
+            "object": "72202057",
+            "name": "speed",
+            "value": 0.1,
+            "prevValue": 1
+        },
+        {
+            "type": "SET_PROPERTY",
+            "host": "20751728",
+            "timestamp": 1558433597014,
+            "uuid": "286716",
+            "seq": 21,
+            "object": "72202057",
+            "name": "speed",
+            "value": 0.1,
+            "prevValue": 0.1
+        },
+        {
+            "type": "CREATE_OBJECT",
+            "host": "20751728",
+            "timestamp": 1558433607170,
+            "uuid": "85797188",
+            "seq": 31,
+            "id": "53474490",
+            "defaults": {
+                "type": "behavior_script",
+                "title": " onEvents",
+                "description": " runs the provided code in the common event handlers",
+                "src": "onEvents.js",
+                "parent": 0
+            }
+        },
+        {
+            "type": "SET_PROPERTY",
+            "host": "20751728",
+            "timestamp": 1558433607171,
+            "uuid": "87185266",
+            "seq": 32,
+            "object": "53474490",
+            "name": "parent",
+            "value": "26307193"
+        },
+        {
+            "type": "INSERT_ELEMENT",
+            "host": "20751728",
+            "timestamp": 1558433607171,
+            "uuid": "21448158",
+            "seq": 33,
+            "array": "63431201",
+            "value": "53474490",
+            "entryid": "68460060",
+            "prev": "44978237"
+        },
+        {
+            "type": "CREATE_OBJECT",
+            "host": "20751728",
+            "timestamp": 1558433607274,
+            "uuid": "55138149",
+            "seq": 34,
+            "id": "8298078",
+            "defaults": {
+                "type": "behavior",
+                "title": " onEvents",
+                "description": " runs the provided code in the common event handlers",
+                "parent": 0,
+                "behavior": "53474490",
+                "start": "",
+                "stop": "",
+                "enter": "",
+                "exit": "",
+                "tick": "",
+                "message": ""
+            }
+        },
+        {
+            "type": "SET_PROPERTY",
+            "host": "20751728",
+            "timestamp": 1558433607283,
+            "uuid": "86224284",
+            "seq": 35,
+            "object": "8298078",
+            "name": "parent",
+            "value": "19444882"
+        },
+        {
+            "type": "INSERT_ELEMENT",
+            "host": "20751728",
+            "timestamp": 1558433607291,
+            "uuid": "5293307",
+            "seq": 36,
+            "array": "50201767",
+            "value": "8298078",
+            "entryid": "96499883",
+            "prev": "5595414"
+        },
+        {
+            "type": "SET_PROPERTY",
+            "host": "56472048",
+            "timestamp": 1558433753826,
+            "uuid": "15855453",
+            "seq": 1,
+            "object": "8298078",
+            "name": "start",
+            "value": "",
+            "prevValue": ""
+        },
+        {
+            "type": "SET_PROPERTY",
+            "host": "56472048",
+            "timestamp": 1558433762807,
+            "uuid": "99645903",
+            "seq": 2,
+            "object": "8298078",
+            "name": "enter",
+            "value": "this.playMedia(51545841)",
+            "prevValue": ""
+        },
+        {
+            "type": "CREATE_OBJECT",
+            "host": "26255180",
+            "timestamp": 1558433919185,
+            "uuid": "73311036",
+            "seq": 1,
+            "id": "24644236",
+            "defaults": {
+                "type": "asset",
+                "subtype": "gltf",
+                "assetId": "xSC3vcDjP8uNOeKM",
+                "format": "model/gltf-binary",
+                "src": "https://cdn.glitch.com/d08bbb6e-bd26-4c39-b1e0-7c580818c692%2FDuckyMesh.glb",
+                "title": "DuckyMesh.glb",
+                "parent": 0
+            }
+        },
+        {
+            "type": "SET_PROPERTY",
+            "host": "26255180",
+            "timestamp": 1558433919186,
+            "uuid": "99844075",
+            "seq": 2,
+            "object": "24644236",
+            "name": "parent",
+            "value": "56394886"
+        },
+        {
+            "type": "INSERT_ELEMENT",
+            "host": "26255180",
+            "timestamp": 1558433919186,
+            "uuid": "12830332",
+            "seq": 3,
+            "array": "82195921",
+            "value": "24644236",
+            "entryid": "99972293",
+            "prev": "65853904"
+        },
+        {
+            "type": "CREATE_ARRAY",
+            "host": "26255180",
+            "timestamp": 1558433929767,
+            "uuid": "18437170",
+            "seq": 4,
+            "id": "80823002"
+        },
+        {
+            "type": "CREATE_OBJECT",
+            "host": "26255180",
+            "timestamp": 1558433929768,
+            "uuid": "61843604",
+            "seq": 5,
+            "id": "69744113",
+            "defaults": {
+                "type": "model",
+                "title": "a model",
+                "visible": true,
+                "tx": 0,
+                "ty": 0,
+                "tz": 0,
+                "rx": 0,
+                "ry": 0,
+                "rz": 0,
+                "sx": 1,
+                "sy": 1,
+                "sz": 1,
+                "color": "#ffffff",
+                "children": "80823002",
+                "asset": -30,
+                "parent": "12117089"
+            }
+        },
+        {
+            "type": "SET_PROPERTY",
+            "host": "26255180",
+            "timestamp": 1558433929768,
+            "uuid": "99473562",
+            "seq": 6,
+            "object": "69744113",
+            "name": "parent",
+            "value": "12117089"
+        },
+        {
+            "type": "INSERT_ELEMENT",
+            "host": "26255180",
+            "timestamp": 1558433929768,
+            "uuid": "82774238",
+            "seq": 7,
+            "array": "5367196",
+            "value": "69744113",
+            "entryid": "8221104",
+            "prev": -1
+        },
+        {
+            "type": "SET_PROPERTY",
+            "host": "26255180",
+            "timestamp": 1558433932740,
+            "uuid": "69388589",
+            "seq": 11,
+            "object": "69744113",
+            "name": "asset",
+            "value": "24644236",
+            "prevValue": -30
+        },
+        {
+            "type": "SET_PROPERTY",
+            "host": "26255180",
+            "timestamp": 1558433936141,
+            "uuid": "8199015",
+            "seq": 264,
+            "object": "69744113",
+            "name": "tx",
+            "value": -0.2993608130459029,
+            "prevValue": -0.007798026892128718
+        },
+        {
+            "type": "SET_PROPERTY",
+            "host": "28741527",
+            "timestamp": 1558434050720,
+            "uuid": "11399837",
+            "seq": 4,
+            "object": "69744113",
+            "name": "visible",
+            "value": false,
+            "prevValue": true
+        },
+        {
+            "type": "DELETE_ELEMENT",
+            "host": "28741527",
+            "timestamp": 1558434082602,
+            "uuid": "4891780",
+            "seq": 17,
+            "array": "5367196",
+            "entry": "8221104",
+            "value": "69744113"
         }
     ],
     "type": "vr",
@@ -512,7 +818,31 @@
                         "sy": 1,
                         "sz": 1,
                         "color": "#ffffff",
-                        "children": [],
+                        "children": [
+                            {
+                                "type": "behavior",
+                                "title": " Spinner",
+                                "description": " spins shape around the y axis at a certain speed",
+                                "parent": "19444882",
+                                "behavior": "94534420",
+                                "speed": 0.1,
+                                "id": "72202057"
+                            },
+                            {
+                                "type": "behavior",
+                                "title": " onEvents",
+                                "description": " runs the provided code in the common event handlers",
+                                "parent": "19444882",
+                                "behavior": "53474490",
+                                "start": "",
+                                "stop": "",
+                                "enter": "this.playMedia(51545841)",
+                                "exit": "",
+                                "tick": "",
+                                "message": "",
+                                "id": "8298078"
+                            }
+                        ],
                         "asset": "51545841",
                         "parent": "12117089",
                         "id": "19444882"
@@ -571,6 +901,14 @@
                         "src": "billboard.js",
                         "parent": "26307193",
                         "id": "9721"
+                    },
+                    {
+                        "type": "behavior_script",
+                        "title": " onEvents",
+                        "description": " runs the provided code in the common event handlers",
+                        "src": "onEvents.js",
+                        "parent": "26307193",
+                        "id": "53474490"
                     }
                 ],
                 "parent": "42834946",
@@ -589,6 +927,16 @@
                         "title": "jon-awesome.mp4",
                         "parent": "56394886",
                         "id": "51545841"
+                    },
+                    {
+                        "type": "asset",
+                        "subtype": "gltf",
+                        "assetId": "xSC3vcDjP8uNOeKM",
+                        "format": "model/gltf-binary",
+                        "src": "https://cdn.glitch.com/d08bbb6e-bd26-4c39-b1e0-7c580818c692%2FDuckyMesh.glb",
+                        "title": "DuckyMesh.glb",
+                        "parent": "56394886",
+                        "id": "24644236"
                     }
                 ],
                 "parent": "42834946",
