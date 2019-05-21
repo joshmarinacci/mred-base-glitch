@@ -28,11 +28,10 @@ To make updates to the `general-editor` and update this repo with the newer buil
 * Check out the `general-editor` repo in a new directory
 * Install deps and build it
   * `npm install`
+  *  _make changes_
   * `npm run build`
-  
-* Copy the built files to the `public/.build` directory in this repo. Notice the period before build. This makes 
-the generated editor files be hidden in Glitch.
-* Push the changes back to github. 
+* Push the changes to `general-editor` back to github.
+* Go to the Glitch console at update from the general-editor repository with `git submodule update --remote`.  Note, that you can change the submodule to point at a branch in the general-editor repository, or a fork of your own.  See [the git cookbook page on submodules](https://git-scm.com/book/en/v2/Git-Tools-Submodules) for examples of using submodules effectively.
+
+Alternatively
 * Create a new Glitch from the repo following the instructions in the previous section
-
-
