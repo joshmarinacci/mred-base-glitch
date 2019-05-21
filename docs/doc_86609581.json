@@ -786,6 +786,136 @@
             "array": "5367196",
             "entry": "8221104",
             "value": "69744113"
+        },
+        {
+            "type": "SET_PROPERTY",
+            "host": "28741527",
+            "timestamp": 1558434129636,
+            "uuid": "85143598",
+            "seq": 24,
+            "object": "19444882",
+            "name": "visible",
+            "value": false,
+            "prevValue": true
+        },
+        {
+            "type": "SET_PROPERTY",
+            "host": "28741527",
+            "timestamp": 1558434180279,
+            "uuid": "17747642",
+            "seq": 25,
+            "object": "19444882",
+            "name": "visible",
+            "value": true,
+            "prevValue": false
+        },
+        {
+            "type": "CREATE_ARRAY",
+            "host": "28741527",
+            "timestamp": 1558434186711,
+            "uuid": "91447243",
+            "seq": 32,
+            "id": "86305768"
+        },
+        {
+            "type": "CREATE_OBJECT",
+            "host": "28741527",
+            "timestamp": 1558434186711,
+            "uuid": "69401875",
+            "seq": 33,
+            "id": "98754285",
+            "defaults": {
+                "type": "model",
+                "title": "a model",
+                "visible": true,
+                "tx": 0,
+                "ty": 0,
+                "tz": 0,
+                "rx": 0,
+                "ry": 0,
+                "rz": 0,
+                "sx": 1,
+                "sy": 1,
+                "sz": 1,
+                "color": "#ffffff",
+                "children": "86305768",
+                "asset": -30,
+                "parent": "12117089"
+            }
+        },
+        {
+            "type": "SET_PROPERTY",
+            "host": "28741527",
+            "timestamp": 1558434186711,
+            "uuid": "6254069",
+            "seq": 34,
+            "object": "98754285",
+            "name": "parent",
+            "value": "12117089"
+        },
+        {
+            "type": "INSERT_ELEMENT",
+            "host": "28741527",
+            "timestamp": 1558434186712,
+            "uuid": "58440640",
+            "seq": 35,
+            "array": "5367196",
+            "value": "98754285",
+            "entryid": "47512122",
+            "prev": -1
+        },
+        {
+            "type": "SET_PROPERTY",
+            "host": "28741527",
+            "timestamp": 1558434190651,
+            "uuid": "56857513",
+            "seq": 45,
+            "object": "98754285",
+            "name": "asset",
+            "value": "24644236",
+            "prevValue": -30
+        },
+        {
+            "type": "SET_PROPERTY",
+            "host": "28741527",
+            "timestamp": 1558434193893,
+            "uuid": "41044037",
+            "seq": 596,
+            "object": "98754285",
+            "name": "ty",
+            "value": 0.44369680672704326,
+            "prevValue": -0.011570968509213131
+        },
+        {
+            "type": "SET_PROPERTY",
+            "host": "28741527",
+            "timestamp": 1558434201985,
+            "uuid": "12696592",
+            "seq": 841,
+            "object": "98754285",
+            "name": "tx",
+            "value": -0.40699700943926476,
+            "prevValue": -0.001966549049435634
+        },
+        {
+            "type": "DELETE_ELEMENT",
+            "host": "28741527",
+            "timestamp": 1558434352754,
+            "uuid": "39065337",
+            "seq": 856,
+            "array": "5367196",
+            "entry": "47512122",
+            "value": "98754285"
+        },
+        {
+            "type": "DELETE_ELEMENT",
+            "host": "28741527",
+            "timestamp": 1558434394672,
+            "uuid": "23379042",
+            "seq": 860,
+            "array": "82195921",
+            "entry": "99972293",
+            "value": "24644236"
         }
     ],
     "type": "vr",
@@ -927,16 +1057,6 @@
                         "title": "jon-awesome.mp4",
                         "parent": "56394886",
                         "id": "51545841"
-                    },
-                    {
-                        "type": "asset",
-                        "subtype": "gltf",
-                        "assetId": "xSC3vcDjP8uNOeKM",
-                        "format": "model/gltf-binary",
-                        "src": "https://cdn.glitch.com/d08bbb6e-bd26-4c39-b1e0-7c580818c692%2FDuckyMesh.glb",
-                        "title": "DuckyMesh.glb",
-                        "parent": "56394886",
-                        "id": "24644236"
                     }
                 ],
                 "parent": "42834946",
