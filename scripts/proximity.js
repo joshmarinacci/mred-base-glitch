@@ -27,8 +27,6 @@
         let target = event.target
         let near = this.properties.near || 1
         let far = this.properties.far || (near+1)
-        let message = this.properties.enteryessage || "trigger"
-        let faraway = this.properties.exitMessage || "faraway"
 
         // far must be EQUAL TO OR farther than near; and to avoid firing a zillion events best to have (far-near)>(some small number)
         if(far<near)far=near+0.1
@@ -51,7 +49,7 @@
           if(distance <= near) {
             this.isNear = true
             this.logger.log("nearer than near radius - send an enter message now")
-            this.fireEvent("proximity",{})
+            this.fireEvent("proximity",{in: false})
           }
         }      
     },
