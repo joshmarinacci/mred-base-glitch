@@ -6,12 +6,12 @@
 ({
     // defines a target property. must be a scene
     properties: {
-        sound: {
+        media: {
             type:'enum',
-                title: 'sound',
-                value:null,
-                hints: {
-                type:'audio',
+            title: 'sound',
+            value: null,
+            hints: {
+              type:'audio',
             }
         },
     },

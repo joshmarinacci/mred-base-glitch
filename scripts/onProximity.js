@@ -1,5 +1,5 @@
 /*
-#title proximityAction
+#title onProximity
 #description runs the provided code on proximity transitions
 */
 ({
@@ -26,7 +26,7 @@
       let props = this.properties
       
       let enter = "function(e) { ((e) => {" + props.enter + "}).call(this, e)}"
-      this.enterunction = Function('"use strict";return (' + enter + ')')()
+      this.enterFunction = Function('"use strict";return (' + enter + ')')()
 
       let exit = "function(e) { ((e) => {" + props.exit + "}).call(this, e)}"
       this.exitFunction = Function('"use strict";return (' + exit + ')')()
