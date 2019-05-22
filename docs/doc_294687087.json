@@ -1,0 +1,501 @@
+{
+    "history": [
+        {
+            "type": "CREATE_ARRAY",
+            "host": "80186202",
+            "timestamp": 1558489286008,
+            "uuid": "55919066",
+            "seq": 1,
+            "id": "2489320"
+        },
+        {
+            "type": "CREATE_OBJECT",
+            "host": "80186202",
+            "timestamp": 1558489286008,
+            "uuid": "21674275",
+            "seq": 2,
+            "id": "56204175",
+            "defaults": {
+                "type": "root",
+                "title": "Untitled Project",
+                "defaultScene": 0,
+                "children": "2489320"
+            }
+        },
+        {
+            "type": "CREATE_ARRAY",
+            "host": "80186202",
+            "timestamp": 1558489286009,
+            "uuid": "25184790",
+            "seq": 3,
+            "id": "11887459"
+        },
+        {
+            "type": "CREATE_OBJECT",
+            "host": "80186202",
+            "timestamp": 1558489286009,
+            "uuid": "30660794",
+            "seq": 4,
+            "id": "35852099",
+            "defaults": {
+                "type": "scene",
+                "title": "Scene 0",
+                "autoRecenter": true,
+                "defaultFloor": false,
+                "parent": "56204175",
+                "children": "11887459"
+            }
+        },
+        {
+            "type": "CREATE_ARRAY",
+            "host": "80186202",
+            "timestamp": 1558489286009,
+            "uuid": "68382691",
+            "seq": 5,
+            "id": "19887199"
+        },
+        {
+            "type": "CREATE_OBJECT",
+            "host": "80186202",
+            "timestamp": 1558489286009,
+            "uuid": "14850806",
+            "seq": 6,
+            "id": "69984664",
+            "defaults": {
+                "type": "cube",
+                "title": "cube 0",
+                "visible": true,
+                "width": 0.3,
+                "height": 0.3,
+                "depth": 0.3,
+                "tx": 0,
+                "ty": 0,
+                "tz": 0,
+                "rx": 0,
+                "ry": 0,
+                "rz": 0,
+                "sx": 1,
+                "sy": 1,
+                "sz": 1,
+                "color": "#00ff00",
+                "children": "19887199",
+                "asset": -30,
+                "parent": "35852099"
+            }
+        },
+        {
+            "type": "CREATE_ARRAY",
+            "host": "80186202",
+            "timestamp": 1558489286009,
+            "uuid": "9368205",
+            "seq": 7,
+            "id": "27103230"
+        },
+        {
+            "type": "CREATE_OBJECT",
+            "host": "80186202",
+            "timestamp": 1558489286009,
+            "uuid": "88924316",
+            "seq": 8,
+            "id": "45308969",
+            "defaults": {
+                "type": "assets",
+                "title": "Assets",
+                "children": "27103230",
+                "parent": 0
+            }
+        },
+        {
+            "type": "CREATE_ARRAY",
+            "host": "80186202",
+            "timestamp": 1558489286009,
+            "uuid": "75003367",
+            "seq": 9,
+            "id": "14701701"
+        },
+        {
+            "type": "CREATE_OBJECT",
+            "host": "80186202",
+            "timestamp": 1558489286009,
+            "uuid": "59084900",
+            "seq": 10,
+            "id": "28282215",
+            "defaults": {
+                "type": "behaviors",
+                "title": "Behaviors",
+                "children": "14701701",
+                "parent": 0
+            }
+        },
+        {
+            "type": "SET_PROPERTY",
+            "host": "80186202",
+            "timestamp": 1558489286009,
+            "uuid": "90032731",
+            "seq": 11,
+            "object": "35852099",
+            "name": "parent",
+            "value": "56204175"
+        },
+        {
+            "type": "INSERT_ELEMENT",
+            "host": "80186202",
+            "timestamp": 1558489286009,
+            "uuid": "7278151",
+            "seq": 12,
+            "array": "2489320",
+            "value": "35852099",
+            "entryid": "26551115",
+            "prev": -1
+        },
+        {
+            "type": "SET_PROPERTY",
+            "host": "80186202",
+            "timestamp": 1558489286009,
+            "uuid": "73948306",
+            "seq": 13,
+            "object": "69984664",
+            "name": "parent",
+            "value": "35852099"
+        },
+        {
+            "type": "INSERT_ELEMENT",
+            "host": "80186202",
+            "timestamp": 1558489286010,
+            "uuid": "47885471",
+            "seq": 14,
+            "array": "11887459",
+            "value": "69984664",
+            "entryid": "97094644",
+            "prev": -1
+        },
+        {
+            "type": "SET_PROPERTY",
+            "host": "80186202",
+            "timestamp": 1558489286010,
+            "uuid": "97528480",
+            "seq": 15,
+            "object": "28282215",
+            "name": "parent",
+            "value": "56204175"
+        },
+        {
+            "type": "INSERT_ELEMENT",
+            "host": "80186202",
+            "timestamp": 1558489286010,
+            "uuid": "50156009",
+            "seq": 16,
+            "array": "2489320",
+            "value": "28282215",
+            "entryid": "44530270",
+            "prev": "26551115"
+        },
+        {
+            "type": "SET_PROPERTY",
+            "host": "80186202",
+            "timestamp": 1558489286010,
+            "uuid": "33442271",
+            "seq": 17,
+            "object": "45308969",
+            "name": "parent",
+            "value": "56204175"
+        },
+        {
+            "type": "INSERT_ELEMENT",
+            "host": "80186202",
+            "timestamp": 1558489286010,
+            "uuid": "68444926",
+            "seq": 18,
+            "array": "2489320",
+            "value": "45308969",
+            "entryid": "40233296",
+            "prev": "44530270"
+        },
+        {
+            "type": "SET_PROPERTY",
+            "host": "80186202",
+            "timestamp": 1558489305203,
+            "uuid": "20683409",
+            "seq": 19,
+            "object": "56204175",
+            "name": "title",
+            "value": "linear story",
+            "prevValue": "Untitled Project"
+        },
+        {
+            "type": "SET_PROPERTY",
+            "host": "80186202",
+            "timestamp": 1558489305867,
+            "uuid": "21790045",
+            "seq": 20,
+            "object": "56204175",
+            "name": "defaultScene",
+            "value": "35852099",
+            "prevValue": 0
+        },
+        {
+            "type": "SET_PROPERTY",
+            "host": "80186202",
+            "timestamp": 1558489313568,
+            "uuid": "13290411",
+            "seq": 21,
+            "object": "35852099",
+            "name": "title",
+            "value": "intro",
+            "prevValue": "Scene 0"
+        },
+        {
+            "type": "DELETE_ELEMENT",
+            "host": "80186202",
+            "timestamp": 1558489315701,
+            "uuid": "72685148",
+            "seq": 31,
+            "array": "11887459",
+            "entry": "97094644",
+            "value": "69984664"
+        },
+        {
+            "type": "CREATE_ARRAY",
+            "host": "80186202",
+            "timestamp": 1558489318311,
+            "uuid": "17351908",
+            "seq": 35,
+            "id": "79283165"
+        },
+        {
+            "type": "CREATE_OBJECT",
+            "host": "80186202",
+            "timestamp": 1558489318312,
+            "uuid": "60722646",
+            "seq": 36,
+            "id": "82484077",
+            "defaults": {
+                "type": "text",
+                "title": "some text",
+                "visible": true,
+                "text": "cool <b>formatted</b> <i>text</i>",
+                "cssStyle": "color:black; \nbackground-color:white;\nwidth: 10em;\nfont-size: 200%;\n",
+                "tx": 0,
+                "ty": 0,
+                "tz": 0,
+                "rx": 0,
+                "ry": 0,
+                "rz": 0,
+                "sx": 1,
+                "sy": 1,
+                "sz": 1,
+                "children": "79283165",
+                "parent": "35852099"
+            }
+        },
+        {
+            "type": "SET_PROPERTY",
+            "host": "80186202",
+            "timestamp": 1558489318312,
+            "uuid": "80334139",
+            "seq": 37,
+            "object": "82484077",
+            "name": "parent",
+            "value": "35852099"
+        },
+        {
+            "type": "INSERT_ELEMENT",
+            "host": "80186202",
+            "timestamp": 1558489318312,
+            "uuid": "18044416",
+            "seq": 38,
+            "array": "11887459",
+            "value": "82484077",
+            "entryid": "35876307",
+            "prev": -1
+        },
+        {
+            "type": "SET_PROPERTY",
+            "host": "80186202",
+            "timestamp": 1558489382765,
+            "uuid": "81224888",
+            "seq": 42,
+            "object": "82484077",
+            "name": "text",
+            "value": "It was a dark and story night. <b>You</b>, my friend must find the duck to save you from the <i>rain</i>.",
+            "prevValue": "cool <b>formatted</b> <i>text</i>"
+        },
+        {
+            "type": "SET_PROPERTY",
+            "host": "80186202",
+            "timestamp": 1558489391950,
+            "uuid": "25278976",
+            "seq": 94,
+            "object": "82484077",
+            "name": "cssStyle",
+            "value": "color:black; \nbackground-color:white;\nwidth: 10em;\nfont-size: 200%;\n",
+            "prevValue": "color:black; \nbackground-color:white;\nwidth: 10em;\nfont-size: 200%;\n"
+        },
+        {
+            "type": "CREATE_OBJECT",
+            "host": "80186202",
+            "timestamp": 1558489400178,
+            "uuid": "82861047",
+            "seq": 104,
+            "id": "59033314",
+            "defaults": {
+                "type": "behavior_script",
+                "title": " Billboard",
+                "description": " Cause an object to face you ",
+                "src": "billboard.js",
+                "parent": 0
+            }
+        },
+        {
+            "type": "SET_PROPERTY",
+            "host": "80186202",
+            "timestamp": 1558489400178,
+            "uuid": "99015094",
+            "seq": 105,
+            "object": "59033314",
+            "name": "parent",
+            "value": "28282215"
+        },
+        {
+            "type": "INSERT_ELEMENT",
+            "host": "80186202",
+            "timestamp": 1558489400179,
+            "uuid": "50846196",
+            "seq": 106,
+            "array": "14701701",
+            "value": "59033314",
+            "entryid": "60717923",
+            "prev": -1
+        },
+        {
+            "type": "CREATE_OBJECT",
+            "host": "80186202",
+            "timestamp": 1558489400233,
+            "uuid": "96061258",
+            "seq": 107,
+            "id": "23090967",
+            "defaults": {
+                "type": "behavior",
+                "title": " Billboard",
+                "description": " Cause an object to face you ",
+                "parent": 0,
+                "behavior": "59033314"
+            }
+        },
+        {
+            "type": "SET_PROPERTY",
+            "host": "80186202",
+            "timestamp": 1558489400236,
+            "uuid": "90245728",
+            "seq": 108,
+            "object": "23090967",
+            "name": "parent",
+            "value": "82484077"
+        },
+        {
+            "type": "INSERT_ELEMENT",
+            "host": "80186202",
+            "timestamp": 1558489400239,
+            "uuid": "40743652",
+            "seq": 109,
+            "array": "79283165",
+            "value": "23090967",
+            "entryid": "83099098",
+            "prev": -1
+        },
+        {
+            "type": "SET_PROPERTY",
+            "host": "80186202",
+            "timestamp": 1558489420131,
+            "uuid": "45936789",
+            "seq": 116,
+            "object": "82484077",
+            "name": "tz",
+            "value": -1,
+            "prevValue": 0
+        },
+        {
+            "type": "SET_PROPERTY",
+            "host": "80186202",
+            "timestamp": 1558489422339,
+            "uuid": "70154943",
+            "seq": 117,
+            "object": "82484077",
+            "name": "tz",
+            "value": -1,
+            "prevValue": -1
+        }
+    ],
+    "type": "vr",
+    "id": "doc_294687087",
+    "graph": {
+        "type": "root",
+        "title": "linear story",
+        "defaultScene": "35852099",
+        "children": [
+            {
+                "type": "scene",
+                "title": "intro",
+                "autoRecenter": true,
+                "defaultFloor": false,
+                "parent": "56204175",
+                "children": [
+                    {
+                        "type": "text",
+                        "title": "some text",
+                        "visible": true,
+                        "text": "It was a dark and story night. <b>You</b>, my friend must find the duck to save you from the <i>rain</i>.",
+                        "cssStyle": "color:black; \nbackground-color:white;\nwidth: 10em;\nfont-size: 200%;\n",
+                        "tx": 0,
+                        "ty": 0,
+                        "tz": -1,
+                        "rx": 0,
+                        "ry": 0,
+                        "rz": 0,
+                        "sx": 1,
+                        "sy": 1,
+                        "sz": 1,
+                        "children": [
+                            {
+                                "type": "behavior",
+                                "title": " Billboard",
+                                "description": " Cause an object to face you ",
+                                "parent": "82484077",
+                                "behavior": "59033314",
+                                "id": "23090967"
+                            }
+                        ],
+                        "parent": "35852099",
+                        "id": "82484077"
+                    }
+                ],
+                "id": "35852099"
+            },
+            {
+                "type": "behaviors",
+                "title": "Behaviors",
+                "children": [
+                    {
+                        "type": "behavior_script",
+                        "title": " Billboard",
+                        "description": " Cause an object to face you ",
+                        "src": "billboard.js",
+                        "parent": "28282215",
+                        "id": "59033314"
+                    }
+                ],
+                "parent": "56204175",
+                "id": "28282215"
+            },
+            {
+                "type": "assets",
+                "title": "Assets",
+                "children": [],
+                "parent": "56204175",
+                "id": "45308969"
+            }
+        ],
+        "id": "56204175"
+    },
+    "title": "linear story"
+}
