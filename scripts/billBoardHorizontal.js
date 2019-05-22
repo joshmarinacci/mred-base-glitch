@@ -12,6 +12,7 @@
         this.x = new THREE.Vector3()
         this.y = new THREE.Vector3()
         this.z = new THREE.Vector3()
+      
     },
     tick: function(event) {
         let THREE = this.globals.THREE
@@ -20,7 +21,10 @@
         let target = event.target
 
         camera.getWorldPosition(this.cameraPos);
-        target.lookAt(this.cameraPos);
+        this.y.x = 0
+        this.y.y = 1
+        this.y.z = 0
+        target.lookAt(this.cameraPos, this.y);
         
         target.matrix.extractBasis(this.x,this.y,this.z)
         //this.logger.log("original matrix", target.matrix)
