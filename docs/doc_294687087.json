@@ -424,6 +424,88 @@
             "name": "tz",
             "value": -1,
             "prevValue": -1
+        },
+        {
+            "type": "DELETE_ELEMENT",
+            "host": "80186202",
+            "timestamp": 1558489953528,
+            "uuid": "27849137",
+            "seq": 124,
+            "array": "79283165",
+            "entry": "83099098",
+            "value": "23090967"
+        },
+        {
+            "type": "CREATE_OBJECT",
+            "host": "80186202",
+            "timestamp": 1558489958978,
+            "uuid": "75207755",
+            "seq": 134,
+            "id": "15060963",
+            "defaults": {
+                "type": "behavior_script",
+                "title": " Billboard Horizontal",
+                "description": " Cause an object to face you, but keep Y vertical ",
+                "src": "billBoardHorizontal.js",
+                "parent": 0
+            }
+        },
+        {
+            "type": "SET_PROPERTY",
+            "host": "80186202",
+            "timestamp": 1558489958978,
+            "uuid": "70598728",
+            "seq": 135,
+            "object": "15060963",
+            "name": "parent",
+            "value": "28282215"
+        },
+        {
+            "type": "INSERT_ELEMENT",
+            "host": "80186202",
+            "timestamp": 1558489958979,
+            "uuid": "83211959",
+            "seq": 136,
+            "array": "14701701",
+            "value": "15060963",
+            "entryid": "67745162",
+            "prev": "60717923"
+        },
+        {
+            "type": "CREATE_OBJECT",
+            "host": "80186202",
+            "timestamp": 1558489959040,
+            "uuid": "3937458",
+            "seq": 137,
+            "id": "52583888",
+            "defaults": {
+                "type": "behavior",
+                "title": " Billboard Horizontal",
+                "description": " Cause an object to face you, but keep Y vertical ",
+                "parent": 0,
+                "behavior": "15060963"
+            }
+        },
+        {
+            "type": "SET_PROPERTY",
+            "host": "80186202",
+            "timestamp": 1558489959043,
+            "uuid": "40371068",
+            "seq": 138,
+            "object": "52583888",
+            "name": "parent",
+            "value": "82484077"
+        },
+        {
+            "type": "INSERT_ELEMENT",
+            "host": "80186202",
+            "timestamp": 1558489959046,
+            "uuid": "11931070",
+            "seq": 139,
+            "array": "79283165",
+            "value": "52583888",
+            "entryid": "31460257",
+            "prev": -1
         }
     ],
     "type": "vr",
@@ -458,11 +540,11 @@
                         "children": [
                             {
                                 "type": "behavior",
-                                "title": " Billboard",
-                                "description": " Cause an object to face you ",
+                                "title": " Billboard Horizontal",
+                                "description": " Cause an object to face you, but keep Y vertical ",
                                 "parent": "82484077",
-                                "behavior": "59033314",
-                                "id": "23090967"
+                                "behavior": "15060963",
+                                "id": "52583888"
                             }
                         ],
                         "parent": "35852099",
@@ -482,6 +564,14 @@
                         "src": "billboard.js",
                         "parent": "28282215",
                         "id": "59033314"
+                    },
+                    {
+                        "type": "behavior_script",
+                        "title": " Billboard Horizontal",
+                        "description": " Cause an object to face you, but keep Y vertical ",
+                        "src": "billBoardHorizontal.js",
+                        "parent": "28282215",
+                        "id": "15060963"
                     }
                 ],
                 "parent": "56204175",

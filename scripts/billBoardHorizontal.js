@@ -22,13 +22,14 @@
         camera.getWorldPosition(this.cameraPos);
         target.lookAt(this.cameraPos);
         
-        this.cameraPos.extractBasis(this.x,this.y,this.z)
+        target.matrix.extractBasis(this.x,this.y,this.z)
         this.y.x = 0
         this.y.y = 1
         this.y.z = 0
-        this.x.crossVectors(y,z)
-        this.z.crossVectors(x,y)
-        this.
+        this.x.crossVectors(this.y,this.z)
+        this.x.normalize()
+        this.z.crossVectors(this.x,this.y)
+        target.matrix.makeBasis(this.x,this.y, this.z)
         
         target.matrixWorldNeedsUpdate = true
     },
