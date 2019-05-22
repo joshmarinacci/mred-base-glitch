@@ -4096,6 +4096,369 @@
             "name": "autoRecenter",
             "value": false,
             "prevValue": true
+        },
+        {
+            "type": "CREATE_OBJECT",
+            "host": "91070818",
+            "timestamp": 1558519214996,
+            "uuid": "45392495",
+            "seq": 10,
+            "id": "51139514",
+            "defaults": {
+                "type": "behavior",
+                "title": " Navigate on Click",
+                "description": " Navigate to a new scene on click",
+                "parent": 0,
+                "behavior": "82793174",
+                "scene": null
+            }
+        },
+        {
+            "type": "SET_PROPERTY",
+            "host": "91070818",
+            "timestamp": 1558519215005,
+            "uuid": "51856220",
+            "seq": 11,
+            "object": "51139514",
+            "name": "parent",
+            "value": "59600134"
+        },
+        {
+            "type": "INSERT_ELEMENT",
+            "host": "91070818",
+            "timestamp": 1558519215011,
+            "uuid": "37406344",
+            "seq": 12,
+            "array": "77155158",
+            "value": "51139514",
+            "entryid": "4805608",
+            "prev": "33745676"
+        },
+        {
+            "type": "SET_PROPERTY",
+            "host": "91070818",
+            "timestamp": 1558519222969,
+            "uuid": "1342895",
+            "seq": 13,
+            "object": "51139514",
+            "name": "scene",
+            "value": "51469394",
+            "prevValue": null
+        },
+        {
+            "type": "CREATE_OBJECT",
+            "host": "91070818",
+            "timestamp": 1558519251172,
+            "uuid": "4442975",
+            "seq": 23,
+            "id": "50801141",
+            "defaults": {
+                "type": "behavior_script",
+                "title": " onTrigger",
+                "description": " Runs the provided code on a trigger event",
+                "src": "onTrigger.js",
+                "parent": 0
+            }
+        },
+        {
+            "type": "SET_PROPERTY",
+            "host": "91070818",
+            "timestamp": 1558519251172,
+            "uuid": "70360943",
+            "seq": 24,
+            "object": "50801141",
+            "name": "parent",
+            "value": "28282215"
+        },
+        {
+            "type": "INSERT_ELEMENT",
+            "host": "91070818",
+            "timestamp": 1558519251173,
+            "uuid": "74879500",
+            "seq": 25,
+            "array": "14701701",
+            "value": "50801141",
+            "entryid": "56830300",
+            "prev": "83128725"
+        },
+        {
+            "type": "CREATE_OBJECT",
+            "host": "91070818",
+            "timestamp": 1558519251234,
+            "uuid": "21121657",
+            "seq": 26,
+            "id": "92849458",
+            "defaults": {
+                "type": "behavior",
+                "title": " onTrigger",
+                "description": " Runs the provided code on a trigger event",
+                "parent": 0,
+                "behavior": "50801141",
+                "trigger": ""
+            }
+        },
+        {
+            "type": "SET_PROPERTY",
+            "host": "91070818",
+            "timestamp": 1558519251240,
+            "uuid": "73794700",
+            "seq": 27,
+            "object": "92849458",
+            "name": "parent",
+            "value": "86498827"
+        },
+        {
+            "type": "INSERT_ELEMENT",
+            "host": "91070818",
+            "timestamp": 1558519251247,
+            "uuid": "86834542",
+            "seq": 28,
+            "array": "44099794",
+            "value": "92849458",
+            "entryid": "38123153",
+            "prev": "81590945"
+        },
+        {
+            "type": "SET_PROPERTY",
+            "host": "91070818",
+            "timestamp": 1558519303741,
+            "uuid": "39235191",
+            "seq": 29,
+            "object": "92849458",
+            "name": "trigger",
+            "value": "this.logger.log(\"proximity trigger fired\", e.data)",
+            "prevValue": ""
+        },
+        {
+            "type": "SET_PROPERTY",
+            "host": "91070818",
+            "timestamp": 1558519313539,
+            "uuid": "36484747",
+            "seq": 30,
+            "object": "13171974",
+            "name": "near",
+            "value": 0,
+            "prevValue": 0.5
+        },
+        {
+            "type": "SET_PROPERTY",
+            "host": "91070818",
+            "timestamp": 1558519313748,
+            "uuid": "12565773",
+            "seq": 31,
+            "object": "13171974",
+            "name": "near",
+            "value": 0,
+            "prevValue": 0
+        },
+        {
+            "type": "SET_PROPERTY",
+            "host": "91070818",
+            "timestamp": 1558519314202,
+            "uuid": "22608193",
+            "seq": 32,
+            "object": "13171974",
+            "name": "near",
+            "value": 1,
+            "prevValue": 0
+        },
+        {
+            "type": "SET_PROPERTY",
+            "host": "91070818",
+            "timestamp": 1558519315619,
+            "uuid": "65276828",
+            "seq": 33,
+            "object": "13171974",
+            "name": "near",
+            "value": 1,
+            "prevValue": 1
+        },
+        {
+            "type": "SET_PROPERTY",
+            "host": "91070818",
+            "timestamp": 1558519317420,
+            "uuid": "28107550",
+            "seq": 34,
+            "object": "13171974",
+            "name": "far",
+            "value": 0.8,
+            "prevValue": 0.8
+        },
+        {
+            "type": "SET_PROPERTY",
+            "host": "91070818",
+            "timestamp": 1558519317508,
+            "uuid": "24658367",
+            "seq": 35,
+            "object": "13171974",
+            "name": "far",
+            "value": 1.8,
+            "prevValue": 0.8
+        },
+        {
+            "type": "SET_PROPERTY",
+            "host": "91070818",
+            "timestamp": 1558519321509,
+            "uuid": "69712960",
+            "seq": 36,
+            "object": "13171974",
+            "name": "far",
+            "value": 1,
+            "prevValue": 1.8
+        },
+        {
+            "type": "SET_PROPERTY",
+            "host": "91070818",
+            "timestamp": 1558519321595,
+            "uuid": "28034416",
+            "seq": 37,
+            "object": "13171974",
+            "name": "far",
+            "value": 1.1,
+            "prevValue": 1
+        },
+        {
+            "type": "SET_PROPERTY",
+            "host": "91070818",
+            "timestamp": 1558519325874,
+            "uuid": "56869211",
+            "seq": 38,
+            "object": "13171974",
+            "name": "far",
+            "value": 1.1,
+            "prevValue": 1.1
+        },
+        {
+            "type": "SET_PROPERTY",
+            "host": "91070818",
+            "timestamp": 1558519358826,
+            "uuid": "68433382",
+            "seq": 51,
+            "object": "22021040",
+            "name": "tz",
+            "value": 1,
+            "prevValue": 0
+        },
+        {
+            "type": "SET_PROPERTY",
+            "host": "91070818",
+            "timestamp": 1558519359996,
+            "uuid": "62238912",
+            "seq": 52,
+            "object": "22021040",
+            "name": "tz",
+            "value": 1,
+            "prevValue": 1
+        },
+        {
+            "type": "SET_PROPERTY",
+            "host": "91070818",
+            "timestamp": 1558519360324,
+            "uuid": "95633983",
+            "seq": 53,
+            "object": "22021040",
+            "name": "ty",
+            "value": 0.5,
+            "prevValue": 0.5
+        },
+        {
+            "type": "SET_PROPERTY",
+            "host": "91070818",
+            "timestamp": 1558519361731,
+            "uuid": "31353887",
+            "seq": 54,
+            "object": "22021040",
+            "name": "tx",
+            "value": 0,
+            "prevValue": 1
+        },
+        {
+            "type": "SET_PROPERTY",
+            "host": "91070818",
+            "timestamp": 1558519367630,
+            "uuid": "10015038",
+            "seq": 55,
+            "object": "22021040",
+            "name": "tx",
+            "value": 0,
+            "prevValue": 0
+        },
+        {
+            "type": "SET_PROPERTY",
+            "host": "91070818",
+            "timestamp": 1558519378832,
+            "uuid": "79855042",
+            "seq": 56,
+            "object": "35852099",
+            "name": "autoRecenter",
+            "value": true,
+            "prevValue": false
+        },
+        {
+            "type": "SET_PROPERTY",
+            "host": "91070818",
+            "timestamp": 1558519405250,
+            "uuid": "1506912",
+            "seq": 63,
+            "object": "59600134",
+            "name": "tx",
+            "value": 2,
+            "prevValue": 1
+        },
+        {
+            "type": "SET_PROPERTY",
+            "host": "91070818",
+            "timestamp": 1558519407496,
+            "uuid": "13939517",
+            "seq": 64,
+            "object": "59600134",
+            "name": "tx",
+            "value": 2,
+            "prevValue": 2
+        },
+        {
+            "type": "SET_PROPERTY",
+            "host": "91070818",
+            "timestamp": 1558519561069,
+            "uuid": "99705140",
+            "seq": 134,
+            "object": "59600134",
+            "name": "tx",
+            "value": 0,
+            "prevValue": 2
+        },
+        {
+            "type": "SET_PROPERTY",
+            "host": "91070818",
+            "timestamp": 1558519563208,
+            "uuid": "92721157",
+            "seq": 135,
+            "object": "59600134",
+            "name": "tx",
+            "value": 0,
+            "prevValue": 0
+        },
+        {
+            "type": "SET_PROPERTY",
+            "host": "91070818",
+            "timestamp": 1558519564852,
+            "uuid": "18986992",
+            "seq": 136,
+            "object": "59600134",
+            "name": "tz",
+            "value": 2,
+            "prevValue": 0
+        },
+        {
+            "type": "SET_PROPERTY",
+            "host": "91070818",
+            "timestamp": 1558519572776,
+            "uuid": "99845644",
+            "seq": 137,
+            "object": "59600134",
+            "name": "tz",
+            "value": 2,
+            "prevValue": 2
         }
     ],
     "type": "vr",
@@ -4108,7 +4471,7 @@
             {
                 "type": "scene",
                 "title": "intro",
-                "autoRecenter": false,
+                "autoRecenter": true,
                 "defaultFloor": false,
                 "parent": "56204175",
                 "children": [
@@ -4182,9 +4545,9 @@
                         "type": "group",
                         "title": "group 0",
                         "visible": true,
-                        "tx": 1,
+                        "tx": 0,
                         "ty": 0.5,
-                        "tz": 0,
+                        "tz": 1,
                         "rx": 0,
                         "ry": 0,
                         "rz": 0,
@@ -4253,8 +4616,8 @@
                                         "description": " sends messages on proximity events",
                                         "parent": "56800345",
                                         "behavior": "91027267",
-                                        "near": 0.5,
-                                        "far": 0.8,
+                                        "near": 1,
+                                        "far": 1.1,
                                         "id": "13171974"
                                     },
                                     {
@@ -4305,9 +4668,9 @@
                         "type": "group",
                         "title": "group 1",
                         "visible": true,
-                        "tx": 1,
+                        "tx": 0,
                         "ty": 0.5,
-                        "tz": 0,
+                        "tz": 2,
                         "rx": 0,
                         "ry": 0,
                         "rz": 0,
@@ -4375,6 +4738,15 @@
                                         "parent": "86498827",
                                         "behavior": "59033314",
                                         "id": "53099485"
+                                    },
+                                    {
+                                        "type": "behavior",
+                                        "title": " onTrigger",
+                                        "description": " Runs the provided code on a trigger event",
+                                        "parent": "86498827",
+                                        "behavior": "50801141",
+                                        "trigger": "this.logger.log(\"proximity trigger fired\", e.data)",
+                                        "id": "92849458"
                                     }
                                 ],
                                 "parent": "59600134",
@@ -4398,6 +4770,15 @@
                                 "asset": "24536619",
                                 "parent": "59600134",
                                 "id": "33630054"
+                            },
+                            {
+                                "type": "behavior",
+                                "title": " Navigate on Click",
+                                "description": " Navigate to a new scene on click",
+                                "parent": "59600134",
+                                "behavior": "82793174",
+                                "scene": "51469394",
+                                "id": "51139514"
                             }
                         ],
                         "parent": "12907881",
@@ -4541,6 +4922,14 @@
                         "src": "playSoundOnTrigger.js",
                         "parent": "28282215",
                         "id": "14148946"
+                    },
+                    {
+                        "type": "behavior_script",
+                        "title": " onTrigger",
+                        "description": " Runs the provided code on a trigger event",
+                        "src": "onTrigger.js",
+                        "parent": "28282215",
+                        "id": "50801141"
                     }
                 ],
                 "parent": "56204175",

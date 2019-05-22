@@ -20,6 +20,9 @@
         this.thisPos = new THREE.Vector3()
         this.cameraPos = new THREE.Vector3()
     },
+    enter: function(event) {
+        this.logger.log("** prox start scene: ", this.isNear)
+    },
     tick: function(event) {
       
         let THREE = this.globals.THREE
@@ -34,7 +37,8 @@
         camera.getWorldPosition(this.cameraPos);
         target.getWorldPosition(this.thisPos);
         var distance = this.thisPos.distanceTo(this.cameraPos);
-      
+              this.logger.log("** prox distance: ", distance)
+
         // state latched?
         if(this.isNear) {
           // note - far may be EQUAL TO or farther than near, so test for any infinitesmal value greater than far
