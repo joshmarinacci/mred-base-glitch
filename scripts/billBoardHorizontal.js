@@ -21,16 +21,12 @@
         let target = event.target
 
         camera.getWorldPosition(this.cameraPos);
-        this.y.x = 0
-        this.y.y = 1
-        this.y.z = 0
+        this.y.set(0,1,0)
         target.lookAt(this.cameraPos, this.y);
         
         target.matrix.extractBasis(this.x,this.y,this.z)
         //this.logger.log("original matrix", target.matrix)
-        this.y.x = 0
-        this.y.y = 1
-        this.y.z = 0
+        this.y.set(0,1,0)
         this.x.crossVectors(this.y,this.z)
         this.x.normalize()
         this.z.crossVectors(this.x,this.y)
