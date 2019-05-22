@@ -4459,6 +4459,112 @@
             "name": "tz",
             "value": 2,
             "prevValue": 2
+        },
+        {
+            "type": "SET_PROPERTY",
+            "host": "91070818",
+            "timestamp": 1558519836877,
+            "uuid": "74481867",
+            "seq": 141,
+            "object": "91027267",
+            "name": "title",
+            "value": " Proximity"
+        },
+        {
+            "type": "SET_PROPERTY",
+            "host": "91070818",
+            "timestamp": 1558519836877,
+            "uuid": "76075323",
+            "seq": 142,
+            "object": "91027267",
+            "name": "description",
+            "value": " sends messages on proximity events"
+        },
+        {
+            "type": "SET_PROPERTY",
+            "host": "91070818",
+            "timestamp": 1558520087953,
+            "uuid": "69040780",
+            "seq": 143,
+            "object": "91027267",
+            "name": "title",
+            "value": " Proximity"
+        },
+        {
+            "type": "SET_PROPERTY",
+            "host": "91070818",
+            "timestamp": 1558520087954,
+            "uuid": "91731386",
+            "seq": 144,
+            "object": "91027267",
+            "name": "description",
+            "value": " sends messages on proximity events"
+        },
+        {
+            "type": "SET_PROPERTY",
+            "host": "91070818",
+            "timestamp": 1558520125111,
+            "uuid": "49162081",
+            "seq": 145,
+            "object": "85780383",
+            "name": "near",
+            "value": 0,
+            "prevValue": 0.1
+        },
+        {
+            "type": "SET_PROPERTY",
+            "host": "91070818",
+            "timestamp": 1558520125163,
+            "uuid": "26443860",
+            "seq": 146,
+            "object": "85780383",
+            "name": "near",
+            "value": 0.5,
+            "prevValue": 0
+        },
+        {
+            "type": "SET_PROPERTY",
+            "host": "91070818",
+            "timestamp": 1558520128781,
+            "uuid": "11286685",
+            "seq": 147,
+            "object": "85780383",
+            "name": "near",
+            "value": 0.5,
+            "prevValue": 0.5
+        },
+        {
+            "type": "SET_PROPERTY",
+            "host": "91070818",
+            "timestamp": 1558520131551,
+            "uuid": "65906015",
+            "seq": 148,
+            "object": "85780383",
+            "name": "far",
+            "value": 0,
+            "prevValue": 0.5
+        },
+        {
+            "type": "SET_PROPERTY",
+            "host": "91070818",
+            "timestamp": 1558520132748,
+            "uuid": "38987750",
+            "seq": 149,
+            "object": "85780383",
+            "name": "far",
+            "value": 0.6,
+            "prevValue": 0
+        },
+        {
+            "type": "SET_PROPERTY",
+            "host": "91070818",
+            "timestamp": 1558520152832,
+            "uuid": "52543884",
+            "seq": 150,
+            "object": "85780383",
+            "name": "far",
+            "value": 0.6,
+            "prevValue": 0.6
         }
     ],
     "type": "vr",
@@ -4727,8 +4833,8 @@
                                         "description": " sends messages on proximity events",
                                         "parent": "86498827",
                                         "behavior": "91027267",
-                                        "near": 0.1,
-                                        "far": 0.5,
+                                        "near": 0.5,
+                                        "far": 0.6,
                                         "id": "85780383"
                                     },
                                     {
