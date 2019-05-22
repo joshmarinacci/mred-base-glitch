@@ -1,6 +1,6 @@
 /*
 #title onTrigger
-#description runs the provided code on a trigger event
+#description Runs the provided code on a trigger event
 */
 ({
     properties: {

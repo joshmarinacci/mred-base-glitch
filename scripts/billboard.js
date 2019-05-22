@@ -1,6 +1,6 @@
 /*
 #title Billboard
-#description cause an object to face you 
+#description Cause an object to face you 
 */
 ({
     properties: {

@@ -1,6 +1,6 @@
 /*
 #title lookAt
-#description cause an object to face another object 
+#description Cause an object to face another object 
 */
 ({
     properties: {

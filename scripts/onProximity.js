@@ -1,6 +1,6 @@
 /*
 #title onProximity
-#description runs the provided code on proximity transitions
+#description Runs the provided code on proximity transitions
 */
 ({
     properties: {

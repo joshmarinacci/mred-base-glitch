@@ -1,6 +1,6 @@
 /*
 #title Navigate After Delay
-#description wait for a certain amount of time and then transition
+#description Wait for a certain amount of time and then transition
 */
 ({
     properties: {

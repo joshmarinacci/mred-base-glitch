@@ -1,7 +1,7 @@
 
 /*
- #title click to play sound
- #description play the audio asset attached to this behavior
+ #title Play Sound on Click
+ #description Play the audio asset attached to this behavior
 */
 ({
     // defines a target property. must be a scene

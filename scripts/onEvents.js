@@ -1,6 +1,6 @@
 /*
 #title onEvents
-#description runs the provided code in the common event handlers
+#description Runs the provided code in the common event handlers
 */
 ({
     properties: {
