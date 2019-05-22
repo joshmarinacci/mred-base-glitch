@@ -23,13 +23,16 @@
         target.lookAt(this.cameraPos);
         
         target.matrix.extractBasis(this.x,this.y,this.z)
+        //this.logger.log("original matrix", target.matrix)
         this.y.x = 0
         this.y.y = 1
         this.y.z = 0
         this.x.crossVectors(this.y,this.z)
         this.x.normalize()
         this.z.crossVectors(this.x,this.y)
+        this.z.normalize();
         target.matrix.makeBasis(this.x,this.y, this.z)
+        //this.logger.log("final matrix", target.matrix)
         
         target.matrixWorldNeedsUpdate = true
     },
