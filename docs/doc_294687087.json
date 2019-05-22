@@ -809,6 +809,2316 @@
             "name": "tz",
             "value": -0.1,
             "prevValue": -0.1
+        },
+        {
+            "type": "SET_PROPERTY",
+            "host": "92960768",
+            "timestamp": 1558492720552,
+            "uuid": "68654459",
+            "seq": 1,
+            "object": "15060963",
+            "name": "title",
+            "value": " Billboard Horizontal"
+        },
+        {
+            "type": "SET_PROPERTY",
+            "host": "92960768",
+            "timestamp": 1558492720552,
+            "uuid": "69595845",
+            "seq": 2,
+            "object": "15060963",
+            "name": "description",
+            "value": " Cause an object to face you, but keep Y vertical "
+        },
+        {
+            "type": "SET_PROPERTY",
+            "host": "92960768",
+            "timestamp": 1558492893473,
+            "uuid": "60856124",
+            "seq": 3,
+            "object": "25308838",
+            "name": "ty",
+            "value": 1,
+            "prevValue": 0
+        },
+        {
+            "type": "SET_PROPERTY",
+            "host": "92960768",
+            "timestamp": 1558492898174,
+            "uuid": "79783193",
+            "seq": 4,
+            "object": "25308838",
+            "name": "ty",
+            "value": 1,
+            "prevValue": 1
+        },
+        {
+            "type": "DELETE_ELEMENT",
+            "host": "92960768",
+            "timestamp": 1558492906049,
+            "uuid": "94737970",
+            "seq": 5,
+            "array": "14701701",
+            "entry": "67745162",
+            "value": "15060963"
+        },
+        {
+            "type": "DELETE_ELEMENT",
+            "host": "92960768",
+            "timestamp": 1558492908168,
+            "uuid": "91345120",
+            "seq": 6,
+            "array": "79283165",
+            "entry": "39892557",
+            "value": "68277817"
+        },
+        {
+            "type": "CREATE_OBJECT",
+            "host": "92960768",
+            "timestamp": 1558492911329,
+            "uuid": "64221822",
+            "seq": 16,
+            "id": "99803470",
+            "defaults": {
+                "type": "behavior",
+                "title": " Billboard",
+                "description": " Cause an object to face you ",
+                "parent": 0,
+                "behavior": "59033314"
+            }
+        },
+        {
+            "type": "SET_PROPERTY",
+            "host": "92960768",
+            "timestamp": 1558492911339,
+            "uuid": "44436480",
+            "seq": 17,
+            "object": "99803470",
+            "name": "parent",
+            "value": "82484077"
+        },
+        {
+            "type": "INSERT_ELEMENT",
+            "host": "92960768",
+            "timestamp": 1558492911347,
+            "uuid": "37710815",
+            "seq": 18,
+            "array": "79283165",
+            "value": "99803470",
+            "entryid": "57852554",
+            "prev": -1
+        },
+        {
+            "type": "SET_PROPERTY",
+            "host": "92960768",
+            "timestamp": 1558492949183,
+            "uuid": "96621419",
+            "seq": 49,
+            "object": "82484077",
+            "name": "text",
+            "value": "It was a dark and story night. <b>You</b>, my friend must find the duck to save you from the <i>rain</i>.<br>\n[tap to continue]",
+            "prevValue": "It was a dark and story night. <b>You</b>, my friend must find the duck to save you from the <i>rain</i>."
+        },
+        {
+            "type": "SET_PROPERTY",
+            "host": "92960768",
+            "timestamp": 1558492953791,
+            "uuid": "76513175",
+            "seq": 62,
+            "object": "82484077",
+            "name": "cssStyle",
+            "value": "color:black; \nbackground-color:white;\nwidth: 10em;\nfont-size: 200%;\n",
+            "prevValue": "color:black; \nbackground-color:white;\nwidth: 10em;\nfont-size: 200%;\n"
+        },
+        {
+            "type": "SET_PROPERTY",
+            "host": "92960768",
+            "timestamp": 1558492957458,
+            "uuid": "35454628",
+            "seq": 63,
+            "object": "82484077",
+            "name": "text",
+            "value": "It was a dark and story night. <b>You</b>, my friend must find the duck to save you from the <i>rain</i>.<br>\n[...tap to continue]",
+            "prevValue": "It was a dark and story night. <b>You</b>, my friend must find the duck to save you from the <i>rain</i>.<br>\n[tap to continue]"
+        },
+        {
+            "type": "SET_PROPERTY",
+            "host": "92960768",
+            "timestamp": 1558492963468,
+            "uuid": "28700039",
+            "seq": 64,
+            "object": "82484077",
+            "name": "cssStyle",
+            "value": "color:black; \nbackground-color:white;\nwidth: 10em;\nfont-size: 200%;\n",
+            "prevValue": "color:black; \nbackground-color:white;\nwidth: 10em;\nfont-size: 200%;\n"
+        },
+        {
+            "type": "CREATE_ARRAY",
+            "host": "92960768",
+            "timestamp": 1558492984267,
+            "uuid": "51362057",
+            "seq": 83,
+            "id": "63329506"
+        },
+        {
+            "type": "CREATE_OBJECT",
+            "host": "92960768",
+            "timestamp": 1558492984268,
+            "uuid": "80854451",
+            "seq": 84,
+            "id": "74942233",
+            "defaults": {
+                "type": "scene",
+                "title": "Scene 0",
+                "autoRecenter": true,
+                "defaultFloor": false,
+                "parent": "56204175",
+                "children": "63329506"
+            }
+        },
+        {
+            "type": "SET_PROPERTY",
+            "host": "92960768",
+            "timestamp": 1558492984268,
+            "uuid": "62635615",
+            "seq": 85,
+            "object": "74942233",
+            "name": "parent",
+            "value": "56204175"
+        },
+        {
+            "type": "INSERT_ELEMENT",
+            "host": "92960768",
+            "timestamp": 1558492984269,
+            "uuid": "17376842",
+            "seq": 86,
+            "array": "2489320",
+            "value": "74942233",
+            "entryid": "78030926",
+            "prev": -1
+        },
+        {
+            "type": "SET_PROPERTY",
+            "host": "92960768",
+            "timestamp": 1558492998384,
+            "uuid": "76903255",
+            "seq": 87,
+            "object": "74942233",
+            "name": "title",
+            "value": "duck hint 1",
+            "prevValue": "Scene 0"
+        },
+        {
+            "type": "SET_PROPERTY",
+            "host": "92960768",
+            "timestamp": 1558492998506,
+            "uuid": "91358527",
+            "seq": 88,
+            "object": "74942233",
+            "name": "autoRecenter",
+            "value": false,
+            "prevValue": true
+        },
+        {
+            "type": "SET_PROPERTY",
+            "host": "92960768",
+            "timestamp": 1558492999060,
+            "uuid": "60929620",
+            "seq": 89,
+            "object": "74942233",
+            "name": "autoRecenter",
+            "value": true,
+            "prevValue": false
+        },
+        {
+            "type": "DELETE_ELEMENT",
+            "host": "92960768",
+            "timestamp": 1558493008701,
+            "uuid": "16560507",
+            "seq": 90,
+            "array": "2489320",
+            "entry": "26551115",
+            "value": "35852099"
+        },
+        {
+            "type": "SET_PROPERTY",
+            "host": "92960768",
+            "timestamp": 1558493008702,
+            "uuid": "55287493",
+            "seq": 91,
+            "object": "35852099",
+            "name": "parent",
+            "value": "56204175"
+        },
+        {
+            "type": "INSERT_ELEMENT",
+            "host": "92960768",
+            "timestamp": 1558493008703,
+            "uuid": "87665521",
+            "seq": 92,
+            "array": "2489320",
+            "value": "35852099",
+            "entryid": "48997424",
+            "prev": -1
+        },
+        {
+            "type": "CREATE_OBJECT",
+            "host": "92960768",
+            "timestamp": 1558493023448,
+            "uuid": "34810650",
+            "seq": 108,
+            "id": "82793174",
+            "defaults": {
+                "type": "behavior_script",
+                "title": " Navigate on Click",
+                "description": " Navigate to a new scene on click",
+                "src": "navigateOnClick.js",
+                "parent": 0
+            }
+        },
+        {
+            "type": "SET_PROPERTY",
+            "host": "92960768",
+            "timestamp": 1558493023448,
+            "uuid": "40242572",
+            "seq": 109,
+            "object": "82793174",
+            "name": "parent",
+            "value": "28282215"
+        },
+        {
+            "type": "INSERT_ELEMENT",
+            "host": "92960768",
+            "timestamp": 1558493023449,
+            "uuid": "41973201",
+            "seq": 110,
+            "array": "14701701",
+            "value": "82793174",
+            "entryid": "62677775",
+            "prev": "60717923"
+        },
+        {
+            "type": "CREATE_OBJECT",
+            "host": "92960768",
+            "timestamp": 1558493023549,
+            "uuid": "90736100",
+            "seq": 111,
+            "id": "39335242",
+            "defaults": {
+                "type": "behavior",
+                "title": " Navigate on Click",
+                "description": " Navigate to a new scene on click",
+                "parent": 0,
+                "behavior": "82793174",
+                "scene": null
+            }
+        },
+        {
+            "type": "SET_PROPERTY",
+            "host": "92960768",
+            "timestamp": 1558493023559,
+            "uuid": "75249227",
+            "seq": 112,
+            "object": "39335242",
+            "name": "parent",
+            "value": "82484077"
+        },
+        {
+            "type": "INSERT_ELEMENT",
+            "host": "92960768",
+            "timestamp": 1558493023569,
+            "uuid": "69744716",
+            "seq": 113,
+            "array": "79283165",
+            "value": "39335242",
+            "entryid": "90466066",
+            "prev": "57852554"
+        },
+        {
+            "type": "SET_PROPERTY",
+            "host": "92960768",
+            "timestamp": 1558493027711,
+            "uuid": "28535262",
+            "seq": 114,
+            "object": "39335242",
+            "name": "scene",
+            "value": "74942233",
+            "prevValue": null
+        },
+        {
+            "type": "CREATE_ARRAY",
+            "host": "92960768",
+            "timestamp": 1558493032980,
+            "uuid": "73085074",
+            "seq": 115,
+            "id": "11282580"
+        },
+        {
+            "type": "CREATE_OBJECT",
+            "host": "92960768",
+            "timestamp": 1558493032980,
+            "uuid": "3288174",
+            "seq": 116,
+            "id": "56800345",
+            "defaults": {
+                "type": "text",
+                "title": "some text",
+                "visible": true,
+                "text": "cool <b>formatted</b> <i>text</i>",
+                "cssStyle": "color:black; \nbackground-color:white;\nwidth: 10em;\nfont-size: 200%;\n",
+                "tx": 0,
+                "ty": 0,
+                "tz": 0,
+                "rx": 0,
+                "ry": 0,
+                "rz": 0,
+                "sx": 1,
+                "sy": 1,
+                "sz": 1,
+                "children": "11282580",
+                "parent": "74942233"
+            }
+        },
+        {
+            "type": "SET_PROPERTY",
+            "host": "92960768",
+            "timestamp": 1558493032981,
+            "uuid": "57000473",
+            "seq": 117,
+            "object": "56800345",
+            "name": "parent",
+            "value": "74942233"
+        },
+        {
+            "type": "INSERT_ELEMENT",
+            "host": "92960768",
+            "timestamp": 1558493032981,
+            "uuid": "61688166",
+            "seq": 118,
+            "array": "63329506",
+            "value": "56800345",
+            "entryid": "35204418",
+            "prev": -1
+        },
+        {
+            "type": "CREATE_ARRAY",
+            "host": "92960768",
+            "timestamp": 1558493038473,
+            "uuid": "23987169",
+            "seq": 128,
+            "id": "54456712"
+        },
+        {
+            "type": "CREATE_OBJECT",
+            "host": "92960768",
+            "timestamp": 1558493038474,
+            "uuid": "58105889",
+            "seq": 129,
+            "id": "22021040",
+            "defaults": {
+                "type": "group",
+                "title": "group 0",
+                "visible": true,
+                "tx": 0,
+                "ty": 0,
+                "tz": 0,
+                "rx": 0,
+                "ry": 0,
+                "rz": 0,
+                "sx": 1,
+                "sy": 1,
+                "sz": 1,
+                "color": "#00ff00",
+                "children": "54456712",
+                "parent": "74942233"
+            }
+        },
+        {
+            "type": "SET_PROPERTY",
+            "host": "92960768",
+            "timestamp": 1558493038474,
+            "uuid": "97710624",
+            "seq": 130,
+            "object": "22021040",
+            "name": "parent",
+            "value": "74942233"
+        },
+        {
+            "type": "INSERT_ELEMENT",
+            "host": "92960768",
+            "timestamp": 1558493038474,
+            "uuid": "58844079",
+            "seq": 131,
+            "array": "63329506",
+            "value": "22021040",
+            "entryid": "29691217",
+            "prev": -1
+        },
+        {
+            "type": "DELETE_ELEMENT",
+            "host": "92960768",
+            "timestamp": 1558493041660,
+            "uuid": "41422835",
+            "seq": 135,
+            "array": "63329506",
+            "entry": "35204418",
+            "value": "56800345"
+        },
+        {
+            "type": "SET_PROPERTY",
+            "host": "92960768",
+            "timestamp": 1558493041661,
+            "uuid": "65593218",
+            "seq": 139,
+            "object": "56800345",
+            "name": "parent",
+            "value": "22021040"
+        },
+        {
+            "type": "INSERT_ELEMENT",
+            "host": "92960768",
+            "timestamp": 1558493041661,
+            "uuid": "24765460",
+            "seq": 140,
+            "array": "54456712",
+            "value": "56800345",
+            "entryid": "7605571",
+            "prev": -1
+        },
+        {
+            "type": "SET_PROPERTY",
+            "host": "92960768",
+            "timestamp": 1558493052841,
+            "uuid": "64074811",
+            "seq": 150,
+            "object": "22021040",
+            "name": "ty",
+            "value": 1,
+            "prevValue": 0
+        },
+        {
+            "type": "SET_PROPERTY",
+            "host": "92960768",
+            "timestamp": 1558493053570,
+            "uuid": "64427864",
+            "seq": 151,
+            "object": "22021040",
+            "name": "ty",
+            "value": 1,
+            "prevValue": 1
+        },
+        {
+            "type": "SET_PROPERTY",
+            "host": "92960768",
+            "timestamp": 1558493054781,
+            "uuid": "77462359",
+            "seq": 152,
+            "object": "22021040",
+            "name": "tz",
+            "value": 0,
+            "prevValue": 0
+        },
+        {
+            "type": "SET_PROPERTY",
+            "host": "92960768",
+            "timestamp": 1558493054981,
+            "uuid": "34933752",
+            "seq": 153,
+            "object": "22021040",
+            "name": "ty",
+            "value": 1,
+            "prevValue": 1
+        },
+        {
+            "type": "SET_PROPERTY",
+            "host": "92960768",
+            "timestamp": 1558493055565,
+            "uuid": "56210326",
+            "seq": 154,
+            "object": "22021040",
+            "name": "tx",
+            "value": 1,
+            "prevValue": 0
+        },
+        {
+            "type": "SET_PROPERTY",
+            "host": "92960768",
+            "timestamp": 1558493059122,
+            "uuid": "11935653",
+            "seq": 155,
+            "object": "22021040",
+            "name": "tx",
+            "value": 1,
+            "prevValue": 1
+        },
+        {
+            "type": "SET_PROPERTY",
+            "host": "92960768",
+            "timestamp": 1558493099046,
+            "uuid": "74998599",
+            "seq": 186,
+            "object": "56800345",
+            "name": "text",
+            "value": "<em>catch me if you can</em>",
+            "prevValue": "cool <b>formatted</b> <i>text</i>"
+        },
+        {
+            "type": "SET_PROPERTY",
+            "host": "92960768",
+            "timestamp": 1558493102944,
+            "uuid": "39434317",
+            "seq": 205,
+            "object": "56800345",
+            "name": "cssStyle",
+            "value": "color:black; \nbackground-color:white;\nwidth: 10em;\nfont-size: 200%;\n",
+            "prevValue": "color:black; \nbackground-color:white;\nwidth: 10em;\nfont-size: 200%;\n"
+        },
+        {
+            "type": "SET_PROPERTY",
+            "host": "92960768",
+            "timestamp": 1558493129210,
+            "uuid": "39004409",
+            "seq": 311,
+            "object": "82484077",
+            "name": "tz",
+            "value": 0,
+            "prevValue": -0.1
+        },
+        {
+            "type": "SET_PROPERTY",
+            "host": "92960768",
+            "timestamp": 1558493132171,
+            "uuid": "57214204",
+            "seq": 315,
+            "object": "82484077",
+            "name": "tz",
+            "value": 0,
+            "prevValue": 0
+        },
+        {
+            "type": "CREATE_OBJECT",
+            "host": "92960768",
+            "timestamp": 1558493139063,
+            "uuid": "70621925",
+            "seq": 343,
+            "id": "74122600",
+            "defaults": {
+                "type": "behavior",
+                "title": " Billboard",
+                "description": " Cause an object to face you ",
+                "parent": 0,
+                "behavior": "59033314"
+            }
+        },
+        {
+            "type": "SET_PROPERTY",
+            "host": "92960768",
+            "timestamp": 1558493139070,
+            "uuid": "15110531",
+            "seq": 344,
+            "object": "74122600",
+            "name": "parent",
+            "value": "56800345"
+        },
+        {
+            "type": "INSERT_ELEMENT",
+            "host": "92960768",
+            "timestamp": 1558493139078,
+            "uuid": "99976243",
+            "seq": 345,
+            "array": "11282580",
+            "value": "74122600",
+            "entryid": "33802762",
+            "prev": -1
+        },
+        {
+            "type": "CREATE_OBJECT",
+            "host": "92960768",
+            "timestamp": 1558493152305,
+            "uuid": "88011559",
+            "seq": 364,
+            "id": "16986011",
+            "defaults": {
+                "type": "behavior_script",
+                "title": " Fixed Size",
+                "description": " Stay at a constant size regardless of distance or camera fov",
+                "src": "fixedSize.js",
+                "parent": 0
+            }
+        },
+        {
+            "type": "SET_PROPERTY",
+            "host": "92960768",
+            "timestamp": 1558493152306,
+            "uuid": "95351272",
+            "seq": 365,
+            "object": "16986011",
+            "name": "parent",
+            "value": "28282215"
+        },
+        {
+            "type": "INSERT_ELEMENT",
+            "host": "92960768",
+            "timestamp": 1558493152306,
+            "uuid": "53557222",
+            "seq": 366,
+            "array": "14701701",
+            "value": "16986011",
+            "entryid": "31057452",
+            "prev": "62677775"
+        },
+        {
+            "type": "CREATE_OBJECT",
+            "host": "92960768",
+            "timestamp": 1558493152444,
+            "uuid": "44794938",
+            "seq": 367,
+            "id": "88541275",
+            "defaults": {
+                "type": "behavior",
+                "title": " Fixed Size",
+                "description": " Stay at a constant size regardless of distance or camera fov",
+                "parent": 0,
+                "behavior": "16986011",
+                "near": 0,
+                "far": 100,
+                "size": 0.1
+            }
+        },
+        {
+            "type": "SET_PROPERTY",
+            "host": "92960768",
+            "timestamp": 1558493152452,
+            "uuid": "7613199",
+            "seq": 368,
+            "object": "88541275",
+            "name": "parent",
+            "value": "56800345"
+        },
+        {
+            "type": "INSERT_ELEMENT",
+            "host": "92960768",
+            "timestamp": 1558493152461,
+            "uuid": "63582060",
+            "seq": 369,
+            "array": "11282580",
+            "value": "88541275",
+            "entryid": "89776757",
+            "prev": "33802762"
+        },
+        {
+            "type": "SET_PROPERTY",
+            "host": "92960768",
+            "timestamp": 1558493160050,
+            "uuid": "82637515",
+            "seq": 370,
+            "object": "88541275",
+            "name": "near",
+            "value": 0,
+            "prevValue": 0
+        },
+        {
+            "type": "SET_PROPERTY",
+            "host": "92960768",
+            "timestamp": 1558493160096,
+            "uuid": "29320927",
+            "seq": 371,
+            "object": "88541275",
+            "name": "near",
+            "value": 0.1,
+            "prevValue": 0
+        },
+        {
+            "type": "SET_PROPERTY",
+            "host": "92960768",
+            "timestamp": 1558493161622,
+            "uuid": "46633615",
+            "seq": 372,
+            "object": "88541275",
+            "name": "near",
+            "value": 0.1,
+            "prevValue": 0.1
+        },
+        {
+            "type": "SET_PROPERTY",
+            "host": "92960768",
+            "timestamp": 1558493163781,
+            "uuid": "56583160",
+            "seq": 373,
+            "object": "88541275",
+            "name": "size",
+            "value": 1,
+            "prevValue": 0.1
+        },
+        {
+            "type": "SET_PROPERTY",
+            "host": "92960768",
+            "timestamp": 1558493164480,
+            "uuid": "89458262",
+            "seq": 374,
+            "object": "88541275",
+            "name": "size",
+            "value": 1,
+            "prevValue": 1
+        },
+        {
+            "type": "SET_PROPERTY",
+            "host": "92960768",
+            "timestamp": 1558493166039,
+            "uuid": "77839739",
+            "seq": 375,
+            "object": "88541275",
+            "name": "title",
+            "value": " Fixed Size",
+            "prevValue": " Fixed Size"
+        },
+        {
+            "type": "CREATE_OBJECT",
+            "host": "92960768",
+            "timestamp": 1558493204926,
+            "uuid": "75449995",
+            "seq": 499,
+            "id": "91027267",
+            "defaults": {
+                "type": "behavior_script",
+                "title": " Proximity",
+                "description": " sends messages on proximity events",
+                "src": "proximity.js",
+                "parent": 0
+            }
+        },
+        {
+            "type": "SET_PROPERTY",
+            "host": "92960768",
+            "timestamp": 1558493204926,
+            "uuid": "78035293",
+            "seq": 500,
+            "object": "91027267",
+            "name": "parent",
+            "value": "28282215"
+        },
+        {
+            "type": "INSERT_ELEMENT",
+            "host": "92960768",
+            "timestamp": 1558493204927,
+            "uuid": "49420909",
+            "seq": 501,
+            "array": "14701701",
+            "value": "91027267",
+            "entryid": "53820963",
+            "prev": "31057452"
+        },
+        {
+            "type": "CREATE_OBJECT",
+            "host": "92960768",
+            "timestamp": 1558493205084,
+            "uuid": "16367371",
+            "seq": 502,
+            "id": "13171974",
+            "defaults": {
+                "type": "behavior",
+                "title": " Proximity",
+                "description": " sends messages on proximity events",
+                "parent": 0,
+                "behavior": "91027267",
+                "near": 3,
+                "far": 5
+            }
+        },
+        {
+            "type": "SET_PROPERTY",
+            "host": "92960768",
+            "timestamp": 1558493205092,
+            "uuid": "62266699",
+            "seq": 503,
+            "object": "13171974",
+            "name": "parent",
+            "value": "56800345"
+        },
+        {
+            "type": "INSERT_ELEMENT",
+            "host": "92960768",
+            "timestamp": 1558493205102,
+            "uuid": "52330251",
+            "seq": 504,
+            "array": "11282580",
+            "value": "13171974",
+            "entryid": "16907950",
+            "prev": "89776757"
+        },
+        {
+            "type": "SET_PROPERTY",
+            "host": "92960768",
+            "timestamp": 1558493210631,
+            "uuid": "13092205",
+            "seq": 505,
+            "object": "13171974",
+            "name": "near",
+            "value": 0,
+            "prevValue": 3
+        },
+        {
+            "type": "SET_PROPERTY",
+            "host": "92960768",
+            "timestamp": 1558493211429,
+            "uuid": "55958818",
+            "seq": 506,
+            "object": "13171974",
+            "name": "near",
+            "value": 0,
+            "prevValue": 0
+        },
+        {
+            "type": "SET_PROPERTY",
+            "host": "92960768",
+            "timestamp": 1558493214403,
+            "uuid": "63671496",
+            "seq": 507,
+            "object": "13171974",
+            "name": "near",
+            "value": 0.5,
+            "prevValue": 0
+        },
+        {
+            "type": "SET_PROPERTY",
+            "host": "92960768",
+            "timestamp": 1558493215504,
+            "uuid": "65066701",
+            "seq": 508,
+            "object": "13171974",
+            "name": "near",
+            "value": 0.5,
+            "prevValue": 0.5
+        },
+        {
+            "type": "SET_PROPERTY",
+            "host": "92960768",
+            "timestamp": 1558493219648,
+            "uuid": "71693938",
+            "seq": 509,
+            "object": "13171974",
+            "name": "far",
+            "value": 0,
+            "prevValue": 5
+        },
+        {
+            "type": "SET_PROPERTY",
+            "host": "92960768",
+            "timestamp": 1558493222381,
+            "uuid": "35517444",
+            "seq": 510,
+            "object": "13171974",
+            "name": "far",
+            "value": 0.08,
+            "prevValue": 0
+        },
+        {
+            "type": "SET_PROPERTY",
+            "host": "92960768",
+            "timestamp": 1558493222398,
+            "uuid": "21728379",
+            "seq": 511,
+            "object": "13171974",
+            "name": "far",
+            "value": 0,
+            "prevValue": 0.08
+        },
+        {
+            "type": "SET_PROPERTY",
+            "host": "92960768",
+            "timestamp": 1558493223701,
+            "uuid": "67368717",
+            "seq": 512,
+            "object": "13171974",
+            "name": "far",
+            "value": 0,
+            "prevValue": 0
+        },
+        {
+            "type": "SET_PROPERTY",
+            "host": "92960768",
+            "timestamp": 1558493224068,
+            "uuid": "69803608",
+            "seq": 513,
+            "object": "13171974",
+            "name": "far",
+            "value": 0,
+            "prevValue": 0
+        },
+        {
+            "type": "SET_PROPERTY",
+            "host": "92960768",
+            "timestamp": 1558493224449,
+            "uuid": "43097380",
+            "seq": 514,
+            "object": "13171974",
+            "name": "far",
+            "value": 0.8,
+            "prevValue": 0
+        },
+        {
+            "type": "SET_PROPERTY",
+            "host": "92960768",
+            "timestamp": 1558493228722,
+            "uuid": "59567159",
+            "seq": 515,
+            "object": "13171974",
+            "name": "far",
+            "value": 0.8,
+            "prevValue": 0.8
+        },
+        {
+            "type": "SET_PROPERTY",
+            "host": "92960768",
+            "timestamp": 1558493229527,
+            "uuid": "80087901",
+            "seq": 516,
+            "object": "13171974",
+            "name": "title",
+            "value": " Proximity",
+            "prevValue": " Proximity"
+        },
+        {
+            "type": "CREATE_OBJECT",
+            "host": "92960768",
+            "timestamp": 1558493238220,
+            "uuid": "12418014",
+            "seq": 526,
+            "id": "56126424",
+            "defaults": {
+                "type": "behavior_script",
+                "title": " proximityTrigger",
+                "description": " fires trigger event on proximity transitions",
+                "src": "proximityTrigger.js",
+                "parent": 0
+            }
+        },
+        {
+            "type": "SET_PROPERTY",
+            "host": "92960768",
+            "timestamp": 1558493238221,
+            "uuid": "12108227",
+            "seq": 527,
+            "object": "56126424",
+            "name": "parent",
+            "value": "28282215"
+        },
+        {
+            "type": "INSERT_ELEMENT",
+            "host": "92960768",
+            "timestamp": 1558493238221,
+            "uuid": "47899051",
+            "seq": 528,
+            "array": "14701701",
+            "value": "56126424",
+            "entryid": "14333814",
+            "prev": "53820963"
+        },
+        {
+            "type": "CREATE_OBJECT",
+            "host": "92960768",
+            "timestamp": 1558493238339,
+            "uuid": "45862970",
+            "seq": 529,
+            "id": "45512528",
+            "defaults": {
+                "type": "behavior",
+                "title": " proximityTrigger",
+                "description": " fires trigger event on proximity transitions",
+                "parent": 0,
+                "behavior": "56126424"
+            }
+        },
+        {
+            "type": "SET_PROPERTY",
+            "host": "92960768",
+            "timestamp": 1558493238348,
+            "uuid": "88603955",
+            "seq": 530,
+            "object": "45512528",
+            "name": "parent",
+            "value": "56800345"
+        },
+        {
+            "type": "INSERT_ELEMENT",
+            "host": "92960768",
+            "timestamp": 1558493238355,
+            "uuid": "94450527",
+            "seq": 531,
+            "array": "11282580",
+            "value": "45512528",
+            "entryid": "12457484",
+            "prev": "16907950"
+        },
+        {
+            "type": "CREATE_OBJECT",
+            "host": "92960768",
+            "timestamp": 1558493261477,
+            "uuid": "16468862",
+            "seq": 535,
+            "id": "47327044",
+            "defaults": {
+                "type": "behavior_script",
+                "title": " Navigate on Trigger",
+                "description": " Navigate to a new scene on trigger action",
+                "src": "navigateOnTrigger.js",
+                "parent": 0
+            }
+        },
+        {
+            "type": "SET_PROPERTY",
+            "host": "92960768",
+            "timestamp": 1558493261477,
+            "uuid": "99354311",
+            "seq": 536,
+            "object": "47327044",
+            "name": "parent",
+            "value": "28282215"
+        },
+        {
+            "type": "INSERT_ELEMENT",
+            "host": "92960768",
+            "timestamp": 1558493261478,
+            "uuid": "28186449",
+            "seq": 537,
+            "array": "14701701",
+            "value": "47327044",
+            "entryid": "4185178",
+            "prev": "14333814"
+        },
+        {
+            "type": "CREATE_OBJECT",
+            "host": "92960768",
+            "timestamp": 1558493261582,
+            "uuid": "5454709",
+            "seq": 538,
+            "id": "68598240",
+            "defaults": {
+                "type": "behavior",
+                "title": " Navigate on Trigger",
+                "description": " Navigate to a new scene on trigger action",
+                "parent": 0,
+                "behavior": "47327044",
+                "scene": null
+            }
+        },
+        {
+            "type": "SET_PROPERTY",
+            "host": "92960768",
+            "timestamp": 1558493261590,
+            "uuid": "85190261",
+            "seq": 539,
+            "object": "68598240",
+            "name": "parent",
+            "value": "56800345"
+        },
+        {
+            "type": "INSERT_ELEMENT",
+            "host": "92960768",
+            "timestamp": 1558493261597,
+            "uuid": "44854537",
+            "seq": 540,
+            "array": "11282580",
+            "value": "68598240",
+            "entryid": "55793776",
+            "prev": "12457484"
+        },
+        {
+            "type": "CREATE_OBJECT",
+            "host": "92960768",
+            "timestamp": 1558493278892,
+            "uuid": "36136934",
+            "seq": 550,
+            "id": "14148946",
+            "defaults": {
+                "type": "behavior_script",
+                "title": " Play Sound on Trigger Event",
+                "description": " Play a sound on a \"trigger\" event",
+                "src": "playSoundOnTrigger.js",
+                "parent": 0
+            }
+        },
+        {
+            "type": "SET_PROPERTY",
+            "host": "92960768",
+            "timestamp": 1558493278893,
+            "uuid": "96447987",
+            "seq": 551,
+            "object": "14148946",
+            "name": "parent",
+            "value": "28282215"
+        },
+        {
+            "type": "INSERT_ELEMENT",
+            "host": "92960768",
+            "timestamp": 1558493278894,
+            "uuid": "41692201",
+            "seq": 552,
+            "array": "14701701",
+            "value": "14148946",
+            "entryid": "83128725",
+            "prev": "4185178"
+        },
+        {
+            "type": "CREATE_OBJECT",
+            "host": "92960768",
+            "timestamp": 1558493279000,
+            "uuid": "19311431",
+            "seq": 553,
+            "id": "33083517",
+            "defaults": {
+                "type": "behavior",
+                "title": " Play Sound on Trigger Event",
+                "description": " Play a sound on a \"trigger\" event",
+                "parent": 0,
+                "behavior": "14148946",
+                "sound": null
+            }
+        },
+        {
+            "type": "SET_PROPERTY",
+            "host": "92960768",
+            "timestamp": 1558493279009,
+            "uuid": "72682913",
+            "seq": 554,
+            "object": "33083517",
+            "name": "parent",
+            "value": "56800345"
+        },
+        {
+            "type": "INSERT_ELEMENT",
+            "host": "92960768",
+            "timestamp": 1558493279017,
+            "uuid": "99563247",
+            "seq": 555,
+            "array": "11282580",
+            "value": "33083517",
+            "entryid": "45538926",
+            "prev": "55793776"
+        },
+        {
+            "type": "CREATE_OBJECT",
+            "host": "92960768",
+            "timestamp": 1558493285034,
+            "uuid": "29869471",
+            "seq": 556,
+            "id": "7340274",
+            "defaults": {
+                "type": "asset",
+                "subtype": "audio",
+                "assetId": "quack.mp3",
+                "format": "audio/mpeg",
+                "src": "https://cdn.glitch.com/9c9ee552-b6bb-4a12-954a-b61073775e1f%2Fquack.mp3",
+                "title": "quack.mp3",
+                "parent": 0
+            }
+        },
+        {
+            "type": "SET_PROPERTY",
+            "host": "92960768",
+            "timestamp": 1558493285034,
+            "uuid": "64678734",
+            "seq": 557,
+            "object": "7340274",
+            "name": "parent",
+            "value": "45308969"
+        },
+        {
+            "type": "INSERT_ELEMENT",
+            "host": "92960768",
+            "timestamp": 1558493285035,
+            "uuid": "37331904",
+            "seq": 558,
+            "array": "27103230",
+            "value": "7340274",
+            "entryid": "18158265",
+            "prev": -1
+        },
+        {
+            "type": "SET_PROPERTY",
+            "host": "92960768",
+            "timestamp": 1558493292344,
+            "uuid": "600492",
+            "seq": 559,
+            "object": "33083517",
+            "name": "sound",
+            "value": "7340274",
+            "prevValue": null
+        },
+        {
+            "type": "CREATE_ARRAY",
+            "host": "92960768",
+            "timestamp": 1558493300995,
+            "uuid": "56825713",
+            "seq": 560,
+            "id": "53366757"
+        },
+        {
+            "type": "CREATE_OBJECT",
+            "host": "92960768",
+            "timestamp": 1558493300996,
+            "uuid": "42187406",
+            "seq": 561,
+            "id": "12907881",
+            "defaults": {
+                "type": "scene",
+                "title": "Scene 1",
+                "autoRecenter": true,
+                "defaultFloor": false,
+                "parent": "56204175",
+                "children": "53366757"
+            }
+        },
+        {
+            "type": "SET_PROPERTY",
+            "host": "92960768",
+            "timestamp": 1558493300996,
+            "uuid": "51233841",
+            "seq": 562,
+            "object": "12907881",
+            "name": "parent",
+            "value": "56204175"
+        },
+        {
+            "type": "INSERT_ELEMENT",
+            "host": "92960768",
+            "timestamp": 1558493300996,
+            "uuid": "77636762",
+            "seq": 563,
+            "array": "2489320",
+            "value": "12907881",
+            "entryid": "37908009",
+            "prev": -1
+        },
+        {
+            "type": "DELETE_ELEMENT",
+            "host": "92960768",
+            "timestamp": 1558493307239,
+            "uuid": "74127117",
+            "seq": 564,
+            "array": "2489320",
+            "entry": "37908009",
+            "value": "12907881"
+        },
+        {
+            "type": "SET_PROPERTY",
+            "host": "92960768",
+            "timestamp": 1558493307239,
+            "uuid": "69764021",
+            "seq": 565,
+            "object": "12907881",
+            "name": "parent",
+            "value": "56204175"
+        },
+        {
+            "type": "INSERT_ELEMENT",
+            "host": "92960768",
+            "timestamp": 1558493307239,
+            "uuid": "67525719",
+            "seq": 566,
+            "array": "2489320",
+            "value": "12907881",
+            "entryid": "69259669",
+            "prev": "78030926"
+        },
+        {
+            "type": "SET_PROPERTY",
+            "host": "92960768",
+            "timestamp": 1558493321489,
+            "uuid": "25371932",
+            "seq": 567,
+            "object": "12907881",
+            "name": "title",
+            "value": "Duck 2",
+            "prevValue": "Scene 1"
+        },
+        {
+            "type": "CREATE_ARRAY",
+            "host": "92960768",
+            "timestamp": 1558493330497,
+            "uuid": "94945440",
+            "seq": 568,
+            "id": "77155158"
+        },
+        {
+            "type": "CREATE_OBJECT",
+            "host": "92960768",
+            "timestamp": 1558493330497,
+            "uuid": "88807521",
+            "seq": 569,
+            "id": "59600134",
+            "defaults": {
+                "type": "group",
+                "title": "group 1",
+                "visible": true,
+                "tx": 0,
+                "ty": 0,
+                "tz": 0,
+                "rx": 0,
+                "ry": 0,
+                "rz": 0,
+                "sx": 1,
+                "sy": 1,
+                "sz": 1,
+                "color": "#00ff00",
+                "children": "77155158",
+                "parent": "12907881"
+            }
+        },
+        {
+            "type": "SET_PROPERTY",
+            "host": "92960768",
+            "timestamp": 1558493330498,
+            "uuid": "65064210",
+            "seq": 570,
+            "object": "59600134",
+            "name": "parent",
+            "value": "12907881"
+        },
+        {
+            "type": "INSERT_ELEMENT",
+            "host": "92960768",
+            "timestamp": 1558493330498,
+            "uuid": "53370781",
+            "seq": 571,
+            "array": "53366757",
+            "value": "59600134",
+            "entryid": "84850773",
+            "prev": -1
+        },
+        {
+            "type": "CREATE_ARRAY",
+            "host": "92960768",
+            "timestamp": 1558493334898,
+            "uuid": "54298097",
+            "seq": 587,
+            "id": "72039982"
+        },
+        {
+            "type": "CREATE_OBJECT",
+            "host": "92960768",
+            "timestamp": 1558493334898,
+            "uuid": "26543926",
+            "seq": 588,
+            "id": "33630054",
+            "defaults": {
+                "type": "model",
+                "title": "a model",
+                "visible": true,
+                "tx": 0,
+                "ty": 0,
+                "tz": 0,
+                "rx": 0,
+                "ry": 0,
+                "rz": 0,
+                "sx": 1,
+                "sy": 1,
+                "sz": 1,
+                "color": "#ffffff",
+                "children": "72039982",
+                "asset": -30,
+                "parent": "59600134"
+            }
+        },
+        {
+            "type": "SET_PROPERTY",
+            "host": "92960768",
+            "timestamp": 1558493334899,
+            "uuid": "43136370",
+            "seq": 589,
+            "object": "33630054",
+            "name": "parent",
+            "value": "59600134"
+        },
+        {
+            "type": "INSERT_ELEMENT",
+            "host": "92960768",
+            "timestamp": 1558493334899,
+            "uuid": "77171610",
+            "seq": 590,
+            "array": "77155158",
+            "value": "33630054",
+            "entryid": "33745676",
+            "prev": -1
+        },
+        {
+            "type": "CREATE_OBJECT",
+            "host": "92960768",
+            "timestamp": 1558493348596,
+            "uuid": "3036376",
+            "seq": 603,
+            "id": "24536619",
+            "defaults": {
+                "type": "asset",
+                "subtype": "gltf",
+                "assetId": "DuckyMesh.glb",
+                "format": "model/gltf-binary",
+                "src": "https://cdn.glitch.com/9c9ee552-b6bb-4a12-954a-b61073775e1f%2FDuckyMesh.glb",
+                "title": "DuckyMesh.glb",
+                "parent": 0
+            }
+        },
+        {
+            "type": "SET_PROPERTY",
+            "host": "92960768",
+            "timestamp": 1558493348596,
+            "uuid": "96974763",
+            "seq": 604,
+            "object": "24536619",
+            "name": "parent",
+            "value": "45308969"
+        },
+        {
+            "type": "INSERT_ELEMENT",
+            "host": "92960768",
+            "timestamp": 1558493348597,
+            "uuid": "34760354",
+            "seq": 605,
+            "array": "27103230",
+            "value": "24536619",
+            "entryid": "69605023",
+            "prev": "18158265"
+        },
+        {
+            "type": "SET_PROPERTY",
+            "host": "92960768",
+            "timestamp": 1558493365866,
+            "uuid": "77232339",
+            "seq": 609,
+            "object": "33630054",
+            "name": "asset",
+            "value": -30,
+            "prevValue": -30
+        },
+        {
+            "type": "SET_PROPERTY",
+            "host": "92960768",
+            "timestamp": 1558493367224,
+            "uuid": "79597914",
+            "seq": 610,
+            "object": "33630054",
+            "name": "asset",
+            "value": "24536619",
+            "prevValue": -30
+        },
+        {
+            "type": "CREATE_ARRAY",
+            "host": "92960768",
+            "timestamp": 1558493382917,
+            "uuid": "12989709",
+            "seq": 623,
+            "id": "28349610"
+        },
+        {
+            "type": "CREATE_OBJECT",
+            "host": "92960768",
+            "timestamp": 1558493382918,
+            "uuid": "4462793",
+            "seq": 624,
+            "id": "49997273",
+            "defaults": {
+                "type": "model",
+                "title": "a model",
+                "visible": true,
+                "tx": 0,
+                "ty": 0,
+                "tz": 0,
+                "rx": 0,
+                "ry": 0,
+                "rz": 0,
+                "sx": 1,
+                "sy": 1,
+                "sz": 1,
+                "color": "#ffffff",
+                "children": "28349610",
+                "asset": -30,
+                "parent": "22021040"
+            }
+        },
+        {
+            "type": "SET_PROPERTY",
+            "host": "92960768",
+            "timestamp": 1558493382919,
+            "uuid": "23308504",
+            "seq": 625,
+            "object": "49997273",
+            "name": "parent",
+            "value": "22021040"
+        },
+        {
+            "type": "INSERT_ELEMENT",
+            "host": "92960768",
+            "timestamp": 1558493382919,
+            "uuid": "99468351",
+            "seq": 626,
+            "array": "54456712",
+            "value": "49997273",
+            "entryid": "70616634",
+            "prev": -1
+        },
+        {
+            "type": "DELETE_ELEMENT",
+            "host": "92960768",
+            "timestamp": 1558493386838,
+            "uuid": "3853801",
+            "seq": 639,
+            "array": "54456712",
+            "entry": "70616634",
+            "value": "49997273"
+        },
+        {
+            "type": "CREATE_ARRAY",
+            "host": "92960768",
+            "timestamp": 1558493395287,
+            "uuid": "31755035",
+            "seq": 652,
+            "id": "96748156"
+        },
+        {
+            "type": "CREATE_OBJECT",
+            "host": "92960768",
+            "timestamp": 1558493395288,
+            "uuid": "8575070",
+            "seq": 653,
+            "id": "55542095",
+            "defaults": {
+                "type": "model",
+                "title": "a model",
+                "visible": true,
+                "tx": 0,
+                "ty": 0,
+                "tz": 0,
+                "rx": 0,
+                "ry": 0,
+                "rz": 0,
+                "sx": 1,
+                "sy": 1,
+                "sz": 1,
+                "color": "#ffffff",
+                "children": "96748156",
+                "asset": -30,
+                "parent": "22021040"
+            }
+        },
+        {
+            "type": "SET_PROPERTY",
+            "host": "92960768",
+            "timestamp": 1558493395288,
+            "uuid": "45081553",
+            "seq": 654,
+            "object": "55542095",
+            "name": "parent",
+            "value": "22021040"
+        },
+        {
+            "type": "INSERT_ELEMENT",
+            "host": "92960768",
+            "timestamp": 1558493395288,
+            "uuid": "30190662",
+            "seq": 655,
+            "array": "54456712",
+            "value": "55542095",
+            "entryid": "13610036",
+            "prev": -1
+        },
+        {
+            "type": "SET_PROPERTY",
+            "host": "92960768",
+            "timestamp": 1558493406140,
+            "uuid": "79163352",
+            "seq": 668,
+            "object": "55542095",
+            "name": "asset",
+            "value": "24536619",
+            "prevValue": -30
+        },
+        {
+            "type": "CREATE_OBJECT",
+            "host": "92960768",
+            "timestamp": 1558493426611,
+            "uuid": "2249491",
+            "seq": 675,
+            "id": "85780383",
+            "defaults": {
+                "type": "behavior",
+                "title": " Proximity",
+                "description": " sends messages on proximity events",
+                "parent": 0,
+                "behavior": "91027267",
+                "near": 3,
+                "far": 5
+            }
+        },
+        {
+            "type": "SET_PROPERTY",
+            "host": "92960768",
+            "timestamp": 1558493426622,
+            "uuid": "21492774",
+            "seq": 676,
+            "object": "85780383",
+            "name": "parent",
+            "value": "33630054"
+        },
+        {
+            "type": "INSERT_ELEMENT",
+            "host": "92960768",
+            "timestamp": 1558493426633,
+            "uuid": "97038506",
+            "seq": 677,
+            "array": "72039982",
+            "value": "85780383",
+            "entryid": "32055271",
+            "prev": -1
+        },
+        {
+            "type": "SET_PROPERTY",
+            "host": "92960768",
+            "timestamp": 1558493431702,
+            "uuid": "50506485",
+            "seq": 684,
+            "object": "85780383",
+            "name": "near",
+            "value": 0,
+            "prevValue": 3
+        },
+        {
+            "type": "SET_PROPERTY",
+            "host": "92960768",
+            "timestamp": 1558493433391,
+            "uuid": "58424354",
+            "seq": 685,
+            "object": "85780383",
+            "name": "near",
+            "value": 0,
+            "prevValue": 0
+        },
+        {
+            "type": "SET_PROPERTY",
+            "host": "92960768",
+            "timestamp": 1558493433413,
+            "uuid": "1326589",
+            "seq": 686,
+            "object": "85780383",
+            "name": "near",
+            "value": 0.1,
+            "prevValue": 0
+        },
+        {
+            "type": "SET_PROPERTY",
+            "host": "92960768",
+            "timestamp": 1558493435177,
+            "uuid": "52815262",
+            "seq": 687,
+            "object": "85780383",
+            "name": "near",
+            "value": 0.1,
+            "prevValue": 0.1
+        },
+        {
+            "type": "SET_PROPERTY",
+            "host": "92960768",
+            "timestamp": 1558493436348,
+            "uuid": "88713568",
+            "seq": 688,
+            "object": "85780383",
+            "name": "far",
+            "value": 0,
+            "prevValue": 5
+        },
+        {
+            "type": "SET_PROPERTY",
+            "host": "92960768",
+            "timestamp": 1558493438340,
+            "uuid": "85766925",
+            "seq": 689,
+            "object": "85780383",
+            "name": "far",
+            "value": 0,
+            "prevValue": 0
+        },
+        {
+            "type": "SET_PROPERTY",
+            "host": "92960768",
+            "timestamp": 1558493438480,
+            "uuid": "56568294",
+            "seq": 690,
+            "object": "85780383",
+            "name": "far",
+            "value": 0.5,
+            "prevValue": 0
+        },
+        {
+            "type": "SET_PROPERTY",
+            "host": "92960768",
+            "timestamp": 1558493441064,
+            "uuid": "80545681",
+            "seq": 691,
+            "object": "85780383",
+            "name": "far",
+            "value": 0.5,
+            "prevValue": 0.5
+        },
+        {
+            "type": "CREATE_OBJECT",
+            "host": "92960768",
+            "timestamp": 1558493443481,
+            "uuid": "54278622",
+            "seq": 701,
+            "id": "53177939",
+            "defaults": {
+                "type": "behavior",
+                "title": " proximityTrigger",
+                "description": " fires trigger event on proximity transitions",
+                "parent": 0,
+                "behavior": "56126424"
+            }
+        },
+        {
+            "type": "SET_PROPERTY",
+            "host": "92960768",
+            "timestamp": 1558493443492,
+            "uuid": "12347074",
+            "seq": 702,
+            "object": "53177939",
+            "name": "parent",
+            "value": "33630054"
+        },
+        {
+            "type": "INSERT_ELEMENT",
+            "host": "92960768",
+            "timestamp": 1558493443503,
+            "uuid": "29997959",
+            "seq": 703,
+            "array": "72039982",
+            "value": "53177939",
+            "entryid": "45776602",
+            "prev": "32055271"
+        },
+        {
+            "type": "CREATE_OBJECT",
+            "host": "92960768",
+            "timestamp": 1558493449992,
+            "uuid": "8587924",
+            "seq": 710,
+            "id": "4992936",
+            "defaults": {
+                "type": "behavior",
+                "title": " Play Sound on Trigger Event",
+                "description": " Play a sound on a \"trigger\" event",
+                "parent": 0,
+                "behavior": "14148946",
+                "sound": null
+            }
+        },
+        {
+            "type": "SET_PROPERTY",
+            "host": "92960768",
+            "timestamp": 1558493450003,
+            "uuid": "39113180",
+            "seq": 711,
+            "object": "4992936",
+            "name": "parent",
+            "value": "33630054"
+        },
+        {
+            "type": "INSERT_ELEMENT",
+            "host": "92960768",
+            "timestamp": 1558493450014,
+            "uuid": "45963239",
+            "seq": 712,
+            "array": "72039982",
+            "value": "4992936",
+            "entryid": "68718032",
+            "prev": "45776602"
+        },
+        {
+            "type": "SET_PROPERTY",
+            "host": "92960768",
+            "timestamp": 1558493453270,
+            "uuid": "9379701",
+            "seq": 713,
+            "object": "4992936",
+            "name": "sound",
+            "value": "7340274",
+            "prevValue": null
+        },
+        {
+            "type": "SET_PROPERTY",
+            "host": "92960768",
+            "timestamp": 1558493514545,
+            "uuid": "82847454",
+            "seq": 747,
+            "object": "59600134",
+            "name": "tx",
+            "value": -1,
+            "prevValue": 0
+        },
+        {
+            "type": "SET_PROPERTY",
+            "host": "92960768",
+            "timestamp": 1558493515040,
+            "uuid": "92390142",
+            "seq": 748,
+            "object": "59600134",
+            "name": "tx",
+            "value": -1,
+            "prevValue": -1
+        },
+        {
+            "type": "SET_PROPERTY",
+            "host": "92960768",
+            "timestamp": 1558493515648,
+            "uuid": "87702035",
+            "seq": 749,
+            "object": "59600134",
+            "name": "ty",
+            "value": 1,
+            "prevValue": 0
+        },
+        {
+            "type": "SET_PROPERTY",
+            "host": "92960768",
+            "timestamp": 1558493520846,
+            "uuid": "8688930",
+            "seq": 768,
+            "object": "59600134",
+            "name": "ty",
+            "value": 1,
+            "prevValue": 1
+        },
+        {
+            "type": "CREATE_OBJECT",
+            "host": "92960768",
+            "timestamp": 1558493528416,
+            "uuid": "85329356",
+            "seq": 781,
+            "id": "36889314",
+            "defaults": {
+                "type": "behavior",
+                "title": " Navigate on Trigger",
+                "description": " Navigate to a new scene on trigger action",
+                "parent": 0,
+                "behavior": "47327044",
+                "scene": null
+            }
+        },
+        {
+            "type": "SET_PROPERTY",
+            "host": "92960768",
+            "timestamp": 1558493528427,
+            "uuid": "98374926",
+            "seq": 782,
+            "object": "36889314",
+            "name": "parent",
+            "value": "33630054"
+        },
+        {
+            "type": "INSERT_ELEMENT",
+            "host": "92960768",
+            "timestamp": 1558493528441,
+            "uuid": "55092317",
+            "seq": 783,
+            "array": "72039982",
+            "value": "36889314",
+            "entryid": "54010861",
+            "prev": "68718032"
+        },
+        {
+            "type": "CREATE_ARRAY",
+            "host": "92960768",
+            "timestamp": 1558493532216,
+            "uuid": "38860900",
+            "seq": 784,
+            "id": "19396265"
+        },
+        {
+            "type": "CREATE_OBJECT",
+            "host": "92960768",
+            "timestamp": 1558493532217,
+            "uuid": "2471588",
+            "seq": 785,
+            "id": "51469394",
+            "defaults": {
+                "type": "scene",
+                "title": "Scene 2",
+                "autoRecenter": true,
+                "defaultFloor": false,
+                "parent": "56204175",
+                "children": "19396265"
+            }
+        },
+        {
+            "type": "SET_PROPERTY",
+            "host": "92960768",
+            "timestamp": 1558493532217,
+            "uuid": "39459895",
+            "seq": 786,
+            "object": "51469394",
+            "name": "parent",
+            "value": "56204175"
+        },
+        {
+            "type": "INSERT_ELEMENT",
+            "host": "92960768",
+            "timestamp": 1558493532217,
+            "uuid": "84770880",
+            "seq": 787,
+            "array": "2489320",
+            "value": "51469394",
+            "entryid": "34689740",
+            "prev": -1
+        },
+        {
+            "type": "DELETE_ELEMENT",
+            "host": "92960768",
+            "timestamp": 1558493536337,
+            "uuid": "88836727",
+            "seq": 788,
+            "array": "2489320",
+            "entry": "34689740",
+            "value": "51469394"
+        },
+        {
+            "type": "SET_PROPERTY",
+            "host": "92960768",
+            "timestamp": 1558493536338,
+            "uuid": "72192823",
+            "seq": 789,
+            "object": "51469394",
+            "name": "parent",
+            "value": "56204175"
+        },
+        {
+            "type": "INSERT_ELEMENT",
+            "host": "92960768",
+            "timestamp": 1558493536338,
+            "uuid": "63571948",
+            "seq": 790,
+            "array": "2489320",
+            "value": "51469394",
+            "entryid": "60591664",
+            "prev": "69259669"
+        },
+        {
+            "type": "SET_PROPERTY",
+            "host": "92960768",
+            "timestamp": 1558493542083,
+            "uuid": "61245611",
+            "seq": 791,
+            "object": "51469394",
+            "name": "title",
+            "value": "end",
+            "prevValue": "Scene 2"
+        },
+        {
+            "type": "CREATE_ARRAY",
+            "host": "92960768",
+            "timestamp": 1558493566442,
+            "uuid": "57887891",
+            "seq": 810,
+            "id": "84835262"
+        },
+        {
+            "type": "CREATE_OBJECT",
+            "host": "92960768",
+            "timestamp": 1558493566443,
+            "uuid": "38525457",
+            "seq": 811,
+            "id": "95619159",
+            "defaults": {
+                "type": "group",
+                "title": "group 2",
+                "visible": true,
+                "tx": 0,
+                "ty": 0,
+                "tz": 0,
+                "rx": 0,
+                "ry": 0,
+                "rz": 0,
+                "sx": 1,
+                "sy": 1,
+                "sz": 1,
+                "color": "#00ff00",
+                "children": "84835262",
+                "parent": "51469394"
+            }
+        },
+        {
+            "type": "SET_PROPERTY",
+            "host": "92960768",
+            "timestamp": 1558493566444,
+            "uuid": "18259715",
+            "seq": 812,
+            "object": "95619159",
+            "name": "parent",
+            "value": "51469394"
+        },
+        {
+            "type": "INSERT_ELEMENT",
+            "host": "92960768",
+            "timestamp": 1558493566444,
+            "uuid": "68619567",
+            "seq": 813,
+            "array": "19396265",
+            "value": "95619159",
+            "entryid": "57014189",
+            "prev": -1
+        },
+        {
+            "type": "CREATE_ARRAY",
+            "host": "92960768",
+            "timestamp": 1558493570213,
+            "uuid": "20802135",
+            "seq": 823,
+            "id": "19250891"
+        },
+        {
+            "type": "CREATE_OBJECT",
+            "host": "92960768",
+            "timestamp": 1558493570214,
+            "uuid": "90263582",
+            "seq": 824,
+            "id": "79935291",
+            "defaults": {
+                "type": "model",
+                "title": "a model",
+                "visible": true,
+                "tx": 0,
+                "ty": 0,
+                "tz": 0,
+                "rx": 0,
+                "ry": 0,
+                "rz": 0,
+                "sx": 1,
+                "sy": 1,
+                "sz": 1,
+                "color": "#ffffff",
+                "children": "19250891",
+                "asset": -30,
+                "parent": "95619159"
+            }
+        },
+        {
+            "type": "SET_PROPERTY",
+            "host": "92960768",
+            "timestamp": 1558493570214,
+            "uuid": "95743969",
+            "seq": 825,
+            "object": "79935291",
+            "name": "parent",
+            "value": "95619159"
+        },
+        {
+            "type": "INSERT_ELEMENT",
+            "host": "92960768",
+            "timestamp": 1558493570214,
+            "uuid": "71266476",
+            "seq": 826,
+            "array": "84835262",
+            "value": "79935291",
+            "entryid": "31778976",
+            "prev": -1
+        },
+        {
+            "type": "SET_PROPERTY",
+            "host": "92960768",
+            "timestamp": 1558493574611,
+            "uuid": "76555013",
+            "seq": 833,
+            "object": "79935291",
+            "name": "asset",
+            "value": "24536619",
+            "prevValue": -30
+        },
+        {
+            "type": "SET_PROPERTY",
+            "host": "92960768",
+            "timestamp": 1558493613974,
+            "uuid": "36207001",
+            "seq": 858,
+            "object": "95619159",
+            "name": "visible",
+            "value": false,
+            "prevValue": true
+        },
+        {
+            "type": "SET_PROPERTY",
+            "host": "92960768",
+            "timestamp": 1558493616729,
+            "uuid": "11185503",
+            "seq": 859,
+            "object": "95619159",
+            "name": "tx",
+            "value": 1,
+            "prevValue": 0
+        },
+        {
+            "type": "SET_PROPERTY",
+            "host": "92960768",
+            "timestamp": 1558493616993,
+            "uuid": "77938842",
+            "seq": 860,
+            "object": "95619159",
+            "name": "tx",
+            "value": 1,
+            "prevValue": 1
+        },
+        {
+            "type": "SET_PROPERTY",
+            "host": "92960768",
+            "timestamp": 1558493617341,
+            "uuid": "77315553",
+            "seq": 861,
+            "object": "95619159",
+            "name": "ty",
+            "value": 1,
+            "prevValue": 0
+        },
+        {
+            "type": "SET_PROPERTY",
+            "host": "92960768",
+            "timestamp": 1558493618360,
+            "uuid": "95521818",
+            "seq": 862,
+            "object": "95619159",
+            "name": "ty",
+            "value": 1,
+            "prevValue": 1
+        },
+        {
+            "type": "SET_PROPERTY",
+            "host": "92960768",
+            "timestamp": 1558493619896,
+            "uuid": "3085640",
+            "seq": 863,
+            "object": "95619159",
+            "name": "tz",
+            "value": 0,
+            "prevValue": 0
+        },
+        {
+            "type": "SET_PROPERTY",
+            "host": "92960768",
+            "timestamp": 1558493621170,
+            "uuid": "97471987",
+            "seq": 864,
+            "object": "95619159",
+            "name": "tx",
+            "value": -1,
+            "prevValue": 1
+        },
+        {
+            "type": "SET_PROPERTY",
+            "host": "92960768",
+            "timestamp": 1558493624971,
+            "uuid": "6864773",
+            "seq": 871,
+            "object": "95619159",
+            "name": "tx",
+            "value": -1,
+            "prevValue": -1
+        },
+        {
+            "type": "CREATE_ARRAY",
+            "host": "92960768",
+            "timestamp": 1558493635197,
+            "uuid": "28845476",
+            "seq": 902,
+            "id": "68039534"
+        },
+        {
+            "type": "CREATE_OBJECT",
+            "host": "92960768",
+            "timestamp": 1558493635197,
+            "uuid": "54015666",
+            "seq": 903,
+            "id": "19280659",
+            "defaults": {
+                "type": "text",
+                "title": "some text",
+                "visible": true,
+                "text": "cool <b>formatted</b> <i>text</i>",
+                "cssStyle": "color:black; \nbackground-color:white;\nwidth: 10em;\nfont-size: 200%;\n",
+                "tx": 0,
+                "ty": 0,
+                "tz": 0,
+                "rx": 0,
+                "ry": 0,
+                "rz": 0,
+                "sx": 1,
+                "sy": 1,
+                "sz": 1,
+                "children": "68039534",
+                "parent": "95619159"
+            }
+        },
+        {
+            "type": "SET_PROPERTY",
+            "host": "92960768",
+            "timestamp": 1558493635198,
+            "uuid": "19365035",
+            "seq": 904,
+            "object": "19280659",
+            "name": "parent",
+            "value": "95619159"
+        },
+        {
+            "type": "INSERT_ELEMENT",
+            "host": "92960768",
+            "timestamp": 1558493635198,
+            "uuid": "40906697",
+            "seq": 905,
+            "array": "84835262",
+            "value": "19280659",
+            "entryid": "63988623",
+            "prev": -1
+        },
+        {
+            "type": "SET_PROPERTY",
+            "host": "92960768",
+            "timestamp": 1558493644234,
+            "uuid": "37950324",
+            "seq": 930,
+            "object": "19280659",
+            "name": "text",
+            "value": "Caught me!",
+            "prevValue": "cool <b>formatted</b> <i>text</i>"
+        },
+        {
+            "type": "CREATE_OBJECT",
+            "host": "92960768",
+            "timestamp": 1558493649868,
+            "uuid": "85142162",
+            "seq": 949,
+            "id": "46504241",
+            "defaults": {
+                "type": "behavior",
+                "title": " Billboard",
+                "description": " Cause an object to face you ",
+                "parent": 0,
+                "behavior": "59033314"
+            }
+        },
+        {
+            "type": "SET_PROPERTY",
+            "host": "92960768",
+            "timestamp": 1558493649880,
+            "uuid": "40488000",
+            "seq": 950,
+            "object": "46504241",
+            "name": "parent",
+            "value": "19280659"
+        },
+        {
+            "type": "INSERT_ELEMENT",
+            "host": "92960768",
+            "timestamp": 1558493649892,
+            "uuid": "43321435",
+            "seq": 951,
+            "array": "68039534",
+            "value": "46504241",
+            "entryid": "38692569",
+            "prev": -1
         }
     ],
     "type": "vr",
@@ -830,7 +3140,7 @@
                         "title": "group 0",
                         "visible": true,
                         "tx": 0,
-                        "ty": 0,
+                        "ty": 1,
                         "tz": 1,
                         "rx": 0,
                         "ry": 0,
@@ -844,11 +3154,11 @@
                                 "type": "text",
                                 "title": "some text",
                                 "visible": true,
-                                "text": "It was a dark and story night. <b>You</b>, my friend must find the duck to save you from the <i>rain</i>.",
+                                "text": "It was a dark and story night. <b>You</b>, my friend must find the duck to save you from the <i>rain</i>.<br>\n[...tap to continue]",
                                 "cssStyle": "color:black; \nbackground-color:white;\nwidth: 10em;\nfont-size: 200%;\n",
                                 "tx": 0,
                                 "ty": 0,
-                                "tz": -0.1,
+                                "tz": 0,
                                 "rx": 0,
                                 "ry": 0,
                                 "rz": 0,
@@ -858,11 +3168,20 @@
                                 "children": [
                                     {
                                         "type": "behavior",
-                                        "title": " Billboard Horizontal",
-                                        "description": " Cause an object to face you, but keep Y vertical ",
+                                        "title": " Billboard",
+                                        "description": " Cause an object to face you ",
                                         "parent": "82484077",
-                                        "behavior": "15060963",
-                                        "id": "68277817"
+                                        "behavior": "59033314",
+                                        "id": "99803470"
+                                    },
+                                    {
+                                        "type": "behavior",
+                                        "title": " Navigate on Click",
+                                        "description": " Navigate to a new scene on click",
+                                        "parent": "82484077",
+                                        "behavior": "82793174",
+                                        "scene": "74942233",
+                                        "id": "39335242"
                                     }
                                 ],
                                 "parent": "25308838",
@@ -874,6 +3193,290 @@
                     }
                 ],
                 "id": "35852099"
+            },
+            {
+                "type": "scene",
+                "title": "duck hint 1",
+                "autoRecenter": true,
+                "defaultFloor": false,
+                "parent": "56204175",
+                "children": [
+                    {
+                        "type": "group",
+                        "title": "group 0",
+                        "visible": true,
+                        "tx": 1,
+                        "ty": 1,
+                        "tz": 0,
+                        "rx": 0,
+                        "ry": 0,
+                        "rz": 0,
+                        "sx": 1,
+                        "sy": 1,
+                        "sz": 1,
+                        "color": "#00ff00",
+                        "children": [
+                            {
+                                "type": "model",
+                                "title": "a model",
+                                "visible": true,
+                                "tx": 0,
+                                "ty": 0,
+                                "tz": 0,
+                                "rx": 0,
+                                "ry": 0,
+                                "rz": 0,
+                                "sx": 1,
+                                "sy": 1,
+                                "sz": 1,
+                                "color": "#ffffff",
+                                "children": [],
+                                "asset": "24536619",
+                                "parent": "22021040",
+                                "id": "55542095"
+                            },
+                            {
+                                "type": "text",
+                                "title": "some text",
+                                "visible": true,
+                                "text": "<em>catch me if you can</em>",
+                                "cssStyle": "color:black; \nbackground-color:white;\nwidth: 10em;\nfont-size: 200%;\n",
+                                "tx": 0,
+                                "ty": 0,
+                                "tz": 0,
+                                "rx": 0,
+                                "ry": 0,
+                                "rz": 0,
+                                "sx": 1,
+                                "sy": 1,
+                                "sz": 1,
+                                "children": [
+                                    {
+                                        "type": "behavior",
+                                        "title": " Billboard",
+                                        "description": " Cause an object to face you ",
+                                        "parent": "56800345",
+                                        "behavior": "59033314",
+                                        "id": "74122600"
+                                    },
+                                    {
+                                        "type": "behavior",
+                                        "title": " Fixed Size",
+                                        "description": " Stay at a constant size regardless of distance or camera fov",
+                                        "parent": "56800345",
+                                        "behavior": "16986011",
+                                        "near": 0.1,
+                                        "far": 100,
+                                        "size": 1,
+                                        "id": "88541275"
+                                    },
+                                    {
+                                        "type": "behavior",
+                                        "title": " Proximity",
+                                        "description": " sends messages on proximity events",
+                                        "parent": "56800345",
+                                        "behavior": "91027267",
+                                        "near": 0.5,
+                                        "far": 0.8,
+                                        "id": "13171974"
+                                    },
+                                    {
+                                        "type": "behavior",
+                                        "title": " proximityTrigger",
+                                        "description": " fires trigger event on proximity transitions",
+                                        "parent": "56800345",
+                                        "behavior": "56126424",
+                                        "id": "45512528"
+                                    },
+                                    {
+                                        "type": "behavior",
+                                        "title": " Navigate on Trigger",
+                                        "description": " Navigate to a new scene on trigger action",
+                                        "parent": "56800345",
+                                        "behavior": "47327044",
+                                        "scene": null,
+                                        "id": "68598240"
+                                    },
+                                    {
+                                        "type": "behavior",
+                                        "title": " Play Sound on Trigger Event",
+                                        "description": " Play a sound on a \"trigger\" event",
+                                        "parent": "56800345",
+                                        "behavior": "14148946",
+                                        "sound": "7340274",
+                                        "id": "33083517"
+                                    }
+                                ],
+                                "parent": "22021040",
+                                "id": "56800345"
+                            }
+                        ],
+                        "parent": "74942233",
+                        "id": "22021040"
+                    }
+                ],
+                "id": "74942233"
+            },
+            {
+                "type": "scene",
+                "title": "Duck 2",
+                "autoRecenter": true,
+                "defaultFloor": false,
+                "parent": "56204175",
+                "children": [
+                    {
+                        "type": "group",
+                        "title": "group 1",
+                        "visible": true,
+                        "tx": -1,
+                        "ty": 1,
+                        "tz": 0,
+                        "rx": 0,
+                        "ry": 0,
+                        "rz": 0,
+                        "sx": 1,
+                        "sy": 1,
+                        "sz": 1,
+                        "color": "#00ff00",
+                        "children": [
+                            {
+                                "type": "model",
+                                "title": "a model",
+                                "visible": true,
+                                "tx": 0,
+                                "ty": 0,
+                                "tz": 0,
+                                "rx": 0,
+                                "ry": 0,
+                                "rz": 0,
+                                "sx": 1,
+                                "sy": 1,
+                                "sz": 1,
+                                "color": "#ffffff",
+                                "children": [
+                                    {
+                                        "type": "behavior",
+                                        "title": " Proximity",
+                                        "description": " sends messages on proximity events",
+                                        "parent": "33630054",
+                                        "behavior": "91027267",
+                                        "near": 0.1,
+                                        "far": 0.5,
+                                        "id": "85780383"
+                                    },
+                                    {
+                                        "type": "behavior",
+                                        "title": " proximityTrigger",
+                                        "description": " fires trigger event on proximity transitions",
+                                        "parent": "33630054",
+                                        "behavior": "56126424",
+                                        "id": "53177939"
+                                    },
+                                    {
+                                        "type": "behavior",
+                                        "title": " Play Sound on Trigger Event",
+                                        "description": " Play a sound on a \"trigger\" event",
+                                        "parent": "33630054",
+                                        "behavior": "14148946",
+                                        "sound": "7340274",
+                                        "id": "4992936"
+                                    },
+                                    {
+                                        "type": "behavior",
+                                        "title": " Navigate on Trigger",
+                                        "description": " Navigate to a new scene on trigger action",
+                                        "parent": "33630054",
+                                        "behavior": "47327044",
+                                        "scene": null,
+                                        "id": "36889314"
+                                    }
+                                ],
+                                "asset": "24536619",
+                                "parent": "59600134",
+                                "id": "33630054"
+                            }
+                        ],
+                        "parent": "12907881",
+                        "id": "59600134"
+                    }
+                ],
+                "id": "12907881"
+            },
+            {
+                "type": "scene",
+                "title": "end",
+                "autoRecenter": true,
+                "defaultFloor": false,
+                "parent": "56204175",
+                "children": [
+                    {
+                        "type": "group",
+                        "title": "group 2",
+                        "visible": false,
+                        "tx": -1,
+                        "ty": 1,
+                        "tz": 0,
+                        "rx": 0,
+                        "ry": 0,
+                        "rz": 0,
+                        "sx": 1,
+                        "sy": 1,
+                        "sz": 1,
+                        "color": "#00ff00",
+                        "children": [
+                            {
+                                "type": "text",
+                                "title": "some text",
+                                "visible": true,
+                                "text": "Caught me!",
+                                "cssStyle": "color:black; \nbackground-color:white;\nwidth: 10em;\nfont-size: 200%;\n",
+                                "tx": 0,
+                                "ty": 0,
+                                "tz": 0,
+                                "rx": 0,
+                                "ry": 0,
+                                "rz": 0,
+                                "sx": 1,
+                                "sy": 1,
+                                "sz": 1,
+                                "children": [
+                                    {
+                                        "type": "behavior",
+                                        "title": " Billboard",
+                                        "description": " Cause an object to face you ",
+                                        "parent": "19280659",
+                                        "behavior": "59033314",
+                                        "id": "46504241"
+                                    }
+                                ],
+                                "parent": "95619159",
+                                "id": "19280659"
+                            },
+                            {
+                                "type": "model",
+                                "title": "a model",
+                                "visible": true,
+                                "tx": 0,
+                                "ty": 0,
+                                "tz": 0,
+                                "rx": 0,
+                                "ry": 0,
+                                "rz": 0,
+                                "sx": 1,
+                                "sy": 1,
+                                "sz": 1,
+                                "color": "#ffffff",
+                                "children": [],
+                                "asset": "24536619",
+                                "parent": "95619159",
+                                "id": "79935291"
+                            }
+                        ],
+                        "parent": "51469394",
+                        "id": "95619159"
+                    }
+                ],
+                "id": "51469394"
             },
             {
                 "type": "behaviors",
@@ -889,11 +3492,51 @@
                     },
                     {
                         "type": "behavior_script",
-                        "title": " Billboard Horizontal",
-                        "description": " Cause an object to face you, but keep Y vertical ",
-                        "src": "billBoardHorizontal.js",
+                        "title": " Navigate on Click",
+                        "description": " Navigate to a new scene on click",
+                        "src": "navigateOnClick.js",
                         "parent": "28282215",
-                        "id": "15060963"
+                        "id": "82793174"
+                    },
+                    {
+                        "type": "behavior_script",
+                        "title": " Fixed Size",
+                        "description": " Stay at a constant size regardless of distance or camera fov",
+                        "src": "fixedSize.js",
+                        "parent": "28282215",
+                        "id": "16986011"
+                    },
+                    {
+                        "type": "behavior_script",
+                        "title": " Proximity",
+                        "description": " sends messages on proximity events",
+                        "src": "proximity.js",
+                        "parent": "28282215",
+                        "id": "91027267"
+                    },
+                    {
+                        "type": "behavior_script",
+                        "title": " proximityTrigger",
+                        "description": " fires trigger event on proximity transitions",
+                        "src": "proximityTrigger.js",
+                        "parent": "28282215",
+                        "id": "56126424"
+                    },
+                    {
+                        "type": "behavior_script",
+                        "title": " Navigate on Trigger",
+                        "description": " Navigate to a new scene on trigger action",
+                        "src": "navigateOnTrigger.js",
+                        "parent": "28282215",
+                        "id": "47327044"
+                    },
+                    {
+                        "type": "behavior_script",
+                        "title": " Play Sound on Trigger Event",
+                        "description": " Play a sound on a \"trigger\" event",
+                        "src": "playSoundOnTrigger.js",
+                        "parent": "28282215",
+                        "id": "14148946"
                     }
                 ],
                 "parent": "56204175",
@@ -902,7 +3545,28 @@
             {
                 "type": "assets",
                 "title": "Assets",
-                "children": [],
+                "children": [
+                    {
+                        "type": "asset",
+                        "subtype": "audio",
+                        "assetId": "quack.mp3",
+                        "format": "audio/mpeg",
+                        "src": "https://cdn.glitch.com/9c9ee552-b6bb-4a12-954a-b61073775e1f%2Fquack.mp3",
+                        "title": "quack.mp3",
+                        "parent": "45308969",
+                        "id": "7340274"
+                    },
+                    {
+                        "type": "asset",
+                        "subtype": "gltf",
+                        "assetId": "DuckyMesh.glb",
+                        "format": "model/gltf-binary",
+                        "src": "https://cdn.glitch.com/9c9ee552-b6bb-4a12-954a-b61073775e1f%2FDuckyMesh.glb",
+                        "title": "DuckyMesh.glb",
+                        "parent": "45308969",
+                        "id": "24536619"
+                    }
+                ],
                 "parent": "56204175",
                 "id": "45308969"
             }
