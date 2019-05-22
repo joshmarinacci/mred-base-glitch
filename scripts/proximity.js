@@ -37,8 +37,7 @@
         camera.getWorldPosition(this.cameraPos);
         target.getWorldPosition(this.thisPos);
         var distance = this.thisPos.distanceTo(this.cameraPos);
-              this.logger.log("** prox distance: ", distance)
-
+      
         // state latched?
         if(this.isNear) {
           // note - far may be EQUAL TO or farther than near, so test for any infinitesmal value greater than far
