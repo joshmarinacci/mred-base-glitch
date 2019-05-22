@@ -3788,6 +3788,90 @@
             "name": "scene",
             "value": "74942233",
             "prevValue": "12907881"
+        },
+        {
+            "type": "CREATE_OBJECT",
+            "host": "43489899",
+            "timestamp": 1558495159181,
+            "uuid": "65435667",
+            "seq": 289,
+            "id": "53099485",
+            "defaults": {
+                "type": "behavior",
+                "title": " Billboard",
+                "description": " Cause an object to face you ",
+                "parent": 0,
+                "behavior": "59033314"
+            }
+        },
+        {
+            "type": "SET_PROPERTY",
+            "host": "43489899",
+            "timestamp": 1558495159186,
+            "uuid": "21130229",
+            "seq": 290,
+            "object": "53099485",
+            "name": "parent",
+            "value": "86498827"
+        },
+        {
+            "type": "INSERT_ELEMENT",
+            "host": "43489899",
+            "timestamp": 1558495159190,
+            "uuid": "10851399",
+            "seq": 291,
+            "array": "44099794",
+            "value": "53099485",
+            "entryid": "81590945",
+            "prev": "27324534"
+        },
+        {
+            "type": "CREATE_OBJECT",
+            "host": "43489899",
+            "timestamp": 1558495171892,
+            "uuid": "90477625",
+            "seq": 298,
+            "id": "47137034",
+            "defaults": {
+                "type": "behavior",
+                "title": " Play Sound on Trigger Event",
+                "description": " Play a sound on a \"trigger\" event",
+                "parent": 0,
+                "behavior": "14148946",
+                "sound": null
+            }
+        },
+        {
+            "type": "SET_PROPERTY",
+            "host": "43489899",
+            "timestamp": 1558495171896,
+            "uuid": "97476546",
+            "seq": 299,
+            "object": "47137034",
+            "name": "parent",
+            "value": "56800345"
+        },
+        {
+            "type": "INSERT_ELEMENT",
+            "host": "43489899",
+            "timestamp": 1558495171900,
+            "uuid": "65374510",
+            "seq": 300,
+            "array": "11282580",
+            "value": "47137034",
+            "entryid": "35579671",
+            "prev": "55793776"
+        },
+        {
+            "type": "SET_PROPERTY",
+            "host": "43489899",
+            "timestamp": 1558495174782,
+            "uuid": "26844422",
+            "seq": 301,
+            "object": "47137034",
+            "name": "sound",
+            "value": "7340274",
+            "prevValue": null
         }
     ],
     "type": "vr",
@@ -3965,6 +4049,15 @@
                                         "behavior": "47327044",
                                         "scene": "12907881",
                                         "id": "68598240"
+                                    },
+                                    {
+                                        "type": "behavior",
+                                        "title": " Play Sound on Trigger Event",
+                                        "description": " Play a sound on a \"trigger\" event",
+                                        "parent": "56800345",
+                                        "behavior": "14148946",
+                                        "sound": "7340274",
+                                        "id": "47137034"
                                     }
                                 ],
                                 "parent": "22021040",
@@ -4050,6 +4143,14 @@
                                         "near": 0.1,
                                         "far": 0.5,
                                         "id": "85780383"
+                                    },
+                                    {
+                                        "type": "behavior",
+                                        "title": " Billboard",
+                                        "description": " Cause an object to face you ",
+                                        "parent": "86498827",
+                                        "behavior": "59033314",
+                                        "id": "53099485"
                                     }
                                 ],
                                 "parent": "59600134",
