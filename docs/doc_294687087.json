@@ -3872,6 +3872,230 @@
             "name": "sound",
             "value": "7340274",
             "prevValue": null
+        },
+        {
+            "type": "CREATE_OBJECT",
+            "host": "43489899",
+            "timestamp": 1558495210558,
+            "uuid": "37541423",
+            "seq": 317,
+            "id": "47009740",
+            "defaults": {
+                "type": "behavior",
+                "title": " Navigate on Click",
+                "description": " Navigate to a new scene on click",
+                "parent": 0,
+                "behavior": "82793174",
+                "scene": null
+            }
+        },
+        {
+            "type": "SET_PROPERTY",
+            "host": "43489899",
+            "timestamp": 1558495210562,
+            "uuid": "24029161",
+            "seq": 318,
+            "object": "47009740",
+            "name": "parent",
+            "value": "33630054"
+        },
+        {
+            "type": "INSERT_ELEMENT",
+            "host": "43489899",
+            "timestamp": 1558495210567,
+            "uuid": "90151035",
+            "seq": 319,
+            "array": "72039982",
+            "value": "47009740",
+            "entryid": "22259330",
+            "prev": -1
+        },
+        {
+            "type": "SET_PROPERTY",
+            "host": "43489899",
+            "timestamp": 1558495216051,
+            "uuid": "88899790",
+            "seq": 338,
+            "object": "47009740",
+            "name": "scene",
+            "value": "51469394",
+            "prevValue": null
+        },
+        {
+            "type": "SET_PROPERTY",
+            "host": "43489899",
+            "timestamp": 1558495342610,
+            "uuid": "13007866",
+            "seq": 339,
+            "object": "82793174",
+            "name": "title",
+            "value": " Navigate on Click"
+        },
+        {
+            "type": "SET_PROPERTY",
+            "host": "43489899",
+            "timestamp": 1558495342610,
+            "uuid": "40609181",
+            "seq": 340,
+            "object": "82793174",
+            "name": "description",
+            "value": " Navigate to a new scene on click"
+        },
+        {
+            "type": "SET_PROPERTY",
+            "host": "43489899",
+            "timestamp": 1558495446069,
+            "uuid": "2316532",
+            "seq": 341,
+            "object": "82793174",
+            "name": "title",
+            "value": " Navigate on Click"
+        },
+        {
+            "type": "SET_PROPERTY",
+            "host": "43489899",
+            "timestamp": 1558495446069,
+            "uuid": "67207227",
+            "seq": 342,
+            "object": "82793174",
+            "name": "description",
+            "value": " Navigate to a new scene on click"
+        },
+        {
+            "type": "SET_PROPERTY",
+            "host": "43489899",
+            "timestamp": 1558495449846,
+            "uuid": "18171907",
+            "seq": 343,
+            "object": "82793174",
+            "name": "title",
+            "value": " Navigate on Click"
+        },
+        {
+            "type": "SET_PROPERTY",
+            "host": "43489899",
+            "timestamp": 1558495449846,
+            "uuid": "7737544",
+            "seq": 344,
+            "object": "82793174",
+            "name": "description",
+            "value": " Navigate to a new scene on click"
+        },
+        {
+            "type": "SET_PROPERTY",
+            "host": "43489899",
+            "timestamp": 1558495476754,
+            "uuid": "94014233",
+            "seq": 345,
+            "object": "82793174",
+            "name": "title",
+            "value": " Navigate on Click"
+        },
+        {
+            "type": "SET_PROPERTY",
+            "host": "43489899",
+            "timestamp": 1558495476754,
+            "uuid": "31611964",
+            "seq": 346,
+            "object": "82793174",
+            "name": "description",
+            "value": " Navigate to a new scene on click"
+        },
+        {
+            "type": "DELETE_ELEMENT",
+            "host": "43489899",
+            "timestamp": 1558495497873,
+            "uuid": "80264009",
+            "seq": 452,
+            "array": "72039982",
+            "entry": "22259330",
+            "value": "47009740"
+        },
+        {
+            "type": "SET_PROPERTY",
+            "host": "43489899",
+            "timestamp": 1558495497874,
+            "uuid": "27710633",
+            "seq": 453,
+            "object": "47009740",
+            "name": "parent",
+            "value": "86498827"
+        },
+        {
+            "type": "INSERT_ELEMENT",
+            "host": "43489899",
+            "timestamp": 1558495497874,
+            "uuid": "21465071",
+            "seq": 454,
+            "array": "44099794",
+            "value": "47009740",
+            "entryid": "38623792",
+            "prev": -1
+        },
+        {
+            "type": "DELETE_ELEMENT",
+            "host": "43489899",
+            "timestamp": 1558495849328,
+            "uuid": "28964593",
+            "seq": 470,
+            "array": "44099794",
+            "entry": "38623792",
+            "value": "47009740"
+        },
+        {
+            "type": "SET_PROPERTY",
+            "host": "3188911",
+            "timestamp": 1558496143495,
+            "uuid": "90415046",
+            "seq": 1,
+            "object": "35852099",
+            "name": "autoRecenter",
+            "value": false,
+            "prevValue": true
+        },
+        {
+            "type": "SET_PROPERTY",
+            "host": "3188911",
+            "timestamp": 1558496144164,
+            "uuid": "96899325",
+            "seq": 2,
+            "object": "35852099",
+            "name": "autoRecenter",
+            "value": true,
+            "prevValue": false
+        },
+        {
+            "type": "SET_PROPERTY",
+            "host": "3188911",
+            "timestamp": 1558496145257,
+            "uuid": "19933817",
+            "seq": 3,
+            "object": "35852099",
+            "name": "autoRecenter",
+            "value": false,
+            "prevValue": true
+        },
+        {
+            "type": "SET_PROPERTY",
+            "host": "3188911",
+            "timestamp": 1558496145626,
+            "uuid": "9708404",
+            "seq": 4,
+            "object": "35852099",
+            "name": "autoRecenter",
+            "value": true,
+            "prevValue": false
+        },
+        {
+            "type": "SET_PROPERTY",
+            "host": "3188911",
+            "timestamp": 1558496154918,
+            "uuid": "57602873",
+            "seq": 5,
+            "object": "35852099",
+            "name": "autoRecenter",
+            "value": false,
+            "prevValue": true
         }
     ],
     "type": "vr",
@@ -3884,7 +4108,7 @@
             {
                 "type": "scene",
                 "title": "intro",
-                "autoRecenter": true,
+                "autoRecenter": false,
                 "defaultFloor": false,
                 "parent": "56204175",
                 "children": [
