@@ -11,15 +11,7 @@
         far: {
             type:'number',
             value: 5,
-        },
-        enterMessage: {
-            type:'string',
-            value: "trigger",
-        },      
-        exitMessage: {
-            type:'string',
-            value: "faraway",
-        } 
+        }
     },
     start: function (event) {
         let THREE = this.globals.THREE
@@ -39,7 +31,7 @@
         let faraway = this.properties.exitMessage || "faraway"
 
         // far must be EQUAL TO OR farther than near; and to avoid firing a zillion events best to have (far-near)>(some small number)
-        if(far<near)far=near+1
+        if(far<near)far=near+0.1
         
         camera.getWorldPosition(this.cameraPos);
         target.getWorldPosition(this.thisPos);
@@ -52,14 +44,14 @@
             // clear near state
             this.isNear = false
             this.logger.log("further than far radius - send an exit message now")
-            this.fireEvent(faraway,{})
+            this.fireEvent("proximity",{in: true})
           }
         } else {
           // testing on the boundary condition of being EQUAL TO or closer
           if(distance <= near) {
             this.isNear = true
             this.logger.log("nearer than near radius - send an enter message now")
-            this.fireEvent(message,{})
+            this.fireEvent("proximity",{})
           }
         }      
     },
