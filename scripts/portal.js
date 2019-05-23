@@ -7,16 +7,24 @@
 ({
     properties: {
         color: {
-            type:'string',
+            type:'color',
             value: "white",
+        },
+        clear: {
+            type:'color',
+            value: "red",
         },
         width: {
             type:'number',
-            value: 4,
+            value: 1,
         },
         height: {
             type:'number',
-            value: 4,
+            value: 1,
+        },
+        frame: {
+            type:'string',
+            value: "output-onlinepngtools.png"
         },
         scene: {
             type:'enum',
@@ -53,7 +61,8 @@
           
             // caller option handling
             options = options || {};
-            var color = ( options.color !== undefined ) ? new THREE.Color( options.color ) : new THREE.Color( 0x7F7F7F );
+            var color = ( options.color !== undefined ) ? new THREE.Color( options.color ) : new THREE.Color( 0xFFFFFF );
+            var clear = ( options.clear !== undefined ) ? new THREE.Color( options.clear ) : new THREE.Color( 0xFF0000 );
             var textureWidth = options.textureWidth || 512;
             var textureHeight = options.textureHeight || 512;
             var clipBias = options.clipBias || 0;
@@ -203,9 +212,10 @@
                 // Render to the texture
                 {
                     // Save state
-                    var currentRenderTarget = renderer.getRenderTarget();
-                    var currentVrEnabled = renderer.vr.enabled;
-                    var currentShadowAutoUpdate = renderer.shadowMap.autoUpdate;
+                    let currentRenderTarget = renderer.getRenderTarget();
+                    let currentVrEnabled = renderer.vr.enabled;
+                    let currentShadowAutoUpdate = renderer.shadowMap.autoUpdate;
+                    let currentClearColor = renderer.getClearColor()
 
                     // Render to buffer
                     // note - renderer must also be passed the renderTarget as well as renderer.setRenderTarget() - anselm
@@ -213,11 +223,12 @@
                     renderer.vr.enabled = false; // Avoid camera modification and recursion
                     renderer.shadowMap.autoUpdate = false; // Avoid re-computing shadows
                     renderer.setRenderTarget( renderTarget )
-                    renderer.setClearColor( 0xff00ff )
+                    renderer.setClearColor( clear )
                     renderer.clear()
                     renderer.render( privateScene, virtualCamera, renderTarget )
 
                     // Restore
+                    renderer.setClearColor(currentClearColor )
                     renderer.vr.enabled = currentVrEnabled
                     renderer.shadowMap.autoUpdate = currentShadowAutoUpdate
                     renderer.setRenderTarget( currentRenderTarget )
@@ -302,17 +313,19 @@
         }
 
         // manufacture a plane for the portal.
-        // TODO arguably the caller could have made this in userland
-        let width = this.properties.width || 4
-        let height = this.properties.height || 4
+        // TODO this could pluck width and height from the parent
+        let width = this.properties.width || 1
+        let height = this.properties.height || 1
         let color = this.properties.color || "white"
+        let clear = this.properties.clear || "red"
         var geometry = new THREE.PlaneBufferGeometry( width, height )
         let portal = this.portal = new THREE.Reflector( geometry, {
           scene:scene,
-          clipBias: 0.003,
+          clipBias: 0.001,
           textureWidth: 512,
           textureHeight: 512,
           color: color,
+          clear: clear,
           recursion: 1
         } )
         e.target.add(portal)
