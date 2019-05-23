@@ -102,12 +102,20 @@
             material.uniforms[ "color" ].value = color;
             material.uniforms[ "textureMatrix" ].value = textureMatrix;
             scope.material = material;
+
+            // Have a private scene
+            let privateScene = this.privateScene = new THREE.Scene()
+            this.privateLight1 = new THREE.PointLight(0xffffff, 1, 1000)
+            this.privateLight1.intensity = 2
+            this.privateLight2 = new THREE.DirectionalLight()
+            this.privateScene.add(scope.privateLight1)
+            this.privateScene.add(scope.privateLight2)          
           
             // Every frame when painting this object, quickly go ahead and remake the texture based on a portal camera view
-            scope.onBeforeRender = function ( renderer, portalParentScene, camera ) {
+            scope.onBeforeRender = function ( renderer, portalParentGroup, camera ) {
 
-                // IGNORE supplied scene - the goal is to paint a specified scene
-                let scene = options.scene
+                // This is the group that needs to be painted
+                let group = options.scene
               
                 // number of bounces - may be less useful for portals than mirrors?
                 if ( 'recursion' in camera.userData ) {
@@ -181,21 +189,16 @@
                 scope.visible = false;
 
                 //////////////////////////////////////////////////
+                // Move the 
                 // Make the target scene visible and add some lights to it as well
                 // TODO remove this lighting hack later on once it's more clear why this is not being lit
                 //////////////////////////////////////////////////
 
-                let currentSceneVisible = scene.visible
-                let portalParentSceneVisible = portalParentScene.visible
-                scene.visible = true
-                portalParentScene.visible = false
-                if(!scope.somelight) {
-                  scope.somelight = new THREE.PointLight(0xffffff, 1, 1000)
-                  scope.somelight.intensity = 10
-                  scope.anotherlight = new THREE.DirectionalLight()
-                }                      
-                scene.add(scope.somelight)
-                scene.add(scope.anotherlight)
+                let groupParent = group.parent
+                let groupVisible = group.visible
+                group.visible = true
+                groupParent.remove(group) // paranoia
+                privateScene.add( group )
 
                 // Render to the texture
                 {
@@ -212,7 +215,7 @@
                     renderer.setRenderTarget( renderTarget )
                     renderer.setClearColor( 0xff00ff )
                     renderer.clear()
-                    renderer.render( scene, virtualCamera, renderTarget )
+                    renderer.render( privateScene, virtualCamera, renderTarget )
 
                     // Restore
                     renderer.vr.enabled = currentVrEnabled
@@ -224,10 +227,9 @@
                 // Undo changes to scenes
                 ////////////////////////////////////////////////////////////
 
-                scene.visible = currentSceneVisible
-                portalParentScene.visible = portalParentSceneVisible
-                scene.remove(scope.somelight)
-                scene.remove(scope.anotherlight)  
+                group.visible = groupVisible
+                privateScene.remove(group) // paranoia
+                groupParent.add(group)
 
                 // Restore viewport
                 var bounds = camera.bounds;
@@ -321,3 +323,5 @@
     },
 
 })
+
+
