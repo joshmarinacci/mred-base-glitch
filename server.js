@@ -1,4 +1,4 @@
-// server.js
+ls ls -l// server.js
 // where your node app starts
 
 
@@ -43,7 +43,7 @@ app.get("/info", (req,res) => {
         docDeleteSupported:true,
     })
 }) 
-
+ 
 const OWNER_USER = {
     username:'some-username'
 }
