@@ -5079,6 +5079,864 @@
             "name": "tx",
             "value": 1.1826244983899072,
             "prevValue": 0.008753355714911537
+        },
+        {
+            "type": "CREATE_OBJECT",
+            "host": "85158092",
+            "timestamp": 1558706181168,
+            "uuid": "18658996",
+            "seq": 1,
+            "id": "21069029",
+            "defaults": {
+                "type": "asset",
+                "subtype": "gltf",
+                "assetId": "samba-mom.glb",
+                "format": "model/gltf-binary",
+                "src": "https://cdn.glitch.com/15b5fc9d-cb20-436f-81af-a3df950cb2e5%2Fsamba-mom.glb",
+                "title": "samba-mom.glb",
+                "parent": 0
+            }
+        },
+        {
+            "type": "SET_PROPERTY",
+            "host": "85158092",
+            "timestamp": 1558706181172,
+            "uuid": "13915234",
+            "seq": 2,
+            "object": "21069029",
+            "name": "parent",
+            "value": "52044203"
+        },
+        {
+            "type": "INSERT_ELEMENT",
+            "host": "85158092",
+            "timestamp": 1558706181174,
+            "uuid": "42751390",
+            "seq": 3,
+            "array": "94283642",
+            "value": "21069029",
+            "entryid": "76046322",
+            "prev": "86977851"
+        },
+        {
+            "type": "CREATE_OBJECT",
+            "host": "72100746",
+            "timestamp": 1558705851817,
+            "uuid": "37283132",
+            "seq": 8,
+            "id": "63654454",
+            "defaults": {
+                "type": "model",
+                "title": "a model",
+                "visible": true,
+                "tx": 0,
+                "ty": 0,
+                "tz": 0,
+                "rx": 0,
+                "ry": 0,
+                "rz": 0,
+                "sx": 1,
+                "sy": 1,
+                "sz": 1,
+                "color": "#ffffff",
+                "children": "7972531",
+                "asset": -30,
+                "parent": "74197851"
+            }
+        },
+        {
+            "type": "CREATE_ARRAY",
+            "host": "72100746",
+            "timestamp": 1558705851816,
+            "uuid": "32147188",
+            "seq": 7,
+            "id": "7972531"
+        },
+        {
+            "type": "CREATE_OBJECT",
+            "host": "72100746",
+            "timestamp": 1558705862888,
+            "uuid": "10903125",
+            "seq": 14,
+            "id": "66782848",
+            "defaults": {
+                "type": "asset",
+                "subtype": "gltf",
+                "assetId": "samba-mom.glb",
+                "format": "model/gltf-binary",
+                "src": "https://cdn.glitch.com/15b5fc9d-cb20-436f-81af-a3df950cb2e5%2Fsamba-mom.glb",
+                "title": "samba-mom.glb",
+                "parent": 0
+            }
+        },
+        {
+            "type": "INSERT_ELEMENT",
+            "host": "72100746",
+            "timestamp": 1558705862890,
+            "uuid": "10593865",
+            "seq": 16,
+            "array": "94283642",
+            "value": "66782848",
+            "entryid": "9869173",
+            "prev": "86977851"
+        },
+        {
+            "type": "SET_PROPERTY",
+            "host": "72100746",
+            "timestamp": 1558705862890,
+            "uuid": "38485632",
+            "seq": 15,
+            "object": "66782848",
+            "name": "parent",
+            "value": "52044203"
+        },
+        {
+            "type": "SET_PROPERTY",
+            "host": "72100746",
+            "timestamp": 1558705851817,
+            "uuid": "44097322",
+            "seq": 9,
+            "object": "63654454",
+            "name": "parent",
+            "value": "74197851"
+        },
+        {
+            "type": "SET_PROPERTY",
+            "host": "72100746",
+            "timestamp": 1558705872018,
+            "uuid": "13814264",
+            "seq": 20,
+            "object": "63654454",
+            "name": "asset",
+            "value": "66782848",
+            "prevValue": -30
+        },
+        {
+            "type": "CREATE_OBJECT",
+            "host": "3433612",
+            "timestamp": 1558700285764,
+            "uuid": "29130221",
+            "seq": 1,
+            "id": "53181038",
+            "defaults": {
+                "type": "behavior_script",
+                "title": " onTrigger",
+                "description": " Runs the provided code on a trigger event",
+                "src": "onTrigger.js",
+                "parent": 0
+            }
+        },
+        {
+            "type": "SET_PROPERTY",
+            "host": "3433612",
+            "timestamp": 1558700285766,
+            "uuid": "5836584",
+            "seq": 2,
+            "object": "53181038",
+            "name": "parent",
+            "value": "3309483"
+        },
+        {
+            "type": "INSERT_ELEMENT",
+            "host": "3433612",
+            "timestamp": 1558700285768,
+            "uuid": "42823123",
+            "seq": 3,
+            "array": "83088412",
+            "value": "53181038",
+            "entryid": "16244413",
+            "prev": -1
+        },
+        {
+            "type": "DELETE_ELEMENT",
+            "host": "29209335",
+            "timestamp": 1558701877861,
+            "uuid": "82201462",
+            "seq": 10,
+            "array": "27377960",
+            "entry": "75157200",
+            "value": "2505341"
+        },
+        {
+            "type": "SET_PROPERTY",
+            "host": "29209335",
+            "timestamp": 1558701877863,
+            "uuid": "50465823",
+            "seq": 11,
+            "object": "2505341",
+            "name": "parent",
+            "value": "55352309"
+        },
+        {
+            "type": "INSERT_ELEMENT",
+            "host": "29209335",
+            "timestamp": 1558701877866,
+            "uuid": "23839274",
+            "seq": 12,
+            "array": "19652274",
+            "value": "2505341",
+            "entryid": "71387090",
+            "prev": -1
+        },
+        {
+            "type": "CREATE_OBJECT",
+            "host": "29209335",
+            "timestamp": 1558701887197,
+            "uuid": "95104503",
+            "seq": 13,
+            "id": "33930410",
+            "defaults": {
+                "type": "behavior",
+                "title": " onTrigger",
+                "description": " Runs the provided code on a trigger event",
+                "parent": 0,
+                "behavior": "53181038",
+                "trigger": ""
+            }
+        },
+        {
+            "type": "SET_PROPERTY",
+            "host": "29209335",
+            "timestamp": 1558701887213,
+            "uuid": "38262464",
+            "seq": 14,
+            "object": "33930410",
+            "name": "parent",
+            "value": "65928286"
+        },
+        {
+            "type": "INSERT_ELEMENT",
+            "host": "29209335",
+            "timestamp": 1558701887225,
+            "uuid": "62147357",
+            "seq": 15,
+            "array": "27377960",
+            "value": "33930410",
+            "entryid": "37974316",
+            "prev": "82047019"
+        },
+        {
+            "type": "SET_PROPERTY",
+            "host": "29209335",
+            "timestamp": 1558702140801,
+            "uuid": "55700634",
+            "seq": 16,
+            "object": "33930410",
+            "name": "trigger",
+            "value": "this.",
+            "prevValue": ""
+        },
+        {
+            "type": "CREATE_ARRAY",
+            "host": "72100746",
+            "timestamp": 1558705842461,
+            "uuid": "50986503",
+            "seq": 1,
+            "id": "24368002"
+        },
+        {
+            "type": "INSERT_ELEMENT",
+            "host": "72100746",
+            "timestamp": 1558705851817,
+            "uuid": "14342943",
+            "seq": 10,
+            "array": "24368002",
+            "value": "63654454",
+            "entryid": "23664313",
+            "prev": -1
+        },
+        {
+            "type": "DELETE_ELEMENT",
+            "host": "42993899",
+            "timestamp": 1558706208261,
+            "uuid": "30551243",
+            "seq": 1,
+            "array": "94283642",
+            "entry": "9869173",
+            "value": "66782848"
+        },
+        {
+            "type": "DELETE_ELEMENT",
+            "host": "42993899",
+            "timestamp": 1558706210668,
+            "uuid": "68960067",
+            "seq": 2,
+            "array": "94283642",
+            "entry": "76046322",
+            "value": "21069029"
+        },
+        {
+            "type": "CREATE_OBJECT",
+            "host": "72100746",
+            "timestamp": 1558705842464,
+            "uuid": "79747617",
+            "seq": 2,
+            "id": "74197851",
+            "defaults": {
+                "type": "scene",
+                "title": "Scene 0",
+                "autoRecenter": true,
+                "defaultFloor": false,
+                "parent": "12272550",
+                "children": "24368002"
+            }
+        },
+        {
+            "type": "SET_PROPERTY",
+            "host": "72100746",
+            "timestamp": 1558705847404,
+            "uuid": "58008212",
+            "seq": 5,
+            "object": "74197851",
+            "name": "title",
+            "value": "mom",
+            "prevValue": "Scene 0"
+        },
+        {
+            "type": "SET_PROPERTY",
+            "host": "72100746",
+            "timestamp": 1558705842466,
+            "uuid": "96311399",
+            "seq": 3,
+            "object": "74197851",
+            "name": "parent",
+            "value": "12272550"
+        },
+        {
+            "type": "INSERT_ELEMENT",
+            "host": "72100746",
+            "timestamp": 1558705842467,
+            "uuid": "33608896",
+            "seq": 4,
+            "array": "38600929",
+            "value": "74197851",
+            "entryid": "53485931",
+            "prev": -1
+        },
+        {
+            "type": "SET_PROPERTY",
+            "host": "72100746",
+            "timestamp": 1558705850368,
+            "uuid": "38457598",
+            "seq": 6,
+            "object": "74197851",
+            "name": "title",
+            "value": "mom",
+            "prevValue": "mom"
+        },
+        {
+            "type": "SET_PROPERTY",
+            "host": "9242030",
+            "timestamp": 1558706225856,
+            "uuid": "74862991",
+            "seq": 1,
+            "object": "63654454",
+            "name": "asset",
+            "value": -30,
+            "prevValue": "66782848"
+        },
+        {
+            "type": "CREATE_OBJECT",
+            "host": "92043069",
+            "timestamp": 1558706263496,
+            "uuid": "48035099",
+            "seq": 1,
+            "id": "92801468",
+            "defaults": {
+                "type": "asset",
+                "subtype": "gltf",
+                "assetId": "samba-mom.glb",
+                "format": "model/gltf-binary",
+                "src": "https://cdn.glitch.com/15b5fc9d-cb20-436f-81af-a3df950cb2e5%2Fsamba-mom.glb",
+                "title": "samba-mom.glb",
+                "parent": 0
+            }
+        },
+        {
+            "type": "SET_PROPERTY",
+            "host": "92043069",
+            "timestamp": 1558706263497,
+            "uuid": "20905853",
+            "seq": 2,
+            "object": "92801468",
+            "name": "parent",
+            "value": "52044203"
+        },
+        {
+            "type": "INSERT_ELEMENT",
+            "host": "92043069",
+            "timestamp": 1558706263498,
+            "uuid": "40478525",
+            "seq": 3,
+            "array": "94283642",
+            "value": "92801468",
+            "entryid": "56298084",
+            "prev": "86977851"
+        },
+        {
+            "type": "SET_PROPERTY",
+            "host": "92043069",
+            "timestamp": 1558706269158,
+            "uuid": "65282950",
+            "seq": 7,
+            "object": "63654454",
+            "name": "asset",
+            "value": "92801468",
+            "prevValue": -30
+        },
+        {
+            "type": "SET_PROPERTY",
+            "host": "92043069",
+            "timestamp": 1558706273060,
+            "uuid": "28839102",
+            "seq": 8,
+            "object": "63654454",
+            "name": "sx",
+            "value": null
+        },
+        {
+            "type": "SET_PROPERTY",
+            "host": "92043069",
+            "timestamp": 1558706273061,
+            "uuid": "54451981",
+            "seq": 9,
+            "object": "63654454",
+            "name": "sy",
+            "value": 1
+        },
+        {
+            "type": "SET_PROPERTY",
+            "host": "92043069",
+            "timestamp": 1558706273062,
+            "uuid": "59765675",
+            "seq": 10,
+            "object": "63654454",
+            "name": "sz",
+            "value": 1
+        },
+        {
+            "type": "SET_PROPERTY",
+            "host": "92043069",
+            "timestamp": 1558706273354,
+            "uuid": "32621443",
+            "seq": 11,
+            "object": "63654454",
+            "name": "sx",
+            "value": 0
+        },
+        {
+            "type": "SET_PROPERTY",
+            "host": "92043069",
+            "timestamp": 1558706273356,
+            "uuid": "47392892",
+            "seq": 12,
+            "object": "63654454",
+            "name": "sy",
+            "value": 1
+        },
+        {
+            "type": "SET_PROPERTY",
+            "host": "92043069",
+            "timestamp": 1558706273356,
+            "uuid": "14154361",
+            "seq": 13,
+            "object": "63654454",
+            "name": "sz",
+            "value": 1
+        },
+        {
+            "type": "SET_PROPERTY",
+            "host": "92043069",
+            "timestamp": 1558706274099,
+            "uuid": "20175087",
+            "seq": 14,
+            "object": "63654454",
+            "name": "sx",
+            "value": 0
+        },
+        {
+            "type": "SET_PROPERTY",
+            "host": "92043069",
+            "timestamp": 1558706274100,
+            "uuid": "41309554",
+            "seq": 15,
+            "object": "63654454",
+            "name": "sy",
+            "value": 1
+        },
+        {
+            "type": "SET_PROPERTY",
+            "host": "92043069",
+            "timestamp": 1558706274101,
+            "uuid": "24239318",
+            "seq": 16,
+            "object": "63654454",
+            "name": "sz",
+            "value": 1
+        },
+        {
+            "type": "SET_PROPERTY",
+            "host": "92043069",
+            "timestamp": 1558706275088,
+            "uuid": "34183027",
+            "seq": 17,
+            "object": "63654454",
+            "name": "sx",
+            "value": 0
+        },
+        {
+            "type": "SET_PROPERTY",
+            "host": "92043069",
+            "timestamp": 1558706275088,
+            "uuid": "71707485",
+            "seq": 18,
+            "object": "63654454",
+            "name": "sy",
+            "value": 1
+        },
+        {
+            "type": "SET_PROPERTY",
+            "host": "92043069",
+            "timestamp": 1558706275088,
+            "uuid": "96830583",
+            "seq": 19,
+            "object": "63654454",
+            "name": "sz",
+            "value": 1
+        },
+        {
+            "type": "SET_PROPERTY",
+            "host": "92043069",
+            "timestamp": 1558706275407,
+            "uuid": "56909205",
+            "seq": 20,
+            "object": "63654454",
+            "name": "sx",
+            "value": 0.01
+        },
+        {
+            "type": "SET_PROPERTY",
+            "host": "92043069",
+            "timestamp": 1558706275409,
+            "uuid": "64493154",
+            "seq": 21,
+            "object": "63654454",
+            "name": "sy",
+            "value": 1
+        },
+        {
+            "type": "SET_PROPERTY",
+            "host": "92043069",
+            "timestamp": 1558706275410,
+            "uuid": "21463260",
+            "seq": 22,
+            "object": "63654454",
+            "name": "sz",
+            "value": 1
+        },
+        {
+            "type": "SET_PROPERTY",
+            "host": "92043069",
+            "timestamp": 1558706276721,
+            "uuid": "59128787",
+            "seq": 23,
+            "object": "63654454",
+            "name": "sx",
+            "value": 0.01
+        },
+        {
+            "type": "SET_PROPERTY",
+            "host": "92043069",
+            "timestamp": 1558706276721,
+            "uuid": "63849197",
+            "seq": 24,
+            "object": "63654454",
+            "name": "sy",
+            "value": 0
+        },
+        {
+            "type": "SET_PROPERTY",
+            "host": "92043069",
+            "timestamp": 1558706276722,
+            "uuid": "9972790",
+            "seq": 25,
+            "object": "63654454",
+            "name": "sz",
+            "value": 1
+        },
+        {
+            "type": "SET_PROPERTY",
+            "host": "92043069",
+            "timestamp": 1558706277272,
+            "uuid": "83205995",
+            "seq": 26,
+            "object": "63654454",
+            "name": "sx",
+            "value": 0.01
+        },
+        {
+            "type": "SET_PROPERTY",
+            "host": "92043069",
+            "timestamp": 1558706277272,
+            "uuid": "9016159",
+            "seq": 27,
+            "object": "63654454",
+            "name": "sy",
+            "value": 0
+        },
+        {
+            "type": "SET_PROPERTY",
+            "host": "92043069",
+            "timestamp": 1558706277272,
+            "uuid": "75093737",
+            "seq": 28,
+            "object": "63654454",
+            "name": "sz",
+            "value": 1
+        },
+        {
+            "type": "SET_PROPERTY",
+            "host": "92043069",
+            "timestamp": 1558706277668,
+            "uuid": "41958038",
+            "seq": 29,
+            "object": "63654454",
+            "name": "sx",
+            "value": 0.01
+        },
+        {
+            "type": "SET_PROPERTY",
+            "host": "92043069",
+            "timestamp": 1558706277669,
+            "uuid": "77757868",
+            "seq": 30,
+            "object": "63654454",
+            "name": "sy",
+            "value": 0
+        },
+        {
+            "type": "SET_PROPERTY",
+            "host": "92043069",
+            "timestamp": 1558706277669,
+            "uuid": "47880001",
+            "seq": 31,
+            "object": "63654454",
+            "name": "sz",
+            "value": 1
+        },
+        {
+            "type": "SET_PROPERTY",
+            "host": "92043069",
+            "timestamp": 1558706277789,
+            "uuid": "10928074",
+            "seq": 32,
+            "object": "63654454",
+            "name": "sx",
+            "value": 0.01
+        },
+        {
+            "type": "SET_PROPERTY",
+            "host": "92043069",
+            "timestamp": 1558706277789,
+            "uuid": "4998229",
+            "seq": 33,
+            "object": "63654454",
+            "name": "sy",
+            "value": 0.01
+        },
+        {
+            "type": "SET_PROPERTY",
+            "host": "92043069",
+            "timestamp": 1558706277791,
+            "uuid": "15186673",
+            "seq": 34,
+            "object": "63654454",
+            "name": "sz",
+            "value": 1
+        },
+        {
+            "type": "SET_PROPERTY",
+            "host": "92043069",
+            "timestamp": 1558706278607,
+            "uuid": "88015525",
+            "seq": 35,
+            "object": "63654454",
+            "name": "sx",
+            "value": 0.01
+        },
+        {
+            "type": "SET_PROPERTY",
+            "host": "92043069",
+            "timestamp": 1558706278607,
+            "uuid": "18454636",
+            "seq": 36,
+            "object": "63654454",
+            "name": "sy",
+            "value": 0.01
+        },
+        {
+            "type": "SET_PROPERTY",
+            "host": "92043069",
+            "timestamp": 1558706278607,
+            "uuid": "77194499",
+            "seq": 37,
+            "object": "63654454",
+            "name": "sz",
+            "value": 0
+        },
+        {
+            "type": "SET_PROPERTY",
+            "host": "92043069",
+            "timestamp": 1558706279424,
+            "uuid": "95764610",
+            "seq": 38,
+            "object": "63654454",
+            "name": "sx",
+            "value": 0.01
+        },
+        {
+            "type": "SET_PROPERTY",
+            "host": "92043069",
+            "timestamp": 1558706279424,
+            "uuid": "99025067",
+            "seq": 39,
+            "object": "63654454",
+            "name": "sy",
+            "value": 0.01
+        },
+        {
+            "type": "SET_PROPERTY",
+            "host": "92043069",
+            "timestamp": 1558706279424,
+            "uuid": "75748286",
+            "seq": 40,
+            "object": "63654454",
+            "name": "sz",
+            "value": 0
+        },
+        {
+            "type": "SET_PROPERTY",
+            "host": "92043069",
+            "timestamp": 1558706279856,
+            "uuid": "92517963",
+            "seq": 41,
+            "object": "63654454",
+            "name": "sx",
+            "value": 0.01
+        },
+        {
+            "type": "SET_PROPERTY",
+            "host": "92043069",
+            "timestamp": 1558706279856,
+            "uuid": "8067389",
+            "seq": 42,
+            "object": "63654454",
+            "name": "sy",
+            "value": 0.01
+        },
+        {
+            "type": "SET_PROPERTY",
+            "host": "92043069",
+            "timestamp": 1558706279857,
+            "uuid": "76883076",
+            "seq": 43,
+            "object": "63654454",
+            "name": "sz",
+            "value": 0
+        },
+        {
+            "type": "SET_PROPERTY",
+            "host": "92043069",
+            "timestamp": 1558706280006,
+            "uuid": "51045468",
+            "seq": 44,
+            "object": "63654454",
+            "name": "sx",
+            "value": 0.01
+        },
+        {
+            "type": "SET_PROPERTY",
+            "host": "92043069",
+            "timestamp": 1558706280007,
+            "uuid": "82315004",
+            "seq": 45,
+            "object": "63654454",
+            "name": "sy",
+            "value": 0.01
+        },
+        {
+            "type": "SET_PROPERTY",
+            "host": "92043069",
+            "timestamp": 1558706280007,
+            "uuid": "7973243",
+            "seq": 46,
+            "object": "63654454",
+            "name": "sz",
+            "value": 0.01
+        },
+        {
+            "type": "DELETE_ELEMENT",
+            "host": "92043069",
+            "timestamp": 1558706413450,
+            "uuid": "81813417",
+            "seq": 212,
+            "array": "94283642",
+            "entry": "55330758",
+            "value": "42602528"
+        },
+        {
+            "type": "DELETE_ELEMENT",
+            "host": "92043069",
+            "timestamp": 1558706416305,
+            "uuid": "73885976",
+            "seq": 213,
+            "array": "94283642",
+            "entry": "56298084",
+            "value": "92801468"
+        },
+        {
+            "type": "SET_PROPERTY",
+            "host": "92043069",
+            "timestamp": 1558706425945,
+            "uuid": "87297525",
+            "seq": 220,
+            "object": "2505341",
+            "name": "asset",
+            "value": -30,
+            "prevValue": "42602528"
+        },
+        {
+            "type": "SET_PROPERTY",
+            "host": "92043069",
+            "timestamp": 1558706429997,
+            "uuid": "41691536",
+            "seq": 227,
+            "object": "63654454",
+            "name": "asset",
+            "value": -30,
+            "prevValue": "92801468"
+        },
+        {
+            "type": "SET_PROPERTY",
+            "host": "92043069",
+            "timestamp": 1558706434003,
+            "uuid": "92469973",
+            "seq": 234,
+            "object": "47723141",
+            "name": "asset",
+            "value": -30,
+            "prevValue": "76818216"
+        },
+        {
+            "type": "SET_PROPERTY",
+            "host": "92043069",
+            "timestamp": 1558706441139,
+            "uuid": "72747701",
+            "seq": 241,
+            "object": "2505341",
+            "name": "asset",
+            "value": "76818216",
+            "prevValue": -30
         }
     ],
     "type": "vr",
@@ -5090,11 +5948,60 @@
         "children": [
             {
                 "type": "scene",
+                "title": "mom",
+                "autoRecenter": true,
+                "defaultFloor": false,
+                "parent": "12272550",
+                "children": [
+                    {
+                        "type": "model",
+                        "title": "a model",
+                        "visible": true,
+                        "tx": 0,
+                        "ty": 0,
+                        "tz": 0,
+                        "rx": 0,
+                        "ry": 0,
+                        "rz": 0,
+                        "sx": 0.01,
+                        "sy": 0.01,
+                        "sz": 0.01,
+                        "color": "#ffffff",
+                        "children": [],
+                        "asset": -30,
+                        "parent": "74197851",
+                        "id": "63654454"
+                    }
+                ],
+                "id": "74197851"
+            },
+            {
+                "type": "scene",
                 "title": "robot",
                 "autoRecenter": true,
                 "defaultFloor": false,
                 "parent": "12272550",
-                "children": [],
+                "children": [
+                    {
+                        "type": "model",
+                        "title": "a model",
+                        "visible": true,
+                        "tx": 1.1826244983899072,
+                        "ty": -1,
+                        "tz": 0,
+                        "rx": 0,
+                        "ry": 0,
+                        "rz": 0,
+                        "sx": 0.01,
+                        "sy": 0.01,
+                        "sz": 0.01,
+                        "color": "#ffffff",
+                        "children": [],
+                        "asset": "76818216",
+                        "parent": "55352309",
+                        "id": "2505341"
+                    }
+                ],
                 "id": "55352309"
             },
             {
@@ -5119,28 +6026,18 @@
                         "sz": 0.05,
                         "color": "#ffffff",
                         "children": [],
-                        "asset": "76818216",
+                        "asset": -30,
                         "parent": "65928286",
                         "id": "47723141"
                     },
                     {
-                        "type": "model",
-                        "title": "a model",
-                        "visible": true,
-                        "tx": 1.1826244983899072,
-                        "ty": -1,
-                        "tz": 0,
-                        "rx": 0,
-                        "ry": 0,
-                        "rz": 0,
-                        "sx": 0.01,
-                        "sy": 0.01,
-                        "sz": 0.01,
-                        "color": "#ffffff",
-                        "children": [],
-                        "asset": "42602528",
+                        "type": "behavior",
+                        "title": " onTrigger",
+                        "description": " Runs the provided code on a trigger event",
                         "parent": "65928286",
-                        "id": "2505341"
+                        "behavior": "53181038",
+                        "trigger": "this.",
+                        "id": "33930410"
                     }
                 ],
                 "id": "65928286"
@@ -5148,7 +6045,16 @@
             {
                 "type": "behaviors",
                 "title": "Behaviors",
-                "children": [],
+                "children": [
+                    {
+                        "type": "behavior_script",
+                        "title": " onTrigger",
+                        "description": " Runs the provided code on a trigger event",
+                        "src": "onTrigger.js",
+                        "parent": "3309483",
+                        "id": "53181038"
+                    }
+                ],
                 "parent": "12272550",
                 "id": "3309483"
             },
@@ -5156,16 +6062,6 @@
                 "type": "assets",
                 "title": "Assets",
                 "children": [
-                    {
-                        "type": "asset",
-                        "subtype": "gltf",
-                        "assetId": "mantis.glb",
-                        "format": "model/gltf-binary",
-                        "src": "https://cdn.glitch.com/15b5fc9d-cb20-436f-81af-a3df950cb2e5%2Fmantis.glb",
-                        "title": "mantis.glb",
-                        "parent": "52044203",
-                        "id": "42602528"
-                    },
                     {
                         "type": "asset",
                         "subtype": "image",
