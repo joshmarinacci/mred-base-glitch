@@ -1,4 +1,4 @@
-ls ls -l// server.js
+// server.js
 // where your node app starts
 
 
