@@ -1,6 +1,6 @@
 /*
-#title Click to Nav
-#description adds click handler to navigate to a new scene
+#title Navigate on Click
+#description Navigate to a new scene on click
 */
 ({
     // defines a target property. must be a scene

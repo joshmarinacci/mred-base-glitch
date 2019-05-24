@@ -1,6 +1,6 @@
 /*
 #title onClick
-#description runs the provided code in the click event handler
+#description Runs the provided code in the click event handler
 */
 ({
     properties: {

@@ -37,13 +37,13 @@ function docPath(id) {
 app.get("/info", (req,res) => {
     res.json({
         assetUpload:false,
-        authentication:true,
+        authentication:true, 
         scriptEditing:true,
         passwordSupported:true,
         docDeleteSupported:true,
     })
-})
-
+}) 
+ 
 const OWNER_USER = {
     username:'some-username'
 }
