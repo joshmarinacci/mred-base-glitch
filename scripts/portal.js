@@ -132,20 +132,31 @@
                   camera.userData.recursion ++;
                 }
 
-                // where is the portal exterior
+                // find positions and vector between
                 reflectorWorldPosition.setFromMatrixPosition( scope.matrixWorld )
-
-                // where is the main camera
                 cameraWorldPosition.setFromMatrixPosition( camera.matrixWorld )
+                view.subVectors( reflectorWorldPosition, cameraWorldPosition )
 
                 // get a normal for the front of the portal
                 scratchMatrix.extractRotation( scope.matrixWorld )
-                normal.set( 0, 0, 1 )
+                normal.set( 0, 0, -1 )
                 normal.applyMatrix4( scratchMatrix )
-                view.subVectors( reflectorWorldPosition, cameraWorldPosition )
 
                 // Do not bother rendering if facing away from the portal
-                if ( view.dot( normal ) > 0 ) return
+            //    if ( view.dot( normal ) < 0 ) return
+
+                // build a camera position for a mirror - this is not used here
+                //view.reflect( normal ).negate();
+                //view.add( reflectorWorldPosition );              
+
+                // figure out what the camera is looking at for a mirror - not used here
+                // scratchMatrix.extractRotation( camera.matrixWorld );
+                // lookAtPosition.set( 0, 0, - 1 );
+                // lookAtPosition.applyMatrix4( scratchMatrix );
+                // lookAtPosition.add( cameraWorldPosition );
+                // target.subVectors( reflectorWorldPosition, lookAtPosition );
+                // target.reflect( normal ).negate();
+                // target.add( reflectorWorldPosition );
               
                 // get a clone of the current camera as a scratch space
                 // TODO slightly wasteful of CPU
@@ -155,12 +166,14 @@
                 let portalInverse = scratchMatrix.getInverse(scope.matrixWorld)
                 virtualCamera.applyMatrix(portalInverse)
 
-               // what is the xyz position of the new scene that is being peered into after transform? (this is always 0,0,0)
-                reflectorWorldPosition.set(0,0,0)
-
                 // get a vector pointing into the portal surface (this is always forward because camera was pre-rotated)
-                normal.set( 0, 0, -1 )
+            		//scratchMatrix.extractRotation( scope.matrixWorld );
+                //normal.set( 0, 0, -1 )
+                //normal.applyMatrix4(scratchMatrix)
 
+                // clear this for some reason
+            		virtualCamera.userData.recursion = 0;
+              
                 // Update the texture matrix
                 textureMatrix.set(
                   0.5, 0.0, 0.0, 0.5,
@@ -170,7 +183,7 @@
                 );
                 textureMatrix.multiply( virtualCamera.projectionMatrix )
                 textureMatrix.multiply( virtualCamera.matrixWorldInverse )
-                textureMatrix.multiply( group.matrixWorld )
+                textureMatrix.multiply( scope.matrixWorld )
 
                 //////////////////////////////////////////////////
                 // Now update projection matrix with new clip plane, implementing code from: http://www.terathon.com/code/oblique.html
