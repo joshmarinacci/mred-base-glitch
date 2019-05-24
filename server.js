@@ -151,7 +151,6 @@ function supportedMimetype(type,name) {
     if(type === 'audio/mpeg') return true
     if(type === 'audio/aac') return true
     if(type === 'audio/wav') return true
-    if(type === 'audio/x-wav') return true
 
     if(type === 'video/mp4') return true
     if(type === 'model/gltf-binary') return true
@@ -159,10 +158,9 @@ function supportedMimetype(type,name) {
 }
 
 function fixMimetype(type, name) {
-    if(name.toLowerCase().endsWith('.glb')) {
-        console.log("setting .glb to model/gltf-binary")
-        return 'model/gltf-binary'
-    }
+    if(name.toLowerCase().endsWith('.glb')) return 'model/gltf-binary'
+    if(type === 'audio/x-wav') return 'audio/wav'
+    if(type === 'audio/mp3') return 'audio/mpeg'
     return type
 }
 function listAssets() {
