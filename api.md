@@ -27,6 +27,22 @@
 * `this.properties`: the property settings for this behavior. ex: if a behavior has a speed property you can access it with `this.properties.speed`.
 * `this.globalState`: a place to set values that every behavior can access
 * `this.globals` get a reference to useful global variables
+* `this.behavior` the actual behavior object in the object graph
+* `this.code` get a reference to all of the functions defined in your script. ex: define makeRed() then call it from start()  
+
+```javascript
+({
+  makeRed(obj) {
+      console.log("making ",obj,"red")
+  },
+  start(evt) {
+      this.code.makeRed(evt.target)
+  }
+})
+```
+
+The behavior object (`this.behavior`) and other objects from the object tree graph have properties which match what you see in the editor.
+Thus you can get the color of a cube with  `evt.graphTarget.color = '#ff0000'`. You can also get it's parent with `evt.graphTarget.getParent().type === 'scene'`
 
 ### methods available to behavior event handlers
 
@@ -37,6 +53,9 @@
 * `this.getAssetByTitle(title)`: find an asset by its title
 * `this.navigateScene(id)`: navigate to a new scene, by id
 * `this.playSound(id)`: play a sound by id
+
+
+
 	
 #### logger
 
