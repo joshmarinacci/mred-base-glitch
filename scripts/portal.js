@@ -103,6 +103,7 @@
 
             // After the target texture is rendered it needs to pretend it is a material so threejs can paint it
             var material = new THREE.ShaderMaterial( {
+              side: THREE.DoubleSide,
               uniforms: THREE.UniformsUtils.clone( shader.uniforms ),
               fragmentShader: shader.fragmentShader,
               vertexShader: shader.vertexShader
@@ -142,14 +143,14 @@
                 normal.set( 0, 0, -1 )
                 normal.applyMatrix4( scratchMatrix )
 
-                // Do not bother rendering if facing away from the portal
-            //    if ( view.dot( normal ) < 0 ) return
+                // not used - Do not bother rendering if facing away from the portal
+                // if ( view.dot( normal ) < 0 ) return
 
-                // build a camera position for a mirror - this is not used here
-                //view.reflect( normal ).negate();
-                //view.add( reflectorWorldPosition );              
+                // not used - build a camera position for a mirror
+                // view.reflect( normal ).negate();
+                // view.add( reflectorWorldPosition );              
 
-                // figure out what the camera is looking at for a mirror - not used here
+                // not used - figure out what the camera is looking at for a mirror
                 // scratchMatrix.extractRotation( camera.matrixWorld );
                 // lookAtPosition.set( 0, 0, - 1 );
                 // lookAtPosition.applyMatrix4( scratchMatrix );
@@ -165,11 +166,6 @@
                 // transform the camera to be relative to the portals pose in the exterior world
                 let portalInverse = scratchMatrix.getInverse(scope.matrixWorld)
                 virtualCamera.applyMatrix(portalInverse)
-
-                // get a vector pointing into the portal surface (this is always forward because camera was pre-rotated)
-            		//scratchMatrix.extractRotation( scope.matrixWorld );
-                //normal.set( 0, 0, -1 )
-                //normal.applyMatrix4(scratchMatrix)
 
                 // clear this for some reason
             		virtualCamera.userData.recursion = 0;
@@ -344,9 +340,38 @@
         } )
         e.target.add(portal)
  
+        this.latched = 1
+        this.whichScene = 0
+        this.startingScene = this.getCurrentScene()
     },
   
     tick: function(e) {
+
+        let THREE = this.globals.THREE
+        var reflectorWorldPosition = new THREE.Vector3();
+        var cameraWorldPosition = new THREE.Vector3();
+        var view = new THREE.Vector3();
+        let camera = this.camera
+        let scope = e.target
+
+        reflectorWorldPosition.setFromMatrixPosition( scope.matrixWorld )
+        cameraWorldPosition.setFromMatrixPosition( camera.matrixWorld )
+        view.subVectors( reflectorWorldPosition, cameraWorldPosition )
+
+        var d = reflectorWorldPosition.distanceTo( cameraWorldPosition )
+
+        // just throw them over if they are close for now - improve later
+        // hard to get back I suppose without a doorway
+        // also, should translate them by the doorway offset
+        if(d < 1 && !this.latched) {
+            this.latched = 1
+            this.whichScene = this.whichScene ? 0 : 1
+            this.navigateScene( this.whichScene ? this.properties.scene : this.startingScene )
+        }
+        else if(d > 3) {
+          this.latched = 0
+        }
+      
     },
 
 })
