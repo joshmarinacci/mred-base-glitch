@@ -1016,14 +1016,47 @@
             "array": "32175030",
             "entry": "14294094",
             "value": "23425914"
+        },
+        {
+            "type": "SET_PROPERTY",
+            "host": "81399854",
+            "timestamp": 1558676604306,
+            "uuid": "49250841",
+            "seq": 1,
+            "object": "12272550",
+            "name": "title",
+            "value": "creature",
+            "prevValue": "Untitled Project"
+        },
+        {
+            "type": "SET_PROPERTY",
+            "host": "81399854",
+            "timestamp": 1558676605042,
+            "uuid": "36004344",
+            "seq": 2,
+            "object": "12272550",
+            "name": "defaultScene",
+            "value": "28600730",
+            "prevValue": 0
+        },
+        {
+            "type": "SET_PROPERTY",
+            "host": "23260166",
+            "timestamp": 1558676672534,
+            "uuid": "51261865",
+            "seq": 1,
+            "object": "12272550",
+            "name": "title",
+            "value": "creature",
+            "prevValue": "creature"
         }
     ],
     "type": "vr",
     "id": "doc_20394346",
     "graph": {
         "type": "root",
-        "title": "Untitled Project",
-        "defaultScene": 0,
+        "title": "creature",
+        "defaultScene": "28600730",
         "children": [
             {
                 "type": "scene",
@@ -1094,5 +1127,5 @@
         ],
         "id": "12272550"
     },
-    "title": "Untitled Project"
+    "title": "creature"
 }
