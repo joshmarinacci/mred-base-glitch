@@ -5937,47 +5937,366 @@
             "name": "asset",
             "value": "76818216",
             "prevValue": -30
+        },
+        {
+            "type": "SET_PROPERTY",
+            "host": "59478050",
+            "timestamp": 1558722732591,
+            "uuid": "16150630",
+            "seq": 1,
+            "object": "12272550",
+            "name": "title",
+            "value": "BROKEN creature",
+            "prevValue": "creature"
+        },
+        {
+            "type": "SET_PROPERTY",
+            "host": "59478050",
+            "timestamp": 1558722736823,
+            "uuid": "68045532",
+            "seq": 2,
+            "object": "12272550",
+            "name": "title",
+            "value": "BROKEN creature",
+            "prevValue": "BROKEN creature"
+        },
+        {
+            "type": "DELETE_ELEMENT",
+            "host": "76939469",
+            "timestamp": 1558722810260,
+            "uuid": "16411395",
+            "seq": 10,
+            "array": "38600929",
+            "entry": "53485931",
+            "value": "74197851"
+        },
+        {
+            "type": "SET_PROPERTY",
+            "host": "76939469",
+            "timestamp": 1558722821790,
+            "uuid": "85990145",
+            "seq": 11,
+            "object": "33930410",
+            "name": "trigger",
+            "value": "",
+            "prevValue": "this."
+        },
+        {
+            "type": "DELETE_ELEMENT",
+            "host": "76939469",
+            "timestamp": 1558722830648,
+            "uuid": "68207779",
+            "seq": 12,
+            "array": "27377960",
+            "entry": "37974316",
+            "value": "33930410"
+        },
+        {
+            "type": "DELETE_ELEMENT",
+            "host": "76939469",
+            "timestamp": 1558722834418,
+            "uuid": "29508459",
+            "seq": 13,
+            "array": "27377960",
+            "entry": "82047019",
+            "value": "47723141"
+        },
+        {
+            "type": "SET_PROPERTY",
+            "host": "76939469",
+            "timestamp": 1558722834419,
+            "uuid": "26915273",
+            "seq": 14,
+            "object": "47723141",
+            "name": "parent",
+            "value": "55352309"
+        },
+        {
+            "type": "INSERT_ELEMENT",
+            "host": "76939469",
+            "timestamp": 1558722834419,
+            "uuid": "38634449",
+            "seq": 15,
+            "array": "19652274",
+            "value": "47723141",
+            "entryid": "81999369",
+            "prev": "71387090"
+        },
+        {
+            "type": "DELETE_ELEMENT",
+            "host": "76939469",
+            "timestamp": 1558722850021,
+            "uuid": "75806006",
+            "seq": 46,
+            "array": "38600929",
+            "entry": "81700980",
+            "value": "65928286"
+        },
+        {
+            "type": "SET_PROPERTY",
+            "host": "76939469",
+            "timestamp": 1558722858309,
+            "uuid": "43652925",
+            "seq": 47,
+            "object": "55352309",
+            "name": "title",
+            "value": "creature scene",
+            "prevValue": "robot"
+        },
+        {
+            "type": "SET_PROPERTY",
+            "host": "76939469",
+            "timestamp": 1558722860534,
+            "uuid": "73057900",
+            "seq": 48,
+            "object": "55352309",
+            "name": "title",
+            "value": "creature scene",
+            "prevValue": "creature scene"
+        },
+        {
+            "type": "CREATE_OBJECT",
+            "host": "76939469",
+            "timestamp": 1558722866770,
+            "uuid": "45464234",
+            "seq": 52,
+            "id": "83137804",
+            "defaults": {
+                "type": "asset",
+                "subtype": "gltf",
+                "assetId": "mantis.glb",
+                "format": "model/gltf-binary",
+                "src": "https://cdn.glitch.com/15b5fc9d-cb20-436f-81af-a3df950cb2e5%2Fmantis.glb",
+                "title": "mantis.glb",
+                "parent": 0
+            }
+        },
+        {
+            "type": "SET_PROPERTY",
+            "host": "76939469",
+            "timestamp": 1558722866771,
+            "uuid": "71945302",
+            "seq": 53,
+            "object": "83137804",
+            "name": "parent",
+            "value": "52044203"
+        },
+        {
+            "type": "INSERT_ELEMENT",
+            "host": "76939469",
+            "timestamp": 1558722866771,
+            "uuid": "42021822",
+            "seq": 54,
+            "array": "94283642",
+            "value": "83137804",
+            "entryid": "12426615",
+            "prev": "86977851"
+        },
+        {
+            "type": "SET_PROPERTY",
+            "host": "76939469",
+            "timestamp": 1558722878958,
+            "uuid": "35250163",
+            "seq": 55,
+            "object": "47723141",
+            "name": "asset",
+            "value": "83137804",
+            "prevValue": -30
+        },
+        {
+            "type": "SET_PROPERTY",
+            "host": "76939469",
+            "timestamp": 1558722887829,
+            "uuid": "59902761",
+            "seq": 56,
+            "object": "47723141",
+            "name": "sx",
+            "value": 0.005
+        },
+        {
+            "type": "SET_PROPERTY",
+            "host": "76939469",
+            "timestamp": 1558722887830,
+            "uuid": "38128192",
+            "seq": 57,
+            "object": "47723141",
+            "name": "sy",
+            "value": 0.05
+        },
+        {
+            "type": "SET_PROPERTY",
+            "host": "76939469",
+            "timestamp": 1558722887830,
+            "uuid": "9916409",
+            "seq": 58,
+            "object": "47723141",
+            "name": "sz",
+            "value": 0.05
+        },
+        {
+            "type": "SET_PROPERTY",
+            "host": "76939469",
+            "timestamp": 1558722890706,
+            "uuid": "35428177",
+            "seq": 59,
+            "object": "47723141",
+            "name": "sx",
+            "value": 0.005
+        },
+        {
+            "type": "SET_PROPERTY",
+            "host": "76939469",
+            "timestamp": 1558722890706,
+            "uuid": "42899666",
+            "seq": 60,
+            "object": "47723141",
+            "name": "sy",
+            "value": 0.005
+        },
+        {
+            "type": "SET_PROPERTY",
+            "host": "76939469",
+            "timestamp": 1558722890706,
+            "uuid": "83707216",
+            "seq": 61,
+            "object": "47723141",
+            "name": "sz",
+            "value": 0.05
+        },
+        {
+            "type": "SET_PROPERTY",
+            "host": "76939469",
+            "timestamp": 1558722892965,
+            "uuid": "22529986",
+            "seq": 62,
+            "object": "47723141",
+            "name": "sx",
+            "value": 0.005
+        },
+        {
+            "type": "SET_PROPERTY",
+            "host": "76939469",
+            "timestamp": 1558722892965,
+            "uuid": "3460390",
+            "seq": 63,
+            "object": "47723141",
+            "name": "sy",
+            "value": 0.005
+        },
+        {
+            "type": "SET_PROPERTY",
+            "host": "76939469",
+            "timestamp": 1558722892965,
+            "uuid": "56684613",
+            "seq": 64,
+            "object": "47723141",
+            "name": "sz",
+            "value": 0.005
+        },
+        {
+            "type": "SET_PROPERTY",
+            "host": "76939469",
+            "timestamp": 1558722906421,
+            "uuid": "98817803",
+            "seq": 101,
+            "object": "47723141",
+            "name": "tx",
+            "value": -1.4
+        },
+        {
+            "type": "SET_PROPERTY",
+            "host": "76939469",
+            "timestamp": 1558722906421,
+            "uuid": "74495461",
+            "seq": 102,
+            "object": "47723141",
+            "name": "ty",
+            "value": -1
+        },
+        {
+            "type": "SET_PROPERTY",
+            "host": "76939469",
+            "timestamp": 1558722906421,
+            "uuid": "43533814",
+            "seq": 103,
+            "object": "47723141",
+            "name": "tz",
+            "value": 0
+        },
+        {
+            "type": "SET_PROPERTY",
+            "host": "76939469",
+            "timestamp": 1558722906628,
+            "uuid": "92136826",
+            "seq": 104,
+            "object": "47723141",
+            "name": "tx",
+            "value": -1.4
+        },
+        {
+            "type": "SET_PROPERTY",
+            "host": "76939469",
+            "timestamp": 1558722906628,
+            "uuid": "88512577",
+            "seq": 105,
+            "object": "47723141",
+            "name": "ty",
+            "value": -1.1
+        },
+        {
+            "type": "SET_PROPERTY",
+            "host": "76939469",
+            "timestamp": 1558722906629,
+            "uuid": "99800908",
+            "seq": 106,
+            "object": "47723141",
+            "name": "tz",
+            "value": 0
+        },
+        {
+            "type": "SET_PROPERTY",
+            "host": "76939469",
+            "timestamp": 1558722932883,
+            "uuid": "29001302",
+            "seq": 684,
+            "object": "2505341",
+            "name": "ty",
+            "value": -0.753996693279032,
+            "prevValue": -0.9961265434902473
+        },
+        {
+            "type": "SET_PROPERTY",
+            "host": "63115405",
+            "timestamp": 1558722974119,
+            "uuid": "28803670",
+            "seq": 1,
+            "object": "12272550",
+            "name": "title",
+            "value": "BROKEN creature",
+            "prevValue": "BROKEN creature"
+        },
+        {
+            "type": "SET_PROPERTY",
+            "host": "63115405",
+            "timestamp": 1558722980928,
+            "uuid": "41747792",
+            "seq": 2,
+            "object": "12272550",
+            "name": "defaultScene",
+            "value": "55352309",
+            "prevValue": "65928286"
         }
     ],
     "type": "vr",
     "id": "doc_20394346",
     "graph": {
         "type": "root",
-        "title": "creature",
-        "defaultScene": "65928286",
+        "title": "BROKEN creature",
+        "defaultScene": "55352309",
         "children": [
             {
                 "type": "scene",
-                "title": "mom",
-                "autoRecenter": true,
-                "defaultFloor": false,
-                "parent": "12272550",
-                "children": [
-                    {
-                        "type": "model",
-                        "title": "a model",
-                        "visible": true,
-                        "tx": 0,
-                        "ty": 0,
-                        "tz": 0,
-                        "rx": 0,
-                        "ry": 0,
-                        "rz": 0,
-                        "sx": 0.01,
-                        "sy": 0.01,
-                        "sz": 0.01,
-                        "color": "#ffffff",
-                        "children": [],
-                        "asset": -30,
-                        "parent": "74197851",
-                        "id": "63654454"
-                    }
-                ],
-                "id": "74197851"
-            },
-            {
-                "type": "scene",
-                "title": "robot",
+                "title": "creature scene",
                 "autoRecenter": true,
                 "defaultFloor": false,
                 "parent": "12272550",
@@ -5987,7 +6306,7 @@
                         "title": "a model",
                         "visible": true,
                         "tx": 1.1826244983899072,
-                        "ty": -1,
+                        "ty": -0.753996693279032,
                         "tz": 0,
                         "rx": 0,
                         "ry": 0,
@@ -6000,47 +6319,28 @@
                         "asset": "76818216",
                         "parent": "55352309",
                         "id": "2505341"
-                    }
-                ],
-                "id": "55352309"
-            },
-            {
-                "type": "scene",
-                "title": "creature",
-                "autoRecenter": true,
-                "defaultFloor": false,
-                "parent": "12272550",
-                "children": [
+                    },
                     {
                         "type": "model",
                         "title": "a model",
                         "visible": true,
                         "tx": -1.4,
-                        "ty": -0.9,
+                        "ty": -1.1,
                         "tz": 0,
                         "rx": 0,
                         "ry": 0,
                         "rz": 0,
-                        "sx": 0.05,
-                        "sy": 0.05,
-                        "sz": 0.05,
+                        "sx": 0.005,
+                        "sy": 0.005,
+                        "sz": 0.005,
                         "color": "#ffffff",
                         "children": [],
-                        "asset": -30,
-                        "parent": "65928286",
+                        "asset": "83137804",
+                        "parent": "55352309",
                         "id": "47723141"
-                    },
-                    {
-                        "type": "behavior",
-                        "title": " onTrigger",
-                        "description": " Runs the provided code on a trigger event",
-                        "parent": "65928286",
-                        "behavior": "53181038",
-                        "trigger": "this.",
-                        "id": "33930410"
                     }
                 ],
-                "id": "65928286"
+                "id": "55352309"
             },
             {
                 "type": "behaviors",
@@ -6083,6 +6383,16 @@
                         "title": "robot-playground.glb",
                         "parent": "52044203",
                         "id": "76818216"
+                    },
+                    {
+                        "type": "asset",
+                        "subtype": "gltf",
+                        "assetId": "mantis.glb",
+                        "format": "model/gltf-binary",
+                        "src": "https://cdn.glitch.com/15b5fc9d-cb20-436f-81af-a3df950cb2e5%2Fmantis.glb",
+                        "title": "mantis.glb",
+                        "parent": "52044203",
+                        "id": "83137804"
                     }
                 ],
                 "parent": "12272550",
@@ -6091,5 +6401,5 @@
         ],
         "id": "12272550"
     },
-    "title": "creature"
+    "title": "BROKEN creature"
 }
