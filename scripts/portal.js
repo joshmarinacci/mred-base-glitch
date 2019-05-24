@@ -103,6 +103,7 @@
 
             // After the target texture is rendered it needs to pretend it is a material so threejs can paint it
             var material = new THREE.ShaderMaterial( {
+              side: THREE.DoubleSide,
               uniforms: THREE.UniformsUtils.clone( shader.uniforms ),
               fragmentShader: shader.fragmentShader,
               vertexShader: shader.vertexShader
@@ -132,34 +133,43 @@
                   camera.userData.recursion ++;
                 }
 
-                // get portal position
+                // find positions and vector between
                 reflectorWorldPosition.setFromMatrixPosition( scope.matrixWorld )
-
-                // get camera position
                 cameraWorldPosition.setFromMatrixPosition( camera.matrixWorld )
-
-                // get direction of portal
-                scratchMatrix.extractRotation( scope.matrixWorld )
-                normal.set( 0, 0, 1 )
-                normal.applyMatrix4( scratchMatrix )
-
-                // get a ray between portal and camera
                 view.subVectors( reflectorWorldPosition, cameraWorldPosition )
 
-                // Avoid rendering when reflector is facing away from player
-                if ( view.dot( normal ) > 0 ) return;
+                // get a normal for the front of the portal
+                scratchMatrix.extractRotation( scope.matrixWorld )
+                normal.set( 0, 0, -1 )
+                normal.applyMatrix4( scratchMatrix )
 
-                // TODO a bit wasteful of cpu
+                // not used - Do not bother rendering if facing away from the portal
+                // if ( view.dot( normal ) < 0 ) return
+
+                // not used - build a camera position for a mirror
+                // view.reflect( normal ).negate();
+                // view.add( reflectorWorldPosition );              
+
+                // not used - figure out what the camera is looking at for a mirror
+                // scratchMatrix.extractRotation( camera.matrixWorld );
+                // lookAtPosition.set( 0, 0, - 1 );
+                // lookAtPosition.applyMatrix4( scratchMatrix );
+                // lookAtPosition.add( cameraWorldPosition );
+                // target.subVectors( reflectorWorldPosition, lookAtPosition );
+                // target.reflect( normal ).negate();
+                // target.add( reflectorWorldPosition );
+              
+                // get a clone of the current camera as a scratch space
+                // TODO slightly wasteful of CPU
                 virtualCamera = camera.clone()
 
-                // get the camera to be relative to the portal
+                // transform the camera to be relative to the portals pose in the exterior world
                 let portalInverse = scratchMatrix.getInverse(scope.matrixWorld)
                 virtualCamera.applyMatrix(portalInverse)
-                // get the camera to be relative to the target scene
-                if(!scene.matrixWorld) alert("error")
-                let sceneInverse = scratchMatrix.getInverse(scene.matrixWorld)
-                virtualCamera.applyMatrix(sceneInverse)
 
+                // clear this for some reason
+            		virtualCamera.userData.recursion = 0;
+              
                 // Update the texture matrix
                 textureMatrix.set(
                   0.5, 0.0, 0.0, 0.5,
@@ -167,82 +177,80 @@
                   0.0, 0.0, 0.5, 0.5,
                   0.0, 0.0, 0.0, 1.0
                 );
-                textureMatrix.multiply( virtualCamera.projectionMatrix );
-                textureMatrix.multiply( virtualCamera.matrixWorldInverse );
-                textureMatrix.multiply( scope.matrixWorld );
+                textureMatrix.multiply( virtualCamera.projectionMatrix )
+                textureMatrix.multiply( virtualCamera.matrixWorldInverse )
+                textureMatrix.multiply( scope.matrixWorld )
 
+                //////////////////////////////////////////////////
                 // Now update projection matrix with new clip plane, implementing code from: http://www.terathon.com/code/oblique.html
                 // Paper explaining this technique: http://www.terathon.com/lengyel/Lengyel-Oblique.pdf
-                reflectorPlane.setFromNormalAndCoplanarPoint( normal, reflectorWorldPosition );
-                reflectorPlane.applyMatrix4( virtualCamera.matrixWorldInverse );
+                //////////////////////////////////////////////////
+              
+                if(true) {
+                    reflectorPlane.setFromNormalAndCoplanarPoint( normal, reflectorWorldPosition );
+                    reflectorPlane.applyMatrix4( virtualCamera.matrixWorldInverse );
 
-                clipPlane.set( reflectorPlane.normal.x, reflectorPlane.normal.y, reflectorPlane.normal.z, reflectorPlane.constant );
+                    clipPlane.set( reflectorPlane.normal.x, reflectorPlane.normal.y, reflectorPlane.normal.z, reflectorPlane.constant );
 
-                var projectionMatrix = virtualCamera.projectionMatrix;
+                    var projectionMatrix = virtualCamera.projectionMatrix;
 
-                q.x = ( Math.sign( clipPlane.x ) + projectionMatrix.elements[ 8 ] ) / projectionMatrix.elements[ 0 ];
-                q.y = ( Math.sign( clipPlane.y ) + projectionMatrix.elements[ 9 ] ) / projectionMatrix.elements[ 5 ];
-                q.z = - 1.0;
-                q.w = ( 1.0 + projectionMatrix.elements[ 10 ] ) / projectionMatrix.elements[ 14 ];
+                    q.x = ( Math.sign( clipPlane.x ) + projectionMatrix.elements[ 8 ] ) / projectionMatrix.elements[ 0 ];
+                    q.y = ( Math.sign( clipPlane.y ) + projectionMatrix.elements[ 9 ] ) / projectionMatrix.elements[ 5 ];
+                    q.z = -1.0;
+                    q.w = ( 1.0 + projectionMatrix.elements[ 10 ] ) / projectionMatrix.elements[ 14 ];
 
-                // Calculate the scaled plane vector
-                clipPlane.multiplyScalar( 2.0 / clipPlane.dot( q ) );
+                    // Calculate the scaled plane vector
+                    clipPlane.multiplyScalar( 2.0 / clipPlane.dot( q ) );
 
-                // Replacing the third row of the projection matrix
-                projectionMatrix.elements[ 2 ] = clipPlane.x;
-                projectionMatrix.elements[ 6 ] = clipPlane.y;
-                projectionMatrix.elements[ 10 ] = clipPlane.z + 1.0 - clipBias;
-                projectionMatrix.elements[ 14 ] = clipPlane.w;
+                    // Replacing the third row of the projection matrix
+                    projectionMatrix.elements[ 2 ] = clipPlane.x;
+                    projectionMatrix.elements[ 6 ] = clipPlane.y;
+                    projectionMatrix.elements[ 10 ] = clipPlane.z + 1.0 - clipBias;
+                    projectionMatrix.elements[ 14 ] = clipPlane.w;
+                }
 
                 // Render everything except portal
                 scope.visible = false;
 
-                //////////////////////////////////////////////////
-                // Move the 
-                // Make the target scene visible and add some lights to it as well
-                // TODO remove this lighting hack later on once it's more clear why this is not being lit
-                //////////////////////////////////////////////////
-
-                let groupParent = group.parent
-                let groupVisible = group.visible
-                group.visible = true
-                groupParent.remove(group) // paranoia
+                // Temporarily move the target group to a private threejs scene
+                let currentGroupParent = group.parent
+                let currentGroupVisible = group.visible
+                currentGroupParent.remove(group) // paranoia
                 privateScene.add( group )
+                group.visible = true
 
                 // Render to the texture
                 {
-                    // Save state
+                    // Save renderer state
                     let currentRenderTarget = renderer.getRenderTarget();
                     let currentVrEnabled = renderer.vr.enabled;
                     let currentShadowAutoUpdate = renderer.shadowMap.autoUpdate;
                     let currentClearColor = renderer.getClearColor()
+                    let currentClearAlpha = renderer.getClearAlpha()
 
                     // Render to buffer
-                    // note - renderer must also be passed the renderTarget as well as renderer.setRenderTarget() - anselm
-                    //scene.background = new THREE.Color( 1, 0, 0 );
                     renderer.vr.enabled = false; // Avoid camera modification and recursion
                     renderer.shadowMap.autoUpdate = false; // Avoid re-computing shadows
                     renderer.setRenderTarget( renderTarget )
                     renderer.setClearColor( clear )
+                    renderer.setClearAlpha(0)
                     renderer.clear()
                     renderer.render( privateScene, virtualCamera, renderTarget )
 
-                    // Restore
-                    renderer.setClearColor(currentClearColor )
+                    // Restore renderer settings
+                    renderer.setClearColor(currentClearColor,currentClearAlpha)
+                    renderer.setClearAlpha(currentClearAlpha)
                     renderer.vr.enabled = currentVrEnabled
                     renderer.shadowMap.autoUpdate = currentShadowAutoUpdate
                     renderer.setRenderTarget( currentRenderTarget )
                 }
 
-                ////////////////////////////////////////////////////////////
-                // Undo changes to scenes
-                ////////////////////////////////////////////////////////////
-
-                group.visible = groupVisible
+                // restore group to previous parent whatever it was
+                group.visible = currentGroupVisible
                 privateScene.remove(group) // paranoia
-                groupParent.add(group)
+                currentGroupParent.add(group)
 
-                // Restore viewport
+                // restore viewport
                 var bounds = camera.bounds;
                 if ( bounds !== undefined ) {
                   renderer.getSize( size );
@@ -256,7 +264,12 @@
                 // allow this object to render with its mirror material now
                 scope.visible = true;
 
+                // restore group matrix details
+                // group.matrixWorld.copy(currentMatrixGroup)
+                // group.matrixAutoUpdate = currentUpdateGroup
+
             }
+
 
         }
 
@@ -330,9 +343,38 @@
         } )
         e.target.add(portal)
  
+        this.latched = 1
+        this.whichScene = 0
+        this.startingScene = this.getCurrentScene()
     },
   
     tick: function(e) {
+
+        let THREE = this.globals.THREE
+        var reflectorWorldPosition = new THREE.Vector3();
+        var cameraWorldPosition = new THREE.Vector3();
+        var view = new THREE.Vector3();
+        let camera = this.camera
+        let scope = e.target
+
+        reflectorWorldPosition.setFromMatrixPosition( scope.matrixWorld )
+        cameraWorldPosition.setFromMatrixPosition( camera.matrixWorld )
+        view.subVectors( reflectorWorldPosition, cameraWorldPosition )
+
+        var d = reflectorWorldPosition.distanceTo( cameraWorldPosition )
+
+        // just throw them over if they are close for now - improve later
+        // hard to get back I suppose without a doorway
+        // also, should translate them by the doorway offset
+        if(d < 1 && !this.latched) {
+            this.latched = 1
+            this.whichScene = this.whichScene ? 0 : 1
+            this.navigateScene( this.whichScene ? this.properties.scene : this.startingScene )
+        }
+        else if(d > 3) {
+          this.latched = 0
+        }
+      
     },
 
 })
