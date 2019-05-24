@@ -226,17 +226,20 @@
                     let currentVrEnabled = renderer.vr.enabled;
                     let currentShadowAutoUpdate = renderer.shadowMap.autoUpdate;
                     let currentClearColor = renderer.getClearColor()
+                    let currentClearAlpha = renderer.getClearAlpha()
 
                     // Render to buffer
                     renderer.vr.enabled = false; // Avoid camera modification and recursion
                     renderer.shadowMap.autoUpdate = false; // Avoid re-computing shadows
                     renderer.setRenderTarget( renderTarget )
                     renderer.setClearColor( clear )
+                    renderer.setClearAlpha(0)
                     renderer.clear()
                     renderer.render( privateScene, virtualCamera, renderTarget )
 
                     // Restore renderer settings
-                    renderer.setClearColor(currentClearColor)
+                    renderer.setClearColor(currentClearColor,currentClearAlpha)
+                    renderer.setClearAlpha(currentClearAlpha)
                     renderer.vr.enabled = currentVrEnabled
                     renderer.shadowMap.autoUpdate = currentShadowAutoUpdate
                     renderer.setRenderTarget( currentRenderTarget )
