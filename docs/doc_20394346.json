@@ -6406,13 +6406,24 @@
             "name": "tz",
             "value": -0.6202980284646287,
             "prevValue": -0.004810016527927896
+        },
+        {
+            "type": "SET_PROPERTY",
+            "host": "84984476",
+            "timestamp": 1558998907707,
+            "uuid": "50077670",
+            "seq": 10,
+            "object": "12272550",
+            "name": "title",
+            "value": "creature",
+            "prevValue": "BROKEN creature"
         }
     ],
     "type": "vr",
     "id": "doc_20394346",
     "graph": {
         "type": "root",
-        "title": "BROKEN creature",
+        "title": "creature",
         "defaultScene": "55352309",
         "children": [
             {
@@ -6522,5 +6533,5 @@
         ],
         "id": "12272550"
     },
-    "title": "BROKEN creature"
+    "title": "creature"
 }
