@@ -5718,6 +5718,648 @@
             "name": "far",
             "value": 1.1,
             "prevValue": 1.1
+        },
+        {
+            "type": "CREATE_OBJECT",
+            "host": "53470280",
+            "timestamp": 1559040535491,
+            "uuid": "89943784",
+            "seq": 16,
+            "id": "3756195",
+            "defaults": {
+                "type": "behavior_script",
+                "title": " onEvents",
+                "description": " Runs the provided code in the common event handlers",
+                "src": "onEvents.js",
+                "parent": 0
+            }
+        },
+        {
+            "type": "SET_PROPERTY",
+            "host": "53470280",
+            "timestamp": 1559040535493,
+            "uuid": "62652149",
+            "seq": 17,
+            "object": "3756195",
+            "name": "parent",
+            "value": "28282215"
+        },
+        {
+            "type": "INSERT_ELEMENT",
+            "host": "53470280",
+            "timestamp": 1559040535495,
+            "uuid": "28613303",
+            "seq": 18,
+            "array": "14701701",
+            "value": "3756195",
+            "entryid": "94056795",
+            "prev": "56830300"
+        },
+        {
+            "type": "CREATE_OBJECT",
+            "host": "53470280",
+            "timestamp": 1559040535583,
+            "uuid": "49542232",
+            "seq": 19,
+            "id": "69911031",
+            "defaults": {
+                "type": "behavior",
+                "title": " onEvents",
+                "description": " Runs the provided code in the common event handlers",
+                "parent": 0,
+                "behavior": "3756195",
+                "start": "",
+                "stop": "",
+                "enter": "",
+                "exit": "",
+                "tick": "",
+                "message": ""
+            }
+        },
+        {
+            "type": "SET_PROPERTY",
+            "host": "53470280",
+            "timestamp": 1559040535598,
+            "uuid": "11287084",
+            "seq": 20,
+            "object": "69911031",
+            "name": "parent",
+            "value": "25308838"
+        },
+        {
+            "type": "INSERT_ELEMENT",
+            "host": "53470280",
+            "timestamp": 1559040535608,
+            "uuid": "80721282",
+            "seq": 21,
+            "array": "54862704",
+            "value": "69911031",
+            "entryid": "27070021",
+            "prev": "85131531"
+        },
+        {
+            "type": "SET_PROPERTY",
+            "host": "53470280",
+            "timestamp": 1559040540539,
+            "uuid": "91839354",
+            "seq": 22,
+            "object": "69911031",
+            "name": "start",
+            "value": "this.globalStorage.seen1 = false",
+            "prevValue": ""
+        },
+        {
+            "type": "CREATE_OBJECT",
+            "host": "53470280",
+            "timestamp": 1559040553182,
+            "uuid": "82091775",
+            "seq": 32,
+            "id": "83177456",
+            "defaults": {
+                "type": "behavior",
+                "title": " onEvents",
+                "description": " Runs the provided code in the common event handlers",
+                "parent": 0,
+                "behavior": "3756195",
+                "start": "",
+                "stop": "",
+                "enter": "",
+                "exit": "",
+                "tick": "",
+                "message": ""
+            }
+        },
+        {
+            "type": "SET_PROPERTY",
+            "host": "53470280",
+            "timestamp": 1559040553193,
+            "uuid": "37060359",
+            "seq": 33,
+            "object": "83177456",
+            "name": "parent",
+            "value": "59600134"
+        },
+        {
+            "type": "INSERT_ELEMENT",
+            "host": "53470280",
+            "timestamp": 1559040553200,
+            "uuid": "28736707",
+            "seq": 34,
+            "array": "77155158",
+            "value": "83177456",
+            "entryid": "6152399",
+            "prev": "4805608"
+        },
+        {
+            "type": "SET_PROPERTY",
+            "host": "53470280",
+            "timestamp": 1559040560006,
+            "uuid": "53092748",
+            "seq": 35,
+            "object": "83177456",
+            "name": "enter",
+            "value": "this.globalStorage.seen1 = true",
+            "prevValue": ""
+        },
+        {
+            "type": "CREATE_OBJECT",
+            "host": "53470280",
+            "timestamp": 1559040569056,
+            "uuid": "84719836",
+            "seq": 45,
+            "id": "27240715",
+            "defaults": {
+                "type": "behavior",
+                "title": " Navigate on Click",
+                "description": " Navigate to a new scene on click",
+                "parent": 0,
+                "behavior": "82793174",
+                "scene": null
+            }
+        },
+        {
+            "type": "SET_PROPERTY",
+            "host": "53470280",
+            "timestamp": 1559040569065,
+            "uuid": "42377061",
+            "seq": 46,
+            "object": "27240715",
+            "name": "parent",
+            "value": "55542095"
+        },
+        {
+            "type": "INSERT_ELEMENT",
+            "host": "53470280",
+            "timestamp": 1559040569077,
+            "uuid": "95143033",
+            "seq": 47,
+            "array": "96748156",
+            "value": "27240715",
+            "entryid": "13780710",
+            "prev": -1
+        },
+        {
+            "type": "SET_PROPERTY",
+            "host": "53470280",
+            "timestamp": 1559040572776,
+            "uuid": "34300978",
+            "seq": 48,
+            "object": "27240715",
+            "name": "scene",
+            "value": "51469394",
+            "prevValue": null
+        },
+        {
+            "type": "CREATE_OBJECT",
+            "host": "53470280",
+            "timestamp": 1559040594948,
+            "uuid": "91497218",
+            "seq": 64,
+            "id": "51559327",
+            "defaults": {
+                "type": "behavior_script",
+                "title": " showIf",
+                "description": " if the provide test evauates to true, the node is visible",
+                "src": "showIf.js",
+                "parent": 0
+            }
+        },
+        {
+            "type": "SET_PROPERTY",
+            "host": "53470280",
+            "timestamp": 1559040594949,
+            "uuid": "58715999",
+            "seq": 65,
+            "object": "51559327",
+            "name": "parent",
+            "value": "28282215"
+        },
+        {
+            "type": "INSERT_ELEMENT",
+            "host": "53470280",
+            "timestamp": 1559040594951,
+            "uuid": "94408720",
+            "seq": 66,
+            "array": "14701701",
+            "value": "51559327",
+            "entryid": "39985706",
+            "prev": "94056795"
+        },
+        {
+            "type": "CREATE_OBJECT",
+            "host": "53470280",
+            "timestamp": 1559040595109,
+            "uuid": "76359557",
+            "seq": 67,
+            "id": "78038231",
+            "defaults": {
+                "type": "behavior",
+                "title": " showIf",
+                "description": " if the provide test evauates to true, the node is visible",
+                "parent": 0,
+                "behavior": "51559327",
+                "conditional": ""
+            }
+        },
+        {
+            "type": "SET_PROPERTY",
+            "host": "53470280",
+            "timestamp": 1559040595125,
+            "uuid": "15523414",
+            "seq": 68,
+            "object": "78038231",
+            "name": "parent",
+            "value": "49888801"
+        },
+        {
+            "type": "INSERT_ELEMENT",
+            "host": "53470280",
+            "timestamp": 1559040595137,
+            "uuid": "4248659",
+            "seq": 69,
+            "array": "63793443",
+            "value": "78038231",
+            "entryid": "75561394",
+            "prev": -1
+        },
+        {
+            "type": "SET_PROPERTY",
+            "host": "53470280",
+            "timestamp": 1559040612413,
+            "uuid": "10542524",
+            "seq": 70,
+            "object": "78038231",
+            "name": "conditional",
+            "value": "this.globalStorage.seen1",
+            "prevValue": ""
+        },
+        {
+            "type": "SET_PROPERTY",
+            "host": "53470280",
+            "timestamp": 1559040628002,
+            "uuid": "89094485",
+            "seq": 74,
+            "object": "69911031",
+            "name": "start",
+            "value": "this.globalStorage.seen2 = false",
+            "prevValue": "this.globalStorage.seen1 = false"
+        },
+        {
+            "type": "SET_PROPERTY",
+            "host": "53470280",
+            "timestamp": 1559040635688,
+            "uuid": "1552896",
+            "seq": 75,
+            "object": "83177456",
+            "name": "enter",
+            "value": "this.globalStorage.seen2 = true",
+            "prevValue": "this.globalStorage.seen1 = true"
+        },
+        {
+            "type": "SET_PROPERTY",
+            "host": "53470280",
+            "timestamp": 1559040642150,
+            "uuid": "96475859",
+            "seq": 76,
+            "object": "78038231",
+            "name": "conditional",
+            "value": "this.globalStorage.seen2",
+            "prevValue": "this.globalStorage.seen1"
+        },
+        {
+            "type": "CREATE_ARRAY",
+            "host": "53470280",
+            "timestamp": 1559040654536,
+            "uuid": "73849763",
+            "seq": 92,
+            "id": "92319120"
+        },
+        {
+            "type": "CREATE_OBJECT",
+            "host": "53470280",
+            "timestamp": 1559040654538,
+            "uuid": "32623104",
+            "seq": 93,
+            "id": "27949476",
+            "defaults": {
+                "type": "text",
+                "title": "some text",
+                "visible": true,
+                "text": "cool <b>formatted</b> <i>text</i>",
+                "cssStyle": "color:black; \nbackground-color:white;\nwidth: 10em;\nfont-size: 200%;\n",
+                "tx": 0,
+                "ty": 0,
+                "tz": 0,
+                "rx": 0,
+                "ry": 0,
+                "rz": 0,
+                "sx": 1,
+                "sy": 1,
+                "sz": 1,
+                "children": "92319120",
+                "parent": "41129210"
+            }
+        },
+        {
+            "type": "SET_PROPERTY",
+            "host": "53470280",
+            "timestamp": 1559040654539,
+            "uuid": "7045459",
+            "seq": 94,
+            "object": "27949476",
+            "name": "parent",
+            "value": "41129210"
+        },
+        {
+            "type": "INSERT_ELEMENT",
+            "host": "53470280",
+            "timestamp": 1559040654540,
+            "uuid": "80348989",
+            "seq": 95,
+            "array": "23607667",
+            "value": "27949476",
+            "entryid": "72359882",
+            "prev": -1
+        },
+        {
+            "type": "SET_PROPERTY",
+            "host": "53470280",
+            "timestamp": 1559040660894,
+            "uuid": "56849043",
+            "seq": 102,
+            "object": "27949476",
+            "name": "text",
+            "value": "MISSED ME!",
+            "prevValue": "cool <b>formatted</b> <i>text</i>"
+        },
+        {
+            "type": "CREATE_OBJECT",
+            "host": "53470280",
+            "timestamp": 1559040665948,
+            "uuid": "84240307",
+            "seq": 115,
+            "id": "52460464",
+            "defaults": {
+                "type": "behavior",
+                "title": " Billboard",
+                "description": " Cause an object to face you ",
+                "parent": 0,
+                "behavior": "59033314"
+            }
+        },
+        {
+            "type": "SET_PROPERTY",
+            "host": "53470280",
+            "timestamp": 1559040665956,
+            "uuid": "45920272",
+            "seq": 116,
+            "object": "52460464",
+            "name": "parent",
+            "value": "27949476"
+        },
+        {
+            "type": "INSERT_ELEMENT",
+            "host": "53470280",
+            "timestamp": 1559040665964,
+            "uuid": "19270558",
+            "seq": 117,
+            "array": "92319120",
+            "value": "52460464",
+            "entryid": "47452820",
+            "prev": -1
+        },
+        {
+            "type": "CREATE_OBJECT",
+            "host": "53470280",
+            "timestamp": 1559040670108,
+            "uuid": "38975005",
+            "seq": 124,
+            "id": "88377794",
+            "defaults": {
+                "type": "behavior",
+                "title": " showIf",
+                "description": " if the provide test evauates to true, the node is visible",
+                "parent": 0,
+                "behavior": "51559327",
+                "conditional": ""
+            }
+        },
+        {
+            "type": "SET_PROPERTY",
+            "host": "53470280",
+            "timestamp": 1559040670118,
+            "uuid": "95939833",
+            "seq": 125,
+            "object": "88377794",
+            "name": "parent",
+            "value": "27949476"
+        },
+        {
+            "type": "INSERT_ELEMENT",
+            "host": "53470280",
+            "timestamp": 1559040670126,
+            "uuid": "32766651",
+            "seq": 126,
+            "array": "92319120",
+            "value": "88377794",
+            "entryid": "81368728",
+            "prev": "47452820"
+        },
+        {
+            "type": "SET_PROPERTY",
+            "host": "53470280",
+            "timestamp": 1559040676862,
+            "uuid": "49434747",
+            "seq": 127,
+            "object": "88377794",
+            "name": "conditional",
+            "value": "!this.globalStorage.seen2",
+            "prevValue": ""
+        },
+        {
+            "type": "DELETE_ELEMENT",
+            "host": "53470280",
+            "timestamp": 1559040837277,
+            "uuid": "7321857",
+            "seq": 155,
+            "array": "77155158",
+            "entry": "33745676",
+            "value": "33630054"
+        },
+        {
+            "type": "SET_PROPERTY",
+            "host": "53470280",
+            "timestamp": 1559040837280,
+            "uuid": "11080332",
+            "seq": 156,
+            "object": "33630054",
+            "name": "parent",
+            "value": "59600134"
+        },
+        {
+            "type": "INSERT_ELEMENT",
+            "host": "53470280",
+            "timestamp": 1559040837280,
+            "uuid": "88033819",
+            "seq": 157,
+            "array": "77155158",
+            "value": "33630054",
+            "entryid": "91083266",
+            "prev": -1
+        },
+        {
+            "type": "DELETE_ELEMENT",
+            "host": "53470280",
+            "timestamp": 1559040839667,
+            "uuid": "7338394",
+            "seq": 158,
+            "array": "77155158",
+            "entry": "85298276",
+            "value": "86498827"
+        },
+        {
+            "type": "SET_PROPERTY",
+            "host": "53470280",
+            "timestamp": 1559040839668,
+            "uuid": "36229346",
+            "seq": 159,
+            "object": "86498827",
+            "name": "parent",
+            "value": "59600134"
+        },
+        {
+            "type": "INSERT_ELEMENT",
+            "host": "53470280",
+            "timestamp": 1559040839669,
+            "uuid": "9793870",
+            "seq": 160,
+            "array": "77155158",
+            "value": "86498827",
+            "entryid": "57305280",
+            "prev": -1
+        },
+        {
+            "type": "DELETE_ELEMENT",
+            "host": "53470280",
+            "timestamp": 1559040842845,
+            "uuid": "46114002",
+            "seq": 161,
+            "array": "77155158",
+            "entry": "4805608",
+            "value": "51139514"
+        },
+        {
+            "type": "SET_PROPERTY",
+            "host": "53470280",
+            "timestamp": 1559040842847,
+            "uuid": "79495332",
+            "seq": 162,
+            "object": "51139514",
+            "name": "parent",
+            "value": "33630054"
+        },
+        {
+            "type": "INSERT_ELEMENT",
+            "host": "53470280",
+            "timestamp": 1559040842848,
+            "uuid": "17468778",
+            "seq": 163,
+            "array": "72039982",
+            "value": "51139514",
+            "entryid": "49846473",
+            "prev": -1
+        },
+        {
+            "type": "DELETE_ELEMENT",
+            "host": "53470280",
+            "timestamp": 1559040846112,
+            "uuid": "92558980",
+            "seq": 164,
+            "array": "77155158",
+            "entry": "6152399",
+            "value": "83177456"
+        },
+        {
+            "type": "SET_PROPERTY",
+            "host": "53470280",
+            "timestamp": 1559040846113,
+            "uuid": "66400105",
+            "seq": 165,
+            "object": "83177456",
+            "name": "parent",
+            "value": "59600134"
+        },
+        {
+            "type": "INSERT_ELEMENT",
+            "host": "53470280",
+            "timestamp": 1559040846114,
+            "uuid": "83853001",
+            "seq": 166,
+            "array": "77155158",
+            "value": "83177456",
+            "entryid": "68501652",
+            "prev": -1
+        },
+        {
+            "type": "DELETE_ELEMENT",
+            "host": "53470280",
+            "timestamp": 1559040864576,
+            "uuid": "33453368",
+            "seq": 170,
+            "array": "72039982",
+            "entry": "49846473",
+            "value": "51139514"
+        },
+        {
+            "type": "SET_PROPERTY",
+            "host": "53470280",
+            "timestamp": 1559040864578,
+            "uuid": "16479592",
+            "seq": 174,
+            "object": "51139514",
+            "name": "parent",
+            "value": "59600134"
+        },
+        {
+            "type": "INSERT_ELEMENT",
+            "host": "53470280",
+            "timestamp": 1559040864580,
+            "uuid": "76895789",
+            "seq": 175,
+            "array": "77155158",
+            "value": "51139514",
+            "entryid": "49101657",
+            "prev": -1
+        },
+        {
+            "type": "SET_PROPERTY",
+            "host": "53470280",
+            "timestamp": 1559040898864,
+            "uuid": "55824663",
+            "seq": 206,
+            "object": "55542095",
+            "name": "tx",
+            "value": 0
+        },
+        {
+            "type": "SET_PROPERTY",
+            "host": "53470280",
+            "timestamp": 1559040898864,
+            "uuid": "43405269",
+            "seq": 207,
+            "object": "55542095",
+            "name": "ty",
+            "value": 0
+        },
+        {
+            "type": "SET_PROPERTY",
+            "host": "53470280",
+            "timestamp": 1559040898864,
+            "uuid": "7794013",
+            "seq": 208,
+            "object": "55542095",
+            "name": "tz",
+            "value": 0
         }
     ],
     "type": "vr",
@@ -5785,6 +6427,20 @@
                                 ],
                                 "parent": "25308838",
                                 "id": "82484077"
+                            },
+                            {
+                                "type": "behavior",
+                                "title": " onEvents",
+                                "description": " Runs the provided code in the common event handlers",
+                                "parent": "25308838",
+                                "behavior": "3756195",
+                                "start": "this.globalStorage.seen2 = false",
+                                "stop": "",
+                                "enter": "",
+                                "exit": "",
+                                "tick": "",
+                                "message": "",
+                                "id": "69911031"
                             }
                         ],
                         "parent": "35852099",
@@ -5821,7 +6477,7 @@
                                 "visible": true,
                                 "tx": 0,
                                 "ty": 0,
-                                "tz": -3.7699328601034114,
+                                "tz": 0,
                                 "rx": 0,
                                 "ry": 0,
                                 "rz": 0,
@@ -5829,7 +6485,17 @@
                                 "sy": 1,
                                 "sz": 1,
                                 "color": "#ffffff",
-                                "children": [],
+                                "children": [
+                                    {
+                                        "type": "behavior",
+                                        "title": " Navigate on Click",
+                                        "description": " Navigate to a new scene on click",
+                                        "parent": "55542095",
+                                        "behavior": "82793174",
+                                        "scene": "51469394",
+                                        "id": "27240715"
+                                    }
+                                ],
                                 "asset": "24536619",
                                 "parent": "22021040",
                                 "id": "55542095"
@@ -5939,6 +6605,29 @@
                         "color": "#00ff00",
                         "children": [
                             {
+                                "type": "behavior",
+                                "title": " Navigate on Click",
+                                "description": " Navigate to a new scene on click",
+                                "parent": "59600134",
+                                "behavior": "82793174",
+                                "scene": "51469394",
+                                "id": "51139514"
+                            },
+                            {
+                                "type": "behavior",
+                                "title": " onEvents",
+                                "description": " Runs the provided code in the common event handlers",
+                                "parent": "59600134",
+                                "behavior": "3756195",
+                                "start": "",
+                                "stop": "",
+                                "enter": "this.globalStorage.seen2 = true",
+                                "exit": "",
+                                "tick": "",
+                                "message": "",
+                                "id": "83177456"
+                            },
+                            {
                                 "type": "text",
                                 "title": "some text",
                                 "visible": true,
@@ -6029,15 +6718,6 @@
                                 "asset": "24536619",
                                 "parent": "59600134",
                                 "id": "33630054"
-                            },
-                            {
-                                "type": "behavior",
-                                "title": " Navigate on Click",
-                                "description": " Navigate to a new scene on click",
-                                "parent": "59600134",
-                                "behavior": "82793174",
-                                "scene": "51469394",
-                                "id": "51139514"
                             }
                         ],
                         "parent": "12907881",
@@ -6068,6 +6748,43 @@
                         "sz": 1,
                         "color": "#00ff00",
                         "children": [
+                            {
+                                "type": "text",
+                                "title": "some text",
+                                "visible": true,
+                                "text": "MISSED ME!",
+                                "cssStyle": "color:black; \nbackground-color:white;\nwidth: 10em;\nfont-size: 200%;\n",
+                                "tx": 0,
+                                "ty": 0,
+                                "tz": 0,
+                                "rx": 0,
+                                "ry": 0,
+                                "rz": 0,
+                                "sx": 1,
+                                "sy": 1,
+                                "sz": 1,
+                                "children": [
+                                    {
+                                        "type": "behavior",
+                                        "title": " Billboard",
+                                        "description": " Cause an object to face you ",
+                                        "parent": "27949476",
+                                        "behavior": "59033314",
+                                        "id": "52460464"
+                                    },
+                                    {
+                                        "type": "behavior",
+                                        "title": " showIf",
+                                        "description": " if the provide test evauates to true, the node is visible",
+                                        "parent": "27949476",
+                                        "behavior": "51559327",
+                                        "conditional": "!this.globalStorage.seen2",
+                                        "id": "88377794"
+                                    }
+                                ],
+                                "parent": "41129210",
+                                "id": "27949476"
+                            },
                             {
                                 "type": "model",
                                 "title": "a model",
@@ -6102,7 +6819,17 @@
                                 "sx": 1,
                                 "sy": 1,
                                 "sz": 1,
-                                "children": [],
+                                "children": [
+                                    {
+                                        "type": "behavior",
+                                        "title": " showIf",
+                                        "description": " if the provide test evauates to true, the node is visible",
+                                        "parent": "49888801",
+                                        "behavior": "51559327",
+                                        "conditional": "this.globalStorage.seen2",
+                                        "id": "78038231"
+                                    }
+                                ],
                                 "parent": "41129210",
                                 "id": "49888801"
                             },
@@ -6188,6 +6915,22 @@
                         "src": "onTrigger.js",
                         "parent": "28282215",
                         "id": "50801141"
+                    },
+                    {
+                        "type": "behavior_script",
+                        "title": " onEvents",
+                        "description": " Runs the provided code in the common event handlers",
+                        "src": "onEvents.js",
+                        "parent": "28282215",
+                        "id": "3756195"
+                    },
+                    {
+                        "type": "behavior_script",
+                        "title": " showIf",
+                        "description": " if the provide test evauates to true, the node is visible",
+                        "src": "showIf.js",
+                        "parent": "28282215",
+                        "id": "51559327"
                     }
                 ],
                 "parent": "56204175",
