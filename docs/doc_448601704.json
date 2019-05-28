@@ -1605,6 +1605,81 @@
             "name": "conditional",
             "value": "!this.globalStorage.found",
             "prevValue": "this.globalStorage.found"
+        },
+        {
+            "type": "SET_PROPERTY",
+            "host": "19445244",
+            "timestamp": 1559007932359,
+            "uuid": "15771035",
+            "seq": 1,
+            "object": "36612137",
+            "name": "code",
+            "value": "let getRandomInt = function(max) { \n  return Math.floor(Math.random() * Math.floor(max))\n}; \nlet num = getRandomInt(3);\nreturn \"A number: \" + num.toString()\n",
+            "prevValue": "let getRandomInt = function(max) { \n  return Math.floor(Math.random() * Math.floor(max))\n}; \nlet num = getRandomInt(3)\n\nreturn \"A number: \" + num.toString()\n"
+        },
+        {
+            "type": "SET_PROPERTY",
+            "host": "19445244",
+            "timestamp": 1559007961862,
+            "uuid": "37410851",
+            "seq": 2,
+            "object": "36612137",
+            "name": "code",
+            "value": "let getRandomInt = function(max) { \n  return Math.floor(Math.random() * Math.floor(max))\n}; \nlet num = getRandomInt(3);\nreturn \"A number: \" + num.toString()\n",
+            "prevValue": "let getRandomInt = function(max) { \n  return Math.floor(Math.random() * Math.floor(max))\n}; \nlet num = getRandomInt(3);\nreturn \"A number: \" + num.toString()\n"
+        },
+        {
+            "type": "DELETE_ELEMENT",
+            "host": "19445244",
+            "timestamp": 1559007965103,
+            "uuid": "6140241",
+            "seq": 3,
+            "array": "7492218",
+            "entry": "25123134",
+            "value": "43410440"
+        },
+        {
+            "type": "SET_PROPERTY",
+            "host": "19445244",
+            "timestamp": 1559007965105,
+            "uuid": "86210109",
+            "seq": 4,
+            "object": "43410440",
+            "name": "parent",
+            "value": "94175512"
+        },
+        {
+            "type": "INSERT_ELEMENT",
+            "host": "19445244",
+            "timestamp": 1559007965105,
+            "uuid": "72439102",
+            "seq": 5,
+            "array": "7492218",
+            "value": "43410440",
+            "entryid": "18596019",
+            "prev": -1
+        },
+        {
+            "type": "SET_PROPERTY",
+            "host": "19445244",
+            "timestamp": 1559007996693,
+            "uuid": "76297662",
+            "seq": 6,
+            "object": "36612137",
+            "name": "code",
+            "value": "let getRandomInt = function(max) { \n  return Math.floor(Math.random() * Math.floor(max))\n}; \nlet num = getRandomInt(3);\nthis.logger.log(num.toString())\nreturn \"A number: \" + num.toString()\n",
+            "prevValue": "let getRandomInt = function(max) { \n  return Math.floor(Math.random() * Math.floor(max))\n}; \nlet num = getRandomInt(3);\nreturn \"A number: \" + num.toString()\n"
+        },
+        {
+            "type": "SET_PROPERTY",
+            "host": "19445244",
+            "timestamp": 1559008013454,
+            "uuid": "90554410",
+            "seq": 7,
+            "object": "36612137",
+            "name": "code",
+            "value": "let getRandomInt = function(max) { \n  return Math.floor(Math.random() * Math.floor(max))\n}; \nlet num = getRandomInt(3);\n\nreturn \"A number: \" + num.toString()\n",
+            "prevValue": "let getRandomInt = function(max) { \n  return Math.floor(Math.random() * Math.floor(max))\n}; \nlet num = getRandomInt(3);\nthis.logger.log(num.toString())\nreturn \"A number: \" + num.toString()\n"
         }
     ],
     "type": "vr",
@@ -1654,21 +1729,21 @@
                                 "children": [
                                     {
                                         "type": "behavior",
-                                        "title": " setText",
-                                        "description": " the provided code should return a text string, which will be set to the text object",
-                                        "parent": "94175512",
-                                        "behavior": "39402486",
-                                        "code": "let getRandomInt = function(max) { \n  return Math.floor(Math.random() * Math.floor(max))\n}; \nlet num = getRandomInt(3)\n\nreturn \"A number: \" + num.toString()\n",
-                                        "id": "36612137"
-                                    },
-                                    {
-                                        "type": "behavior",
                                         "title": " showIf",
                                         "description": " if the provide test evauates to true, the node is visible",
                                         "parent": "94175512",
                                         "behavior": "55997163",
                                         "conditional": "!this.globalStorage.found",
                                         "id": "43410440"
+                                    },
+                                    {
+                                        "type": "behavior",
+                                        "title": " setText",
+                                        "description": " the provided code should return a text string, which will be set to the text object",
+                                        "parent": "94175512",
+                                        "behavior": "39402486",
+                                        "code": "let getRandomInt = function(max) { \n  return Math.floor(Math.random() * Math.floor(max))\n}; \nlet num = getRandomInt(3);\n\nreturn \"A number: \" + num.toString()\n",
+                                        "id": "36612137"
                                     }
                                 ],
                                 "parent": "47109309",
