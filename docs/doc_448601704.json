@@ -3244,6 +3244,108 @@
             "name": "ty",
             "value": 0.3933154509155058,
             "prevValue": 0.9949758141793621
+        },
+        {
+            "type": "CREATE_OBJECT",
+            "host": "73327066",
+            "timestamp": 1559087317262,
+            "uuid": "43814374",
+            "seq": 1682,
+            "id": "89185429",
+            "defaults": {
+                "type": "asset",
+                "subtype": "image",
+                "assetId": "jon-awesome.gif",
+                "format": "image/gif",
+                "src": "https://cdn.glitch.com/15b5fc9d-cb20-436f-81af-a3df950cb2e5%2Fjon-awesome.gif",
+                "width": 100,
+                "height": 100,
+                "title": "jon-awesome.gif",
+                "parent": 0
+            }
+        },
+        {
+            "type": "SET_PROPERTY",
+            "host": "73327066",
+            "timestamp": 1559087317263,
+            "uuid": "54291762",
+            "seq": 1683,
+            "object": "89185429",
+            "name": "parent",
+            "value": "20172346"
+        },
+        {
+            "type": "INSERT_ELEMENT",
+            "host": "73327066",
+            "timestamp": 1559087317264,
+            "uuid": "70095756",
+            "seq": 1684,
+            "array": "30705231",
+            "value": "89185429",
+            "entryid": "82962712",
+            "prev": "49163780"
+        },
+        {
+            "type": "SET_PROPERTY",
+            "host": "73327066",
+            "timestamp": 1559087317703,
+            "uuid": "40615150",
+            "seq": 1685,
+            "object": "89185429",
+            "name": "width",
+            "value": 180
+        },
+        {
+            "type": "SET_PROPERTY",
+            "host": "73327066",
+            "timestamp": 1559087317707,
+            "uuid": "90313706",
+            "seq": 1686,
+            "object": "89185429",
+            "name": "height",
+            "value": 228
+        },
+        {
+            "type": "SET_PROPERTY",
+            "host": "73327066",
+            "timestamp": 1559087323464,
+            "uuid": "19211077",
+            "seq": 1690,
+            "object": "72700403",
+            "name": "asset",
+            "value": "89185429",
+            "prevValue": "87998471"
+        },
+        {
+            "type": "SET_PROPERTY",
+            "host": "73327066",
+            "timestamp": 1559087323466,
+            "uuid": "18067033",
+            "seq": 1691,
+            "object": "72700403",
+            "name": "height",
+            "value": 0.6333333333333333
+        },
+        {
+            "type": "SET_PROPERTY",
+            "host": "35366321",
+            "timestamp": 1559087811513,
+            "uuid": "45757699",
+            "seq": 16,
+            "object": "72700403",
+            "name": "asset",
+            "value": "87998471",
+            "prevValue": "89185429"
+        },
+        {
+            "type": "SET_PROPERTY",
+            "host": "35366321",
+            "timestamp": 1559087811523,
+            "uuid": "6971498",
+            "seq": 17,
+            "object": "72700403",
+            "name": "height",
+            "value": 0.25
         }
     ],
     "type": "vr",
@@ -3479,6 +3581,18 @@
                         "title": "char_intro_04.gif",
                         "parent": "20172346",
                         "id": "87998471"
+                    },
+                    {
+                        "type": "asset",
+                        "subtype": "image",
+                        "assetId": "jon-awesome.gif",
+                        "format": "image/gif",
+                        "src": "https://cdn.glitch.com/15b5fc9d-cb20-436f-81af-a3df950cb2e5%2Fjon-awesome.gif",
+                        "width": 180,
+                        "height": 228,
+                        "title": "jon-awesome.gif",
+                        "parent": "20172346",
+                        "id": "89185429"
                     }
                 ],
                 "parent": "70756917",
