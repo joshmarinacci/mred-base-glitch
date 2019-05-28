@@ -1071,6 +1071,101 @@
             "object": "94175512",
             "name": "tz",
             "value": 1
+        },
+        {
+            "type": "CREATE_OBJECT",
+            "host": "28188598",
+            "timestamp": 1559004210024,
+            "uuid": "957262",
+            "seq": 10,
+            "id": "39402486",
+            "defaults": {
+                "type": "behavior_script",
+                "title": " setText",
+                "description": " the provided code should return a text string, which will be set to the text object",
+                "src": "setText.js",
+                "parent": 0
+            }
+        },
+        {
+            "type": "SET_PROPERTY",
+            "host": "28188598",
+            "timestamp": 1559004210026,
+            "uuid": "65381381",
+            "seq": 11,
+            "object": "39402486",
+            "name": "parent",
+            "value": "66047517"
+        },
+        {
+            "type": "INSERT_ELEMENT",
+            "host": "28188598",
+            "timestamp": 1559004210026,
+            "uuid": "15132459",
+            "seq": 12,
+            "array": "18684209",
+            "value": "39402486",
+            "entryid": "2252685",
+            "prev": -1
+        },
+        {
+            "type": "CREATE_OBJECT",
+            "host": "28188598",
+            "timestamp": 1559004210158,
+            "uuid": "57826550",
+            "seq": 13,
+            "id": "36612137",
+            "defaults": {
+                "type": "behavior",
+                "title": " setText",
+                "description": " the provided code should return a text string, which will be set to the text object",
+                "parent": 0,
+                "behavior": "39402486",
+                "code": ""
+            }
+        },
+        {
+            "type": "SET_PROPERTY",
+            "host": "28188598",
+            "timestamp": 1559004210169,
+            "uuid": "90857670",
+            "seq": 14,
+            "object": "36612137",
+            "name": "parent",
+            "value": "94175512"
+        },
+        {
+            "type": "INSERT_ELEMENT",
+            "host": "28188598",
+            "timestamp": 1559004210174,
+            "uuid": "65789413",
+            "seq": 15,
+            "array": "7492218",
+            "value": "36612137",
+            "entryid": "52899447",
+            "prev": -1
+        },
+        {
+            "type": "SET_PROPERTY",
+            "host": "28188598",
+            "timestamp": 1559004286017,
+            "uuid": "98895901",
+            "seq": 16,
+            "object": "36612137",
+            "name": "code",
+            "value": "",
+            "prevValue": ""
+        },
+        {
+            "type": "SET_PROPERTY",
+            "host": "28188598",
+            "timestamp": 1559004917685,
+            "uuid": "31799659",
+            "seq": 17,
+            "object": "36612137",
+            "name": "code",
+            "value": "{let getR = function(m) { return Math.floor(Math.random() * Math.floor(m))}; getR(3)}",
+            "prevValue": ""
         }
     ],
     "type": "vr",
@@ -1117,7 +1212,17 @@
                                 "sx": 1,
                                 "sy": 1,
                                 "sz": 1,
-                                "children": [],
+                                "children": [
+                                    {
+                                        "type": "behavior",
+                                        "title": " setText",
+                                        "description": " the provided code should return a text string, which will be set to the text object",
+                                        "parent": "94175512",
+                                        "behavior": "39402486",
+                                        "code": "{let getR = function(m) { return Math.floor(Math.random() * Math.floor(m))}; getR(3)}",
+                                        "id": "36612137"
+                                    }
+                                ],
                                 "parent": "47109309",
                                 "id": "94175512"
                             }
@@ -1173,7 +1278,16 @@
             {
                 "type": "behaviors",
                 "title": "Behaviors",
-                "children": [],
+                "children": [
+                    {
+                        "type": "behavior_script",
+                        "title": " setText",
+                        "description": " the provided code should return a text string, which will be set to the text object",
+                        "src": "setText.js",
+                        "parent": "66047517",
+                        "id": "39402486"
+                    }
+                ],
                 "parent": "70756917",
                 "id": "66047517"
             },
