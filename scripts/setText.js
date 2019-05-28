@@ -6,7 +6,7 @@
     properties: {
         code: {
             type:'string',
-            title: "compute the text to display",
+            title: "the text to display",
             value: "",
             hints: {
                 multiline:true,
