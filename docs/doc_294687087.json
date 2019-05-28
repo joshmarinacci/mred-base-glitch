@@ -6360,6 +6360,39 @@
             "object": "55542095",
             "name": "tz",
             "value": 0
+        },
+        {
+            "type": "SET_PROPERTY",
+            "host": "12245116",
+            "timestamp": 1559046636018,
+            "uuid": "65653430",
+            "seq": 22,
+            "object": "49888801",
+            "name": "text",
+            "value": "Caught me.",
+            "prevValue": "Caught me."
+        },
+        {
+            "type": "SET_PROPERTY",
+            "host": "12245116",
+            "timestamp": 1559046655605,
+            "uuid": "47008585",
+            "seq": 29,
+            "object": "88377794",
+            "name": "conditional",
+            "value": "!this.globalStorage.seen2",
+            "prevValue": "!this.globalStorage.seen2"
+        },
+        {
+            "type": "SET_PROPERTY",
+            "host": "12245116",
+            "timestamp": 1559046683319,
+            "uuid": "61770158",
+            "seq": 39,
+            "object": "88377794",
+            "name": "conditional",
+            "value": "!this.globalStorage.seen2",
+            "prevValue": "!this.globalStorage.seen2"
         }
     ],
     "type": "vr",
