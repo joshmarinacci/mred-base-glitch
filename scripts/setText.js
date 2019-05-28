@@ -24,5 +24,6 @@
   
     tick: function(e) {
       let text = this.tickFunction.call(this, e)      
+      if 
     }
 })
