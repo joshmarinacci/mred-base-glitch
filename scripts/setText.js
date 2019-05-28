@@ -18,11 +18,7 @@
       let props = this.properties
       
       let code = "function(e) { ((e) => {" + props.code + "}).call(this, e)}"
-      let theFunction = Function('"use strict";return (' + code + ')')()
-      
-      let code = "function(e) { return (" + props.code + ") }"
-      this.tickFunction = Function('"use strict";return (' + code + ')')()
-      
+      this.theFunction = Function('"use strict";return (' + code + ')')()
     },
   
     tick: function(e) {

@@ -1166,6 +1166,17 @@
             "name": "code",
             "value": "{let getR = function(m) { return Math.floor(Math.random() * Math.floor(m))}; getR(3)}",
             "prevValue": ""
+        },
+        {
+            "type": "SET_PROPERTY",
+            "host": "90445138",
+            "timestamp": 1559005382641,
+            "uuid": "65714086",
+            "seq": 1,
+            "object": "36612137",
+            "name": "code",
+            "value": "let getRandomInt = function(max) { return Math.floor(Math.random() * Math.floor(max))}; \n\nreturn \"A number: \" + getRandomInt(3)",
+            "prevValue": "{let getR = function(m) { return Math.floor(Math.random() * Math.floor(m))}; getR(3)}"
         }
     ],
     "type": "vr",
@@ -1219,7 +1230,7 @@
                                         "description": " the provided code should return a text string, which will be set to the text object",
                                         "parent": "94175512",
                                         "behavior": "39402486",
-                                        "code": "{let getR = function(m) { return Math.floor(Math.random() * Math.floor(m))}; getR(3)}",
+                                        "code": "let getRandomInt = function(max) { return Math.floor(Math.random() * Math.floor(max))}; \n\nreturn \"A number: \" + getRandomInt(3)",
                                         "id": "36612137"
                                     }
                                 ],
