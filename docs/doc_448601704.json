@@ -1977,6 +1977,72 @@
             "name": "cssStyle",
             "value": "color:black; \nbackground-color: lightgrey;\nfont: Helvetica Neue,Helvetica,Arial,sans-serif;\nwidth: 10em;\nfont-size: 200%; \nthick ridge rgba(170, 50, 220, .6);\nbox-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);\ntext-align: center;\nmargin: 3mm;\npadding: 3mm;\nborder-radius: 3mm;",
             "prevValue": "color:black; \nbackground-color: lightgrey;\nfont: Helvetica Neue,Helvetica,Arial,sans-serif;\nwidth: 10em;\nfont-size: 200%; \nthick ridge rgba(170, 50, 220, .6);\nbox-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);\ntext-align: center;\nmargin: 3px;\npadding: 3px;\nborder-radius: 3px;"
+        },
+        {
+            "type": "SET_PROPERTY",
+            "host": "18482082",
+            "timestamp": 1559036822315,
+            "uuid": "31511993",
+            "seq": 64,
+            "object": "94175512",
+            "name": "cssStyle",
+            "value": "color:black; \nbackground-color: lightgrey;\nfont: Helvetica Neue,Helvetica,Arial,sans-serif;\nwidth: 10em;\nfont-size: 200%; \nthick ridge rgba(170, 50, 220, .6);\nbox-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);\ntext-align: center;\nmargin: 3mm;\npadding: 3mm;\nborder-radius: 3mm;",
+            "prevValue": "color:black; \nbackground-color: lightgrey;\nfont: Helvetica Neue,Helvetica,Arial,sans-serif;\nwidth: 10em;\nfont-size: 200%; \nthick ridge rgba(170, 50, 220, .6);\nbox-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);\ntext-align: center;\nmargin: 3mm;\npadding: 3mm;\nborder-radius: 3mm;"
+        },
+        {
+            "type": "SET_PROPERTY",
+            "host": "18482082",
+            "timestamp": 1559036952280,
+            "uuid": "98575365",
+            "seq": 71,
+            "object": "94175512",
+            "name": "cssStyle",
+            "value": "color:black; \nbackground-color: lightgrey;\nfont: Helvetica Neue,Helvetica,Arial,sans-serif;\nwidth: 10em;\nfont-size: 200%; \nborder-color: thick ridge rgba(170, 50, 220, .6);\ntext-align: center;\nmargin: 3mm;\npadding: 3mm;\nborder-radius: 3mm;",
+            "prevValue": "color:black; \nbackground-color: lightgrey;\nfont: Helvetica Neue,Helvetica,Arial,sans-serif;\nwidth: 10em;\nfont-size: 200%; \nthick ridge rgba(170, 50, 220, .6);\nbox-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);\ntext-align: center;\nmargin: 3mm;\npadding: 3mm;\nborder-radius: 3mm;"
+        },
+        {
+            "type": "SET_PROPERTY",
+            "host": "18482082",
+            "timestamp": 1559036993009,
+            "uuid": "50502500",
+            "seq": 72,
+            "object": "94175512",
+            "name": "cssStyle",
+            "value": "color:black; \nbackground-color: lightgrey;\nfont: Helvetica Neue,Helvetica,Arial,sans-serif;\nwidth: 10em;\nfont-size: 200%; \nborder-color: thick ridge rgba(170, 50, 220, .6);\ntext-align: center;\nmargin: 3mm;\npadding: 3mm;\nborder-radius: 3mm;",
+            "prevValue": "color:black; \nbackground-color: lightgrey;\nfont: Helvetica Neue,Helvetica,Arial,sans-serif;\nwidth: 10em;\nfont-size: 200%; \nborder-color: thick ridge rgba(170, 50, 220, .6);\ntext-align: center;\nmargin: 3mm;\npadding: 3mm;\nborder-radius: 3mm;"
+        },
+        {
+            "type": "SET_PROPERTY",
+            "host": "18482082",
+            "timestamp": 1559037109890,
+            "uuid": "51969410",
+            "seq": 73,
+            "object": "94175512",
+            "name": "cssStyle",
+            "value": "color:black; \nbackground-color: lightgrey;\nfont: Helvetica Neue,Helvetica,Arial,sans-serif;\nwidth: 10em;\nfont-size: 200%; \nborder: thick ridge green;\ntext-align: center;\nmargin: 3mm;\npadding: 3mm;\nborder-radius: 3mm;",
+            "prevValue": "color:black; \nbackground-color: lightgrey;\nfont: Helvetica Neue,Helvetica,Arial,sans-serif;\nwidth: 10em;\nfont-size: 200%; \nborder-color: thick ridge rgba(170, 50, 220, .6);\ntext-align: center;\nmargin: 3mm;\npadding: 3mm;\nborder-radius: 3mm;"
+        },
+        {
+            "type": "SET_PROPERTY",
+            "host": "18482082",
+            "timestamp": 1559037114247,
+            "uuid": "31109885",
+            "seq": 74,
+            "object": "94175512",
+            "name": "text",
+            "value": "Look for the blue marble picture and point the phone at it...",
+            "prevValue": "Look for the blue marble picture and point the phone at it..."
+        },
+        {
+            "type": "SET_PROPERTY",
+            "host": "18482082",
+            "timestamp": 1559037126923,
+            "uuid": "82904478",
+            "seq": 75,
+            "object": "94175512",
+            "name": "cssStyle",
+            "value": "color:black; \nbackground-color: lightgrey;\nfont: Helvetica Neue,Helvetica,Arial,sans-serif;\nwidth: 10em;\nfont-size: 200%; \nborder: thick ridge green;\ntext-align: center;\nborder-radius: 3mm;",
+            "prevValue": "color:black; \nbackground-color: lightgrey;\nfont: Helvetica Neue,Helvetica,Arial,sans-serif;\nwidth: 10em;\nfont-size: 200%; \nborder: thick ridge green;\ntext-align: center;\nmargin: 3mm;\npadding: 3mm;\nborder-radius: 3mm;"
         }
     ],
     "type": "vr",
@@ -2013,7 +2079,7 @@
                                 "title": "some text",
                                 "visible": true,
                                 "text": "Look for the blue marble picture and point the phone at it...",
-                                "cssStyle": "color:black; \nbackground-color: lightgrey;\nfont: Helvetica Neue,Helvetica,Arial,sans-serif;\nwidth: 10em;\nfont-size: 200%; \nthick ridge rgba(170, 50, 220, .6);\nbox-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);\ntext-align: center;\nmargin: 3mm;\npadding: 3mm;\nborder-radius: 3mm;",
+                                "cssStyle": "color:black; \nbackground-color: lightgrey;\nfont: Helvetica Neue,Helvetica,Arial,sans-serif;\nwidth: 10em;\nfont-size: 200%; \nborder: thick ridge green;\ntext-align: center;\nborder-radius: 3mm;",
                                 "tx": 0,
                                 "ty": 0,
                                 "tz": -1,
