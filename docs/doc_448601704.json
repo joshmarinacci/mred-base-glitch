@@ -1273,6 +1273,338 @@
             "name": "code",
             "value": "let getRandomInt = function(max) { \n  return Math.floor(Math.random() * Math.floor(max))\n}; \nlet num = getRandomInt(3)\nthis.logger.log(\"random int = \" + num.toString())\nreturn \"A number: \" + num.toString()\n",
             "prevValue": "let getRandomInt = function(max) { \n  return Math.floor(Math.random() * Math.floor(max))\n}; \nlet num = getRandomInt(3)\nthis.logger.log(\"random int = \" + num.toString()\nreturn \"A number: \" + num.toString()\n"
+        },
+        {
+            "type": "CREATE_OBJECT",
+            "host": "35283387",
+            "timestamp": 1559007156569,
+            "uuid": "19051495",
+            "seq": 4,
+            "id": "55997163",
+            "defaults": {
+                "type": "behavior_script",
+                "title": " showIf",
+                "description": " if the provide test evauates to true, the node is visible",
+                "src": "showIf.js",
+                "parent": 0
+            }
+        },
+        {
+            "type": "SET_PROPERTY",
+            "host": "35283387",
+            "timestamp": 1559007156571,
+            "uuid": "20362583",
+            "seq": 5,
+            "object": "55997163",
+            "name": "parent",
+            "value": "66047517"
+        },
+        {
+            "type": "INSERT_ELEMENT",
+            "host": "35283387",
+            "timestamp": 1559007156572,
+            "uuid": "15409217",
+            "seq": 6,
+            "array": "18684209",
+            "value": "55997163",
+            "entryid": "22629832",
+            "prev": "2252685"
+        },
+        {
+            "type": "CREATE_OBJECT",
+            "host": "35283387",
+            "timestamp": 1559007156703,
+            "uuid": "70666777",
+            "seq": 7,
+            "id": "43410440",
+            "defaults": {
+                "type": "behavior",
+                "title": " showIf",
+                "description": " if the provide test evauates to true, the node is visible",
+                "parent": 0,
+                "behavior": "55997163",
+                "conditional": ""
+            }
+        },
+        {
+            "type": "SET_PROPERTY",
+            "host": "35283387",
+            "timestamp": 1559007156714,
+            "uuid": "73195163",
+            "seq": 8,
+            "object": "43410440",
+            "name": "parent",
+            "value": "94175512"
+        },
+        {
+            "type": "INSERT_ELEMENT",
+            "host": "35283387",
+            "timestamp": 1559007156722,
+            "uuid": "69002247",
+            "seq": 9,
+            "array": "7492218",
+            "value": "43410440",
+            "entryid": "25123134",
+            "prev": "52899447"
+        },
+        {
+            "type": "SET_PROPERTY",
+            "host": "35283387",
+            "timestamp": 1559007177057,
+            "uuid": "16532840",
+            "seq": 10,
+            "object": "43410440",
+            "name": "conditional",
+            "value": "",
+            "prevValue": ""
+        },
+        {
+            "type": "SET_PROPERTY",
+            "host": "35283387",
+            "timestamp": 1559007277020,
+            "uuid": "4553309",
+            "seq": 11,
+            "object": "43410440",
+            "name": "conditional",
+            "value": "",
+            "prevValue": ""
+        },
+        {
+            "type": "SET_PROPERTY",
+            "host": "35283387",
+            "timestamp": 1559007281222,
+            "uuid": "56786486",
+            "seq": 12,
+            "object": "43410440",
+            "name": "conditional",
+            "value": "",
+            "prevValue": ""
+        },
+        {
+            "type": "CREATE_OBJECT",
+            "host": "35283387",
+            "timestamp": 1559007293866,
+            "uuid": "40955970",
+            "seq": 22,
+            "id": "88796652",
+            "defaults": {
+                "type": "behavior_script",
+                "title": " onEvent",
+                "description": " Runs the provided code in the specified event handler",
+                "src": "onEvent.js",
+                "parent": 0
+            }
+        },
+        {
+            "type": "SET_PROPERTY",
+            "host": "35283387",
+            "timestamp": 1559007293868,
+            "uuid": "65701783",
+            "seq": 23,
+            "object": "88796652",
+            "name": "parent",
+            "value": "66047517"
+        },
+        {
+            "type": "INSERT_ELEMENT",
+            "host": "35283387",
+            "timestamp": 1559007293869,
+            "uuid": "83628909",
+            "seq": 24,
+            "array": "18684209",
+            "value": "88796652",
+            "entryid": "13181025",
+            "prev": "22629832"
+        },
+        {
+            "type": "CREATE_OBJECT",
+            "host": "35283387",
+            "timestamp": 1559007294126,
+            "uuid": "13941253",
+            "seq": 25,
+            "id": "68165280",
+            "defaults": {
+                "type": "behavior",
+                "title": " onEvent",
+                "description": " Runs the provided code in the specified event handler",
+                "parent": 0,
+                "behavior": "88796652",
+                "event": "",
+                "code": ""
+            }
+        },
+        {
+            "type": "SET_PROPERTY",
+            "host": "35283387",
+            "timestamp": 1559007294136,
+            "uuid": "68373127",
+            "seq": 26,
+            "object": "68165280",
+            "name": "parent",
+            "value": "94175512"
+        },
+        {
+            "type": "INSERT_ELEMENT",
+            "host": "35283387",
+            "timestamp": 1559007294142,
+            "uuid": "17273159",
+            "seq": 27,
+            "array": "7492218",
+            "value": "68165280",
+            "entryid": "14648375",
+            "prev": "25123134"
+        },
+        {
+            "type": "SET_PROPERTY",
+            "host": "35283387",
+            "timestamp": 1559007378806,
+            "uuid": "62265069",
+            "seq": 28,
+            "object": "68165280",
+            "name": "event",
+            "value": "recognized",
+            "prevValue": ""
+        },
+        {
+            "type": "SET_PROPERTY",
+            "host": "35283387",
+            "timestamp": 1559007391710,
+            "uuid": "99101657",
+            "seq": 29,
+            "object": "68165280",
+            "name": "code",
+            "value": "this.logger.log(\"image target found\")",
+            "prevValue": ""
+        },
+        {
+            "type": "DELETE_ELEMENT",
+            "host": "35283387",
+            "timestamp": 1559007392459,
+            "uuid": "99375450",
+            "seq": 30,
+            "array": "7492218",
+            "entry": "14648375",
+            "value": "68165280"
+        },
+        {
+            "type": "SET_PROPERTY",
+            "host": "35283387",
+            "timestamp": 1559007392461,
+            "uuid": "61154993",
+            "seq": 31,
+            "object": "68165280",
+            "name": "parent",
+            "value": "96844817"
+        },
+        {
+            "type": "INSERT_ELEMENT",
+            "host": "35283387",
+            "timestamp": 1559007392463,
+            "uuid": "63048578",
+            "seq": 32,
+            "array": "34878009",
+            "value": "68165280",
+            "entryid": "83224964",
+            "prev": -1
+        },
+        {
+            "type": "SET_PROPERTY",
+            "host": "35283387",
+            "timestamp": 1559007398411,
+            "uuid": "81722768",
+            "seq": 33,
+            "object": "68165280",
+            "name": "code",
+            "value": "this.logger.log(\"image target found\")\nthis.",
+            "prevValue": "this.logger.log(\"image target found\")"
+        },
+        {
+            "type": "SET_PROPERTY",
+            "host": "35283387",
+            "timestamp": 1559007431609,
+            "uuid": "89831889",
+            "seq": 34,
+            "object": "68165280",
+            "name": "code",
+            "value": "this.logger.log(\"image target found\")\nthis.globalStorage.found = true",
+            "prevValue": "this.logger.log(\"image target found\")\nthis."
+        },
+        {
+            "type": "SET_PROPERTY",
+            "host": "35283387",
+            "timestamp": 1559007446461,
+            "uuid": "47598879",
+            "seq": 35,
+            "object": "43410440",
+            "name": "conditional",
+            "value": "this.globalStorage.found",
+            "prevValue": ""
+        },
+        {
+            "type": "SET_PROPERTY",
+            "host": "89621798",
+            "timestamp": 1559007575937,
+            "uuid": "54268351",
+            "seq": 1,
+            "object": "36612137",
+            "name": "code",
+            "value": "let getRandomInt = function(max) { \n  return Math.floor(Math.random() * Math.floor(max))\n}; \nlet num = getRandomInt(3)\n\nreturn \"A number: \" + num.toString()\n",
+            "prevValue": "let getRandomInt = function(max) { \n  return Math.floor(Math.random() * Math.floor(max))\n}; \nlet num = getRandomInt(3)\nthis.logger.log(\"random int = \" + num.toString())\nreturn \"A number: \" + num.toString()\n"
+        },
+        {
+            "type": "SET_PROPERTY",
+            "host": "89621798",
+            "timestamp": 1559007642968,
+            "uuid": "41757671",
+            "seq": 5,
+            "object": "96844817",
+            "name": "imageRealworldWidth",
+            "value": 0,
+            "prevValue": 1
+        },
+        {
+            "type": "SET_PROPERTY",
+            "host": "89621798",
+            "timestamp": 1559007644505,
+            "uuid": "75443683",
+            "seq": 6,
+            "object": "96844817",
+            "name": "imageRealworldWidth",
+            "value": 0.2,
+            "prevValue": 0
+        },
+        {
+            "type": "SET_PROPERTY",
+            "host": "89621798",
+            "timestamp": 1559007645086,
+            "uuid": "50470495",
+            "seq": 7,
+            "object": "96844817",
+            "name": "imageRealworldWidth",
+            "value": 0.23,
+            "prevValue": 0.2
+        },
+        {
+            "type": "SET_PROPERTY",
+            "host": "89621798",
+            "timestamp": 1559007649515,
+            "uuid": "95181274",
+            "seq": 8,
+            "object": "96844817",
+            "name": "imageRealworldWidth",
+            "value": 0.23,
+            "prevValue": 0.23
+        },
+        {
+            "type": "SET_PROPERTY",
+            "host": "96500645",
+            "timestamp": 1559007771211,
+            "uuid": "64786448",
+            "seq": 1,
+            "object": "43410440",
+            "name": "conditional",
+            "value": "!this.globalStorage.found",
+            "prevValue": "this.globalStorage.found"
         }
     ],
     "type": "vr",
@@ -1326,8 +1658,17 @@
                                         "description": " the provided code should return a text string, which will be set to the text object",
                                         "parent": "94175512",
                                         "behavior": "39402486",
-                                        "code": "let getRandomInt = function(max) { \n  return Math.floor(Math.random() * Math.floor(max))\n}; \nlet num = getRandomInt(3)\nthis.logger.log(\"random int = \" + num.toString())\nreturn \"A number: \" + num.toString()\n",
+                                        "code": "let getRandomInt = function(max) { \n  return Math.floor(Math.random() * Math.floor(max))\n}; \nlet num = getRandomInt(3)\n\nreturn \"A number: \" + num.toString()\n",
                                         "id": "36612137"
+                                    },
+                                    {
+                                        "type": "behavior",
+                                        "title": " showIf",
+                                        "description": " if the provide test evauates to true, the node is visible",
+                                        "parent": "94175512",
+                                        "behavior": "55997163",
+                                        "conditional": "!this.globalStorage.found",
+                                        "id": "43410440"
                                     }
                                 ],
                                 "parent": "47109309",
@@ -1354,6 +1695,16 @@
                         "color": "#00ff00",
                         "children": [
                             {
+                                "type": "behavior",
+                                "title": " onEvent",
+                                "description": " Runs the provided code in the specified event handler",
+                                "parent": "96844817",
+                                "behavior": "88796652",
+                                "event": "recognized",
+                                "code": "this.logger.log(\"image target found\")\nthis.globalStorage.found = true",
+                                "id": "68165280"
+                            },
+                            {
                                 "type": "model",
                                 "title": "a model",
                                 "visible": true,
@@ -1374,7 +1725,7 @@
                             }
                         ],
                         "targetImage": "78180826",
-                        "imageRealworldWidth": 1,
+                        "imageRealworldWidth": 0.23,
                         "recType": "SCENE_START",
                         "parent": "30421273",
                         "id": "96844817"
@@ -1393,6 +1744,22 @@
                         "src": "setText.js",
                         "parent": "66047517",
                         "id": "39402486"
+                    },
+                    {
+                        "type": "behavior_script",
+                        "title": " showIf",
+                        "description": " if the provide test evauates to true, the node is visible",
+                        "src": "showIf.js",
+                        "parent": "66047517",
+                        "id": "55997163"
+                    },
+                    {
+                        "type": "behavior_script",
+                        "title": " onEvent",
+                        "description": " Runs the provided code in the specified event handler",
+                        "src": "onEvent.js",
+                        "parent": "66047517",
+                        "id": "88796652"
                     }
                 ],
                 "parent": "70756917",

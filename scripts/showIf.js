@@ -17,7 +17,7 @@
     start: function (e) {      
       let props = this.properties
       
-      let code = "function(e) { if (" + props.conditional + ") { e.target.visible = true } else { e.target.visible = false } }"
+      let code = "function(e) { if (" + props.conditional + ") { e.target.parent.visible = true } else { e.target.parent.visible = false } }"
       this.tickFunction = Function('"use strict";return (' + code + ')')()
       
     },
