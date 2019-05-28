@@ -2230,6 +2230,178 @@
             "name": "code",
             "value": "let props = this.properties\nif (!props.elapsed) {\n  props.elapsed = 0\n  props.dots = \" \"\n}\n\nprops.elapsed += e.deltaTime\nif (props.elapsed > 1000) {\n  props.elapsed = 1\n  props.dots = props.dots + \".\" \n  if (props.dots.length > 4) {\n     props.dots = \" \"\n  }\n} \n\nreturn props.initialText ",
             "prevValue": "let props = this.properties\nif (!props.elapsed) {\n  props.elapsed = 0\n  props.dots = \" \"\n}\n\nprops.elapsed += e.deltaTime\nif (props.elapsed > 1000) {\n  props.elapsed = 1\n  props.dots = props.dots + \".\" \n  if (props.dots.length > 4) {\n     props.dots = \" \"\n  }\n} \n\nreturn props.initialText + props.dots"
+        },
+        {
+            "type": "SET_PROPERTY",
+            "host": "84478564",
+            "timestamp": 1559038243020,
+            "uuid": "38245908",
+            "seq": 21,
+            "object": "36612137",
+            "name": "code",
+            "value": "let props = this.properties\nif (!props.elapsed) {\n  props.elapsed = 0\n  props.dots = \" \"\n}\n\nprops.elapsed += e.deltaTime\nif (props.elapsed > 1000) {\n  props.elapsed = 1\n  props.dots = props.dots + \".\" \n  if (props.dots.length > 4) {\n     props.dots = \" \"\n  }\n} \n\nreturn e.ta",
+            "prevValue": "let props = this.properties\nif (!props.elapsed) {\n  props.elapsed = 0\n  props.dots = \" \"\n}\n\nprops.elapsed += e.deltaTime\nif (props.elapsed > 1000) {\n  props.elapsed = 1\n  props.dots = props.dots + \".\" \n  if (props.dots.length > 4) {\n     props.dots = \" \"\n  }\n} \n\nreturn props.initialText "
+        },
+        {
+            "type": "SET_PROPERTY",
+            "host": "84478564",
+            "timestamp": 1559038267166,
+            "uuid": "54492521",
+            "seq": 22,
+            "object": "36612137",
+            "name": "code",
+            "value": "let props = this.properties\nif (!props.elapsed) {\n  props.elapsed = 0\n  props.dots = \" \"\n}\n\nprops.elapsed += e.deltaTime\nif (props.elapsed > 1000) {\n  props.elapsed = 1\n  props.dots = props.dots + \".\" \n  if (props.dots.length > 4) {\n     props.dots = \" \"\n  }\n} \n\nreturn e.graphTarget.",
+            "prevValue": "let props = this.properties\nif (!props.elapsed) {\n  props.elapsed = 0\n  props.dots = \" \"\n}\n\nprops.elapsed += e.deltaTime\nif (props.elapsed > 1000) {\n  props.elapsed = 1\n  props.dots = props.dots + \".\" \n  if (props.dots.length > 4) {\n     props.dots = \" \"\n  }\n} \n\nreturn e.ta"
+        },
+        {
+            "type": "SET_PROPERTY",
+            "host": "84478564",
+            "timestamp": 1559038276907,
+            "uuid": "97368793",
+            "seq": 23,
+            "object": "36612137",
+            "name": "code",
+            "value": "let props = this.properties\nif (!props.elapsed) {\n  props.elapsed = 0\n  props.dots = \" \"\n}\n\nprops.elapsed += e.deltaTime\nif (props.elapsed > 1000) {\n  props.elapsed = 1\n  props.dots = props.dots + \".\" \n  if (props.dots.length > 4) {\n     props.dots = \" \"\n  }\n} \n\nreturn e.graphTarget.text",
+            "prevValue": "let props = this.properties\nif (!props.elapsed) {\n  props.elapsed = 0\n  props.dots = \" \"\n}\n\nprops.elapsed += e.deltaTime\nif (props.elapsed > 1000) {\n  props.elapsed = 1\n  props.dots = props.dots + \".\" \n  if (props.dots.length > 4) {\n     props.dots = \" \"\n  }\n} \n\nreturn e.graphTarget."
+        },
+        {
+            "type": "SET_PROPERTY",
+            "host": "84478564",
+            "timestamp": 1559038300041,
+            "uuid": "41796601",
+            "seq": 24,
+            "object": "39402486",
+            "name": "title",
+            "value": " setText"
+        },
+        {
+            "type": "SET_PROPERTY",
+            "host": "84478564",
+            "timestamp": 1559038300041,
+            "uuid": "31680175",
+            "seq": 25,
+            "object": "39402486",
+            "name": "description",
+            "value": " the provided code should return a text string, which will be set to the text object"
+        },
+        {
+            "type": "SET_PROPERTY",
+            "host": "84478564",
+            "timestamp": 1559038312579,
+            "uuid": "58886297",
+            "seq": 26,
+            "object": "39402486",
+            "name": "title",
+            "value": " setText"
+        },
+        {
+            "type": "SET_PROPERTY",
+            "host": "84478564",
+            "timestamp": 1559038312579,
+            "uuid": "90350399",
+            "seq": 27,
+            "object": "39402486",
+            "name": "description",
+            "value": " the provided code should return a text string, which will be set to the text object"
+        },
+        {
+            "type": "SET_PROPERTY",
+            "host": "84478564",
+            "timestamp": 1559038332789,
+            "uuid": "9646267",
+            "seq": 28,
+            "object": "36612137",
+            "name": "code",
+            "value": "let props = this.properties\nif (!props.elapsed) {\n  props.elapsed = 0\n  props.dots = \" \"\n}\n\nprops.elapsed += e.deltaTime\nif (props.elapsed > 1000) {\n  props.elapsed = 1\n  props.dots = props.dots + \".\" \n  if (props.dots.length > 4) {\n     props.dots = \" \"\n  }\n} \n\nreturn e.graphTarget.text + props.dots",
+            "prevValue": "let props = this.properties\nif (!props.elapsed) {\n  props.elapsed = 0\n  props.dots = \" \"\n}\n\nprops.elapsed += e.deltaTime\nif (props.elapsed > 1000) {\n  props.elapsed = 1\n  props.dots = props.dots + \".\" \n  if (props.dots.length > 4) {\n     props.dots = \" \"\n  }\n} \n\nreturn e.graphTarget.text"
+        },
+        {
+            "type": "SET_PROPERTY",
+            "host": "84478564",
+            "timestamp": 1559038366193,
+            "uuid": "58361744",
+            "seq": 29,
+            "object": "36612137",
+            "name": "code",
+            "value": "let props = this.properties\nif (!props.elapsed) {\n  props.elapsed = 0\n  props.dots = \" \"\n}\n\nprops.elapsed += e.deltaTime\nif (props.elapsed > 1000) {\n  props.elapsed = 1\n  props.dots = props.dots + \".\" \n  if (props.dots.length > 4) {\n     props.dots = \" \"\n  }\n} \n\nreturn e.graphTarget.text + \"<br>\" + props.dots",
+            "prevValue": "let props = this.properties\nif (!props.elapsed) {\n  props.elapsed = 0\n  props.dots = \" \"\n}\n\nprops.elapsed += e.deltaTime\nif (props.elapsed > 1000) {\n  props.elapsed = 1\n  props.dots = props.dots + \".\" \n  if (props.dots.length > 4) {\n     props.dots = \" \"\n  }\n} \n\nreturn e.graphTarget.text + props.dots"
+        },
+        {
+            "type": "SET_PROPERTY",
+            "host": "84478564",
+            "timestamp": 1559038477978,
+            "uuid": "92577021",
+            "seq": 30,
+            "object": "36612137",
+            "name": "code",
+            "value": "let props = this.properties\nif (!props.elapsed) {\n  props.elapsed = 0\n  props.dots = \" \"\n}\n\nprops.elapsed += e.deltaTime\nif (props.elapsed > 1000) {\n  props.elapsed = 1\n  props.dots = props.dots + \".\" \n  if (props.dots.length > 4) {\n     props.dots = \" \"\n  }\n} \n\nreturn \"<p>\" + e.graphTarget.text + \"<br>\" + props.dots + \"</p>\"",
+            "prevValue": "let props = this.properties\nif (!props.elapsed) {\n  props.elapsed = 0\n  props.dots = \" \"\n}\n\nprops.elapsed += e.deltaTime\nif (props.elapsed > 1000) {\n  props.elapsed = 1\n  props.dots = props.dots + \".\" \n  if (props.dots.length > 4) {\n     props.dots = \" \"\n  }\n} \n\nreturn e.graphTarget.text + \"<br>\" + props.dots"
+        },
+        {
+            "type": "SET_PROPERTY",
+            "host": "84478564",
+            "timestamp": 1559038556569,
+            "uuid": "34512721",
+            "seq": 31,
+            "object": "36612137",
+            "name": "code",
+            "value": "let props = this.properties\nif (!props.elapsed) {\n  props.elapsed = 0\n  props.dots = \" \"\n}\n\nprops.elapsed += e.deltaTime\nif (props.elapsed > 1000) {\n  props.elapsed = 1\n  props.dots = props.dots + \".\" \n  if (props.dots.length > 4) {\n     props.dots = \" \"\n  }\n} \n\nreturn \"<p>\" + e.graphTarget.text + \"</p><p>\" + props.dots + \"</p>\"",
+            "prevValue": "let props = this.properties\nif (!props.elapsed) {\n  props.elapsed = 0\n  props.dots = \" \"\n}\n\nprops.elapsed += e.deltaTime\nif (props.elapsed > 1000) {\n  props.elapsed = 1\n  props.dots = props.dots + \".\" \n  if (props.dots.length > 4) {\n     props.dots = \" \"\n  }\n} \n\nreturn \"<p>\" + e.graphTarget.text + \"<br>\" + props.dots + \"</p>\""
+        },
+        {
+            "type": "SET_PROPERTY",
+            "host": "84478564",
+            "timestamp": 1559038603100,
+            "uuid": "86327542",
+            "seq": 32,
+            "object": "36612137",
+            "name": "code",
+            "value": "let props = this.properties\nif (!props.elapsed) {\n  props.elapsed = 0\n  props.dots = \" \"\n}\n\nprops.elapsed += e.deltaTime\nif (props.elapsed > 1000) {\n  props.elapsed = 1\n  props.dots = props.dots + \".\" \n  if (props.dots.length > 4) {\n     props.dots = \" \"\n  }\n} \n\nreturn \"<p>\" + e.graphTarget.text + \"</p><p> .\" + props.dots + \"</p>\"",
+            "prevValue": "let props = this.properties\nif (!props.elapsed) {\n  props.elapsed = 0\n  props.dots = \" \"\n}\n\nprops.elapsed += e.deltaTime\nif (props.elapsed > 1000) {\n  props.elapsed = 1\n  props.dots = props.dots + \".\" \n  if (props.dots.length > 4) {\n     props.dots = \" \"\n  }\n} \n\nreturn \"<p>\" + e.graphTarget.text + \"</p><p>\" + props.dots + \"</p>\""
+        },
+        {
+            "type": "SET_PROPERTY",
+            "host": "84478564",
+            "timestamp": 1559038633791,
+            "uuid": "42550345",
+            "seq": 33,
+            "object": "36612137",
+            "name": "code",
+            "value": "let props = this.properties\nif (!props.elapsed) {\n  props.elapsed = 0\n  props.dots = \" \"\n}\n\nprops.elapsed += e.deltaTime\nif (props.elapsed > 1000) {\n  props.elapsed = 1\n  props.dots = props.dots + \".\" \n  if (props.dots.length > 4) {\n     props.dots = \" \"\n  }\n} \n\nreturn \"<p>\" + e.graphTarget.text + \"</p><p> \" + props.dots + \"</p>\"",
+            "prevValue": "let props = this.properties\nif (!props.elapsed) {\n  props.elapsed = 0\n  props.dots = \" \"\n}\n\nprops.elapsed += e.deltaTime\nif (props.elapsed > 1000) {\n  props.elapsed = 1\n  props.dots = props.dots + \".\" \n  if (props.dots.length > 4) {\n     props.dots = \" \"\n  }\n} \n\nreturn \"<p>\" + e.graphTarget.text + \"</p><p> .\" + props.dots + \"</p>\""
+        },
+        {
+            "type": "SET_PROPERTY",
+            "host": "84478564",
+            "timestamp": 1559038712656,
+            "uuid": "71626858",
+            "seq": 34,
+            "object": "36612137",
+            "name": "code",
+            "value": "let props = this.properties\nif (!props.elapsed) {\n  props.elapsed = 0\n  props.dots = \" \"\n}\n\nprops.elapsed += e.deltaTime\nif (props.elapsed > 1000) {\n  props.elapsed = 1\n  props.dots = props.dots + \".\" \n  if (props.dots.length > 4) {\n     props.dots = \" \"\n  }\n} \n\nreturn  e.graphTarget.text + \"<br>.\" + props.dots ",
+            "prevValue": "let props = this.properties\nif (!props.elapsed) {\n  props.elapsed = 0\n  props.dots = \" \"\n}\n\nprops.elapsed += e.deltaTime\nif (props.elapsed > 1000) {\n  props.elapsed = 1\n  props.dots = props.dots + \".\" \n  if (props.dots.length > 4) {\n     props.dots = \" \"\n  }\n} \n\nreturn \"<p>\" + e.graphTarget.text + \"</p><p> \" + props.dots + \"</p>\""
+        },
+        {
+            "type": "SET_PROPERTY",
+            "host": "84478564",
+            "timestamp": 1559038756656,
+            "uuid": "95768046",
+            "seq": 35,
+            "object": "36612137",
+            "name": "code",
+            "value": "let props = this.properties\nif (!props.elapsed) {\n  props.elapsed = 0\n  props.dots = \"\"\n}\n\nprops.elapsed += e.deltaTime\nif (props.elapsed > 1000) {\n  props.elapsed = 1\n  props.dots = props.dots + \".\" \n  if (props.dots.length > 4) {\n     props.dots = \"\"\n  }\n} \n\nreturn  e.graphTarget.text + \"<p>.\" + props.dots + \"</p>",
+            "prevValue": "let props = this.properties\nif (!props.elapsed) {\n  props.elapsed = 0\n  props.dots = \" \"\n}\n\nprops.elapsed += e.deltaTime\nif (props.elapsed > 1000) {\n  props.elapsed = 1\n  props.dots = props.dots + \".\" \n  if (props.dots.length > 4) {\n     props.dots = \" \"\n  }\n} \n\nreturn  e.graphTarget.text + \"<br>.\" + props.dots "
+        },
+        {
+            "type": "SET_PROPERTY",
+            "host": "84478564",
+            "timestamp": 1559038794425,
+            "uuid": "64817487",
+            "seq": 36,
+            "object": "36612137",
+            "name": "code",
+            "value": "let props = this.properties\nif (!props.elapsed) {\n  props.elapsed = 0\n  props.dots = \"\"\n}\n\nprops.elapsed += e.deltaTime\nif (props.elapsed > 1000) {\n  props.elapsed = 1\n  props.dots = props.dots + \".\" \n  if (props.dots.length > 4) {\n     props.dots = \"\"\n  }\n} \n\nreturn \"<p>\" + e.graphTarget.text + \"</p><p>.\" + props.dots + \"</p>",
+            "prevValue": "let props = this.properties\nif (!props.elapsed) {\n  props.elapsed = 0\n  props.dots = \"\"\n}\n\nprops.elapsed += e.deltaTime\nif (props.elapsed > 1000) {\n  props.elapsed = 1\n  props.dots = props.dots + \".\" \n  if (props.dots.length > 4) {\n     props.dots = \"\"\n  }\n} \n\nreturn  e.graphTarget.text + \"<p>.\" + props.dots + \"</p>"
         }
     ],
     "type": "vr",
@@ -2292,7 +2464,7 @@
                                         "description": " the provided code should return a text string, which will be set to the text object",
                                         "parent": "94175512",
                                         "behavior": "39402486",
-                                        "code": "let props = this.properties\nif (!props.elapsed) {\n  props.elapsed = 0\n  props.dots = \" \"\n}\n\nprops.elapsed += e.deltaTime\nif (props.elapsed > 1000) {\n  props.elapsed = 1\n  props.dots = props.dots + \".\" \n  if (props.dots.length > 4) {\n     props.dots = \" \"\n  }\n} \n\nreturn props.initialText ",
+                                        "code": "let props = this.properties\nif (!props.elapsed) {\n  props.elapsed = 0\n  props.dots = \"\"\n}\n\nprops.elapsed += e.deltaTime\nif (props.elapsed > 1000) {\n  props.elapsed = 1\n  props.dots = props.dots + \".\" \n  if (props.dots.length > 4) {\n     props.dots = \"\"\n  }\n} \n\nreturn \"<p>\" + e.graphTarget.text + \"</p><p>.\" + props.dots + \"</p>",
                                         "id": "36612137"
                                     }
                                 ],

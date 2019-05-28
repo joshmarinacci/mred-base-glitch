@@ -19,8 +19,6 @@
       
       let code = "function(e) { return ((e) => {" + props.code + "}).call(this, e)}"
       this.tickFunction = Function('"use strict";return (' + code + ')')()
-
-      props.initialText = e.target.userData.div.innerHTML
     },
   
     tick: function(e) {
