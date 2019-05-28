@@ -24,6 +24,8 @@
   
     tick: function(e) {
       let text = this.tickFunction.call(this, e)      
-      if 
+      if (e.target.setText) {
+        e.target.setText(text)
+      }
     }
 })
