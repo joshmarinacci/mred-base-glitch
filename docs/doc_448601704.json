@@ -3427,6 +3427,48 @@
             "object": "72700403",
             "name": "height",
             "value": 0.41875
+        },
+        {
+            "type": "SET_PROPERTY",
+            "host": "7213676",
+            "timestamp": 1559090720200,
+            "uuid": "77752884",
+            "seq": 10,
+            "object": "72700403",
+            "name": "asset",
+            "value": "87998471",
+            "prevValue": "39875360"
+        },
+        {
+            "type": "SET_PROPERTY",
+            "host": "7213676",
+            "timestamp": 1559090720205,
+            "uuid": "28241462",
+            "seq": 11,
+            "object": "72700403",
+            "name": "height",
+            "value": 0.25
+        },
+        {
+            "type": "SET_PROPERTY",
+            "host": "7213676",
+            "timestamp": 1559090734963,
+            "uuid": "60369416",
+            "seq": 15,
+            "object": "72700403",
+            "name": "asset",
+            "value": "89185429",
+            "prevValue": "87998471"
+        },
+        {
+            "type": "SET_PROPERTY",
+            "host": "7213676",
+            "timestamp": 1559090734970,
+            "uuid": "91980892",
+            "seq": 16,
+            "object": "72700403",
+            "name": "height",
+            "value": 0.6333333333333333
         }
     ],
     "type": "vr",
@@ -3473,7 +3515,7 @@
                                 "sx": 1,
                                 "sy": 1,
                                 "sz": 1,
-                                "asset": "39875360",
+                                "asset": "89185429",
                                 "parent": "47109309",
                                 "id": "72700403"
                             },
