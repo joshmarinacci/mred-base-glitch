@@ -3346,6 +3346,87 @@
             "object": "72700403",
             "name": "height",
             "value": 0.25
+        },
+        {
+            "type": "CREATE_OBJECT",
+            "host": "97586202",
+            "timestamp": 1559089497893,
+            "uuid": "84706813",
+            "seq": 1,
+            "id": "39875360",
+            "defaults": {
+                "type": "asset",
+                "subtype": "image",
+                "assetId": "penguin.png",
+                "format": "image/png",
+                "src": "https://cdn.glitch.com/15b5fc9d-cb20-436f-81af-a3df950cb2e5%2Fpenguin.png",
+                "width": 100,
+                "height": 100,
+                "title": "penguin.png",
+                "parent": 0
+            }
+        },
+        {
+            "type": "SET_PROPERTY",
+            "host": "97586202",
+            "timestamp": 1559089497894,
+            "uuid": "4528006",
+            "seq": 2,
+            "object": "39875360",
+            "name": "parent",
+            "value": "20172346"
+        },
+        {
+            "type": "INSERT_ELEMENT",
+            "host": "97586202",
+            "timestamp": 1559089497895,
+            "uuid": "2685741",
+            "seq": 3,
+            "array": "30705231",
+            "value": "39875360",
+            "entryid": "17779824",
+            "prev": "82962712"
+        },
+        {
+            "type": "SET_PROPERTY",
+            "host": "97586202",
+            "timestamp": 1559089498031,
+            "uuid": "78830001",
+            "seq": 4,
+            "object": "39875360",
+            "name": "width",
+            "value": 400
+        },
+        {
+            "type": "SET_PROPERTY",
+            "host": "97586202",
+            "timestamp": 1559089498041,
+            "uuid": "46404862",
+            "seq": 5,
+            "object": "39875360",
+            "name": "height",
+            "value": 335
+        },
+        {
+            "type": "SET_PROPERTY",
+            "host": "97586202",
+            "timestamp": 1559089505466,
+            "uuid": "1451110",
+            "seq": 9,
+            "object": "72700403",
+            "name": "asset",
+            "value": "39875360",
+            "prevValue": "87998471"
+        },
+        {
+            "type": "SET_PROPERTY",
+            "host": "97586202",
+            "timestamp": 1559089505472,
+            "uuid": "79974690",
+            "seq": 10,
+            "object": "72700403",
+            "name": "height",
+            "value": 0.41875
         }
     ],
     "type": "vr",
@@ -3392,7 +3473,7 @@
                                 "sx": 1,
                                 "sy": 1,
                                 "sz": 1,
-                                "asset": "87998471",
+                                "asset": "39875360",
                                 "parent": "47109309",
                                 "id": "72700403"
                             },
@@ -3593,6 +3674,18 @@
                         "title": "jon-awesome.gif",
                         "parent": "20172346",
                         "id": "89185429"
+                    },
+                    {
+                        "type": "asset",
+                        "subtype": "image",
+                        "assetId": "penguin.png",
+                        "format": "image/png",
+                        "src": "https://cdn.glitch.com/15b5fc9d-cb20-436f-81af-a3df950cb2e5%2Fpenguin.png",
+                        "width": 400,
+                        "height": 335,
+                        "title": "penguin.png",
+                        "parent": "20172346",
+                        "id": "39875360"
                     }
                 ],
                 "parent": "70756917",
