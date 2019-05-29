@@ -55,8 +55,6 @@
     	let target = event.target
     	let camera = this.camera
 
-speed = 1
-
         // ideal
     	idealPos.set(0,0,-dist)
         idealPos.applyQuaternion(camera.quaternion)
