@@ -3469,6 +3469,27 @@
             "object": "72700403",
             "name": "height",
             "value": 0.6333333333333333
+        },
+        {
+            "type": "SET_PROPERTY",
+            "host": "52668348",
+            "timestamp": 1559091887345,
+            "uuid": "62795635",
+            "seq": 4,
+            "object": "72700403",
+            "name": "asset",
+            "value": "87998471",
+            "prevValue": "89185429"
+        },
+        {
+            "type": "SET_PROPERTY",
+            "host": "52668348",
+            "timestamp": 1559091887350,
+            "uuid": "2199437",
+            "seq": 5,
+            "object": "72700403",
+            "name": "height",
+            "value": 0.25
         }
     ],
     "type": "vr",
@@ -3515,7 +3536,7 @@
                                 "sx": 1,
                                 "sy": 1,
                                 "sz": 1,
-                                "asset": "89185429",
+                                "asset": "87998471",
                                 "parent": "47109309",
                                 "id": "72700403"
                             },
