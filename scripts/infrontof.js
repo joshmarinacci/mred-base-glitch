@@ -38,6 +38,7 @@
 
     },
     enter: function(event) {
+        let distance = this.properties.distance
 
 //         // count down
 //         if(this.latchDone) return
@@ -51,8 +52,8 @@
         // distance
       this.camera.getWorldDirection(this.cameraPos)
       this.logger.log("in front of: direction ", this.cameraPos)
-    	this.cameraPos.normalize()
-      this.cameraPos.multiplyScalar(-this.distance)
+      this.cameraPos.normalize()
+      this.cameraPos.multiplyScalar(distance)
       this.logger.log("in front of: val ", this.cameraPos)
       this.logger.log("in front of: event position ", event.target.position)
       event.target.position.copy(this.cameraPos)
