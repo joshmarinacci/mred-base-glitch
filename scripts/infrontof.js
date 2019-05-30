@@ -6,69 +6,83 @@
     properties: {
         distance: {
             type:'number',
-            value: 0,
+            value: 1,
         },
-        speed: {
+        delay: {
             type:'number',
-            value: 0,
-        },    
-        duration: {
-            type:'number',
-            value: 0,
-        },    
+            value: 2000,
+        }, 
+        alpha: {
+            type: 'number',
+            value: 0.1
+        }
+        // duration: {
+        //     type:'number',
+        //     value: 0,
+        // },    
     },
     start: function (event) {
 
         let THREE = this.globals.THREE
+        
         this.distance = this.properties.distance
-        this.speed = this.properties.speed
-        this.duration = this.properties.duration
+        this.delay = this.properties.delay
+        this.alpha = this.properties.alpha
         this.idealPos = new THREE.Vector3()
-        this.scratch = new THREE.Matrix4()
-        this.latchDone = false
-        if(!this.properties.distance) {
-            let target = event.target
-            let camera = this.camera
-            let targetPos = new THREE.Vector3()
-            let cameraPos = new THREE.Vector3()
-            target.getWorldDirection(target.position)
-            camera.getWorldDirection(target.position)
-            this.distance = targetPos.distanceTo(cameraPos)
-        }
+        this.cameraPos = new THREE.Vector3()
+        this.cameraDir = new THREE.Vector3()
+        this.scratchMat = new THREE.Matrix4()
+    },
+    enter: function(event) {
+        this.startTime = 0
 
+        this.camera.getWorldDirection(this.cameraDir)
+        this.camera.getWorldPosition(this.cameraPos)
+        this.logger.log("camera position: ", this.cameraPos)
+        this.cameraDir.multiplyScalar(this.distance)
+        this.cameraPos.add(this.cameraDir)
+        this.logger.log("object position: ", this.cameraPos)
+
+        let sceneId = this.getCurrentScene().id
+        let scene = this.getThreeObjectById(sceneId)
+        this.sceneNode = scene.userData.sceneAnchor
+
+        this.sceneNode.updateMatrixWorld()
+        
+        this.sceneNode.getWorldPosition(this.cameraDir)
+        this.logger.log("scene position: ", this.cameraDir)
+
+        this.scratchMat.getInverse( this.sceneNode.matrixWorld );
+
+        this.cameraPos.applyMatrix4(this.scratchMat)
+        this.logger.log("object position in scene: ", this.cameraPos)
+
+        event.target.position.copy(this.cameraPos)
+        this.idealPos.copy(this.cameraPos)      
     },
     tick: function(event) {
+        //this.logger.log("times: ", this.startTime + this.delay, event.time)
+        if (this.delay > 0 && this.startTime + this.delay <= event.time) {
+            this.startTime = event.time
 
-        // count down
-        if(this.latchDone) return
-        if(this.duration > 0) {
-            this.duration--
-            if(this.duration < 1) {
-                this.latchDone = true
-            }
+            this.sceneNode.updateMatrixWorld()
+            this.scratchMat.getInverse( this.sceneNode.matrixWorld );
+
+        // this.sceneNode.getWorldPosition(this.cameraDir)
+        // this.logger.log("scene position: ", this.cameraDir)
+          
+            // distance
+            this.camera.getWorldDirection(this.cameraDir)
+            this.camera.getWorldPosition(this.cameraPos)
+            this.cameraDir.multiplyScalar(this.distance)
+            this.cameraPos.add(this.cameraDir)
+            this.cameraPos.applyMatrix4(this.scratchMat)
+
+            this.idealPos.copy(this.cameraPos)
+            //this.logger.log("new target: ", this.idealPos)
         }
-
-        // distance
-    	let dist = this.distance
-    	let speed = this.speed
-    	let idealPos = this.idealPos
-    	let target = event.target
-    	let camera = this.camera
-
-        // ideal
-    	idealPos.set(0,0,-dist)
-        idealPos.applyQuaternion(camera.quaternion)
-        idealPos.add(camera.position)
-
-        if(speed) {
-            target.position.set(
-                target.position.x + (idealPos.x-target.position.x)/2 * speed,
-                target.position.y + (idealPos.y-target.position.y)/2 * speed,
-                target.position.z + (idealPos.z-target.position.z)/2 * speed
-                )
-        } else {
-            target.position.set(idealPos.x,idealPos.y,idealPos.z)
-        }
+        event.target.position.lerp(this.idealPos, this.alpha)
+       // this.logger.log("     lerp to : ", event.target.position)
 
     }
   })
