@@ -19,7 +19,7 @@
     },
     start: function (event) {
 
-//         let THREE = this.globals.THREE
+        let THREE = this.globals.THREE
 //         this.distance = this.properties.distance
 //         this.speed = this.properties.speed
 //         this.duration = this.properties.duration
@@ -51,7 +51,7 @@
         // distance
       this.camera.getWorldDirection(this.cameraPos)
     	this.cameraPos.normalize()
-      this.cameraPos.multiplyScalar(this.distance)
+      this.cameraPos.multiplyScalar(-this.distance)
       event.target.position.copy(this.cameraPos)
 //     	let speed = this.speed
 //     	let idealPos = this.idealPos
