@@ -6395,6 +6395,37 @@
             "object": "39080501",
             "name": "description",
             "value": " be front of camera at a certain distance for a while at a speed"
+        },
+        {
+            "type": "DELETE_ELEMENT",
+            "host": "37750848",
+            "timestamp": 1559233737511,
+            "uuid": "16562182",
+            "seq": 16,
+            "array": "34843091",
+            "entry": "12379312",
+            "value": "47109309"
+        },
+        {
+            "type": "SET_PROPERTY",
+            "host": "37750848",
+            "timestamp": 1559233756331,
+            "uuid": "42016706",
+            "seq": 29,
+            "object": "72700403",
+            "name": "asset",
+            "value": "39875360",
+            "prevValue": "87998471"
+        },
+        {
+            "type": "SET_PROPERTY",
+            "host": "37750848",
+            "timestamp": 1559233756334,
+            "uuid": "32831209",
+            "seq": 30,
+            "object": "72700403",
+            "name": "height",
+            "value": 0.41875
         }
     ],
     "type": "vr",
@@ -6470,23 +6501,6 @@
                         "id": "94175512"
                     },
                     {
-                        "type": "hudanchor",
-                        "title": "hud anchor 0",
-                        "visible": true,
-                        "tx": 0,
-                        "ty": -0.120921322287958,
-                        "tz": 0,
-                        "rx": 0,
-                        "ry": 0,
-                        "rz": 0,
-                        "sx": 1,
-                        "sy": 1,
-                        "sz": 1,
-                        "children": [],
-                        "parent": "30421273",
-                        "id": "47109309"
-                    },
-                    {
                         "type": "imageanchor",
                         "title": "image anchor 0",
                         "visible": true,
@@ -6517,7 +6531,7 @@
                                 "sx": 1,
                                 "sy": 1,
                                 "sz": 1,
-                                "asset": "87998471",
+                                "asset": "39875360",
                                 "parent": "96844817",
                                 "id": "72700403"
                             },
