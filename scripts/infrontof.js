@@ -50,9 +50,13 @@
 
         // distance
       this.camera.getWorldDirection(this.cameraPos)
+      this.logger.log("in front of: direction ", this.cameraPos)
     	this.cameraPos.normalize()
       this.cameraPos.multiplyScalar(-this.distance)
+      this.logger.log("in front of: val ", this.cameraPos)
+      this.logger.log("in front of: event position ", event.target.position)
       event.target.position.copy(this.cameraPos)
+      this.logger.log("in front of: event position ", event.target.position)
 //     	let speed = this.speed
 //     	let idealPos = this.idealPos
 //     	let target = event.target
