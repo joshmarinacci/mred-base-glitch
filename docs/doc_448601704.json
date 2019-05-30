@@ -3980,6 +3980,72 @@
             "name": "tz",
             "value": 0.26488765584116086,
             "prevValue": 0
+        },
+        {
+            "type": "SET_PROPERTY",
+            "host": "66293949",
+            "timestamp": 1559181697557,
+            "uuid": "69527160",
+            "seq": 1,
+            "object": "13243813",
+            "name": "distance",
+            "value": 1,
+            "prevValue": 1
+        },
+        {
+            "type": "SET_PROPERTY",
+            "host": "66293949",
+            "timestamp": 1559181699197,
+            "uuid": "57266357",
+            "seq": 2,
+            "object": "13243813",
+            "name": "speed",
+            "value": 0,
+            "prevValue": 0.1
+        },
+        {
+            "type": "SET_PROPERTY",
+            "host": "66293949",
+            "timestamp": 1559181699886,
+            "uuid": "71920754",
+            "seq": 3,
+            "object": "13243813",
+            "name": "speed",
+            "value": 0,
+            "prevValue": 0
+        },
+        {
+            "type": "SET_PROPERTY",
+            "host": "66293949",
+            "timestamp": 1559181700548,
+            "uuid": "99011550",
+            "seq": 4,
+            "object": "13243813",
+            "name": "speed",
+            "value": 0,
+            "prevValue": 0
+        },
+        {
+            "type": "SET_PROPERTY",
+            "host": "66293949",
+            "timestamp": 1559181704292,
+            "uuid": "12565155",
+            "seq": 5,
+            "object": "13243813",
+            "name": "duration",
+            "value": 0,
+            "prevValue": 1
+        },
+        {
+            "type": "SET_PROPERTY",
+            "host": "66293949",
+            "timestamp": 1559181707906,
+            "uuid": "4225569",
+            "seq": 6,
+            "object": "13243813",
+            "name": "duration",
+            "value": 0,
+            "prevValue": 0
         }
     ],
     "type": "vr",
@@ -4038,8 +4104,8 @@
                                 "parent": "94175512",
                                 "behavior": "39080501",
                                 "distance": 1,
-                                "speed": 0.1,
-                                "duration": 1,
+                                "speed": 0,
+                                "duration": 0,
                                 "id": "13243813"
                             }
                         ],

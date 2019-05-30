@@ -8,47 +8,48 @@
             type:'number',
             value: 0,
         },
-        speed: {
-            type:'number',
-            value: 0,
-        },    
-        duration: {
-            type:'number',
-            value: 0,
-        },    
+        // speed: {
+        //     type:'number',
+        //     value: 0,
+        // },    
+        // duration: {
+        //     type:'number',
+        //     value: 0,
+        // },    
     },
     start: function (event) {
 
-        let THREE = this.globals.THREE
-        this.distance = this.properties.distance
-        this.speed = this.properties.speed
-        this.duration = this.properties.duration
-        this.idealPos = new THREE.Vector3()
-        this.scratch = new THREE.Matrix4()
-        this.latchDone = false
-        if(!this.properties.distance) {
-            let target = event.target
-            let camera = this.camera
-            let targetPos = new THREE.Vector3()
-            let cameraPos = new THREE.Vector3()
-            target.getWorldDirection(targetPos)
-            camera.getWorldDirection(cameraPos)
-            this.distance = targetPos.distanceTo(cameraPos)
-        }
+//         let THREE = this.globals.THREE
+//         this.distance = this.properties.distance
+//         this.speed = this.properties.speed
+//         this.duration = this.properties.duration
+//         this.idealPos = new THREE.Vector3()
+//         this.scratch = new THREE.Matrix4()
+//         this.latchDone = false
+//         if(!this.properties.distance) {
+//             let target = event.target
+//             let camera = this.camera
+//             let targetPos = new THREE.Vector3()
+            this.cameraPos = new THREE.Vector3()
+//             target.getWorldDirection(targetPos)
+//             camera.getWorldDirection(cameraPos)
+//             this.distance = targetPos.distanceTo(cameraPos)
+//         }
 
     },
-    tick: function(event) {
+    enter: function(event) {
 
-        // count down
-        if(this.latchDone) return
-        if(this.duration > 0) {
-            this.duration--
-            if(this.duration < 1) {
-                this.latchDone = true
-            }
-        }
+//         // count down
+//         if(this.latchDone) return
+//         if(this.duration > 0) {
+//             this.duration--
+//             if(this.duration < 1) {
+//                 this.latchDone = true
+//             }
+//         }
 
         // distance
+      this.camera.getWorldDirection(this.cameraPos)      
     	let dist = this.distance
     	let speed = this.speed
     	let idealPos = this.idealPos
@@ -56,9 +57,9 @@
     	let camera = this.camera
 
         // ideal
-    	idealPos.set(0,0,-dist)
+      	idealPos.set(0,0,-dist)
         idealPos.applyQuaternion(camera.quaternion)
-        idealPos.add(camera.position)
+        //idealPos.add(camera.position)
 
         if(speed) {
             target.position.set(
