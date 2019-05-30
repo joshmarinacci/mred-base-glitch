@@ -8,10 +8,10 @@
             type:'number',
             value: 1,
         },
-        // speed: {
-        //     type:'number',
-        //     value: 0,
-        // },    
+        delay: {
+            type:'number',
+            value: 2000,
+        },    
         // duration: {
         //     type:'number',
         //     value: 0,
@@ -20,11 +20,11 @@
     start: function (event) {
 
         let THREE = this.globals.THREE
-//         this.distance = this.properties.distance
-//         this.speed = this.properties.speed
+        this.distance = this.properties.distance
+        this.delay = this.properties.delay
 //         this.duration = this.properties.duration
-//         this.idealPos = new THREE.Vector3()
-//         this.scratch = new THREE.Matrix4()
+        this.idealPos = new THREE.Vector3()
+        this.scratch = new THREE.Matrix4()
 //         this.latchDone = false
 //         if(!this.properties.distance) {
 //             let target = event.target
@@ -35,28 +35,22 @@
 //             camera.getWorldDirection(cameraPos)
 //             this.distance = targetPos.distanceTo(cameraPos)
 //         }
-
     },
     enter: function(event) {
-        let distance = this.properties.distance
+        this.startTime = -this.delay - 1   // ensure it runs first tick
+    },
+    tick: function(event) {
+        if (this.startTime + this.delay <= event.time)
+            this.startTime = event.time
 
-//         // count down
-//         if(this.latchDone) return
-//         if(this.duration > 0) {
-//             this.duration--
-//             if(this.duration < 1) {
-//                 this.latchDone = true
-//             }
-//         }
-
-        // distance
-      this.camera.getWorldDirection(this.cameraPos)
-      this.logger.log("in front of: direction ", this.cameraPos)
-      this.cameraPos.normalize()
-      this.cameraPos.multiplyScalar(distance)
-      this.logger.log("in front of: val ", this.cameraPos)
-      this.logger.log("in front of: event position ", event.target.position)
-      event.target.position.copy(this.cameraPos)
+            // distance
+            this.camera.getWorldDirection(this.cameraPos)
+            this.logger.log("in front of: direction ", this.cameraPos)
+            this.cameraPos.normalize()
+            this.cameraPos.multiplyScalar(distance)
+            this.logger.log("in front of: val ", this.cameraPos)
+            this.logger.log("in front of: event position ", event.target.position)
+            event.target.position.copy(this.cameraPos)
       this.logger.log("in front of: event position ", event.target.position)
 //     	let speed = this.speed
 //     	let idealPos = this.idealPos

@@ -5195,6 +5195,256 @@
             "object": "39080501",
             "name": "description",
             "value": " be front of camera at a certain distance for a while at a speed"
+        },
+        {
+            "type": "SET_PROPERTY",
+            "host": "95484538",
+            "timestamp": 1559207897368,
+            "uuid": "45448546",
+            "seq": 34,
+            "object": "39080501",
+            "name": "title",
+            "value": " infrontof"
+        },
+        {
+            "type": "SET_PROPERTY",
+            "host": "95484538",
+            "timestamp": 1559207897369,
+            "uuid": "87294260",
+            "seq": 35,
+            "object": "39080501",
+            "name": "description",
+            "value": " be front of camera at a certain distance for a while at a speed"
+        },
+        {
+            "type": "SET_PROPERTY",
+            "host": "95484538",
+            "timestamp": 1559208177452,
+            "uuid": "26920781",
+            "seq": 36,
+            "object": "39080501",
+            "name": "title",
+            "value": " infrontof"
+        },
+        {
+            "type": "SET_PROPERTY",
+            "host": "95484538",
+            "timestamp": 1559208177452,
+            "uuid": "55013813",
+            "seq": 37,
+            "object": "39080501",
+            "name": "description",
+            "value": " be front of camera at a certain distance for a while at a speed"
+        },
+        {
+            "type": "SET_PROPERTY",
+            "host": "95484538",
+            "timestamp": 1559208303739,
+            "uuid": "35980832",
+            "seq": 38,
+            "object": "39080501",
+            "name": "title",
+            "value": " infrontof"
+        },
+        {
+            "type": "SET_PROPERTY",
+            "host": "95484538",
+            "timestamp": 1559208303740,
+            "uuid": "63820939",
+            "seq": 39,
+            "object": "39080501",
+            "name": "description",
+            "value": " be front of camera at a certain distance for a while at a speed"
+        },
+        {
+            "type": "SET_PROPERTY",
+            "host": "95484538",
+            "timestamp": 1559208313945,
+            "uuid": "32440621",
+            "seq": 40,
+            "object": "39080501",
+            "name": "title",
+            "value": " infrontof"
+        },
+        {
+            "type": "SET_PROPERTY",
+            "host": "95484538",
+            "timestamp": 1559208313945,
+            "uuid": "80262490",
+            "seq": 41,
+            "object": "39080501",
+            "name": "description",
+            "value": " be front of camera at a certain distance for a while at a speed"
+        },
+        {
+            "type": "SET_PROPERTY",
+            "host": "95484538",
+            "timestamp": 1559208768361,
+            "uuid": "19061349",
+            "seq": 42,
+            "object": "39080501",
+            "name": "title",
+            "value": " infrontof"
+        },
+        {
+            "type": "SET_PROPERTY",
+            "host": "95484538",
+            "timestamp": 1559208768362,
+            "uuid": "87273574",
+            "seq": 43,
+            "object": "39080501",
+            "name": "description",
+            "value": " be front of camera at a certain distance for a while at a speed"
+        },
+        {
+            "type": "SET_PROPERTY",
+            "host": "95484538",
+            "timestamp": 1559208775202,
+            "uuid": "25942406",
+            "seq": 47,
+            "object": "94175512",
+            "name": "sx",
+            "value": 0
+        },
+        {
+            "type": "SET_PROPERTY",
+            "host": "95484538",
+            "timestamp": 1559208775204,
+            "uuid": "28408148",
+            "seq": 48,
+            "object": "94175512",
+            "name": "sy",
+            "value": 0.5
+        },
+        {
+            "type": "SET_PROPERTY",
+            "host": "95484538",
+            "timestamp": 1559208775204,
+            "uuid": "36867070",
+            "seq": 49,
+            "object": "94175512",
+            "name": "sz",
+            "value": 0.5
+        },
+        {
+            "type": "SET_PROPERTY",
+            "host": "95484538",
+            "timestamp": 1559208775556,
+            "uuid": "85343050",
+            "seq": 50,
+            "object": "94175512",
+            "name": "sx",
+            "value": null
+        },
+        {
+            "type": "SET_PROPERTY",
+            "host": "95484538",
+            "timestamp": 1559208775557,
+            "uuid": "48303030",
+            "seq": 51,
+            "object": "94175512",
+            "name": "sy",
+            "value": 0.5
+        },
+        {
+            "type": "SET_PROPERTY",
+            "host": "95484538",
+            "timestamp": 1559208775557,
+            "uuid": "61909097",
+            "seq": 52,
+            "object": "94175512",
+            "name": "sz",
+            "value": 0.5
+        },
+        {
+            "type": "SET_PROPERTY",
+            "host": "95484538",
+            "timestamp": 1559208775675,
+            "uuid": "28534954",
+            "seq": 53,
+            "object": "94175512",
+            "name": "sx",
+            "value": 1
+        },
+        {
+            "type": "SET_PROPERTY",
+            "host": "95484538",
+            "timestamp": 1559208775676,
+            "uuid": "62173665",
+            "seq": 54,
+            "object": "94175512",
+            "name": "sy",
+            "value": 0.5
+        },
+        {
+            "type": "SET_PROPERTY",
+            "host": "95484538",
+            "timestamp": 1559208775676,
+            "uuid": "86588317",
+            "seq": 55,
+            "object": "94175512",
+            "name": "sz",
+            "value": 0.5
+        },
+        {
+            "type": "SET_PROPERTY",
+            "host": "95484538",
+            "timestamp": 1559208776458,
+            "uuid": "38528176",
+            "seq": 56,
+            "object": "94175512",
+            "name": "sx",
+            "value": 1
+        },
+        {
+            "type": "SET_PROPERTY",
+            "host": "95484538",
+            "timestamp": 1559208776458,
+            "uuid": "18513062",
+            "seq": 57,
+            "object": "94175512",
+            "name": "sy",
+            "value": 1
+        },
+        {
+            "type": "SET_PROPERTY",
+            "host": "95484538",
+            "timestamp": 1559208776460,
+            "uuid": "95919669",
+            "seq": 58,
+            "object": "94175512",
+            "name": "sz",
+            "value": 0.5
+        },
+        {
+            "type": "SET_PROPERTY",
+            "host": "95484538",
+            "timestamp": 1559208777088,
+            "uuid": "51466225",
+            "seq": 59,
+            "object": "94175512",
+            "name": "sx",
+            "value": 1
+        },
+        {
+            "type": "SET_PROPERTY",
+            "host": "95484538",
+            "timestamp": 1559208777088,
+            "uuid": "64341149",
+            "seq": 60,
+            "object": "94175512",
+            "name": "sy",
+            "value": 1
+        },
+        {
+            "type": "SET_PROPERTY",
+            "host": "95484538",
+            "timestamp": 1559208777088,
+            "uuid": "74073640",
+            "seq": 61,
+            "object": "94175512",
+            "name": "sz",
+            "value": 1
         }
     ],
     "type": "vr",
@@ -5224,9 +5474,9 @@
                         "rx": 0,
                         "ry": 0,
                         "rz": 0,
-                        "sx": 0.5,
-                        "sy": 0.5,
-                        "sz": 0.5,
+                        "sx": 1,
+                        "sy": 1,
+                        "sz": 1,
                         "children": [
                             {
                                 "type": "behavior",
