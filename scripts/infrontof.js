@@ -30,14 +30,25 @@
         this.alpha = this.properties.alpha
         this.idealPos = new THREE.Vector3()
         this.cameraPos = new THREE.Vector3()
+        this.cameraDir = new THREE.Vector3()
         this.scratchMat = new THREE.Matrix4()
     },
     enter: function(event) {
         this.startTime = 0
-        this.logger.log        
-        this.camera.getWorldDirection(this.cameraPos)
-        this.cameraPos.normalize()
-        this.cameraPos.multiplyScalar(this.distance)
+
+        this.camera.getWorldDirection(this.cameraDir)
+        this.camera.getWorldPosition(this.cameraPos)
+        this.cameraDir.multiplyScalar(this.distance)
+        this.cameraPos.add(this.cameraDir)
+
+        let sceneId = this.getCurrentScene().id
+        this.sceneNode = this.getThreeObjectById(sceneId)
+
+        this.sceneNode.updateMatrixWorld()
+        this.scratchMat.getInverse( this.sceneNode.matrixWorld );
+
+        this.cameraPos.applyMatrix4(this.scratchMat)
+
         event.target.position.copy(this.cameraPos)
         this.idealPos.copy(this.cameraPos)      
     },
@@ -46,17 +57,16 @@
         if (this.delay > 0 && this.startTime + this.delay <= event.time) {
             this.startTime = event.time
 
-            let sceneId = this.getCurrentScene().id
-            let sceneNode = this.getThreeObjectById(sceneId)
-            sceneNode.updateMatrixWorld()
-            
-            this.scratchMat.getInverse( sceneNode.matrixWorld );
+            this.sceneNode.updateMatrixWorld()
+            this.scratchMat.getInverse( this.sceneNode.matrixWorld );
           
             // distance
-            this.camera.getWorldDirection(this.cameraPos)
-            this.cameraPos.applyMatrix(this.scratchMat)
-            this.cameraPos.normalize()
-            this.cameraPos.multiplyScalar(this.distance)
+            this.camera.getWorldDirection(this.cameraDir)
+            this.camera.getWorldPosition(this.cameraPos)
+            this.cameraDir.multiplyScalar(this.distance)
+            this.cameraPos.add(this.cameraDir)
+            this.cameraPos.applyMatrix4(this.scratchMat)
+
             this.idealPos.copy(this.cameraPos)
             //this.logger.log("new target: ", this.idealPos)
         }
