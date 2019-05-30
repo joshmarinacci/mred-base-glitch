@@ -6115,6 +6115,26 @@
             "object": "39080501",
             "name": "description",
             "value": " be front of camera at a certain distance for a while at a speed"
+        },
+        {
+            "type": "SET_PROPERTY",
+            "host": "64441163",
+            "timestamp": 1559211890898,
+            "uuid": "85807381",
+            "seq": 1,
+            "object": "39080501",
+            "name": "title",
+            "value": " infrontof"
+        },
+        {
+            "type": "SET_PROPERTY",
+            "host": "64441163",
+            "timestamp": 1559211890899,
+            "uuid": "40636740",
+            "seq": 2,
+            "object": "39080501",
+            "name": "description",
+            "value": " be front of camera at a certain distance for a while at a speed"
         }
     ],
     "type": "vr",

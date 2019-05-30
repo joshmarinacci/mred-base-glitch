@@ -30,6 +30,7 @@
         this.alpha = this.properties.alpha
         this.idealPos = new THREE.Vector3()
         this.cameraPos = new THREE.Vector3()
+        this.scratchMat = new THREE.Matrix4()
     },
     enter: function(event) {
         this.startTime = 0
@@ -45,9 +46,15 @@
         if (this.delay > 0 && this.startTime + this.delay <= event.time) {
             this.startTime = event.time
 
-            let scene = this.getCurrentScene()
+            let sceneId = this.getCurrentScene().id
+            let sceneNode = this.getThreeObjectById(sceneId)
+            sceneNode.updateMatrixWorld()
+            
+            this.scratchMat.getInverse( sceneNode.matrixWorld );
+          
             // distance
             this.camera.getWorldDirection(this.cameraPos)
+            this.cameraPos.applyMatrix(this.scratchMat)
             this.cameraPos.normalize()
             this.cameraPos.multiplyScalar(this.distance)
             this.idealPos.copy(this.cameraPos)
