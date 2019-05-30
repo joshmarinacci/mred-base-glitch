@@ -3715,6 +3715,271 @@
             "name": "tx",
             "value": 0.822713049084403,
             "prevValue": 0.46695287256103923
+        },
+        {
+            "type": "DELETE_ELEMENT",
+            "host": "5486364",
+            "timestamp": 1559181351761,
+            "uuid": "550490",
+            "seq": 1,
+            "array": "83033926",
+            "entry": "44088768",
+            "value": "94175512"
+        },
+        {
+            "type": "SET_PROPERTY",
+            "host": "5486364",
+            "timestamp": 1559181351762,
+            "uuid": "65685339",
+            "seq": 2,
+            "object": "94175512",
+            "name": "parent",
+            "value": "30421273"
+        },
+        {
+            "type": "INSERT_ELEMENT",
+            "host": "5486364",
+            "timestamp": 1559181351764,
+            "uuid": "81261778",
+            "seq": 3,
+            "array": "34843091",
+            "value": "94175512",
+            "entryid": "3029371",
+            "prev": -1
+        },
+        {
+            "type": "CREATE_OBJECT",
+            "host": "5486364",
+            "timestamp": 1559181359409,
+            "uuid": "87296435",
+            "seq": 13,
+            "id": "39080501",
+            "defaults": {
+                "type": "behavior_script",
+                "title": " infrontof",
+                "description": " be front of camera at a certain distance for a while at a speed",
+                "src": "infrontof.js",
+                "parent": 0
+            }
+        },
+        {
+            "type": "SET_PROPERTY",
+            "host": "5486364",
+            "timestamp": 1559181359410,
+            "uuid": "31069816",
+            "seq": 14,
+            "object": "39080501",
+            "name": "parent",
+            "value": "66047517"
+        },
+        {
+            "type": "INSERT_ELEMENT",
+            "host": "5486364",
+            "timestamp": 1559181359411,
+            "uuid": "97927265",
+            "seq": 15,
+            "array": "18684209",
+            "value": "39080501",
+            "entryid": "76089876",
+            "prev": "13181025"
+        },
+        {
+            "type": "CREATE_OBJECT",
+            "host": "5486364",
+            "timestamp": 1559181359484,
+            "uuid": "33399686",
+            "seq": 16,
+            "id": "13243813",
+            "defaults": {
+                "type": "behavior",
+                "title": " infrontof",
+                "description": " be front of camera at a certain distance for a while at a speed",
+                "parent": 0,
+                "behavior": "39080501",
+                "distance": 0,
+                "speed": 0,
+                "duration": 0
+            }
+        },
+        {
+            "type": "SET_PROPERTY",
+            "host": "5486364",
+            "timestamp": 1559181359492,
+            "uuid": "6286817",
+            "seq": 17,
+            "object": "13243813",
+            "name": "parent",
+            "value": "94175512"
+        },
+        {
+            "type": "INSERT_ELEMENT",
+            "host": "5486364",
+            "timestamp": 1559181359500,
+            "uuid": "44519308",
+            "seq": 18,
+            "array": "7492218",
+            "value": "13243813",
+            "entryid": "26861137",
+            "prev": "52899447"
+        },
+        {
+            "type": "SET_PROPERTY",
+            "host": "5486364",
+            "timestamp": 1559181363411,
+            "uuid": "98960448",
+            "seq": 19,
+            "object": "13243813",
+            "name": "distance",
+            "value": 1,
+            "prevValue": 0
+        },
+        {
+            "type": "SET_PROPERTY",
+            "host": "5486364",
+            "timestamp": 1559181364260,
+            "uuid": "64648105",
+            "seq": 20,
+            "object": "13243813",
+            "name": "distance",
+            "value": 1,
+            "prevValue": 1
+        },
+        {
+            "type": "SET_PROPERTY",
+            "host": "5486364",
+            "timestamp": 1559181367204,
+            "uuid": "70558832",
+            "seq": 21,
+            "object": "13243813",
+            "name": "speed",
+            "value": 0.1,
+            "prevValue": 0
+        },
+        {
+            "type": "SET_PROPERTY",
+            "host": "5486364",
+            "timestamp": 1559181368092,
+            "uuid": "93638217",
+            "seq": 22,
+            "object": "13243813",
+            "name": "speed",
+            "value": 0.1,
+            "prevValue": 0.1
+        },
+        {
+            "type": "SET_PROPERTY",
+            "host": "5486364",
+            "timestamp": 1559181369964,
+            "uuid": "52507849",
+            "seq": 23,
+            "object": "13243813",
+            "name": "duration",
+            "value": 1,
+            "prevValue": 0
+        },
+        {
+            "type": "SET_PROPERTY",
+            "host": "5486364",
+            "timestamp": 1559181374495,
+            "uuid": "58516599",
+            "seq": 24,
+            "object": "13243813",
+            "name": "duration",
+            "value": 1,
+            "prevValue": 1
+        },
+        {
+            "type": "SET_PROPERTY",
+            "host": "5486364",
+            "timestamp": 1559181377613,
+            "uuid": "38899010",
+            "seq": 28,
+            "object": "94175512",
+            "name": "tx",
+            "value": 0
+        },
+        {
+            "type": "SET_PROPERTY",
+            "host": "5486364",
+            "timestamp": 1559181377613,
+            "uuid": "29997901",
+            "seq": 29,
+            "object": "94175512",
+            "name": "ty",
+            "value": 0
+        },
+        {
+            "type": "SET_PROPERTY",
+            "host": "5486364",
+            "timestamp": 1559181377613,
+            "uuid": "41301029",
+            "seq": 30,
+            "object": "94175512",
+            "name": "tz",
+            "value": null
+        },
+        {
+            "type": "SET_PROPERTY",
+            "host": "5486364",
+            "timestamp": 1559181377880,
+            "uuid": "94631846",
+            "seq": 31,
+            "object": "94175512",
+            "name": "tx",
+            "value": 0
+        },
+        {
+            "type": "SET_PROPERTY",
+            "host": "5486364",
+            "timestamp": 1559181377880,
+            "uuid": "7318515",
+            "seq": 32,
+            "object": "94175512",
+            "name": "ty",
+            "value": 0
+        },
+        {
+            "type": "SET_PROPERTY",
+            "host": "5486364",
+            "timestamp": 1559181377880,
+            "uuid": "31322278",
+            "seq": 33,
+            "object": "94175512",
+            "name": "tz",
+            "value": 0
+        },
+        {
+            "type": "SET_PROPERTY",
+            "host": "5486364",
+            "timestamp": 1559181382418,
+            "uuid": "2705955",
+            "seq": 34,
+            "object": "94175512",
+            "name": "tx",
+            "value": 0.04414794264019348,
+            "prevValue": 0
+        },
+        {
+            "type": "SET_PROPERTY",
+            "host": "5486364",
+            "timestamp": 1559181382434,
+            "uuid": "81993835",
+            "seq": 35,
+            "object": "94175512",
+            "name": "ty",
+            "value": 0.2648876558411608,
+            "prevValue": 0
+        },
+        {
+            "type": "SET_PROPERTY",
+            "host": "5486364",
+            "timestamp": 1559181382445,
+            "uuid": "77293236",
+            "seq": 36,
+            "object": "94175512",
+            "name": "tz",
+            "value": 0.26488765584116086,
+            "prevValue": 0
         }
     ],
     "type": "vr",
@@ -3733,6 +3998,55 @@
                 "parent": "70756917",
                 "children": [
                     {
+                        "type": "text",
+                        "title": "some text",
+                        "visible": true,
+                        "text": "Look for the blue marble picture and point the phone at it",
+                        "cssStyle": "color:black; \nbackground-color: lightgrey;\nfont: Helvetica Neue,Helvetica,Arial,sans-serif;\nwidth: 10em;\nfont-size: 200%; \nborder: thick ridge green;\ntext-align: center;\nborder-radius: 3mm;",
+                        "tx": 0.04414794264019348,
+                        "ty": 0.2648876558411608,
+                        "tz": 0.26488765584116086,
+                        "rx": 0,
+                        "ry": 0,
+                        "rz": 0,
+                        "sx": 1,
+                        "sy": 1,
+                        "sz": 1,
+                        "children": [
+                            {
+                                "type": "behavior",
+                                "title": " showIf",
+                                "description": " if the provide test evauates to true, the node is visible",
+                                "parent": "94175512",
+                                "behavior": "55997163",
+                                "conditional": "!this.globalStorage.found",
+                                "id": "43410440"
+                            },
+                            {
+                                "type": "behavior",
+                                "title": " setText",
+                                "description": " the provided code should return a text string, which will be set to the text object",
+                                "parent": "94175512",
+                                "behavior": "39402486",
+                                "code": "let props = this.properties\nif (!props.elapsed) {\n  props.elapsed = 0\n  props.dots = \"\"\n}\n\nprops.elapsed += e.deltaTime\nif (props.elapsed > 1000) {\n  props.elapsed = 1\n  props.dots = props.dots + \".\" \n  if (props.dots.length > 4) {\n     props.dots = \"\"\n  }\n} \n\nreturn  e.graphTarget.text + \"<p>.\" + props.dots + \"</p>\"",
+                                "id": "36612137"
+                            },
+                            {
+                                "type": "behavior",
+                                "title": " infrontof",
+                                "description": " be front of camera at a certain distance for a while at a speed",
+                                "parent": "94175512",
+                                "behavior": "39080501",
+                                "distance": 1,
+                                "speed": 0.1,
+                                "duration": 1,
+                                "id": "13243813"
+                            }
+                        ],
+                        "parent": "30421273",
+                        "id": "94175512"
+                    },
+                    {
                         "type": "hudanchor",
                         "title": "hud anchor 0",
                         "visible": true,
@@ -3745,46 +4059,7 @@
                         "sx": 1,
                         "sy": 1,
                         "sz": 1,
-                        "children": [
-                            {
-                                "type": "text",
-                                "title": "some text",
-                                "visible": true,
-                                "text": "Look for the blue marble picture and point the phone at it",
-                                "cssStyle": "color:black; \nbackground-color: lightgrey;\nfont: Helvetica Neue,Helvetica,Arial,sans-serif;\nwidth: 10em;\nfont-size: 200%; \nborder: thick ridge green;\ntext-align: center;\nborder-radius: 3mm;",
-                                "tx": 0,
-                                "ty": 0,
-                                "tz": -1,
-                                "rx": 0,
-                                "ry": 0,
-                                "rz": 0,
-                                "sx": 1,
-                                "sy": 1,
-                                "sz": 1,
-                                "children": [
-                                    {
-                                        "type": "behavior",
-                                        "title": " showIf",
-                                        "description": " if the provide test evauates to true, the node is visible",
-                                        "parent": "94175512",
-                                        "behavior": "55997163",
-                                        "conditional": "!this.globalStorage.found",
-                                        "id": "43410440"
-                                    },
-                                    {
-                                        "type": "behavior",
-                                        "title": " setText",
-                                        "description": " the provided code should return a text string, which will be set to the text object",
-                                        "parent": "94175512",
-                                        "behavior": "39402486",
-                                        "code": "let props = this.properties\nif (!props.elapsed) {\n  props.elapsed = 0\n  props.dots = \"\"\n}\n\nprops.elapsed += e.deltaTime\nif (props.elapsed > 1000) {\n  props.elapsed = 1\n  props.dots = props.dots + \".\" \n  if (props.dots.length > 4) {\n     props.dots = \"\"\n  }\n} \n\nreturn  e.graphTarget.text + \"<p>.\" + props.dots + \"</p>\"",
-                                        "id": "36612137"
-                                    }
-                                ],
-                                "parent": "47109309",
-                                "id": "94175512"
-                            }
-                        ],
+                        "children": [],
                         "parent": "30421273",
                         "id": "47109309"
                     },
@@ -3889,6 +4164,14 @@
                         "src": "onEvent.js",
                         "parent": "66047517",
                         "id": "88796652"
+                    },
+                    {
+                        "type": "behavior_script",
+                        "title": " infrontof",
+                        "description": " be front of camera at a certain distance for a while at a speed",
+                        "src": "infrontof.js",
+                        "parent": "66047517",
+                        "id": "39080501"
                     }
                 ],
                 "parent": "70756917",

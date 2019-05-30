@@ -31,8 +31,8 @@
             let camera = this.camera
             let targetPos = new THREE.Vector3()
             let cameraPos = new THREE.Vector3()
-            target.getWorldDirection(target.position)
-            camera.getWorldDirection(target.position)
+            target.getWorldDirection(targetPos)
+            camera.getWorldDirection(cameraPos)
             this.distance = targetPos.distanceTo(cameraPos)
         }
 
