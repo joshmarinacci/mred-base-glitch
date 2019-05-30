@@ -5445,6 +5445,349 @@
             "object": "94175512",
             "name": "sz",
             "value": 1
+        },
+        {
+            "type": "SET_PROPERTY",
+            "host": "95484538",
+            "timestamp": 1559208868463,
+            "uuid": "80502397",
+            "seq": 62,
+            "object": "22387916",
+            "name": "distance",
+            "value": 1,
+            "prevValue": 1
+        },
+        {
+            "type": "SET_PROPERTY",
+            "host": "95484538",
+            "timestamp": 1559208892696,
+            "uuid": "39047647",
+            "seq": 63,
+            "object": "39080501",
+            "name": "title",
+            "value": " infrontof"
+        },
+        {
+            "type": "SET_PROPERTY",
+            "host": "95484538",
+            "timestamp": 1559208892696,
+            "uuid": "88511739",
+            "seq": 64,
+            "object": "39080501",
+            "name": "description",
+            "value": " be front of camera at a certain distance for a while at a speed"
+        },
+        {
+            "type": "DELETE_ELEMENT",
+            "host": "95484538",
+            "timestamp": 1559208897288,
+            "uuid": "51498529",
+            "seq": 65,
+            "array": "7492218",
+            "entry": "38698116",
+            "value": "94272287"
+        },
+        {
+            "type": "CREATE_OBJECT",
+            "host": "95484538",
+            "timestamp": 1559208903115,
+            "uuid": "13023629",
+            "seq": 75,
+            "id": "51710120",
+            "defaults": {
+                "type": "behavior_script",
+                "title": " scene script",
+                "description": " does something",
+                "src": "behavior_8255996.js",
+                "parent": 0
+            }
+        },
+        {
+            "type": "SET_PROPERTY",
+            "host": "95484538",
+            "timestamp": 1559208903116,
+            "uuid": "16168801",
+            "seq": 76,
+            "object": "51710120",
+            "name": "parent",
+            "value": "66047517"
+        },
+        {
+            "type": "INSERT_ELEMENT",
+            "host": "95484538",
+            "timestamp": 1559208903117,
+            "uuid": "5972635",
+            "seq": 77,
+            "array": "18684209",
+            "value": "51710120",
+            "entryid": "53864526",
+            "prev": "66332487"
+        },
+        {
+            "type": "CREATE_OBJECT",
+            "host": "95484538",
+            "timestamp": 1559208903491,
+            "uuid": "48133634",
+            "seq": 78,
+            "id": "95789380",
+            "defaults": {
+                "type": "behavior",
+                "title": " scene script",
+                "description": " does something",
+                "parent": 0,
+                "behavior": "51710120",
+                "scene": null
+            }
+        },
+        {
+            "type": "SET_PROPERTY",
+            "host": "95484538",
+            "timestamp": 1559208903503,
+            "uuid": "65334191",
+            "seq": 79,
+            "object": "95789380",
+            "name": "parent",
+            "value": "94175512"
+        },
+        {
+            "type": "INSERT_ELEMENT",
+            "host": "95484538",
+            "timestamp": 1559208903510,
+            "uuid": "27739031",
+            "seq": 80,
+            "array": "7492218",
+            "value": "95789380",
+            "entryid": "88406460",
+            "prev": "21268560"
+        },
+        {
+            "type": "DELETE_ELEMENT",
+            "host": "95484538",
+            "timestamp": 1559208917860,
+            "uuid": "57967706",
+            "seq": 81,
+            "array": "7492218",
+            "entry": "88406460",
+            "value": "95789380"
+        },
+        {
+            "type": "DELETE_ELEMENT",
+            "host": "95484538",
+            "timestamp": 1559208922191,
+            "uuid": "84167494",
+            "seq": 82,
+            "array": "18684209",
+            "entry": "53864526",
+            "value": "51710120"
+        },
+        {
+            "type": "CREATE_OBJECT",
+            "host": "95484538",
+            "timestamp": 1559208929664,
+            "uuid": "17870406",
+            "seq": 83,
+            "id": "37604399",
+            "defaults": {
+                "type": "behavior_script",
+                "title": " Billboard",
+                "description": " Cause an object to face you ",
+                "src": "billboard.js",
+                "parent": 0
+            }
+        },
+        {
+            "type": "SET_PROPERTY",
+            "host": "95484538",
+            "timestamp": 1559208929666,
+            "uuid": "7055702",
+            "seq": 84,
+            "object": "37604399",
+            "name": "parent",
+            "value": "66047517"
+        },
+        {
+            "type": "INSERT_ELEMENT",
+            "host": "95484538",
+            "timestamp": 1559208929667,
+            "uuid": "88759684",
+            "seq": 85,
+            "array": "18684209",
+            "value": "37604399",
+            "entryid": "8716080",
+            "prev": "66332487"
+        },
+        {
+            "type": "CREATE_OBJECT",
+            "host": "95484538",
+            "timestamp": 1559208937484,
+            "uuid": "32289416",
+            "seq": 89,
+            "id": "11858297",
+            "defaults": {
+                "type": "behavior",
+                "title": " Billboard",
+                "description": " Cause an object to face you ",
+                "parent": 0,
+                "behavior": "37604399"
+            }
+        },
+        {
+            "type": "SET_PROPERTY",
+            "host": "95484538",
+            "timestamp": 1559208937492,
+            "uuid": "36456573",
+            "seq": 90,
+            "object": "11858297",
+            "name": "parent",
+            "value": "94175512"
+        },
+        {
+            "type": "INSERT_ELEMENT",
+            "host": "95484538",
+            "timestamp": 1559208937500,
+            "uuid": "87620929",
+            "seq": 91,
+            "array": "7492218",
+            "value": "11858297",
+            "entryid": "50463945",
+            "prev": "21268560"
+        },
+        {
+            "type": "SET_PROPERTY",
+            "host": "95484538",
+            "timestamp": 1559209130571,
+            "uuid": "34554289",
+            "seq": 92,
+            "object": "39080501",
+            "name": "title",
+            "value": " infrontof"
+        },
+        {
+            "type": "SET_PROPERTY",
+            "host": "95484538",
+            "timestamp": 1559209130572,
+            "uuid": "40794344",
+            "seq": 93,
+            "object": "39080501",
+            "name": "description",
+            "value": " be front of camera at a certain distance for a while at a speed"
+        },
+        {
+            "type": "SET_PROPERTY",
+            "host": "95484538",
+            "timestamp": 1559209195665,
+            "uuid": "93739881",
+            "seq": 94,
+            "object": "39080501",
+            "name": "title",
+            "value": " infrontof"
+        },
+        {
+            "type": "SET_PROPERTY",
+            "host": "95484538",
+            "timestamp": 1559209195666,
+            "uuid": "23484699",
+            "seq": 95,
+            "object": "39080501",
+            "name": "description",
+            "value": " be front of camera at a certain distance for a while at a speed"
+        },
+        {
+            "type": "SET_PROPERTY",
+            "host": "95484538",
+            "timestamp": 1559209675267,
+            "uuid": "21669168",
+            "seq": 96,
+            "object": "22387916",
+            "name": "delay"
+        },
+        {
+            "type": "SET_PROPERTY",
+            "host": "95484538",
+            "timestamp": 1559209702857,
+            "uuid": "62302600",
+            "seq": 97,
+            "object": "39080501",
+            "name": "title",
+            "value": " infrontof"
+        },
+        {
+            "type": "SET_PROPERTY",
+            "host": "95484538",
+            "timestamp": 1559209702857,
+            "uuid": "27148162",
+            "seq": 98,
+            "object": "39080501",
+            "name": "description",
+            "value": " be front of camera at a certain distance for a while at a speed"
+        },
+        {
+            "type": "SET_PROPERTY",
+            "host": "95484538",
+            "timestamp": 1559209863211,
+            "uuid": "72376470",
+            "seq": 99,
+            "object": "39080501",
+            "name": "title",
+            "value": " infrontof"
+        },
+        {
+            "type": "SET_PROPERTY",
+            "host": "95484538",
+            "timestamp": 1559209863212,
+            "uuid": "39995826",
+            "seq": 100,
+            "object": "39080501",
+            "name": "description",
+            "value": " be front of camera at a certain distance for a while at a speed"
+        },
+        {
+            "type": "SET_PROPERTY",
+            "host": "95484538",
+            "timestamp": 1559209894358,
+            "uuid": "57474579",
+            "seq": 101,
+            "object": "22387916",
+            "name": "delay",
+            "value": 1
+        },
+        {
+            "type": "SET_PROPERTY",
+            "host": "95484538",
+            "timestamp": 1559209895202,
+            "uuid": "10361416",
+            "seq": 102,
+            "object": "22387916",
+            "name": "delay"
+        },
+        {
+            "type": "SET_PROPERTY",
+            "host": "95484538",
+            "timestamp": 1559209896286,
+            "uuid": "71211055",
+            "seq": 103,
+            "object": "22387916",
+            "name": "alpha",
+            "value": 0
+        },
+        {
+            "type": "SET_PROPERTY",
+            "host": "95484538",
+            "timestamp": 1559209896737,
+            "uuid": "22036942",
+            "seq": 104,
+            "object": "22387916",
+            "name": "alpha",
+            "value": 0.1
+        },
+        {
+            "type": "SET_PROPERTY",
+            "host": "95484538",
+            "timestamp": 1559209897103,
+            "uuid": "31233379",
+            "seq": 105,
+            "object": "22387916",
+            "name": "alpha"
         }
     ],
     "type": "vr",
@@ -5498,20 +5841,20 @@
                             },
                             {
                                 "type": "behavior",
-                                "title": " Billboard Horizontal",
-                                "description": " Cause an object to face you, but keep Y vertical ",
-                                "parent": "94175512",
-                                "behavior": "47787200",
-                                "id": "94272287"
-                            },
-                            {
-                                "type": "behavior",
                                 "title": " infrontof",
                                 "description": " be front of camera at a certain distance for a while at a speed",
                                 "parent": "94175512",
                                 "behavior": "39080501",
                                 "distance": 1,
                                 "id": "22387916"
+                            },
+                            {
+                                "type": "behavior",
+                                "title": " Billboard",
+                                "description": " Cause an object to face you ",
+                                "parent": "94175512",
+                                "behavior": "37604399",
+                                "id": "11858297"
                             }
                         ],
                         "parent": "30421273",
@@ -5651,6 +5994,14 @@
                         "src": "billBoardHorizontal.js",
                         "parent": "66047517",
                         "id": "47787200"
+                    },
+                    {
+                        "type": "behavior_script",
+                        "title": " Billboard",
+                        "description": " Cause an object to face you ",
+                        "src": "billboard.js",
+                        "parent": "66047517",
+                        "id": "37604399"
                     }
                 ],
                 "parent": "70756917",
