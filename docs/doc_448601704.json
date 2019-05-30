@@ -4473,6 +4473,428 @@
             "name": "distance",
             "value": 1,
             "prevValue": 1
+        },
+        {
+            "type": "SET_PROPERTY",
+            "host": "9014797",
+            "timestamp": 1559183223734,
+            "uuid": "24857320",
+            "seq": 12,
+            "object": "94175512",
+            "name": "tx",
+            "value": null
+        },
+        {
+            "type": "SET_PROPERTY",
+            "host": "9014797",
+            "timestamp": 1559183223735,
+            "uuid": "79844246",
+            "seq": 13,
+            "object": "94175512",
+            "name": "ty",
+            "value": 0
+        },
+        {
+            "type": "SET_PROPERTY",
+            "host": "9014797",
+            "timestamp": 1559183223735,
+            "uuid": "65040742",
+            "seq": 14,
+            "object": "94175512",
+            "name": "tz",
+            "value": 0
+        },
+        {
+            "type": "SET_PROPERTY",
+            "host": "9014797",
+            "timestamp": 1559183223842,
+            "uuid": "94827592",
+            "seq": 15,
+            "object": "94175512",
+            "name": "tx",
+            "value": 1
+        },
+        {
+            "type": "SET_PROPERTY",
+            "host": "9014797",
+            "timestamp": 1559183223843,
+            "uuid": "23739337",
+            "seq": 16,
+            "object": "94175512",
+            "name": "ty",
+            "value": 0
+        },
+        {
+            "type": "SET_PROPERTY",
+            "host": "9014797",
+            "timestamp": 1559183223843,
+            "uuid": "8633514",
+            "seq": 17,
+            "object": "94175512",
+            "name": "tz",
+            "value": 0
+        },
+        {
+            "type": "DELETE_ELEMENT",
+            "host": "9014797",
+            "timestamp": 1559183233694,
+            "uuid": "88885868",
+            "seq": 18,
+            "array": "7492218",
+            "entry": "26861137",
+            "value": "13243813"
+        },
+        {
+            "type": "CREATE_OBJECT",
+            "host": "9014797",
+            "timestamp": 1559183254701,
+            "uuid": "43878996",
+            "seq": 28,
+            "id": "59028331",
+            "defaults": {
+                "type": "behavior",
+                "title": " showIf",
+                "description": " if the provide test evauates to true, the node is visible",
+                "parent": 0,
+                "behavior": "55997163",
+                "conditional": ""
+            }
+        },
+        {
+            "type": "SET_PROPERTY",
+            "host": "9014797",
+            "timestamp": 1559183254710,
+            "uuid": "13357406",
+            "seq": 29,
+            "object": "59028331",
+            "name": "parent",
+            "value": "94175512"
+        },
+        {
+            "type": "INSERT_ELEMENT",
+            "host": "9014797",
+            "timestamp": 1559183254717,
+            "uuid": "38557081",
+            "seq": 30,
+            "array": "7492218",
+            "value": "59028331",
+            "entryid": "76625694",
+            "prev": "38698116"
+        },
+        {
+            "type": "CREATE_OBJECT",
+            "host": "9014797",
+            "timestamp": 1559183257750,
+            "uuid": "53894347",
+            "seq": 37,
+            "id": "68050365",
+            "defaults": {
+                "type": "behavior",
+                "title": " showIf",
+                "description": " if the provide test evauates to true, the node is visible",
+                "parent": 0,
+                "behavior": "55997163",
+                "conditional": ""
+            }
+        },
+        {
+            "type": "SET_PROPERTY",
+            "host": "9014797",
+            "timestamp": 1559183257755,
+            "uuid": "68515881",
+            "seq": 38,
+            "object": "68050365",
+            "name": "parent",
+            "value": "94175512"
+        },
+        {
+            "type": "INSERT_ELEMENT",
+            "host": "9014797",
+            "timestamp": 1559183257762,
+            "uuid": "46474071",
+            "seq": 39,
+            "array": "7492218",
+            "value": "68050365",
+            "entryid": "956901",
+            "prev": "76625694"
+        },
+        {
+            "type": "DELETE_ELEMENT",
+            "host": "9014797",
+            "timestamp": 1559183259400,
+            "uuid": "83376351",
+            "seq": 40,
+            "array": "7492218",
+            "entry": "76625694",
+            "value": "59028331"
+        },
+        {
+            "type": "DELETE_ELEMENT",
+            "host": "9014797",
+            "timestamp": 1559183260572,
+            "uuid": "63308127",
+            "seq": 41,
+            "array": "7492218",
+            "entry": "956901",
+            "value": "68050365"
+        },
+        {
+            "type": "CREATE_OBJECT",
+            "host": "9014797",
+            "timestamp": 1559183263532,
+            "uuid": "48425353",
+            "seq": 51,
+            "id": "22387916",
+            "defaults": {
+                "type": "behavior",
+                "title": " infrontof",
+                "description": " be front of camera at a certain distance for a while at a speed",
+                "parent": 0,
+                "behavior": "39080501",
+                "distance": 1
+            }
+        },
+        {
+            "type": "SET_PROPERTY",
+            "host": "9014797",
+            "timestamp": 1559183263540,
+            "uuid": "59980345",
+            "seq": 52,
+            "object": "22387916",
+            "name": "parent",
+            "value": "94175512"
+        },
+        {
+            "type": "INSERT_ELEMENT",
+            "host": "9014797",
+            "timestamp": 1559183263546,
+            "uuid": "75589388",
+            "seq": 53,
+            "array": "7492218",
+            "value": "22387916",
+            "entryid": "21268560",
+            "prev": "38698116"
+        },
+        {
+            "type": "SET_PROPERTY",
+            "host": "9014797",
+            "timestamp": 1559183270654,
+            "uuid": "92568130",
+            "seq": 54,
+            "object": "22387916",
+            "name": "distance",
+            "value": 1,
+            "prevValue": 1
+        },
+        {
+            "type": "SET_PROPERTY",
+            "host": "9014797",
+            "timestamp": 1559183273344,
+            "uuid": "88904188",
+            "seq": 58,
+            "object": "94175512",
+            "name": "sx",
+            "value": 0.5
+        },
+        {
+            "type": "SET_PROPERTY",
+            "host": "9014797",
+            "timestamp": 1559183273345,
+            "uuid": "65026442",
+            "seq": 59,
+            "object": "94175512",
+            "name": "sy",
+            "value": 0.2
+        },
+        {
+            "type": "SET_PROPERTY",
+            "host": "9014797",
+            "timestamp": 1559183273345,
+            "uuid": "68349694",
+            "seq": 60,
+            "object": "94175512",
+            "name": "sz",
+            "value": 0.2
+        },
+        {
+            "type": "SET_PROPERTY",
+            "host": "9014797",
+            "timestamp": 1559183275838,
+            "uuid": "47197811",
+            "seq": 61,
+            "object": "94175512",
+            "name": "sx",
+            "value": 0.5
+        },
+        {
+            "type": "SET_PROPERTY",
+            "host": "9014797",
+            "timestamp": 1559183275838,
+            "uuid": "76302891",
+            "seq": 62,
+            "object": "94175512",
+            "name": "sy",
+            "value": 0
+        },
+        {
+            "type": "SET_PROPERTY",
+            "host": "9014797",
+            "timestamp": 1559183275840,
+            "uuid": "46724238",
+            "seq": 63,
+            "object": "94175512",
+            "name": "sz",
+            "value": 0.2
+        },
+        {
+            "type": "SET_PROPERTY",
+            "host": "9014797",
+            "timestamp": 1559183275935,
+            "uuid": "42837838",
+            "seq": 64,
+            "object": "94175512",
+            "name": "sx",
+            "value": 0.5
+        },
+        {
+            "type": "SET_PROPERTY",
+            "host": "9014797",
+            "timestamp": 1559183275936,
+            "uuid": "3799621",
+            "seq": 65,
+            "object": "94175512",
+            "name": "sy",
+            "value": 0.5
+        },
+        {
+            "type": "SET_PROPERTY",
+            "host": "9014797",
+            "timestamp": 1559183275937,
+            "uuid": "25102095",
+            "seq": 66,
+            "object": "94175512",
+            "name": "sz",
+            "value": 0.2
+        },
+        {
+            "type": "SET_PROPERTY",
+            "host": "9014797",
+            "timestamp": 1559183276935,
+            "uuid": "34825497",
+            "seq": 67,
+            "object": "94175512",
+            "name": "sx",
+            "value": 0.5
+        },
+        {
+            "type": "SET_PROPERTY",
+            "host": "9014797",
+            "timestamp": 1559183276935,
+            "uuid": "95895444",
+            "seq": 68,
+            "object": "94175512",
+            "name": "sy",
+            "value": 0.5
+        },
+        {
+            "type": "SET_PROPERTY",
+            "host": "9014797",
+            "timestamp": 1559183276935,
+            "uuid": "9218853",
+            "seq": 69,
+            "object": "94175512",
+            "name": "sz",
+            "value": 0
+        },
+        {
+            "type": "SET_PROPERTY",
+            "host": "9014797",
+            "timestamp": 1559183277435,
+            "uuid": "93487509",
+            "seq": 70,
+            "object": "94175512",
+            "name": "sx",
+            "value": 0.5
+        },
+        {
+            "type": "SET_PROPERTY",
+            "host": "9014797",
+            "timestamp": 1559183277435,
+            "uuid": "53542272",
+            "seq": 71,
+            "object": "94175512",
+            "name": "sy",
+            "value": 0.5
+        },
+        {
+            "type": "SET_PROPERTY",
+            "host": "9014797",
+            "timestamp": 1559183277435,
+            "uuid": "91740148",
+            "seq": 72,
+            "object": "94175512",
+            "name": "sz",
+            "value": 0.5
+        },
+        {
+            "type": "SET_PROPERTY",
+            "host": "9014797",
+            "timestamp": 1559183280343,
+            "uuid": "58344862",
+            "seq": 73,
+            "object": "94175512",
+            "name": "tx",
+            "value": null
+        },
+        {
+            "type": "SET_PROPERTY",
+            "host": "9014797",
+            "timestamp": 1559183280344,
+            "uuid": "60747571",
+            "seq": 74,
+            "object": "94175512",
+            "name": "ty",
+            "value": 0
+        },
+        {
+            "type": "SET_PROPERTY",
+            "host": "9014797",
+            "timestamp": 1559183280344,
+            "uuid": "42734343",
+            "seq": 75,
+            "object": "94175512",
+            "name": "tz",
+            "value": 0
+        },
+        {
+            "type": "SET_PROPERTY",
+            "host": "9014797",
+            "timestamp": 1559183281359,
+            "uuid": "54118198",
+            "seq": 76,
+            "object": "94175512",
+            "name": "tx",
+            "value": 0
+        },
+        {
+            "type": "SET_PROPERTY",
+            "host": "9014797",
+            "timestamp": 1559183281360,
+            "uuid": "52008366",
+            "seq": 77,
+            "object": "94175512",
+            "name": "ty",
+            "value": 0
+        },
+        {
+            "type": "SET_PROPERTY",
+            "host": "9014797",
+            "timestamp": 1559183281360,
+            "uuid": "42968919",
+            "seq": 78,
+            "object": "94175512",
+            "name": "tz",
+            "value": 0
         }
     ],
     "type": "vr",
@@ -4502,9 +4924,9 @@
                         "rx": 0,
                         "ry": 0,
                         "rz": 0,
-                        "sx": 0.2,
-                        "sy": 0.2,
-                        "sz": 0.2,
+                        "sx": 0.5,
+                        "sy": 0.5,
+                        "sz": 0.5,
                         "children": [
                             {
                                 "type": "behavior",
@@ -4526,22 +4948,20 @@
                             },
                             {
                                 "type": "behavior",
-                                "title": " infrontof",
-                                "description": " be front of camera at a certain distance for a while at a speed",
-                                "parent": "94175512",
-                                "behavior": "39080501",
-                                "distance": 1,
-                                "speed": 0,
-                                "duration": 0,
-                                "id": "13243813"
-                            },
-                            {
-                                "type": "behavior",
                                 "title": " Billboard Horizontal",
                                 "description": " Cause an object to face you, but keep Y vertical ",
                                 "parent": "94175512",
                                 "behavior": "47787200",
                                 "id": "94272287"
+                            },
+                            {
+                                "type": "behavior",
+                                "title": " infrontof",
+                                "description": " be front of camera at a certain distance for a while at a speed",
+                                "parent": "94175512",
+                                "behavior": "39080501",
+                                "distance": 1,
+                                "id": "22387916"
                             }
                         ],
                         "parent": "30421273",
