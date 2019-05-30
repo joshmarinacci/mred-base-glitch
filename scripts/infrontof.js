@@ -32,24 +32,28 @@
         this.cameraPos = new THREE.Vector3()
     },
     enter: function(event) {
-        this.startTime = this.time
-        
+        this.startTime = 0
+        this.logger.log        
         this.camera.getWorldDirection(this.cameraPos)
         this.cameraPos.normalize()
-        this.cameraPos.multiplyScalar(distance)
+        this.cameraPos.multiplyScalar(this.distance)
         event.target.position.copy(this.cameraPos)
-        this.idealPos.copy(this.cameraPos)        
+        this.idealPos.copy(this.cameraPos)      
     },
     tick: function(event) {
+        //this.logger.log("times: ", this.startTime + this.delay, event.time)
         if (this.delay > 0 && this.startTime + this.delay <= event.time) {
             this.startTime = event.time
 
             // distance
             this.camera.getWorldDirection(this.cameraPos)
             this.cameraPos.normalize()
-            this.cameraPos.multiplyScalar(distance)
+            this.cameraPos.multiplyScalar(this.distance)
             this.idealPos.copy(this.cameraPos)
+            this.logger.log("new target: ", this.idealPos)
         }
         event.target.position.lerp(this.idealPos, this.alpha)
+       // this.logger.log("     lerp to : ", event.target.position)
+
     }
   })
