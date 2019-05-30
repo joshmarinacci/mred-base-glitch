@@ -38,16 +38,24 @@
 
         this.camera.getWorldDirection(this.cameraDir)
         this.camera.getWorldPosition(this.cameraPos)
+        this.logger.log("camera position: ", this.cameraPos)
         this.cameraDir.multiplyScalar(this.distance)
         this.cameraPos.add(this.cameraDir)
+        this.logger.log("object position: ", this.cameraPos)
 
         let sceneId = this.getCurrentScene().id
-        this.sceneNode = this.getThreeObjectById(sceneId)
+        let scene = this.getThreeObjectById(sceneId)
+        this.sceneNode = scene.userData.sceneAnchor
 
         this.sceneNode.updateMatrixWorld()
+        
+        this.sceneNode.getWorldPosition(this.cameraDir)
+        this.logger.log("scene position: ", this.cameraDir)
+
         this.scratchMat.getInverse( this.sceneNode.matrixWorld );
 
         this.cameraPos.applyMatrix4(this.scratchMat)
+        this.logger.log("object position in scene: ", this.cameraPos)
 
         event.target.position.copy(this.cameraPos)
         this.idealPos.copy(this.cameraPos)      
@@ -59,6 +67,9 @@
 
             this.sceneNode.updateMatrixWorld()
             this.scratchMat.getInverse( this.sceneNode.matrixWorld );
+
+        // this.sceneNode.getWorldPosition(this.cameraDir)
+        // this.logger.log("scene position: ", this.cameraDir)
           
             // distance
             this.camera.getWorldDirection(this.cameraDir)
