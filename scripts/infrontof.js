@@ -6,7 +6,7 @@
     properties: {
         distance: {
             type:'number',
-            value: 0,
+            value: 1,
         },
         // speed: {
         //     type:'number',
@@ -49,27 +49,29 @@
 //         }
 
         // distance
-      this.camera.getWorldDirection(this.cameraPos)      
-    	let dist = this.distance
-    	let speed = this.speed
-    	let idealPos = this.idealPos
-    	let target = event.target
-    	let camera = this.camera
+      this.camera.getWorldDirection(this.cameraPos)
+    	this.cameraPos.normalize()
+      this.cameraPos.multiplyScalar(this.distance)
+      event.target.position.copy(this.cameraPos)
+//     	let speed = this.speed
+//     	let idealPos = this.idealPos
+//     	let target = event.target
+//     	let camera = this.camera
 
-        // ideal
-      	idealPos.set(0,0,-dist)
-        idealPos.applyQuaternion(camera.quaternion)
+//         // ideal
+//       	idealPos.set(0,0,-dist)
+//         idealPos.applyQuaternion(camera.quaternion)
         //idealPos.add(camera.position)
 
-        if(speed) {
-            target.position.set(
-                target.position.x + (idealPos.x-target.position.x)/2 * speed,
-                target.position.y + (idealPos.y-target.position.y)/2 * speed,
-                target.position.z + (idealPos.z-target.position.z)/2 * speed
-                )
-        } else {
-            target.position.set(idealPos.x,idealPos.y,idealPos.z)
-        }
+        // if(speed) {
+        //     target.position.set(
+        //         target.position.x + (idealPos.x-target.position.x)/2 * speed,
+        //         target.position.y + (idealPos.y-target.position.y)/2 * speed,
+        //         target.position.z + (idealPos.z-target.position.z)/2 * speed
+        //         )
+        // } else {
+        //     target.position.set(idealPos.x,idealPos.y,idealPos.z)
+        // }
 
     }
   })

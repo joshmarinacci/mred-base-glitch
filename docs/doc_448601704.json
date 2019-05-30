@@ -4046,6 +4046,433 @@
             "name": "duration",
             "value": 0,
             "prevValue": 0
+        },
+        {
+            "type": "SET_PROPERTY",
+            "host": "97048202",
+            "timestamp": 1559182600250,
+            "uuid": "10296093",
+            "seq": 1,
+            "object": "94175512",
+            "name": "tx",
+            "value": 0
+        },
+        {
+            "type": "SET_PROPERTY",
+            "host": "97048202",
+            "timestamp": 1559182600253,
+            "uuid": "7906688",
+            "seq": 2,
+            "object": "94175512",
+            "name": "ty",
+            "value": 0.2648876558411608
+        },
+        {
+            "type": "SET_PROPERTY",
+            "host": "97048202",
+            "timestamp": 1559182600253,
+            "uuid": "91515332",
+            "seq": 3,
+            "object": "94175512",
+            "name": "tz",
+            "value": 0.26488765584116086
+        },
+        {
+            "type": "SET_PROPERTY",
+            "host": "97048202",
+            "timestamp": 1559182600821,
+            "uuid": "6149584",
+            "seq": 4,
+            "object": "94175512",
+            "name": "tx",
+            "value": 0
+        },
+        {
+            "type": "SET_PROPERTY",
+            "host": "97048202",
+            "timestamp": 1559182600822,
+            "uuid": "74331519",
+            "seq": 5,
+            "object": "94175512",
+            "name": "ty",
+            "value": 0
+        },
+        {
+            "type": "SET_PROPERTY",
+            "host": "97048202",
+            "timestamp": 1559182600823,
+            "uuid": "22857172",
+            "seq": 6,
+            "object": "94175512",
+            "name": "tz",
+            "value": 0.26488765584116086
+        },
+        {
+            "type": "SET_PROPERTY",
+            "host": "97048202",
+            "timestamp": 1559182601731,
+            "uuid": "80761552",
+            "seq": 7,
+            "object": "94175512",
+            "name": "tx",
+            "value": 0
+        },
+        {
+            "type": "SET_PROPERTY",
+            "host": "97048202",
+            "timestamp": 1559182601732,
+            "uuid": "48849625",
+            "seq": 8,
+            "object": "94175512",
+            "name": "ty",
+            "value": 0
+        },
+        {
+            "type": "SET_PROPERTY",
+            "host": "97048202",
+            "timestamp": 1559182601732,
+            "uuid": "65228297",
+            "seq": 9,
+            "object": "94175512",
+            "name": "tz",
+            "value": 0
+        },
+        {
+            "type": "SET_PROPERTY",
+            "host": "97048202",
+            "timestamp": 1559182645043,
+            "uuid": "25039664",
+            "seq": 10,
+            "object": "13243813",
+            "name": "distance",
+            "value": 1,
+            "prevValue": 1
+        },
+        {
+            "type": "SET_PROPERTY",
+            "host": "97048202",
+            "timestamp": 1559182647349,
+            "uuid": "76076876",
+            "seq": 14,
+            "object": "94175512",
+            "name": "sx",
+            "value": null
+        },
+        {
+            "type": "SET_PROPERTY",
+            "host": "97048202",
+            "timestamp": 1559182647351,
+            "uuid": "84296690",
+            "seq": 15,
+            "object": "94175512",
+            "name": "sy",
+            "value": 1
+        },
+        {
+            "type": "SET_PROPERTY",
+            "host": "97048202",
+            "timestamp": 1559182647352,
+            "uuid": "10233274",
+            "seq": 16,
+            "object": "94175512",
+            "name": "sz",
+            "value": 1
+        },
+        {
+            "type": "SET_PROPERTY",
+            "host": "97048202",
+            "timestamp": 1559182647880,
+            "uuid": "53738107",
+            "seq": 17,
+            "object": "94175512",
+            "name": "sx",
+            "value": 0
+        },
+        {
+            "type": "SET_PROPERTY",
+            "host": "97048202",
+            "timestamp": 1559182647881,
+            "uuid": "24968680",
+            "seq": 18,
+            "object": "94175512",
+            "name": "sy",
+            "value": 1
+        },
+        {
+            "type": "SET_PROPERTY",
+            "host": "97048202",
+            "timestamp": 1559182647881,
+            "uuid": "1813275",
+            "seq": 19,
+            "object": "94175512",
+            "name": "sz",
+            "value": 1
+        },
+        {
+            "type": "SET_PROPERTY",
+            "host": "97048202",
+            "timestamp": 1559182649036,
+            "uuid": "4443909",
+            "seq": 20,
+            "object": "94175512",
+            "name": "sx",
+            "value": 0.2
+        },
+        {
+            "type": "SET_PROPERTY",
+            "host": "97048202",
+            "timestamp": 1559182649037,
+            "uuid": "58301773",
+            "seq": 21,
+            "object": "94175512",
+            "name": "sy",
+            "value": 1
+        },
+        {
+            "type": "SET_PROPERTY",
+            "host": "97048202",
+            "timestamp": 1559182649037,
+            "uuid": "61502361",
+            "seq": 22,
+            "object": "94175512",
+            "name": "sz",
+            "value": 1
+        },
+        {
+            "type": "SET_PROPERTY",
+            "host": "97048202",
+            "timestamp": 1559182650150,
+            "uuid": "79541183",
+            "seq": 23,
+            "object": "94175512",
+            "name": "sx",
+            "value": 0.2
+        },
+        {
+            "type": "SET_PROPERTY",
+            "host": "97048202",
+            "timestamp": 1559182650150,
+            "uuid": "17219371",
+            "seq": 24,
+            "object": "94175512",
+            "name": "sy",
+            "value": 0
+        },
+        {
+            "type": "SET_PROPERTY",
+            "host": "97048202",
+            "timestamp": 1559182650151,
+            "uuid": "35186715",
+            "seq": 25,
+            "object": "94175512",
+            "name": "sz",
+            "value": 1
+        },
+        {
+            "type": "SET_PROPERTY",
+            "host": "97048202",
+            "timestamp": 1559182650568,
+            "uuid": "71986367",
+            "seq": 26,
+            "object": "94175512",
+            "name": "sx",
+            "value": 0.2
+        },
+        {
+            "type": "SET_PROPERTY",
+            "host": "97048202",
+            "timestamp": 1559182650568,
+            "uuid": "77767006",
+            "seq": 27,
+            "object": "94175512",
+            "name": "sy",
+            "value": 0.2
+        },
+        {
+            "type": "SET_PROPERTY",
+            "host": "97048202",
+            "timestamp": 1559182650568,
+            "uuid": "89124292",
+            "seq": 28,
+            "object": "94175512",
+            "name": "sz",
+            "value": 1
+        },
+        {
+            "type": "SET_PROPERTY",
+            "host": "97048202",
+            "timestamp": 1559182651212,
+            "uuid": "2739088",
+            "seq": 29,
+            "object": "94175512",
+            "name": "sx",
+            "value": 0.2
+        },
+        {
+            "type": "SET_PROPERTY",
+            "host": "97048202",
+            "timestamp": 1559182651213,
+            "uuid": "62778520",
+            "seq": 30,
+            "object": "94175512",
+            "name": "sy",
+            "value": 0.2
+        },
+        {
+            "type": "SET_PROPERTY",
+            "host": "97048202",
+            "timestamp": 1559182651213,
+            "uuid": "93749811",
+            "seq": 31,
+            "object": "94175512",
+            "name": "sz",
+            "value": 0
+        },
+        {
+            "type": "SET_PROPERTY",
+            "host": "97048202",
+            "timestamp": 1559182651634,
+            "uuid": "41734916",
+            "seq": 32,
+            "object": "94175512",
+            "name": "sx",
+            "value": 0.2
+        },
+        {
+            "type": "SET_PROPERTY",
+            "host": "97048202",
+            "timestamp": 1559182651634,
+            "uuid": "21708397",
+            "seq": 33,
+            "object": "94175512",
+            "name": "sy",
+            "value": 0.2
+        },
+        {
+            "type": "SET_PROPERTY",
+            "host": "97048202",
+            "timestamp": 1559182651634,
+            "uuid": "41352919",
+            "seq": 34,
+            "object": "94175512",
+            "name": "sz",
+            "value": 0.2
+        },
+        {
+            "type": "CREATE_OBJECT",
+            "host": "97048202",
+            "timestamp": 1559182662119,
+            "uuid": "42838707",
+            "seq": 41,
+            "id": "47787200",
+            "defaults": {
+                "type": "behavior_script",
+                "title": " Billboard Horizontal",
+                "description": " Cause an object to face you, but keep Y vertical ",
+                "src": "billBoardHorizontal.js",
+                "parent": 0
+            }
+        },
+        {
+            "type": "SET_PROPERTY",
+            "host": "97048202",
+            "timestamp": 1559182662121,
+            "uuid": "76217475",
+            "seq": 42,
+            "object": "47787200",
+            "name": "parent",
+            "value": "66047517"
+        },
+        {
+            "type": "INSERT_ELEMENT",
+            "host": "97048202",
+            "timestamp": 1559182662122,
+            "uuid": "22800584",
+            "seq": 43,
+            "array": "18684209",
+            "value": "47787200",
+            "entryid": "66332487",
+            "prev": "76089876"
+        },
+        {
+            "type": "CREATE_OBJECT",
+            "host": "97048202",
+            "timestamp": 1559182662307,
+            "uuid": "75905879",
+            "seq": 44,
+            "id": "94272287",
+            "defaults": {
+                "type": "behavior",
+                "title": " Billboard Horizontal",
+                "description": " Cause an object to face you, but keep Y vertical ",
+                "parent": 0,
+                "behavior": "47787200"
+            }
+        },
+        {
+            "type": "SET_PROPERTY",
+            "host": "97048202",
+            "timestamp": 1559182662316,
+            "uuid": "45360792",
+            "seq": 45,
+            "object": "94272287",
+            "name": "parent",
+            "value": "94175512"
+        },
+        {
+            "type": "INSERT_ELEMENT",
+            "host": "97048202",
+            "timestamp": 1559182662322,
+            "uuid": "82119593",
+            "seq": 46,
+            "array": "7492218",
+            "value": "94272287",
+            "entryid": "38698116",
+            "prev": "26861137"
+        },
+        {
+            "type": "SET_PROPERTY",
+            "host": "97048202",
+            "timestamp": 1559182697485,
+            "uuid": "41336366",
+            "seq": 47,
+            "object": "13243813",
+            "name": "distance",
+            "value": 5,
+            "prevValue": 1
+        },
+        {
+            "type": "SET_PROPERTY",
+            "host": "97048202",
+            "timestamp": 1559182700165,
+            "uuid": "70671984",
+            "seq": 48,
+            "object": "13243813",
+            "name": "distance",
+            "value": 5,
+            "prevValue": 5
+        },
+        {
+            "type": "SET_PROPERTY",
+            "host": "9014797",
+            "timestamp": 1559182935566,
+            "uuid": "18661533",
+            "seq": 4,
+            "object": "13243813",
+            "name": "distance",
+            "value": 1,
+            "prevValue": 5
+        },
+        {
+            "type": "SET_PROPERTY",
+            "host": "9014797",
+            "timestamp": 1559182937485,
+            "uuid": "94058615",
+            "seq": 5,
+            "object": "13243813",
+            "name": "distance",
+            "value": 1,
+            "prevValue": 1
         }
     ],
     "type": "vr",
@@ -4069,15 +4496,15 @@
                         "visible": true,
                         "text": "Look for the blue marble picture and point the phone at it",
                         "cssStyle": "color:black; \nbackground-color: lightgrey;\nfont: Helvetica Neue,Helvetica,Arial,sans-serif;\nwidth: 10em;\nfont-size: 200%; \nborder: thick ridge green;\ntext-align: center;\nborder-radius: 3mm;",
-                        "tx": 0.04414794264019348,
-                        "ty": 0.2648876558411608,
-                        "tz": 0.26488765584116086,
+                        "tx": 0,
+                        "ty": 0,
+                        "tz": 0,
                         "rx": 0,
                         "ry": 0,
                         "rz": 0,
-                        "sx": 1,
-                        "sy": 1,
-                        "sz": 1,
+                        "sx": 0.2,
+                        "sy": 0.2,
+                        "sz": 0.2,
                         "children": [
                             {
                                 "type": "behavior",
@@ -4107,6 +4534,14 @@
                                 "speed": 0,
                                 "duration": 0,
                                 "id": "13243813"
+                            },
+                            {
+                                "type": "behavior",
+                                "title": " Billboard Horizontal",
+                                "description": " Cause an object to face you, but keep Y vertical ",
+                                "parent": "94175512",
+                                "behavior": "47787200",
+                                "id": "94272287"
                             }
                         ],
                         "parent": "30421273",
@@ -4238,6 +4673,14 @@
                         "src": "infrontof.js",
                         "parent": "66047517",
                         "id": "39080501"
+                    },
+                    {
+                        "type": "behavior_script",
+                        "title": " Billboard Horizontal",
+                        "description": " Cause an object to face you, but keep Y vertical ",
+                        "src": "billBoardHorizontal.js",
+                        "parent": "66047517",
+                        "id": "47787200"
                     }
                 ],
                 "parent": "70756917",
