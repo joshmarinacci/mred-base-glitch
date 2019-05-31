@@ -1,5 +1,5 @@
 /*
-#title Proximity
+#title Proximity To Image
 #description sends messages on proximity events to an active image
 */
 ({
