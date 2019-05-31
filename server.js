@@ -316,7 +316,7 @@ href="./.general-editor/build/?mode=edit&doc=${doc.id}">
           edit
         </a>
         <a class='view'
-href="./.general-editor/build/?mode=vrview&doc=${doc.id}">
+href="./.general-editor/build/?mode=play&doc=${doc.id}">
           view
         </a>
       </li>
