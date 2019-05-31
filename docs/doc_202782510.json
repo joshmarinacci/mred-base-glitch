@@ -586,15 +586,1091 @@
             "object": "87225816",
             "name": "parent",
             "value": "72089501"
+        },
+        {
+            "type": "CREATE_ARRAY",
+            "host": "82583957",
+            "timestamp": 1559298374172,
+            "uuid": "38441589",
+            "seq": 10,
+            "id": "36507389"
+        },
+        {
+            "type": "CREATE_OBJECT",
+            "host": "82583957",
+            "timestamp": 1559298374173,
+            "uuid": "24535406",
+            "seq": 11,
+            "id": "57653009",
+            "defaults": {
+                "type": "plane",
+                "title": "a plane",
+                "visible": true,
+                "width": 0.5,
+                "height": 0.5,
+                "tx": 0,
+                "ty": 0,
+                "tz": 0,
+                "rx": 0,
+                "ry": 0,
+                "rz": 0,
+                "sx": 1,
+                "sy": 1,
+                "sz": 1,
+                "color": "#ffffff",
+                "children": "36507389",
+                "asset": -30,
+                "transparent": false,
+                "parent": "49841542"
+            }
+        },
+        {
+            "type": "SET_PROPERTY",
+            "host": "82583957",
+            "timestamp": 1559298374174,
+            "uuid": "39128719",
+            "seq": 12,
+            "object": "57653009",
+            "name": "parent",
+            "value": "49841542"
+        },
+        {
+            "type": "INSERT_ELEMENT",
+            "host": "82583957",
+            "timestamp": 1559298374175,
+            "uuid": "80846621",
+            "seq": 13,
+            "array": "47153728",
+            "value": "57653009",
+            "entryid": "1762748",
+            "prev": -1
+        },
+        {
+            "type": "SET_PROPERTY",
+            "host": "82583957",
+            "timestamp": 1559298377200,
+            "uuid": "67168157",
+            "seq": 20,
+            "object": "57653009",
+            "name": "asset",
+            "value": "23892158",
+            "prevValue": -30
+        },
+        {
+            "type": "CREATE_OBJECT",
+            "host": "82583957",
+            "timestamp": 1559298384244,
+            "uuid": "96879090",
+            "seq": 33,
+            "id": "84240755",
+            "defaults": {
+                "type": "behavior",
+                "title": " Play Video on Click",
+                "description": " Play the video asset attached to this behavior",
+                "parent": 0,
+                "behavior": "72172433",
+                "media": null
+            }
+        },
+        {
+            "type": "SET_PROPERTY",
+            "host": "82583957",
+            "timestamp": 1559298384252,
+            "uuid": "95120883",
+            "seq": 34,
+            "object": "84240755",
+            "name": "parent",
+            "value": "57653009"
+        },
+        {
+            "type": "INSERT_ELEMENT",
+            "host": "82583957",
+            "timestamp": 1559298384261,
+            "uuid": "30432819",
+            "seq": 35,
+            "array": "36507389",
+            "value": "84240755",
+            "entryid": "43762017",
+            "prev": -1
+        },
+        {
+            "type": "DELETE_ELEMENT",
+            "host": "82583957",
+            "timestamp": 1559298387814,
+            "uuid": "77945372",
+            "seq": 48,
+            "array": "47153728",
+            "entry": "76343668",
+            "value": "72089501"
+        },
+        {
+            "type": "SET_PROPERTY",
+            "host": "82583957",
+            "timestamp": 1559298396124,
+            "uuid": "30773807",
+            "seq": 58,
+            "object": "84240755",
+            "name": "media",
+            "value": "23892158",
+            "prevValue": null
+        },
+        {
+            "type": "SET_PROPERTY",
+            "host": "82583957",
+            "timestamp": 1559298430587,
+            "uuid": "84070454",
+            "seq": 74,
+            "object": "98234580",
+            "name": "title",
+            "value": "Video Test",
+            "prevValue": "Untitled Project"
+        },
+        {
+            "type": "SET_PROPERTY",
+            "host": "82583957",
+            "timestamp": 1559298433603,
+            "uuid": "95330232",
+            "seq": 75,
+            "object": "98234580",
+            "name": "defaultScene",
+            "value": "87920891",
+            "prevValue": -30
+        },
+        {
+            "type": "SET_PROPERTY",
+            "host": "82583957",
+            "timestamp": 1559298499079,
+            "uuid": "54529570",
+            "seq": 91,
+            "object": "57653009",
+            "name": "tx",
+            "value": 0
+        },
+        {
+            "type": "SET_PROPERTY",
+            "host": "82583957",
+            "timestamp": 1559298499080,
+            "uuid": "53014453",
+            "seq": 92,
+            "object": "57653009",
+            "name": "ty",
+            "value": 0
+        },
+        {
+            "type": "SET_PROPERTY",
+            "host": "82583957",
+            "timestamp": 1559298499080,
+            "uuid": "11722460",
+            "seq": 93,
+            "object": "57653009",
+            "name": "tz",
+            "value": 0.1
+        },
+        {
+            "type": "SET_PROPERTY",
+            "host": "82583957",
+            "timestamp": 1559298500429,
+            "uuid": "20855804",
+            "seq": 94,
+            "object": "57653009",
+            "name": "tx",
+            "value": 0
+        },
+        {
+            "type": "SET_PROPERTY",
+            "host": "82583957",
+            "timestamp": 1559298500429,
+            "uuid": "41640673",
+            "seq": 95,
+            "object": "57653009",
+            "name": "ty",
+            "value": 0
+        },
+        {
+            "type": "SET_PROPERTY",
+            "host": "82583957",
+            "timestamp": 1559298500429,
+            "uuid": "77647776",
+            "seq": 96,
+            "object": "57653009",
+            "name": "tz",
+            "value": 0
+        },
+        {
+            "type": "SET_PROPERTY",
+            "host": "82583957",
+            "timestamp": 1559298500713,
+            "uuid": "6550712",
+            "seq": 97,
+            "object": "57653009",
+            "name": "tx",
+            "value": 0
+        },
+        {
+            "type": "SET_PROPERTY",
+            "host": "82583957",
+            "timestamp": 1559298500714,
+            "uuid": "94579954",
+            "seq": 98,
+            "object": "57653009",
+            "name": "ty",
+            "value": 0
+        },
+        {
+            "type": "SET_PROPERTY",
+            "host": "82583957",
+            "timestamp": 1559298500714,
+            "uuid": "27313492",
+            "seq": 99,
+            "object": "57653009",
+            "name": "tz",
+            "value": -0.1
+        },
+        {
+            "type": "SET_PROPERTY",
+            "host": "82583957",
+            "timestamp": 1559298500934,
+            "uuid": "70677802",
+            "seq": 100,
+            "object": "57653009",
+            "name": "tx",
+            "value": 0
+        },
+        {
+            "type": "SET_PROPERTY",
+            "host": "82583957",
+            "timestamp": 1559298500934,
+            "uuid": "29703776",
+            "seq": 101,
+            "object": "57653009",
+            "name": "ty",
+            "value": 0
+        },
+        {
+            "type": "SET_PROPERTY",
+            "host": "82583957",
+            "timestamp": 1559298500935,
+            "uuid": "37165235",
+            "seq": 102,
+            "object": "57653009",
+            "name": "tz",
+            "value": -0.2
+        },
+        {
+            "type": "SET_PROPERTY",
+            "host": "82583957",
+            "timestamp": 1559298501503,
+            "uuid": "41433410",
+            "seq": 103,
+            "object": "57653009",
+            "name": "tx",
+            "value": 0
+        },
+        {
+            "type": "SET_PROPERTY",
+            "host": "82583957",
+            "timestamp": 1559298501503,
+            "uuid": "87429489",
+            "seq": 104,
+            "object": "57653009",
+            "name": "ty",
+            "value": 0
+        },
+        {
+            "type": "SET_PROPERTY",
+            "host": "82583957",
+            "timestamp": 1559298501503,
+            "uuid": "80784706",
+            "seq": 105,
+            "object": "57653009",
+            "name": "tz",
+            "value": -0.3
+        },
+        {
+            "type": "SET_PROPERTY",
+            "host": "82583957",
+            "timestamp": 1559298503075,
+            "uuid": "6141515",
+            "seq": 106,
+            "object": "57653009",
+            "name": "tx",
+            "value": 0
+        },
+        {
+            "type": "SET_PROPERTY",
+            "host": "82583957",
+            "timestamp": 1559298503075,
+            "uuid": "2536757",
+            "seq": 107,
+            "object": "57653009",
+            "name": "ty",
+            "value": 0
+        },
+        {
+            "type": "SET_PROPERTY",
+            "host": "82583957",
+            "timestamp": 1559298503075,
+            "uuid": "57851490",
+            "seq": 108,
+            "object": "57653009",
+            "name": "tz",
+            "value": -0.4
+        },
+        {
+            "type": "SET_PROPERTY",
+            "host": "82583957",
+            "timestamp": 1559298503308,
+            "uuid": "18947218",
+            "seq": 109,
+            "object": "57653009",
+            "name": "tx",
+            "value": 0
+        },
+        {
+            "type": "SET_PROPERTY",
+            "host": "82583957",
+            "timestamp": 1559298503308,
+            "uuid": "82203774",
+            "seq": 110,
+            "object": "57653009",
+            "name": "ty",
+            "value": 0
+        },
+        {
+            "type": "SET_PROPERTY",
+            "host": "82583957",
+            "timestamp": 1559298503308,
+            "uuid": "75326640",
+            "seq": 111,
+            "object": "57653009",
+            "name": "tz",
+            "value": -0.5
+        },
+        {
+            "type": "SET_PROPERTY",
+            "host": "82583957",
+            "timestamp": 1559298503499,
+            "uuid": "53773067",
+            "seq": 112,
+            "object": "57653009",
+            "name": "tx",
+            "value": 0
+        },
+        {
+            "type": "SET_PROPERTY",
+            "host": "82583957",
+            "timestamp": 1559298503499,
+            "uuid": "17397166",
+            "seq": 113,
+            "object": "57653009",
+            "name": "ty",
+            "value": 0
+        },
+        {
+            "type": "SET_PROPERTY",
+            "host": "82583957",
+            "timestamp": 1559298503499,
+            "uuid": "54008732",
+            "seq": 114,
+            "object": "57653009",
+            "name": "tz",
+            "value": -0.6
+        },
+        {
+            "type": "SET_PROPERTY",
+            "host": "82583957",
+            "timestamp": 1559298503704,
+            "uuid": "26215338",
+            "seq": 115,
+            "object": "57653009",
+            "name": "tx",
+            "value": 0
+        },
+        {
+            "type": "SET_PROPERTY",
+            "host": "82583957",
+            "timestamp": 1559298503704,
+            "uuid": "38008261",
+            "seq": 116,
+            "object": "57653009",
+            "name": "ty",
+            "value": 0
+        },
+        {
+            "type": "SET_PROPERTY",
+            "host": "82583957",
+            "timestamp": 1559298503704,
+            "uuid": "10468193",
+            "seq": 117,
+            "object": "57653009",
+            "name": "tz",
+            "value": -0.7
+        },
+        {
+            "type": "SET_PROPERTY",
+            "host": "82583957",
+            "timestamp": 1559298503909,
+            "uuid": "65385434",
+            "seq": 118,
+            "object": "57653009",
+            "name": "tx",
+            "value": 0
+        },
+        {
+            "type": "SET_PROPERTY",
+            "host": "82583957",
+            "timestamp": 1559298503909,
+            "uuid": "98785741",
+            "seq": 119,
+            "object": "57653009",
+            "name": "ty",
+            "value": 0
+        },
+        {
+            "type": "SET_PROPERTY",
+            "host": "82583957",
+            "timestamp": 1559298503909,
+            "uuid": "48715850",
+            "seq": 120,
+            "object": "57653009",
+            "name": "tz",
+            "value": -0.8
+        },
+        {
+            "type": "SET_PROPERTY",
+            "host": "82583957",
+            "timestamp": 1559298504432,
+            "uuid": "84632749",
+            "seq": 121,
+            "object": "57653009",
+            "name": "tx",
+            "value": 0
+        },
+        {
+            "type": "SET_PROPERTY",
+            "host": "82583957",
+            "timestamp": 1559298504433,
+            "uuid": "26327617",
+            "seq": 122,
+            "object": "57653009",
+            "name": "ty",
+            "value": 0
+        },
+        {
+            "type": "SET_PROPERTY",
+            "host": "82583957",
+            "timestamp": 1559298504433,
+            "uuid": "25626104",
+            "seq": 123,
+            "object": "57653009",
+            "name": "tz",
+            "value": -0.9
+        },
+        {
+            "type": "CREATE_OBJECT",
+            "host": "82583957",
+            "timestamp": 1559298511355,
+            "uuid": "47018494",
+            "seq": 130,
+            "id": "63961285",
+            "defaults": {
+                "type": "behavior_script",
+                "title": " Billboard Horizontal",
+                "description": " Cause an object to face you, but keep Y vertical ",
+                "src": "billBoardHorizontal.js",
+                "parent": 0
+            }
+        },
+        {
+            "type": "SET_PROPERTY",
+            "host": "82583957",
+            "timestamp": 1559298511356,
+            "uuid": "82912357",
+            "seq": 131,
+            "object": "63961285",
+            "name": "parent",
+            "value": "37889754"
+        },
+        {
+            "type": "INSERT_ELEMENT",
+            "host": "82583957",
+            "timestamp": 1559298511357,
+            "uuid": "85608359",
+            "seq": 132,
+            "array": "62610515",
+            "value": "63961285",
+            "entryid": "65677667",
+            "prev": "16253288"
+        },
+        {
+            "type": "CREATE_OBJECT",
+            "host": "82583957",
+            "timestamp": 1559298511462,
+            "uuid": "31550677",
+            "seq": 133,
+            "id": "73742568",
+            "defaults": {
+                "type": "behavior",
+                "title": " Billboard Horizontal",
+                "description": " Cause an object to face you, but keep Y vertical ",
+                "parent": 0,
+                "behavior": "63961285"
+            }
+        },
+        {
+            "type": "SET_PROPERTY",
+            "host": "82583957",
+            "timestamp": 1559298511467,
+            "uuid": "29723463",
+            "seq": 134,
+            "object": "73742568",
+            "name": "parent",
+            "value": "57653009"
+        },
+        {
+            "type": "INSERT_ELEMENT",
+            "host": "82583957",
+            "timestamp": 1559298511473,
+            "uuid": "56694734",
+            "seq": 135,
+            "array": "36507389",
+            "value": "73742568",
+            "entryid": "38831390",
+            "prev": "43762017"
+        },
+        {
+            "type": "CREATE_ARRAY",
+            "host": "82583957",
+            "timestamp": 1559298629503,
+            "uuid": "832732",
+            "seq": 145,
+            "id": "69745442"
+        },
+        {
+            "type": "CREATE_OBJECT",
+            "host": "82583957",
+            "timestamp": 1559298629505,
+            "uuid": "14645720",
+            "seq": 146,
+            "id": "18910388",
+            "defaults": {
+                "type": "cube",
+                "title": "cube 0",
+                "visible": true,
+                "width": 0.3,
+                "height": 0.3,
+                "depth": 0.3,
+                "tx": 0,
+                "ty": 0,
+                "tz": 0,
+                "rx": 0,
+                "ry": 0,
+                "rz": 0,
+                "sx": 1,
+                "sy": 1,
+                "sz": 1,
+                "color": "#00ff00",
+                "children": "69745442",
+                "asset": -30,
+                "transparent": false,
+                "parent": "49841542"
+            }
+        },
+        {
+            "type": "SET_PROPERTY",
+            "host": "82583957",
+            "timestamp": 1559298629506,
+            "uuid": "20170410",
+            "seq": 147,
+            "object": "18910388",
+            "name": "parent",
+            "value": "49841542"
+        },
+        {
+            "type": "INSERT_ELEMENT",
+            "host": "82583957",
+            "timestamp": 1559298629506,
+            "uuid": "39952874",
+            "seq": 148,
+            "array": "47153728",
+            "value": "18910388",
+            "entryid": "35938695",
+            "prev": -1
+        },
+        {
+            "type": "SET_PROPERTY",
+            "host": "82583957",
+            "timestamp": 1559298637091,
+            "uuid": "31307320",
+            "seq": 463,
+            "object": "57653009",
+            "name": "tz",
+            "value": 0.04962453597603089,
+            "prevValue": -0.8936849702444062
+        },
+        {
+            "type": "SET_PROPERTY",
+            "host": "82583957",
+            "timestamp": 1559298640292,
+            "uuid": "40073308",
+            "seq": 678,
+            "object": "57653009",
+            "name": "ty",
+            "value": 0.42243834497066846,
+            "prevValue": 0.0028427380433186933
+        },
+        {
+            "type": "DELETE_ELEMENT",
+            "host": "82583957",
+            "timestamp": 1559298644338,
+            "uuid": "63543969",
+            "seq": 683,
+            "array": "36507389",
+            "entry": "38831390",
+            "value": "73742568"
+        },
+        {
+            "type": "SET_PROPERTY",
+            "host": "82583957",
+            "timestamp": 1559298644339,
+            "uuid": "4338071",
+            "seq": 684,
+            "object": "73742568",
+            "name": "parent",
+            "value": "49841542"
+        },
+        {
+            "type": "INSERT_ELEMENT",
+            "host": "82583957",
+            "timestamp": 1559298644340,
+            "uuid": "95014241",
+            "seq": 685,
+            "array": "47153728",
+            "value": "73742568",
+            "entryid": "76171370",
+            "prev": -1
+        },
+        {
+            "type": "SET_PROPERTY",
+            "host": "82583957",
+            "timestamp": 1559298656793,
+            "uuid": "14988089",
+            "seq": 707,
+            "object": "49841542",
+            "name": "tx",
+            "value": 0
+        },
+        {
+            "type": "SET_PROPERTY",
+            "host": "82583957",
+            "timestamp": 1559298656793,
+            "uuid": "13269528",
+            "seq": 708,
+            "object": "49841542",
+            "name": "ty",
+            "value": 0
+        },
+        {
+            "type": "SET_PROPERTY",
+            "host": "82583957",
+            "timestamp": 1559298656793,
+            "uuid": "12960624",
+            "seq": 709,
+            "object": "49841542",
+            "name": "tz",
+            "value": -0.1
+        },
+        {
+            "type": "SET_PROPERTY",
+            "host": "82583957",
+            "timestamp": 1559298657048,
+            "uuid": "71572522",
+            "seq": 710,
+            "object": "49841542",
+            "name": "tx",
+            "value": 0
+        },
+        {
+            "type": "SET_PROPERTY",
+            "host": "82583957",
+            "timestamp": 1559298657049,
+            "uuid": "61383686",
+            "seq": 711,
+            "object": "49841542",
+            "name": "ty",
+            "value": 0
+        },
+        {
+            "type": "SET_PROPERTY",
+            "host": "82583957",
+            "timestamp": 1559298657049,
+            "uuid": "26242211",
+            "seq": 712,
+            "object": "49841542",
+            "name": "tz",
+            "value": -0.2
+        },
+        {
+            "type": "SET_PROPERTY",
+            "host": "82583957",
+            "timestamp": 1559298657078,
+            "uuid": "77106650",
+            "seq": 713,
+            "object": "49841542",
+            "name": "tx",
+            "value": 0
+        },
+        {
+            "type": "SET_PROPERTY",
+            "host": "82583957",
+            "timestamp": 1559298657078,
+            "uuid": "74098284",
+            "seq": 714,
+            "object": "49841542",
+            "name": "ty",
+            "value": 0
+        },
+        {
+            "type": "SET_PROPERTY",
+            "host": "82583957",
+            "timestamp": 1559298657078,
+            "uuid": "28336796",
+            "seq": 715,
+            "object": "49841542",
+            "name": "tz",
+            "value": -0.3
+        },
+        {
+            "type": "SET_PROPERTY",
+            "host": "82583957",
+            "timestamp": 1559298657106,
+            "uuid": "18928060",
+            "seq": 716,
+            "object": "49841542",
+            "name": "tx",
+            "value": 0
+        },
+        {
+            "type": "SET_PROPERTY",
+            "host": "82583957",
+            "timestamp": 1559298657107,
+            "uuid": "62262408",
+            "seq": 717,
+            "object": "49841542",
+            "name": "ty",
+            "value": 0
+        },
+        {
+            "type": "SET_PROPERTY",
+            "host": "82583957",
+            "timestamp": 1559298657107,
+            "uuid": "66186945",
+            "seq": 718,
+            "object": "49841542",
+            "name": "tz",
+            "value": -0.4
+        },
+        {
+            "type": "SET_PROPERTY",
+            "host": "82583957",
+            "timestamp": 1559298657137,
+            "uuid": "87853638",
+            "seq": 719,
+            "object": "49841542",
+            "name": "tx",
+            "value": 0
+        },
+        {
+            "type": "SET_PROPERTY",
+            "host": "82583957",
+            "timestamp": 1559298657137,
+            "uuid": "77014889",
+            "seq": 720,
+            "object": "49841542",
+            "name": "ty",
+            "value": 0
+        },
+        {
+            "type": "SET_PROPERTY",
+            "host": "82583957",
+            "timestamp": 1559298657137,
+            "uuid": "48746936",
+            "seq": 721,
+            "object": "49841542",
+            "name": "tz",
+            "value": -0.5
+        },
+        {
+            "type": "SET_PROPERTY",
+            "host": "82583957",
+            "timestamp": 1559298657167,
+            "uuid": "49196227",
+            "seq": 722,
+            "object": "49841542",
+            "name": "tx",
+            "value": 0
+        },
+        {
+            "type": "SET_PROPERTY",
+            "host": "82583957",
+            "timestamp": 1559298657167,
+            "uuid": "54268537",
+            "seq": 723,
+            "object": "49841542",
+            "name": "ty",
+            "value": 0
+        },
+        {
+            "type": "SET_PROPERTY",
+            "host": "82583957",
+            "timestamp": 1559298657167,
+            "uuid": "24951977",
+            "seq": 724,
+            "object": "49841542",
+            "name": "tz",
+            "value": -0.6
+        },
+        {
+            "type": "SET_PROPERTY",
+            "host": "82583957",
+            "timestamp": 1559298657195,
+            "uuid": "80519462",
+            "seq": 725,
+            "object": "49841542",
+            "name": "tx",
+            "value": 0
+        },
+        {
+            "type": "SET_PROPERTY",
+            "host": "82583957",
+            "timestamp": 1559298657195,
+            "uuid": "41508211",
+            "seq": 726,
+            "object": "49841542",
+            "name": "ty",
+            "value": 0
+        },
+        {
+            "type": "SET_PROPERTY",
+            "host": "82583957",
+            "timestamp": 1559298657195,
+            "uuid": "75027690",
+            "seq": 727,
+            "object": "49841542",
+            "name": "tz",
+            "value": -0.7
+        },
+        {
+            "type": "SET_PROPERTY",
+            "host": "82583957",
+            "timestamp": 1559298657224,
+            "uuid": "69142462",
+            "seq": 728,
+            "object": "49841542",
+            "name": "tx",
+            "value": 0
+        },
+        {
+            "type": "SET_PROPERTY",
+            "host": "82583957",
+            "timestamp": 1559298657224,
+            "uuid": "84940381",
+            "seq": 729,
+            "object": "49841542",
+            "name": "ty",
+            "value": 0
+        },
+        {
+            "type": "SET_PROPERTY",
+            "host": "82583957",
+            "timestamp": 1559298657224,
+            "uuid": "2842491",
+            "seq": 730,
+            "object": "49841542",
+            "name": "tz",
+            "value": -0.8
+        },
+        {
+            "type": "SET_PROPERTY",
+            "host": "82583957",
+            "timestamp": 1559298657252,
+            "uuid": "64551966",
+            "seq": 731,
+            "object": "49841542",
+            "name": "tx",
+            "value": 0
+        },
+        {
+            "type": "SET_PROPERTY",
+            "host": "82583957",
+            "timestamp": 1559298657252,
+            "uuid": "22819975",
+            "seq": 732,
+            "object": "49841542",
+            "name": "ty",
+            "value": 0
+        },
+        {
+            "type": "SET_PROPERTY",
+            "host": "82583957",
+            "timestamp": 1559298657252,
+            "uuid": "93986581",
+            "seq": 733,
+            "object": "49841542",
+            "name": "tz",
+            "value": -0.9
+        },
+        {
+            "type": "SET_PROPERTY",
+            "host": "82583957",
+            "timestamp": 1559298657804,
+            "uuid": "53762778",
+            "seq": 734,
+            "object": "49841542",
+            "name": "tx",
+            "value": 0
+        },
+        {
+            "type": "SET_PROPERTY",
+            "host": "82583957",
+            "timestamp": 1559298657804,
+            "uuid": "80639346",
+            "seq": 735,
+            "object": "49841542",
+            "name": "ty",
+            "value": 0
+        },
+        {
+            "type": "SET_PROPERTY",
+            "host": "82583957",
+            "timestamp": 1559298657804,
+            "uuid": "427062",
+            "seq": 736,
+            "object": "49841542",
+            "name": "tz",
+            "value": -1
+        },
+        {
+            "type": "SET_PROPERTY",
+            "host": "82583957",
+            "timestamp": 1559298658038,
+            "uuid": "52300169",
+            "seq": 737,
+            "object": "49841542",
+            "name": "tx",
+            "value": 0
+        },
+        {
+            "type": "SET_PROPERTY",
+            "host": "82583957",
+            "timestamp": 1559298658038,
+            "uuid": "97145586",
+            "seq": 738,
+            "object": "49841542",
+            "name": "ty",
+            "value": 0
+        },
+        {
+            "type": "SET_PROPERTY",
+            "host": "82583957",
+            "timestamp": 1559298658038,
+            "uuid": "17094284",
+            "seq": 739,
+            "object": "49841542",
+            "name": "tz",
+            "value": -1.1
+        },
+        {
+            "type": "SET_PROPERTY",
+            "host": "82583957",
+            "timestamp": 1559298658298,
+            "uuid": "61660183",
+            "seq": 740,
+            "object": "49841542",
+            "name": "tx",
+            "value": 0
+        },
+        {
+            "type": "SET_PROPERTY",
+            "host": "82583957",
+            "timestamp": 1559298658299,
+            "uuid": "98922470",
+            "seq": 741,
+            "object": "49841542",
+            "name": "ty",
+            "value": 0
+        },
+        {
+            "type": "SET_PROPERTY",
+            "host": "82583957",
+            "timestamp": 1559298658299,
+            "uuid": "22431587",
+            "seq": 742,
+            "object": "49841542",
+            "name": "tz",
+            "value": -1.2
+        },
+        {
+            "type": "SET_PROPERTY",
+            "host": "82583957",
+            "timestamp": 1559298694950,
+            "uuid": "38096347",
+            "seq": 776,
+            "object": "57653009",
+            "name": "color",
+            "value": "#ffff00",
+            "prevValue": "#ffffff"
+        },
+        {
+            "type": "SET_PROPERTY",
+            "host": "82583957",
+            "timestamp": 1559298695708,
+            "uuid": "72097866",
+            "seq": 777,
+            "object": "57653009",
+            "name": "color",
+            "value": "#ff0000",
+            "prevValue": "#ffff00"
+        },
+        {
+            "type": "DELETE_ELEMENT",
+            "host": "82583957",
+            "timestamp": 1559298740001,
+            "uuid": "84958183",
+            "seq": 790,
+            "array": "36507389",
+            "entry": "43762017",
+            "value": "84240755"
+        },
+        {
+            "type": "SET_PROPERTY",
+            "host": "82583957",
+            "timestamp": 1559298740004,
+            "uuid": "97548609",
+            "seq": 791,
+            "object": "84240755",
+            "name": "parent",
+            "value": "18910388"
+        },
+        {
+            "type": "INSERT_ELEMENT",
+            "host": "82583957",
+            "timestamp": 1559298740005,
+            "uuid": "12834426",
+            "seq": 792,
+            "array": "69745442",
+            "value": "84240755",
+            "entryid": "68264996",
+            "prev": -1
         }
     ],
     "type": "vr",
     "id": "doc_202782510",
     "graph": {
         "type": "root",
-        "title": "Untitled Project",
+        "title": "Video Test",
         "splashImage": -30,
-        "defaultScene": -30,
+        "defaultScene": "87920891",
         "children": [
             {
                 "type": "scene",
@@ -609,7 +1685,7 @@
                         "visible": true,
                         "tx": 0,
                         "ty": 0,
-                        "tz": 0,
+                        "tz": -1.2,
                         "rx": 0,
                         "ry": 0,
                         "rz": 0,
@@ -619,11 +1695,20 @@
                         "color": "#00ff00",
                         "children": [
                             {
-                                "type": "img2d",
-                                "title": "image",
+                                "type": "behavior",
+                                "title": " Billboard Horizontal",
+                                "description": " Cause an object to face you, but keep Y vertical ",
+                                "parent": "49841542",
+                                "behavior": "63961285",
+                                "id": "73742568"
+                            },
+                            {
+                                "type": "cube",
+                                "title": "cube 0",
                                 "visible": true,
-                                "width": 0.5,
-                                "ratio": 1,
+                                "width": 0.3,
+                                "height": 0.3,
+                                "depth": 0.3,
                                 "tx": 0,
                                 "ty": 0,
                                 "tz": 0,
@@ -633,10 +1718,44 @@
                                 "sx": 1,
                                 "sy": 1,
                                 "sz": 1,
+                                "color": "#00ff00",
+                                "children": [
+                                    {
+                                        "type": "behavior",
+                                        "title": " Play Video on Click",
+                                        "description": " Play the video asset attached to this behavior",
+                                        "parent": "18910388",
+                                        "behavior": "72172433",
+                                        "media": "23892158",
+                                        "id": "84240755"
+                                    }
+                                ],
+                                "asset": -30,
+                                "transparent": false,
+                                "parent": "49841542",
+                                "id": "18910388"
+                            },
+                            {
+                                "type": "plane",
+                                "title": "a plane",
+                                "visible": true,
+                                "width": 0.5,
+                                "height": 0.5,
+                                "tx": 0,
+                                "ty": 0.42243834497066846,
+                                "tz": 0.04962453597603089,
+                                "rx": 0,
+                                "ry": 0,
+                                "rz": 0,
+                                "sx": 1,
+                                "sy": 1,
+                                "sz": 1,
+                                "color": "#ff0000",
+                                "children": [],
                                 "asset": "23892158",
                                 "transparent": false,
                                 "parent": "49841542",
-                                "id": "72089501"
+                                "id": "57653009"
                             }
                         ],
                         "parent": "87920891",
@@ -656,6 +1775,14 @@
                         "src": "playVideoOnClick.js",
                         "parent": "37889754",
                         "id": "72172433"
+                    },
+                    {
+                        "type": "behavior_script",
+                        "title": " Billboard Horizontal",
+                        "description": " Cause an object to face you, but keep Y vertical ",
+                        "src": "billBoardHorizontal.js",
+                        "parent": "37889754",
+                        "id": "63961285"
                     }
                 ],
                 "parent": "98234580",
@@ -682,5 +1809,5 @@
         ],
         "id": "98234580"
     },
-    "title": "Untitled Project"
+    "title": "Video Test"
 }
