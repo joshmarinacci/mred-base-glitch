@@ -1662,6 +1662,37 @@
             "value": "84240755",
             "entryid": "68264996",
             "prev": -1
+        },
+        {
+            "type": "SET_PROPERTY",
+            "host": "82583957",
+            "timestamp": 1559298805405,
+            "uuid": "867353",
+            "seq": 793,
+            "object": "84240755",
+            "name": "media",
+            "value": "23892158",
+            "prevValue": "23892158"
+        },
+        {
+            "type": "SET_PROPERTY",
+            "host": "82583957",
+            "timestamp": 1559299194415,
+            "uuid": "39573503",
+            "seq": 794,
+            "object": "72172433",
+            "name": "title",
+            "value": " Play Video on Click"
+        },
+        {
+            "type": "SET_PROPERTY",
+            "host": "82583957",
+            "timestamp": 1559299194415,
+            "uuid": "71998218",
+            "seq": 795,
+            "object": "72172433",
+            "name": "description",
+            "value": " Play the video asset attached to this behavior"
         }
     ],
     "type": "vr",
