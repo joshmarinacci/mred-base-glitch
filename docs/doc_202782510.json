@@ -1,0 +1,276 @@
+{
+    "history": [
+        {
+            "type": "CREATE_ARRAY",
+            "host": "29834614",
+            "timestamp": 1559297450867,
+            "uuid": "34167383",
+            "seq": 1,
+            "id": "90750556"
+        },
+        {
+            "type": "CREATE_OBJECT",
+            "host": "29834614",
+            "timestamp": 1559297450867,
+            "uuid": "44331181",
+            "seq": 2,
+            "id": "98234580",
+            "defaults": {
+                "type": "root",
+                "title": "Untitled Project",
+                "splashImage": -30,
+                "defaultScene": -30,
+                "children": "90750556"
+            }
+        },
+        {
+            "type": "CREATE_ARRAY",
+            "host": "29834614",
+            "timestamp": 1559297450868,
+            "uuid": "49932112",
+            "seq": 3,
+            "id": "66177758"
+        },
+        {
+            "type": "CREATE_OBJECT",
+            "host": "29834614",
+            "timestamp": 1559297450868,
+            "uuid": "71063248",
+            "seq": 4,
+            "id": "87920891",
+            "defaults": {
+                "type": "scene",
+                "title": "Scene  0",
+                "autoRecenter": true,
+                "defaultFloor": false,
+                "parent": "98234580",
+                "children": "66177758"
+            }
+        },
+        {
+            "type": "CREATE_ARRAY",
+            "host": "29834614",
+            "timestamp": 1559297450869,
+            "uuid": "85065373",
+            "seq": 5,
+            "id": "86336043"
+        },
+        {
+            "type": "CREATE_OBJECT",
+            "host": "29834614",
+            "timestamp": 1559297450869,
+            "uuid": "31901656",
+            "seq": 6,
+            "id": "65258616",
+            "defaults": {
+                "type": "cube",
+                "title": "cube 0",
+                "visible": true,
+                "width": 0.3,
+                "height": 0.3,
+                "depth": 0.3,
+                "tx": 0,
+                "ty": 0,
+                "tz": 0,
+                "rx": 0,
+                "ry": 0,
+                "rz": 0,
+                "sx": 1,
+                "sy": 1,
+                "sz": 1,
+                "color": "#00ff00",
+                "children": "86336043",
+                "asset": -30,
+                "transparent": false,
+                "parent": "87920891"
+            }
+        },
+        {
+            "type": "CREATE_ARRAY",
+            "host": "29834614",
+            "timestamp": 1559297450869,
+            "uuid": "19796490",
+            "seq": 7,
+            "id": "5975851"
+        },
+        {
+            "type": "CREATE_OBJECT",
+            "host": "29834614",
+            "timestamp": 1559297450869,
+            "uuid": "86123330",
+            "seq": 8,
+            "id": "58686540",
+            "defaults": {
+                "type": "assets",
+                "title": "Assets",
+                "children": "5975851",
+                "parent": 0
+            }
+        },
+        {
+            "type": "CREATE_ARRAY",
+            "host": "29834614",
+            "timestamp": 1559297450869,
+            "uuid": "29840409",
+            "seq": 9,
+            "id": "62610515"
+        },
+        {
+            "type": "CREATE_OBJECT",
+            "host": "29834614",
+            "timestamp": 1559297450869,
+            "uuid": "31759478",
+            "seq": 10,
+            "id": "37889754",
+            "defaults": {
+                "type": "behaviors",
+                "title": "Behaviors",
+                "children": "62610515",
+                "parent": 0
+            }
+        },
+        {
+            "type": "SET_PROPERTY",
+            "host": "29834614",
+            "timestamp": 1559297450869,
+            "uuid": "17321876",
+            "seq": 11,
+            "object": "87920891",
+            "name": "parent",
+            "value": "98234580"
+        },
+        {
+            "type": "INSERT_ELEMENT",
+            "host": "29834614",
+            "timestamp": 1559297450869,
+            "uuid": "80605540",
+            "seq": 12,
+            "array": "90750556",
+            "value": "87920891",
+            "entryid": "52549178",
+            "prev": -1
+        },
+        {
+            "type": "SET_PROPERTY",
+            "host": "29834614",
+            "timestamp": 1559297450869,
+            "uuid": "90506079",
+            "seq": 13,
+            "object": "65258616",
+            "name": "parent",
+            "value": "87920891"
+        },
+        {
+            "type": "INSERT_ELEMENT",
+            "host": "29834614",
+            "timestamp": 1559297450869,
+            "uuid": "2565788",
+            "seq": 14,
+            "array": "66177758",
+            "value": "65258616",
+            "entryid": "81152445",
+            "prev": -1
+        },
+        {
+            "type": "SET_PROPERTY",
+            "host": "29834614",
+            "timestamp": 1559297450869,
+            "uuid": "83589759",
+            "seq": 15,
+            "object": "37889754",
+            "name": "parent",
+            "value": "98234580"
+        },
+        {
+            "type": "INSERT_ELEMENT",
+            "host": "29834614",
+            "timestamp": 1559297450869,
+            "uuid": "55499389",
+            "seq": 16,
+            "array": "90750556",
+            "value": "37889754",
+            "entryid": "44041215",
+            "prev": "52549178"
+        },
+        {
+            "type": "SET_PROPERTY",
+            "host": "29834614",
+            "timestamp": 1559297450869,
+            "uuid": "72316067",
+            "seq": 17,
+            "object": "58686540",
+            "name": "parent",
+            "value": "98234580"
+        },
+        {
+            "type": "INSERT_ELEMENT",
+            "host": "29834614",
+            "timestamp": 1559297450869,
+            "uuid": "33813136",
+            "seq": 18,
+            "array": "90750556",
+            "value": "58686540",
+            "entryid": "4305462",
+            "prev": "44041215"
+        }
+    ],
+    "type": "vr",
+    "id": "doc_202782510",
+    "graph": {
+        "type": "root",
+        "title": "Untitled Project",
+        "splashImage": -30,
+        "defaultScene": -30,
+        "children": [
+            {
+                "type": "scene",
+                "title": "Scene  0",
+                "autoRecenter": true,
+                "defaultFloor": false,
+                "parent": "98234580",
+                "children": [
+                    {
+                        "type": "cube",
+                        "title": "cube 0",
+                        "visible": true,
+                        "width": 0.3,
+                        "height": 0.3,
+                        "depth": 0.3,
+                        "tx": 0,
+                        "ty": 0,
+                        "tz": 0,
+                        "rx": 0,
+                        "ry": 0,
+                        "rz": 0,
+                        "sx": 1,
+                        "sy": 1,
+                        "sz": 1,
+                        "color": "#00ff00",
+                        "children": [],
+                        "asset": -30,
+                        "transparent": false,
+                        "parent": "87920891",
+                        "id": "65258616"
+                    }
+                ],
+                "id": "87920891"
+            },
+            {
+                "type": "behaviors",
+                "title": "Behaviors",
+                "children": [],
+                "parent": "98234580",
+                "id": "37889754"
+            },
+            {
+                "type": "assets",
+                "title": "Assets",
+                "children": [],
+                "parent": "98234580",
+                "id": "58686540"
+            }
+        ],
+        "id": "98234580"
+    },
+    "title": "Untitled Project"
+}
