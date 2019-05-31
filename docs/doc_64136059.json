@@ -1,0 +1,3523 @@
+{
+    "history": [
+        {
+            "type": "CREATE_OBJECT",
+            "host": "9147409",
+            "timestamp": 1559296015332,
+            "uuid": "72629778",
+            "seq": 1,
+            "id": "70756917",
+            "defaults": {}
+        },
+        {
+            "type": "CREATE_PROPERTY",
+            "host": "9147409",
+            "timestamp": 1559296015332,
+            "uuid": "42959461",
+            "seq": 2,
+            "object": "70756917",
+            "name": "type",
+            "value": "root"
+        },
+        {
+            "type": "CREATE_PROPERTY",
+            "host": "9147409",
+            "timestamp": 1559296015332,
+            "uuid": "98015689",
+            "seq": 3,
+            "object": "70756917",
+            "name": "title",
+            "value": "movie test"
+        },
+        {
+            "type": "CREATE_PROPERTY",
+            "host": "9147409",
+            "timestamp": 1559296015332,
+            "uuid": "70502232",
+            "seq": 4,
+            "object": "70756917",
+            "name": "splashImage",
+            "value": -30
+        },
+        {
+            "type": "CREATE_PROPERTY",
+            "host": "9147409",
+            "timestamp": 1559296015332,
+            "uuid": "71397947",
+            "seq": 5,
+            "object": "70756917",
+            "name": "defaultScene",
+            "value": "30421273"
+        },
+        {
+            "type": "CREATE_ARRAY",
+            "host": "9147409",
+            "timestamp": 1559296015332,
+            "uuid": "45970292",
+            "seq": 6,
+            "id": "68625796"
+        },
+        {
+            "type": "CREATE_PROPERTY",
+            "host": "9147409",
+            "timestamp": 1559296015332,
+            "uuid": "94282222",
+            "seq": 7,
+            "object": "70756917",
+            "name": "children",
+            "value": "68625796"
+        },
+        {
+            "type": "CREATE_OBJECT",
+            "host": "9147409",
+            "timestamp": 1559296015332,
+            "uuid": "40771269",
+            "seq": 8,
+            "id": "30421273",
+            "defaults": {}
+        },
+        {
+            "type": "CREATE_PROPERTY",
+            "host": "9147409",
+            "timestamp": 1559296015332,
+            "uuid": "26772845",
+            "seq": 9,
+            "object": "30421273",
+            "name": "type",
+            "value": "scene"
+        },
+        {
+            "type": "CREATE_PROPERTY",
+            "host": "9147409",
+            "timestamp": 1559296015332,
+            "uuid": "88690671",
+            "seq": 10,
+            "object": "30421273",
+            "name": "title",
+            "value": "Scene  0"
+        },
+        {
+            "type": "CREATE_PROPERTY",
+            "host": "9147409",
+            "timestamp": 1559296015332,
+            "uuid": "69540104",
+            "seq": 11,
+            "object": "30421273",
+            "name": "autoRecenter",
+            "value": true
+        },
+        {
+            "type": "CREATE_PROPERTY",
+            "host": "9147409",
+            "timestamp": 1559296015332,
+            "uuid": "50493134",
+            "seq": 12,
+            "object": "30421273",
+            "name": "defaultFloor",
+            "value": false
+        },
+        {
+            "type": "CREATE_PROPERTY",
+            "host": "9147409",
+            "timestamp": 1559296015332,
+            "uuid": "4647377",
+            "seq": 13,
+            "object": "30421273",
+            "name": "parent",
+            "value": "70756917"
+        },
+        {
+            "type": "CREATE_ARRAY",
+            "host": "9147409",
+            "timestamp": 1559296015332,
+            "uuid": "37960278",
+            "seq": 14,
+            "id": "82953456"
+        },
+        {
+            "type": "CREATE_PROPERTY",
+            "host": "9147409",
+            "timestamp": 1559296015332,
+            "uuid": "38842943",
+            "seq": 15,
+            "object": "30421273",
+            "name": "children",
+            "value": "82953456"
+        },
+        {
+            "type": "CREATE_OBJECT",
+            "host": "9147409",
+            "timestamp": 1559296015333,
+            "uuid": "32578699",
+            "seq": 16,
+            "id": "94175512",
+            "defaults": {}
+        },
+        {
+            "type": "CREATE_PROPERTY",
+            "host": "9147409",
+            "timestamp": 1559296015333,
+            "uuid": "53657111",
+            "seq": 17,
+            "object": "94175512",
+            "name": "type",
+            "value": "text"
+        },
+        {
+            "type": "CREATE_PROPERTY",
+            "host": "9147409",
+            "timestamp": 1559296015333,
+            "uuid": "78433933",
+            "seq": 18,
+            "object": "94175512",
+            "name": "title",
+            "value": "some text"
+        },
+        {
+            "type": "CREATE_PROPERTY",
+            "host": "9147409",
+            "timestamp": 1559296015333,
+            "uuid": "8223770",
+            "seq": 19,
+            "object": "94175512",
+            "name": "visible",
+            "value": true
+        },
+        {
+            "type": "CREATE_PROPERTY",
+            "host": "9147409",
+            "timestamp": 1559296015333,
+            "uuid": "99078093",
+            "seq": 20,
+            "object": "94175512",
+            "name": "text",
+            "value": "Look for the blue marble picture and point the phone at it"
+        },
+        {
+            "type": "CREATE_PROPERTY",
+            "host": "9147409",
+            "timestamp": 1559296015333,
+            "uuid": "98960147",
+            "seq": 21,
+            "object": "94175512",
+            "name": "cssStyle",
+            "value": "color:black; \nbackground-color: lightgrey;\nfont: Helvetica Neue,Helvetica,Arial,sans-serif;\nwidth: 10em;\nfont-size: 200%; \nborder: thick ridge green;\ntext-align: center;\nborder-radius: 3mm;"
+        },
+        {
+            "type": "CREATE_PROPERTY",
+            "host": "9147409",
+            "timestamp": 1559296015333,
+            "uuid": "10703679",
+            "seq": 22,
+            "object": "94175512",
+            "name": "tx",
+            "value": 0
+        },
+        {
+            "type": "CREATE_PROPERTY",
+            "host": "9147409",
+            "timestamp": 1559296015333,
+            "uuid": "97335437",
+            "seq": 23,
+            "object": "94175512",
+            "name": "ty",
+            "value": 0
+        },
+        {
+            "type": "CREATE_PROPERTY",
+            "host": "9147409",
+            "timestamp": 1559296015333,
+            "uuid": "18491243",
+            "seq": 24,
+            "object": "94175512",
+            "name": "tz",
+            "value": 0
+        },
+        {
+            "type": "CREATE_PROPERTY",
+            "host": "9147409",
+            "timestamp": 1559296015333,
+            "uuid": "92533423",
+            "seq": 25,
+            "object": "94175512",
+            "name": "rx",
+            "value": 0
+        },
+        {
+            "type": "CREATE_PROPERTY",
+            "host": "9147409",
+            "timestamp": 1559296015333,
+            "uuid": "69067962",
+            "seq": 26,
+            "object": "94175512",
+            "name": "ry",
+            "value": 0
+        },
+        {
+            "type": "CREATE_PROPERTY",
+            "host": "9147409",
+            "timestamp": 1559296015333,
+            "uuid": "91965098",
+            "seq": 27,
+            "object": "94175512",
+            "name": "rz",
+            "value": 0
+        },
+        {
+            "type": "CREATE_PROPERTY",
+            "host": "9147409",
+            "timestamp": 1559296015333,
+            "uuid": "82505594",
+            "seq": 28,
+            "object": "94175512",
+            "name": "sx",
+            "value": 1
+        },
+        {
+            "type": "CREATE_PROPERTY",
+            "host": "9147409",
+            "timestamp": 1559296015333,
+            "uuid": "60875345",
+            "seq": 29,
+            "object": "94175512",
+            "name": "sy",
+            "value": 1
+        },
+        {
+            "type": "CREATE_PROPERTY",
+            "host": "9147409",
+            "timestamp": 1559296015333,
+            "uuid": "10270397",
+            "seq": 30,
+            "object": "94175512",
+            "name": "sz",
+            "value": 1
+        },
+        {
+            "type": "CREATE_ARRAY",
+            "host": "9147409",
+            "timestamp": 1559296015333,
+            "uuid": "59833839",
+            "seq": 31,
+            "id": "36337633"
+        },
+        {
+            "type": "CREATE_PROPERTY",
+            "host": "9147409",
+            "timestamp": 1559296015333,
+            "uuid": "96798984",
+            "seq": 32,
+            "object": "94175512",
+            "name": "children",
+            "value": "36337633"
+        },
+        {
+            "type": "CREATE_OBJECT",
+            "host": "9147409",
+            "timestamp": 1559296015333,
+            "uuid": "36789",
+            "seq": 33,
+            "id": "43410440",
+            "defaults": {}
+        },
+        {
+            "type": "CREATE_PROPERTY",
+            "host": "9147409",
+            "timestamp": 1559296015333,
+            "uuid": "55478214",
+            "seq": 34,
+            "object": "43410440",
+            "name": "type",
+            "value": "behavior"
+        },
+        {
+            "type": "CREATE_PROPERTY",
+            "host": "9147409",
+            "timestamp": 1559296015333,
+            "uuid": "64095026",
+            "seq": 35,
+            "object": "43410440",
+            "name": "title",
+            "value": " showIf"
+        },
+        {
+            "type": "CREATE_PROPERTY",
+            "host": "9147409",
+            "timestamp": 1559296015333,
+            "uuid": "89419226",
+            "seq": 36,
+            "object": "43410440",
+            "name": "description",
+            "value": " if the provide test evauates to true, the node is visible"
+        },
+        {
+            "type": "CREATE_PROPERTY",
+            "host": "9147409",
+            "timestamp": 1559296015333,
+            "uuid": "67695067",
+            "seq": 37,
+            "object": "43410440",
+            "name": "parent",
+            "value": "94175512"
+        },
+        {
+            "type": "CREATE_PROPERTY",
+            "host": "9147409",
+            "timestamp": 1559296015333,
+            "uuid": "95025297",
+            "seq": 38,
+            "object": "43410440",
+            "name": "behavior",
+            "value": "55997163"
+        },
+        {
+            "type": "CREATE_PROPERTY",
+            "host": "9147409",
+            "timestamp": 1559296015333,
+            "uuid": "41245003",
+            "seq": 39,
+            "object": "43410440",
+            "name": "conditional",
+            "value": "!this.globalStorage.found"
+        },
+        {
+            "type": "CREATE_PROPERTY",
+            "host": "9147409",
+            "timestamp": 1559296015333,
+            "uuid": "65322470",
+            "seq": 40,
+            "object": "43410440",
+            "name": "id",
+            "value": "43410440"
+        },
+        {
+            "type": "INSERT_ELEMENT",
+            "host": "9147409",
+            "timestamp": 1559296015333,
+            "uuid": "85438032",
+            "seq": 41,
+            "array": "36337633",
+            "value": "43410440",
+            "entryid": "19903021",
+            "prev": -1
+        },
+        {
+            "type": "CREATE_OBJECT",
+            "host": "9147409",
+            "timestamp": 1559296015333,
+            "uuid": "73907695",
+            "seq": 42,
+            "id": "36612137",
+            "defaults": {}
+        },
+        {
+            "type": "CREATE_PROPERTY",
+            "host": "9147409",
+            "timestamp": 1559296015333,
+            "uuid": "72772141",
+            "seq": 43,
+            "object": "36612137",
+            "name": "type",
+            "value": "behavior"
+        },
+        {
+            "type": "CREATE_PROPERTY",
+            "host": "9147409",
+            "timestamp": 1559296015333,
+            "uuid": "43530126",
+            "seq": 44,
+            "object": "36612137",
+            "name": "title",
+            "value": " setText"
+        },
+        {
+            "type": "CREATE_PROPERTY",
+            "host": "9147409",
+            "timestamp": 1559296015333,
+            "uuid": "37726336",
+            "seq": 45,
+            "object": "36612137",
+            "name": "description",
+            "value": " the provided code should return a text string, which will be set to the text object"
+        },
+        {
+            "type": "CREATE_PROPERTY",
+            "host": "9147409",
+            "timestamp": 1559296015333,
+            "uuid": "54369175",
+            "seq": 46,
+            "object": "36612137",
+            "name": "parent",
+            "value": "94175512"
+        },
+        {
+            "type": "CREATE_PROPERTY",
+            "host": "9147409",
+            "timestamp": 1559296015333,
+            "uuid": "68578260",
+            "seq": 47,
+            "object": "36612137",
+            "name": "behavior",
+            "value": "39402486"
+        },
+        {
+            "type": "CREATE_PROPERTY",
+            "host": "9147409",
+            "timestamp": 1559296015333,
+            "uuid": "12670155",
+            "seq": 48,
+            "object": "36612137",
+            "name": "code",
+            "value": "let props = this.properties\nif (!props.elapsed) {\n  props.elapsed = 0\n  props.dots = \"\"\n}\n\nprops.elapsed += e.deltaTime\nif (props.elapsed > 1000) {\n  props.elapsed = 1\n  props.dots = props.dots + \".\" \n  if (props.dots.length > 4) {\n     props.dots = \"\"\n  }\n} \n\nreturn  e.graphTarget.text + \"<p>.\" + props.dots + \"</p>\""
+        },
+        {
+            "type": "CREATE_PROPERTY",
+            "host": "9147409",
+            "timestamp": 1559296015333,
+            "uuid": "71311580",
+            "seq": 49,
+            "object": "36612137",
+            "name": "id",
+            "value": "36612137"
+        },
+        {
+            "type": "INSERT_ELEMENT",
+            "host": "9147409",
+            "timestamp": 1559296015333,
+            "uuid": "92909739",
+            "seq": 50,
+            "array": "36337633",
+            "value": "36612137",
+            "entryid": "29134178",
+            "prev": "19903021"
+        },
+        {
+            "type": "CREATE_OBJECT",
+            "host": "9147409",
+            "timestamp": 1559296015333,
+            "uuid": "67072441",
+            "seq": 51,
+            "id": "11858297",
+            "defaults": {}
+        },
+        {
+            "type": "CREATE_PROPERTY",
+            "host": "9147409",
+            "timestamp": 1559296015333,
+            "uuid": "72164215",
+            "seq": 52,
+            "object": "11858297",
+            "name": "type",
+            "value": "behavior"
+        },
+        {
+            "type": "CREATE_PROPERTY",
+            "host": "9147409",
+            "timestamp": 1559296015333,
+            "uuid": "48009955",
+            "seq": 53,
+            "object": "11858297",
+            "name": "title",
+            "value": " Billboard"
+        },
+        {
+            "type": "CREATE_PROPERTY",
+            "host": "9147409",
+            "timestamp": 1559296015333,
+            "uuid": "66060059",
+            "seq": 54,
+            "object": "11858297",
+            "name": "description",
+            "value": " Cause an object to face you "
+        },
+        {
+            "type": "CREATE_PROPERTY",
+            "host": "9147409",
+            "timestamp": 1559296015333,
+            "uuid": "635319",
+            "seq": 55,
+            "object": "11858297",
+            "name": "parent",
+            "value": "94175512"
+        },
+        {
+            "type": "CREATE_PROPERTY",
+            "host": "9147409",
+            "timestamp": 1559296015333,
+            "uuid": "89845131",
+            "seq": 56,
+            "object": "11858297",
+            "name": "behavior",
+            "value": "37604399"
+        },
+        {
+            "type": "CREATE_PROPERTY",
+            "host": "9147409",
+            "timestamp": 1559296015333,
+            "uuid": "41687131",
+            "seq": 57,
+            "object": "11858297",
+            "name": "id",
+            "value": "11858297"
+        },
+        {
+            "type": "INSERT_ELEMENT",
+            "host": "9147409",
+            "timestamp": 1559296015333,
+            "uuid": "31096833",
+            "seq": 58,
+            "array": "36337633",
+            "value": "11858297",
+            "entryid": "99485197",
+            "prev": "29134178"
+        },
+        {
+            "type": "CREATE_OBJECT",
+            "host": "9147409",
+            "timestamp": 1559296015333,
+            "uuid": "26025615",
+            "seq": 59,
+            "id": "15708045",
+            "defaults": {}
+        },
+        {
+            "type": "CREATE_PROPERTY",
+            "host": "9147409",
+            "timestamp": 1559296015333,
+            "uuid": "38504442",
+            "seq": 60,
+            "object": "15708045",
+            "name": "type",
+            "value": "behavior"
+        },
+        {
+            "type": "CREATE_PROPERTY",
+            "host": "9147409",
+            "timestamp": 1559296015333,
+            "uuid": "92577180",
+            "seq": 61,
+            "object": "15708045",
+            "name": "title",
+            "value": " infrontof"
+        },
+        {
+            "type": "CREATE_PROPERTY",
+            "host": "9147409",
+            "timestamp": 1559296015333,
+            "uuid": "79290843",
+            "seq": 62,
+            "object": "15708045",
+            "name": "description",
+            "value": " be front of camera at a certain distance for a while at a speed"
+        },
+        {
+            "type": "CREATE_PROPERTY",
+            "host": "9147409",
+            "timestamp": 1559296015333,
+            "uuid": "67239744",
+            "seq": 63,
+            "object": "15708045",
+            "name": "parent",
+            "value": "94175512"
+        },
+        {
+            "type": "CREATE_PROPERTY",
+            "host": "9147409",
+            "timestamp": 1559296015333,
+            "uuid": "83659459",
+            "seq": 64,
+            "object": "15708045",
+            "name": "behavior",
+            "value": "39080501"
+        },
+        {
+            "type": "CREATE_PROPERTY",
+            "host": "9147409",
+            "timestamp": 1559296015333,
+            "uuid": "58222492",
+            "seq": 65,
+            "object": "15708045",
+            "name": "distance",
+            "value": 1
+        },
+        {
+            "type": "CREATE_PROPERTY",
+            "host": "9147409",
+            "timestamp": 1559296015333,
+            "uuid": "87288511",
+            "seq": 66,
+            "object": "15708045",
+            "name": "delay",
+            "value": 2000
+        },
+        {
+            "type": "CREATE_PROPERTY",
+            "host": "9147409",
+            "timestamp": 1559296015333,
+            "uuid": "61137891",
+            "seq": 67,
+            "object": "15708045",
+            "name": "alpha",
+            "value": 0.1
+        },
+        {
+            "type": "CREATE_PROPERTY",
+            "host": "9147409",
+            "timestamp": 1559296015333,
+            "uuid": "54219732",
+            "seq": 68,
+            "object": "15708045",
+            "name": "id",
+            "value": "15708045"
+        },
+        {
+            "type": "INSERT_ELEMENT",
+            "host": "9147409",
+            "timestamp": 1559296015333,
+            "uuid": "87927173",
+            "seq": 69,
+            "array": "36337633",
+            "value": "15708045",
+            "entryid": "79060765",
+            "prev": "99485197"
+        },
+        {
+            "type": "CREATE_PROPERTY",
+            "host": "9147409",
+            "timestamp": 1559296015333,
+            "uuid": "87654042",
+            "seq": 70,
+            "object": "94175512",
+            "name": "parent",
+            "value": "30421273"
+        },
+        {
+            "type": "CREATE_PROPERTY",
+            "host": "9147409",
+            "timestamp": 1559296015333,
+            "uuid": "87833056",
+            "seq": 71,
+            "object": "94175512",
+            "name": "id",
+            "value": "94175512"
+        },
+        {
+            "type": "INSERT_ELEMENT",
+            "host": "9147409",
+            "timestamp": 1559296015333,
+            "uuid": "20079724",
+            "seq": 72,
+            "array": "82953456",
+            "value": "94175512",
+            "entryid": "72160864",
+            "prev": -1
+        },
+        {
+            "type": "CREATE_OBJECT",
+            "host": "9147409",
+            "timestamp": 1559296015333,
+            "uuid": "44451090",
+            "seq": 73,
+            "id": "96844817",
+            "defaults": {}
+        },
+        {
+            "type": "CREATE_PROPERTY",
+            "host": "9147409",
+            "timestamp": 1559296015333,
+            "uuid": "13039316",
+            "seq": 74,
+            "object": "96844817",
+            "name": "type",
+            "value": "imageanchor"
+        },
+        {
+            "type": "CREATE_PROPERTY",
+            "host": "9147409",
+            "timestamp": 1559296015333,
+            "uuid": "1077860",
+            "seq": 75,
+            "object": "96844817",
+            "name": "title",
+            "value": "image anchor 0"
+        },
+        {
+            "type": "CREATE_PROPERTY",
+            "host": "9147409",
+            "timestamp": 1559296015333,
+            "uuid": "99096511",
+            "seq": 76,
+            "object": "96844817",
+            "name": "visible",
+            "value": true
+        },
+        {
+            "type": "CREATE_PROPERTY",
+            "host": "9147409",
+            "timestamp": 1559296015333,
+            "uuid": "47222588",
+            "seq": 77,
+            "object": "96844817",
+            "name": "reactivate",
+            "value": false
+        },
+        {
+            "type": "CREATE_PROPERTY",
+            "host": "9147409",
+            "timestamp": 1559296015333,
+            "uuid": "33180781",
+            "seq": 78,
+            "object": "96844817",
+            "name": "tx",
+            "value": 0
+        },
+        {
+            "type": "CREATE_PROPERTY",
+            "host": "9147409",
+            "timestamp": 1559296015333,
+            "uuid": "68350111",
+            "seq": 79,
+            "object": "96844817",
+            "name": "ty",
+            "value": 0
+        },
+        {
+            "type": "CREATE_PROPERTY",
+            "host": "9147409",
+            "timestamp": 1559296015333,
+            "uuid": "5132834",
+            "seq": 80,
+            "object": "96844817",
+            "name": "tz",
+            "value": 0
+        },
+        {
+            "type": "CREATE_PROPERTY",
+            "host": "9147409",
+            "timestamp": 1559296015333,
+            "uuid": "51645117",
+            "seq": 81,
+            "object": "96844817",
+            "name": "rx",
+            "value": 0
+        },
+        {
+            "type": "CREATE_PROPERTY",
+            "host": "9147409",
+            "timestamp": 1559296015333,
+            "uuid": "16301301",
+            "seq": 82,
+            "object": "96844817",
+            "name": "ry",
+            "value": 0
+        },
+        {
+            "type": "CREATE_PROPERTY",
+            "host": "9147409",
+            "timestamp": 1559296015333,
+            "uuid": "11533474",
+            "seq": 83,
+            "object": "96844817",
+            "name": "rz",
+            "value": 0
+        },
+        {
+            "type": "CREATE_PROPERTY",
+            "host": "9147409",
+            "timestamp": 1559296015333,
+            "uuid": "16099562",
+            "seq": 84,
+            "object": "96844817",
+            "name": "sx",
+            "value": 1
+        },
+        {
+            "type": "CREATE_PROPERTY",
+            "host": "9147409",
+            "timestamp": 1559296015334,
+            "uuid": "8576277",
+            "seq": 85,
+            "object": "96844817",
+            "name": "sy",
+            "value": 1
+        },
+        {
+            "type": "CREATE_PROPERTY",
+            "host": "9147409",
+            "timestamp": 1559296015334,
+            "uuid": "52966090",
+            "seq": 86,
+            "object": "96844817",
+            "name": "sz",
+            "value": 1
+        },
+        {
+            "type": "CREATE_PROPERTY",
+            "host": "9147409",
+            "timestamp": 1559296015334,
+            "uuid": "22223878",
+            "seq": 87,
+            "object": "96844817",
+            "name": "color",
+            "value": "#00ff00"
+        },
+        {
+            "type": "CREATE_ARRAY",
+            "host": "9147409",
+            "timestamp": 1559296015334,
+            "uuid": "41742095",
+            "seq": 88,
+            "id": "89799776"
+        },
+        {
+            "type": "CREATE_PROPERTY",
+            "host": "9147409",
+            "timestamp": 1559296015334,
+            "uuid": "74190963",
+            "seq": 89,
+            "object": "96844817",
+            "name": "children",
+            "value": "89799776"
+        },
+        {
+            "type": "CREATE_OBJECT",
+            "host": "9147409",
+            "timestamp": 1559296015334,
+            "uuid": "10819591",
+            "seq": 90,
+            "id": "21709188",
+            "defaults": {}
+        },
+        {
+            "type": "CREATE_PROPERTY",
+            "host": "9147409",
+            "timestamp": 1559296015334,
+            "uuid": "86504160",
+            "seq": 91,
+            "object": "21709188",
+            "name": "type",
+            "value": "img2d"
+        },
+        {
+            "type": "CREATE_PROPERTY",
+            "host": "9147409",
+            "timestamp": 1559296015334,
+            "uuid": "39911587",
+            "seq": 92,
+            "object": "21709188",
+            "name": "title",
+            "value": "image"
+        },
+        {
+            "type": "CREATE_PROPERTY",
+            "host": "9147409",
+            "timestamp": 1559296015334,
+            "uuid": "64197047",
+            "seq": 93,
+            "object": "21709188",
+            "name": "visible",
+            "value": true
+        },
+        {
+            "type": "CREATE_PROPERTY",
+            "host": "9147409",
+            "timestamp": 1559296015334,
+            "uuid": "90385333",
+            "seq": 94,
+            "object": "21709188",
+            "name": "width",
+            "value": 0.5
+        },
+        {
+            "type": "CREATE_PROPERTY",
+            "host": "9147409",
+            "timestamp": 1559296015334,
+            "uuid": "78704804",
+            "seq": 95,
+            "object": "21709188",
+            "name": "ratio",
+            "value": 1
+        },
+        {
+            "type": "CREATE_PROPERTY",
+            "host": "9147409",
+            "timestamp": 1559296015334,
+            "uuid": "24183086",
+            "seq": 96,
+            "object": "21709188",
+            "name": "tx",
+            "value": 0
+        },
+        {
+            "type": "CREATE_PROPERTY",
+            "host": "9147409",
+            "timestamp": 1559296015334,
+            "uuid": "89765671",
+            "seq": 97,
+            "object": "21709188",
+            "name": "ty",
+            "value": 0
+        },
+        {
+            "type": "CREATE_PROPERTY",
+            "host": "9147409",
+            "timestamp": 1559296015334,
+            "uuid": "34196678",
+            "seq": 98,
+            "object": "21709188",
+            "name": "tz",
+            "value": 0
+        },
+        {
+            "type": "CREATE_PROPERTY",
+            "host": "9147409",
+            "timestamp": 1559296015334,
+            "uuid": "28206588",
+            "seq": 99,
+            "object": "21709188",
+            "name": "rx",
+            "value": 0
+        },
+        {
+            "type": "CREATE_PROPERTY",
+            "host": "9147409",
+            "timestamp": 1559296015334,
+            "uuid": "10710779",
+            "seq": 100,
+            "object": "21709188",
+            "name": "ry",
+            "value": 0
+        },
+        {
+            "type": "CREATE_PROPERTY",
+            "host": "9147409",
+            "timestamp": 1559296015334,
+            "uuid": "49691359",
+            "seq": 101,
+            "object": "21709188",
+            "name": "rz",
+            "value": 0
+        },
+        {
+            "type": "CREATE_PROPERTY",
+            "host": "9147409",
+            "timestamp": 1559296015334,
+            "uuid": "9391458",
+            "seq": 102,
+            "object": "21709188",
+            "name": "sx",
+            "value": 1
+        },
+        {
+            "type": "CREATE_PROPERTY",
+            "host": "9147409",
+            "timestamp": 1559296015334,
+            "uuid": "23131513",
+            "seq": 103,
+            "object": "21709188",
+            "name": "sy",
+            "value": 1
+        },
+        {
+            "type": "CREATE_PROPERTY",
+            "host": "9147409",
+            "timestamp": 1559296015334,
+            "uuid": "26028532",
+            "seq": 104,
+            "object": "21709188",
+            "name": "sz",
+            "value": 1
+        },
+        {
+            "type": "CREATE_PROPERTY",
+            "host": "9147409",
+            "timestamp": 1559296015334,
+            "uuid": "7432474",
+            "seq": 105,
+            "object": "21709188",
+            "name": "asset",
+            "value": "26416758"
+        },
+        {
+            "type": "CREATE_PROPERTY",
+            "host": "9147409",
+            "timestamp": 1559296015334,
+            "uuid": "52113342",
+            "seq": 106,
+            "object": "21709188",
+            "name": "transparent",
+            "value": true
+        },
+        {
+            "type": "CREATE_PROPERTY",
+            "host": "9147409",
+            "timestamp": 1559296015334,
+            "uuid": "13562974",
+            "seq": 107,
+            "object": "21709188",
+            "name": "parent",
+            "value": "96844817"
+        },
+        {
+            "type": "CREATE_PROPERTY",
+            "host": "9147409",
+            "timestamp": 1559296015334,
+            "uuid": "27256574",
+            "seq": 108,
+            "object": "21709188",
+            "name": "id",
+            "value": "21709188"
+        },
+        {
+            "type": "INSERT_ELEMENT",
+            "host": "9147409",
+            "timestamp": 1559296015334,
+            "uuid": "88585825",
+            "seq": 109,
+            "array": "89799776",
+            "value": "21709188",
+            "entryid": "68399693",
+            "prev": -1
+        },
+        {
+            "type": "CREATE_OBJECT",
+            "host": "9147409",
+            "timestamp": 1559296015334,
+            "uuid": "26153528",
+            "seq": 110,
+            "id": "51810411",
+            "defaults": {}
+        },
+        {
+            "type": "CREATE_PROPERTY",
+            "host": "9147409",
+            "timestamp": 1559296015334,
+            "uuid": "18536730",
+            "seq": 111,
+            "object": "51810411",
+            "name": "type",
+            "value": "model"
+        },
+        {
+            "type": "CREATE_PROPERTY",
+            "host": "9147409",
+            "timestamp": 1559296015334,
+            "uuid": "70156952",
+            "seq": 112,
+            "object": "51810411",
+            "name": "title",
+            "value": "a model"
+        },
+        {
+            "type": "CREATE_PROPERTY",
+            "host": "9147409",
+            "timestamp": 1559296015334,
+            "uuid": "14682277",
+            "seq": 113,
+            "object": "51810411",
+            "name": "visible",
+            "value": true
+        },
+        {
+            "type": "CREATE_PROPERTY",
+            "host": "9147409",
+            "timestamp": 1559296015334,
+            "uuid": "18011863",
+            "seq": 114,
+            "object": "51810411",
+            "name": "tx",
+            "value": 0.822713049084403
+        },
+        {
+            "type": "CREATE_PROPERTY",
+            "host": "9147409",
+            "timestamp": 1559296015334,
+            "uuid": "47856726",
+            "seq": 115,
+            "object": "51810411",
+            "name": "ty",
+            "value": 0.003372311643266901
+        },
+        {
+            "type": "CREATE_PROPERTY",
+            "host": "9147409",
+            "timestamp": 1559296015334,
+            "uuid": "67079085",
+            "seq": 116,
+            "object": "51810411",
+            "name": "tz",
+            "value": 0
+        },
+        {
+            "type": "CREATE_PROPERTY",
+            "host": "9147409",
+            "timestamp": 1559296015334,
+            "uuid": "39444940",
+            "seq": 117,
+            "object": "51810411",
+            "name": "rx",
+            "value": 0
+        },
+        {
+            "type": "CREATE_PROPERTY",
+            "host": "9147409",
+            "timestamp": 1559296015334,
+            "uuid": "25403607",
+            "seq": 118,
+            "object": "51810411",
+            "name": "ry",
+            "value": 0
+        },
+        {
+            "type": "CREATE_PROPERTY",
+            "host": "9147409",
+            "timestamp": 1559296015334,
+            "uuid": "1774227",
+            "seq": 119,
+            "object": "51810411",
+            "name": "rz",
+            "value": 0
+        },
+        {
+            "type": "CREATE_PROPERTY",
+            "host": "9147409",
+            "timestamp": 1559296015334,
+            "uuid": "79602161",
+            "seq": 120,
+            "object": "51810411",
+            "name": "sx",
+            "value": 0.01
+        },
+        {
+            "type": "CREATE_PROPERTY",
+            "host": "9147409",
+            "timestamp": 1559296015334,
+            "uuid": "76149249",
+            "seq": 121,
+            "object": "51810411",
+            "name": "sy",
+            "value": 0.01
+        },
+        {
+            "type": "CREATE_PROPERTY",
+            "host": "9147409",
+            "timestamp": 1559296015334,
+            "uuid": "14097501",
+            "seq": 122,
+            "object": "51810411",
+            "name": "sz",
+            "value": 0.01
+        },
+        {
+            "type": "CREATE_PROPERTY",
+            "host": "9147409",
+            "timestamp": 1559296015334,
+            "uuid": "55794527",
+            "seq": 123,
+            "object": "51810411",
+            "name": "color",
+            "value": "#ffffff"
+        },
+        {
+            "type": "CREATE_ARRAY",
+            "host": "9147409",
+            "timestamp": 1559296015334,
+            "uuid": "14304076",
+            "seq": 124,
+            "id": "36506892"
+        },
+        {
+            "type": "CREATE_PROPERTY",
+            "host": "9147409",
+            "timestamp": 1559296015334,
+            "uuid": "14379526",
+            "seq": 125,
+            "object": "51810411",
+            "name": "children",
+            "value": "36506892"
+        },
+        {
+            "type": "CREATE_PROPERTY",
+            "host": "9147409",
+            "timestamp": 1559296015334,
+            "uuid": "92010323",
+            "seq": 126,
+            "object": "51810411",
+            "name": "asset",
+            "value": "60063133"
+        },
+        {
+            "type": "CREATE_PROPERTY",
+            "host": "9147409",
+            "timestamp": 1559296015334,
+            "uuid": "86102770",
+            "seq": 127,
+            "object": "51810411",
+            "name": "parent",
+            "value": "96844817"
+        },
+        {
+            "type": "CREATE_PROPERTY",
+            "host": "9147409",
+            "timestamp": 1559296015334,
+            "uuid": "27569569",
+            "seq": 128,
+            "object": "51810411",
+            "name": "id",
+            "value": "51810411"
+        },
+        {
+            "type": "INSERT_ELEMENT",
+            "host": "9147409",
+            "timestamp": 1559296015334,
+            "uuid": "25391135",
+            "seq": 129,
+            "array": "89799776",
+            "value": "51810411",
+            "entryid": "10982429",
+            "prev": "68399693"
+        },
+        {
+            "type": "CREATE_OBJECT",
+            "host": "9147409",
+            "timestamp": 1559296015334,
+            "uuid": "4373795",
+            "seq": 130,
+            "id": "15002667",
+            "defaults": {}
+        },
+        {
+            "type": "CREATE_PROPERTY",
+            "host": "9147409",
+            "timestamp": 1559296015334,
+            "uuid": "56932305",
+            "seq": 131,
+            "object": "15002667",
+            "name": "type",
+            "value": "behavior"
+        },
+        {
+            "type": "CREATE_PROPERTY",
+            "host": "9147409",
+            "timestamp": 1559296015334,
+            "uuid": "96235012",
+            "seq": 132,
+            "object": "15002667",
+            "name": "title",
+            "value": " Proximity To Image"
+        },
+        {
+            "type": "CREATE_PROPERTY",
+            "host": "9147409",
+            "timestamp": 1559296015334,
+            "uuid": "21368420",
+            "seq": 133,
+            "object": "15002667",
+            "name": "description",
+            "value": " sends messages on proximity events to an active image"
+        },
+        {
+            "type": "CREATE_PROPERTY",
+            "host": "9147409",
+            "timestamp": 1559296015334,
+            "uuid": "35650393",
+            "seq": 134,
+            "object": "15002667",
+            "name": "parent",
+            "value": "96844817"
+        },
+        {
+            "type": "CREATE_PROPERTY",
+            "host": "9147409",
+            "timestamp": 1559296015334,
+            "uuid": "15563057",
+            "seq": 135,
+            "object": "15002667",
+            "name": "behavior",
+            "value": "42495697"
+        },
+        {
+            "type": "CREATE_PROPERTY",
+            "host": "9147409",
+            "timestamp": 1559296015334,
+            "uuid": "51882256",
+            "seq": 136,
+            "object": "15002667",
+            "name": "near",
+            "value": 3
+        },
+        {
+            "type": "CREATE_PROPERTY",
+            "host": "9147409",
+            "timestamp": 1559296015334,
+            "uuid": "46979713",
+            "seq": 137,
+            "object": "15002667",
+            "name": "far",
+            "value": 5
+        },
+        {
+            "type": "CREATE_PROPERTY",
+            "host": "9147409",
+            "timestamp": 1559296015334,
+            "uuid": "86942504",
+            "seq": 138,
+            "object": "15002667",
+            "name": "id",
+            "value": "15002667"
+        },
+        {
+            "type": "INSERT_ELEMENT",
+            "host": "9147409",
+            "timestamp": 1559296015334,
+            "uuid": "40027202",
+            "seq": 139,
+            "array": "89799776",
+            "value": "15002667",
+            "entryid": "34444602",
+            "prev": "10982429"
+        },
+        {
+            "type": "CREATE_OBJECT",
+            "host": "9147409",
+            "timestamp": 1559296015334,
+            "uuid": "3231909",
+            "seq": 140,
+            "id": "82484541",
+            "defaults": {}
+        },
+        {
+            "type": "CREATE_PROPERTY",
+            "host": "9147409",
+            "timestamp": 1559296015334,
+            "uuid": "96549721",
+            "seq": 141,
+            "object": "82484541",
+            "name": "type",
+            "value": "behavior"
+        },
+        {
+            "type": "CREATE_PROPERTY",
+            "host": "9147409",
+            "timestamp": 1559296015334,
+            "uuid": "2392628",
+            "seq": 142,
+            "object": "82484541",
+            "name": "title",
+            "value": " proximityTrigger"
+        },
+        {
+            "type": "CREATE_PROPERTY",
+            "host": "9147409",
+            "timestamp": 1559296015334,
+            "uuid": "42501419",
+            "seq": 143,
+            "object": "82484541",
+            "name": "description",
+            "value": " fires trigger event on proximity transitions"
+        },
+        {
+            "type": "CREATE_PROPERTY",
+            "host": "9147409",
+            "timestamp": 1559296015334,
+            "uuid": "14898576",
+            "seq": 144,
+            "object": "82484541",
+            "name": "parent",
+            "value": "96844817"
+        },
+        {
+            "type": "CREATE_PROPERTY",
+            "host": "9147409",
+            "timestamp": 1559296015334,
+            "uuid": "20971755",
+            "seq": 145,
+            "object": "82484541",
+            "name": "behavior",
+            "value": "85386558"
+        },
+        {
+            "type": "CREATE_PROPERTY",
+            "host": "9147409",
+            "timestamp": 1559296015334,
+            "uuid": "29879443",
+            "seq": 146,
+            "object": "82484541",
+            "name": "id",
+            "value": "82484541"
+        },
+        {
+            "type": "INSERT_ELEMENT",
+            "host": "9147409",
+            "timestamp": 1559296015334,
+            "uuid": "47092020",
+            "seq": 147,
+            "array": "89799776",
+            "value": "82484541",
+            "entryid": "74067833",
+            "prev": "34444602"
+        },
+        {
+            "type": "CREATE_OBJECT",
+            "host": "9147409",
+            "timestamp": 1559296015334,
+            "uuid": "28268091",
+            "seq": 148,
+            "id": "30266393",
+            "defaults": {}
+        },
+        {
+            "type": "CREATE_PROPERTY",
+            "host": "9147409",
+            "timestamp": 1559296015334,
+            "uuid": "95632904",
+            "seq": 149,
+            "object": "30266393",
+            "name": "type",
+            "value": "behavior"
+        },
+        {
+            "type": "CREATE_PROPERTY",
+            "host": "9147409",
+            "timestamp": 1559296015334,
+            "uuid": "86901168",
+            "seq": 150,
+            "object": "30266393",
+            "name": "title",
+            "value": " Play Sound on Trigger Event"
+        },
+        {
+            "type": "CREATE_PROPERTY",
+            "host": "9147409",
+            "timestamp": 1559296015334,
+            "uuid": "45246251",
+            "seq": 151,
+            "object": "30266393",
+            "name": "description",
+            "value": " Play a sound on a \"trigger\" event"
+        },
+        {
+            "type": "CREATE_PROPERTY",
+            "host": "9147409",
+            "timestamp": 1559296015334,
+            "uuid": "98102785",
+            "seq": 152,
+            "object": "30266393",
+            "name": "parent",
+            "value": "96844817"
+        },
+        {
+            "type": "CREATE_PROPERTY",
+            "host": "9147409",
+            "timestamp": 1559296015334,
+            "uuid": "15892438",
+            "seq": 153,
+            "object": "30266393",
+            "name": "behavior",
+            "value": "5209112"
+        },
+        {
+            "type": "CREATE_PROPERTY",
+            "host": "9147409",
+            "timestamp": 1559296015334,
+            "uuid": "30874152",
+            "seq": 154,
+            "object": "30266393",
+            "name": "sound",
+            "value": "68157950"
+        },
+        {
+            "type": "CREATE_PROPERTY",
+            "host": "9147409",
+            "timestamp": 1559296015334,
+            "uuid": "55831061",
+            "seq": 155,
+            "object": "30266393",
+            "name": "id",
+            "value": "30266393"
+        },
+        {
+            "type": "INSERT_ELEMENT",
+            "host": "9147409",
+            "timestamp": 1559296015334,
+            "uuid": "46416249",
+            "seq": 156,
+            "array": "89799776",
+            "value": "30266393",
+            "entryid": "4470571",
+            "prev": "74067833"
+        },
+        {
+            "type": "CREATE_OBJECT",
+            "host": "9147409",
+            "timestamp": 1559296015334,
+            "uuid": "38291677",
+            "seq": 157,
+            "id": "56500186",
+            "defaults": {}
+        },
+        {
+            "type": "CREATE_PROPERTY",
+            "host": "9147409",
+            "timestamp": 1559296015334,
+            "uuid": "95463260",
+            "seq": 158,
+            "object": "56500186",
+            "name": "type",
+            "value": "behavior"
+        },
+        {
+            "type": "CREATE_PROPERTY",
+            "host": "9147409",
+            "timestamp": 1559296015334,
+            "uuid": "2592485",
+            "seq": 159,
+            "object": "56500186",
+            "name": "title",
+            "value": " onEvent"
+        },
+        {
+            "type": "CREATE_PROPERTY",
+            "host": "9147409",
+            "timestamp": 1559296015334,
+            "uuid": "77477741",
+            "seq": 160,
+            "object": "56500186",
+            "name": "description",
+            "value": " Runs the provided code in the specified event handler"
+        },
+        {
+            "type": "CREATE_PROPERTY",
+            "host": "9147409",
+            "timestamp": 1559296015334,
+            "uuid": "18896320",
+            "seq": 161,
+            "object": "56500186",
+            "name": "parent",
+            "value": "96844817"
+        },
+        {
+            "type": "CREATE_PROPERTY",
+            "host": "9147409",
+            "timestamp": 1559296015334,
+            "uuid": "24683078",
+            "seq": 162,
+            "object": "56500186",
+            "name": "behavior",
+            "value": "88796652"
+        },
+        {
+            "type": "CREATE_PROPERTY",
+            "host": "9147409",
+            "timestamp": 1559296015334,
+            "uuid": "29026940",
+            "seq": 163,
+            "object": "56500186",
+            "name": "event",
+            "value": "proximity"
+        },
+        {
+            "type": "CREATE_PROPERTY",
+            "host": "9147409",
+            "timestamp": 1559296015334,
+            "uuid": "91545299",
+            "seq": 164,
+            "object": "56500186",
+            "name": "code",
+            "value": "this.globalStorage.found = true"
+        },
+        {
+            "type": "CREATE_PROPERTY",
+            "host": "9147409",
+            "timestamp": 1559296015334,
+            "uuid": "87485965",
+            "seq": 165,
+            "object": "56500186",
+            "name": "id",
+            "value": "56500186"
+        },
+        {
+            "type": "INSERT_ELEMENT",
+            "host": "9147409",
+            "timestamp": 1559296015334,
+            "uuid": "37059215",
+            "seq": 166,
+            "array": "89799776",
+            "value": "56500186",
+            "entryid": "7924262",
+            "prev": "4470571"
+        },
+        {
+            "type": "CREATE_PROPERTY",
+            "host": "9147409",
+            "timestamp": 1559296015334,
+            "uuid": "50171525",
+            "seq": 167,
+            "object": "96844817",
+            "name": "targetImage",
+            "value": "78180826"
+        },
+        {
+            "type": "CREATE_PROPERTY",
+            "host": "9147409",
+            "timestamp": 1559296015334,
+            "uuid": "8547177",
+            "seq": 168,
+            "object": "96844817",
+            "name": "imageRealworldWidth",
+            "value": 0.23
+        },
+        {
+            "type": "CREATE_PROPERTY",
+            "host": "9147409",
+            "timestamp": 1559296015334,
+            "uuid": "95811481",
+            "seq": 169,
+            "object": "96844817",
+            "name": "recType",
+            "value": "SCENE_START"
+        },
+        {
+            "type": "CREATE_PROPERTY",
+            "host": "9147409",
+            "timestamp": 1559296015334,
+            "uuid": "8086860",
+            "seq": 170,
+            "object": "96844817",
+            "name": "parent",
+            "value": "30421273"
+        },
+        {
+            "type": "CREATE_PROPERTY",
+            "host": "9147409",
+            "timestamp": 1559296015334,
+            "uuid": "50283460",
+            "seq": 171,
+            "object": "96844817",
+            "name": "id",
+            "value": "96844817"
+        },
+        {
+            "type": "INSERT_ELEMENT",
+            "host": "9147409",
+            "timestamp": 1559296015334,
+            "uuid": "43147467",
+            "seq": 172,
+            "array": "82953456",
+            "value": "96844817",
+            "entryid": "54799792",
+            "prev": "72160864"
+        },
+        {
+            "type": "CREATE_PROPERTY",
+            "host": "9147409",
+            "timestamp": 1559296015334,
+            "uuid": "99965198",
+            "seq": 173,
+            "object": "30421273",
+            "name": "id",
+            "value": "30421273"
+        },
+        {
+            "type": "INSERT_ELEMENT",
+            "host": "9147409",
+            "timestamp": 1559296015334,
+            "uuid": "66493298",
+            "seq": 174,
+            "array": "68625796",
+            "value": "30421273",
+            "entryid": "77707535",
+            "prev": -1
+        },
+        {
+            "type": "CREATE_OBJECT",
+            "host": "9147409",
+            "timestamp": 1559296015334,
+            "uuid": "48293462",
+            "seq": 175,
+            "id": "66047517",
+            "defaults": {}
+        },
+        {
+            "type": "CREATE_PROPERTY",
+            "host": "9147409",
+            "timestamp": 1559296015334,
+            "uuid": "94896546",
+            "seq": 176,
+            "object": "66047517",
+            "name": "type",
+            "value": "behaviors"
+        },
+        {
+            "type": "CREATE_PROPERTY",
+            "host": "9147409",
+            "timestamp": 1559296015334,
+            "uuid": "97269314",
+            "seq": 177,
+            "object": "66047517",
+            "name": "title",
+            "value": "Behaviors"
+        },
+        {
+            "type": "CREATE_ARRAY",
+            "host": "9147409",
+            "timestamp": 1559296015334,
+            "uuid": "56154909",
+            "seq": 178,
+            "id": "13459442"
+        },
+        {
+            "type": "CREATE_PROPERTY",
+            "host": "9147409",
+            "timestamp": 1559296015334,
+            "uuid": "81176278",
+            "seq": 179,
+            "object": "66047517",
+            "name": "children",
+            "value": "13459442"
+        },
+        {
+            "type": "CREATE_OBJECT",
+            "host": "9147409",
+            "timestamp": 1559296015334,
+            "uuid": "21421874",
+            "seq": 180,
+            "id": "39402486",
+            "defaults": {}
+        },
+        {
+            "type": "CREATE_PROPERTY",
+            "host": "9147409",
+            "timestamp": 1559296015334,
+            "uuid": "3540361",
+            "seq": 181,
+            "object": "39402486",
+            "name": "type",
+            "value": "behavior_script"
+        },
+        {
+            "type": "CREATE_PROPERTY",
+            "host": "9147409",
+            "timestamp": 1559296015334,
+            "uuid": "85901365",
+            "seq": 182,
+            "object": "39402486",
+            "name": "title",
+            "value": " setText"
+        },
+        {
+            "type": "CREATE_PROPERTY",
+            "host": "9147409",
+            "timestamp": 1559296015334,
+            "uuid": "80043244",
+            "seq": 183,
+            "object": "39402486",
+            "name": "description",
+            "value": " the provided code should return a text string, which will be set to the text object"
+        },
+        {
+            "type": "CREATE_PROPERTY",
+            "host": "9147409",
+            "timestamp": 1559296015334,
+            "uuid": "81286807",
+            "seq": 184,
+            "object": "39402486",
+            "name": "src",
+            "value": "setText.js"
+        },
+        {
+            "type": "CREATE_PROPERTY",
+            "host": "9147409",
+            "timestamp": 1559296015334,
+            "uuid": "2564012",
+            "seq": 185,
+            "object": "39402486",
+            "name": "parent",
+            "value": "66047517"
+        },
+        {
+            "type": "CREATE_PROPERTY",
+            "host": "9147409",
+            "timestamp": 1559296015334,
+            "uuid": "55128148",
+            "seq": 186,
+            "object": "39402486",
+            "name": "id",
+            "value": "39402486"
+        },
+        {
+            "type": "INSERT_ELEMENT",
+            "host": "9147409",
+            "timestamp": 1559296015334,
+            "uuid": "46551459",
+            "seq": 187,
+            "array": "13459442",
+            "value": "39402486",
+            "entryid": "67714308",
+            "prev": -1
+        },
+        {
+            "type": "CREATE_OBJECT",
+            "host": "9147409",
+            "timestamp": 1559296015334,
+            "uuid": "64491483",
+            "seq": 188,
+            "id": "55997163",
+            "defaults": {}
+        },
+        {
+            "type": "CREATE_PROPERTY",
+            "host": "9147409",
+            "timestamp": 1559296015334,
+            "uuid": "72649090",
+            "seq": 189,
+            "object": "55997163",
+            "name": "type",
+            "value": "behavior_script"
+        },
+        {
+            "type": "CREATE_PROPERTY",
+            "host": "9147409",
+            "timestamp": 1559296015334,
+            "uuid": "56093765",
+            "seq": 190,
+            "object": "55997163",
+            "name": "title",
+            "value": " showIf"
+        },
+        {
+            "type": "CREATE_PROPERTY",
+            "host": "9147409",
+            "timestamp": 1559296015334,
+            "uuid": "54478920",
+            "seq": 191,
+            "object": "55997163",
+            "name": "description",
+            "value": " if the provide test evauates to true, the node is visible"
+        },
+        {
+            "type": "CREATE_PROPERTY",
+            "host": "9147409",
+            "timestamp": 1559296015334,
+            "uuid": "86078096",
+            "seq": 192,
+            "object": "55997163",
+            "name": "src",
+            "value": "showIf.js"
+        },
+        {
+            "type": "CREATE_PROPERTY",
+            "host": "9147409",
+            "timestamp": 1559296015334,
+            "uuid": "42063205",
+            "seq": 193,
+            "object": "55997163",
+            "name": "parent",
+            "value": "66047517"
+        },
+        {
+            "type": "CREATE_PROPERTY",
+            "host": "9147409",
+            "timestamp": 1559296015334,
+            "uuid": "60525074",
+            "seq": 194,
+            "object": "55997163",
+            "name": "id",
+            "value": "55997163"
+        },
+        {
+            "type": "INSERT_ELEMENT",
+            "host": "9147409",
+            "timestamp": 1559296015334,
+            "uuid": "56497154",
+            "seq": 195,
+            "array": "13459442",
+            "value": "55997163",
+            "entryid": "74529212",
+            "prev": "67714308"
+        },
+        {
+            "type": "CREATE_OBJECT",
+            "host": "9147409",
+            "timestamp": 1559296015334,
+            "uuid": "2572528",
+            "seq": 196,
+            "id": "88796652",
+            "defaults": {}
+        },
+        {
+            "type": "CREATE_PROPERTY",
+            "host": "9147409",
+            "timestamp": 1559296015334,
+            "uuid": "7643727",
+            "seq": 197,
+            "object": "88796652",
+            "name": "type",
+            "value": "behavior_script"
+        },
+        {
+            "type": "CREATE_PROPERTY",
+            "host": "9147409",
+            "timestamp": 1559296015334,
+            "uuid": "99874340",
+            "seq": 198,
+            "object": "88796652",
+            "name": "title",
+            "value": " onEvent"
+        },
+        {
+            "type": "CREATE_PROPERTY",
+            "host": "9147409",
+            "timestamp": 1559296015334,
+            "uuid": "59460946",
+            "seq": 199,
+            "object": "88796652",
+            "name": "description",
+            "value": " Runs the provided code in the specified event handler"
+        },
+        {
+            "type": "CREATE_PROPERTY",
+            "host": "9147409",
+            "timestamp": 1559296015334,
+            "uuid": "48323772",
+            "seq": 200,
+            "object": "88796652",
+            "name": "src",
+            "value": "onEvent.js"
+        },
+        {
+            "type": "CREATE_PROPERTY",
+            "host": "9147409",
+            "timestamp": 1559296015334,
+            "uuid": "13037917",
+            "seq": 201,
+            "object": "88796652",
+            "name": "parent",
+            "value": "66047517"
+        },
+        {
+            "type": "CREATE_PROPERTY",
+            "host": "9147409",
+            "timestamp": 1559296015334,
+            "uuid": "52891707",
+            "seq": 202,
+            "object": "88796652",
+            "name": "id",
+            "value": "88796652"
+        },
+        {
+            "type": "INSERT_ELEMENT",
+            "host": "9147409",
+            "timestamp": 1559296015334,
+            "uuid": "71044999",
+            "seq": 203,
+            "array": "13459442",
+            "value": "88796652",
+            "entryid": "22397163",
+            "prev": "74529212"
+        },
+        {
+            "type": "CREATE_OBJECT",
+            "host": "9147409",
+            "timestamp": 1559296015334,
+            "uuid": "4846210",
+            "seq": 204,
+            "id": "39080501",
+            "defaults": {}
+        },
+        {
+            "type": "CREATE_PROPERTY",
+            "host": "9147409",
+            "timestamp": 1559296015334,
+            "uuid": "72741012",
+            "seq": 205,
+            "object": "39080501",
+            "name": "type",
+            "value": "behavior_script"
+        },
+        {
+            "type": "CREATE_PROPERTY",
+            "host": "9147409",
+            "timestamp": 1559296015334,
+            "uuid": "62444634",
+            "seq": 206,
+            "object": "39080501",
+            "name": "title",
+            "value": " infrontof"
+        },
+        {
+            "type": "CREATE_PROPERTY",
+            "host": "9147409",
+            "timestamp": 1559296015334,
+            "uuid": "25061694",
+            "seq": 207,
+            "object": "39080501",
+            "name": "description",
+            "value": " be front of camera at a certain distance for a while at a speed"
+        },
+        {
+            "type": "CREATE_PROPERTY",
+            "host": "9147409",
+            "timestamp": 1559296015334,
+            "uuid": "2896000",
+            "seq": 208,
+            "object": "39080501",
+            "name": "src",
+            "value": "infrontof.js"
+        },
+        {
+            "type": "CREATE_PROPERTY",
+            "host": "9147409",
+            "timestamp": 1559296015334,
+            "uuid": "56910022",
+            "seq": 209,
+            "object": "39080501",
+            "name": "parent",
+            "value": "66047517"
+        },
+        {
+            "type": "CREATE_PROPERTY",
+            "host": "9147409",
+            "timestamp": 1559296015334,
+            "uuid": "61326024",
+            "seq": 210,
+            "object": "39080501",
+            "name": "id",
+            "value": "39080501"
+        },
+        {
+            "type": "INSERT_ELEMENT",
+            "host": "9147409",
+            "timestamp": 1559296015334,
+            "uuid": "57761584",
+            "seq": 211,
+            "array": "13459442",
+            "value": "39080501",
+            "entryid": "24141560",
+            "prev": "22397163"
+        },
+        {
+            "type": "CREATE_OBJECT",
+            "host": "9147409",
+            "timestamp": 1559296015334,
+            "uuid": "72863796",
+            "seq": 212,
+            "id": "47787200",
+            "defaults": {}
+        },
+        {
+            "type": "CREATE_PROPERTY",
+            "host": "9147409",
+            "timestamp": 1559296015334,
+            "uuid": "89056151",
+            "seq": 213,
+            "object": "47787200",
+            "name": "type",
+            "value": "behavior_script"
+        },
+        {
+            "type": "CREATE_PROPERTY",
+            "host": "9147409",
+            "timestamp": 1559296015334,
+            "uuid": "80132601",
+            "seq": 214,
+            "object": "47787200",
+            "name": "title",
+            "value": " Billboard Horizontal"
+        },
+        {
+            "type": "CREATE_PROPERTY",
+            "host": "9147409",
+            "timestamp": 1559296015334,
+            "uuid": "44451365",
+            "seq": 215,
+            "object": "47787200",
+            "name": "description",
+            "value": " Cause an object to face you, but keep Y vertical "
+        },
+        {
+            "type": "CREATE_PROPERTY",
+            "host": "9147409",
+            "timestamp": 1559296015334,
+            "uuid": "79380717",
+            "seq": 216,
+            "object": "47787200",
+            "name": "src",
+            "value": "billBoardHorizontal.js"
+        },
+        {
+            "type": "CREATE_PROPERTY",
+            "host": "9147409",
+            "timestamp": 1559296015334,
+            "uuid": "99019539",
+            "seq": 217,
+            "object": "47787200",
+            "name": "parent",
+            "value": "66047517"
+        },
+        {
+            "type": "CREATE_PROPERTY",
+            "host": "9147409",
+            "timestamp": 1559296015334,
+            "uuid": "99574738",
+            "seq": 218,
+            "object": "47787200",
+            "name": "id",
+            "value": "47787200"
+        },
+        {
+            "type": "INSERT_ELEMENT",
+            "host": "9147409",
+            "timestamp": 1559296015334,
+            "uuid": "193461",
+            "seq": 219,
+            "array": "13459442",
+            "value": "47787200",
+            "entryid": "51261760",
+            "prev": "24141560"
+        },
+        {
+            "type": "CREATE_OBJECT",
+            "host": "9147409",
+            "timestamp": 1559296015334,
+            "uuid": "78173524",
+            "seq": 220,
+            "id": "37604399",
+            "defaults": {}
+        },
+        {
+            "type": "CREATE_PROPERTY",
+            "host": "9147409",
+            "timestamp": 1559296015334,
+            "uuid": "6917041",
+            "seq": 221,
+            "object": "37604399",
+            "name": "type",
+            "value": "behavior_script"
+        },
+        {
+            "type": "CREATE_PROPERTY",
+            "host": "9147409",
+            "timestamp": 1559296015334,
+            "uuid": "89034434",
+            "seq": 222,
+            "object": "37604399",
+            "name": "title",
+            "value": " Billboard"
+        },
+        {
+            "type": "CREATE_PROPERTY",
+            "host": "9147409",
+            "timestamp": 1559296015334,
+            "uuid": "34996568",
+            "seq": 223,
+            "object": "37604399",
+            "name": "description",
+            "value": " Cause an object to face you "
+        },
+        {
+            "type": "CREATE_PROPERTY",
+            "host": "9147409",
+            "timestamp": 1559296015335,
+            "uuid": "23616804",
+            "seq": 224,
+            "object": "37604399",
+            "name": "src",
+            "value": "billboard.js"
+        },
+        {
+            "type": "CREATE_PROPERTY",
+            "host": "9147409",
+            "timestamp": 1559296015335,
+            "uuid": "89395329",
+            "seq": 225,
+            "object": "37604399",
+            "name": "parent",
+            "value": "66047517"
+        },
+        {
+            "type": "CREATE_PROPERTY",
+            "host": "9147409",
+            "timestamp": 1559296015335,
+            "uuid": "78670614",
+            "seq": 226,
+            "object": "37604399",
+            "name": "id",
+            "value": "37604399"
+        },
+        {
+            "type": "INSERT_ELEMENT",
+            "host": "9147409",
+            "timestamp": 1559296015335,
+            "uuid": "68550217",
+            "seq": 227,
+            "array": "13459442",
+            "value": "37604399",
+            "entryid": "38089998",
+            "prev": "51261760"
+        },
+        {
+            "type": "CREATE_OBJECT",
+            "host": "9147409",
+            "timestamp": 1559296015335,
+            "uuid": "88206332",
+            "seq": 228,
+            "id": "42495697",
+            "defaults": {}
+        },
+        {
+            "type": "CREATE_PROPERTY",
+            "host": "9147409",
+            "timestamp": 1559296015335,
+            "uuid": "7899779",
+            "seq": 229,
+            "object": "42495697",
+            "name": "type",
+            "value": "behavior_script"
+        },
+        {
+            "type": "CREATE_PROPERTY",
+            "host": "9147409",
+            "timestamp": 1559296015335,
+            "uuid": "60430589",
+            "seq": 230,
+            "object": "42495697",
+            "name": "title",
+            "value": " Proximity To Image"
+        },
+        {
+            "type": "CREATE_PROPERTY",
+            "host": "9147409",
+            "timestamp": 1559296015335,
+            "uuid": "2980289",
+            "seq": 231,
+            "object": "42495697",
+            "name": "description",
+            "value": " sends messages on proximity events to an active image"
+        },
+        {
+            "type": "CREATE_PROPERTY",
+            "host": "9147409",
+            "timestamp": 1559296015335,
+            "uuid": "97634806",
+            "seq": 232,
+            "object": "42495697",
+            "name": "src",
+            "value": "proximityToImage.js"
+        },
+        {
+            "type": "CREATE_PROPERTY",
+            "host": "9147409",
+            "timestamp": 1559296015335,
+            "uuid": "12645166",
+            "seq": 233,
+            "object": "42495697",
+            "name": "parent",
+            "value": "66047517"
+        },
+        {
+            "type": "CREATE_PROPERTY",
+            "host": "9147409",
+            "timestamp": 1559296015335,
+            "uuid": "94809148",
+            "seq": 234,
+            "object": "42495697",
+            "name": "id",
+            "value": "42495697"
+        },
+        {
+            "type": "INSERT_ELEMENT",
+            "host": "9147409",
+            "timestamp": 1559296015335,
+            "uuid": "28642001",
+            "seq": 235,
+            "array": "13459442",
+            "value": "42495697",
+            "entryid": "48426248",
+            "prev": "38089998"
+        },
+        {
+            "type": "CREATE_OBJECT",
+            "host": "9147409",
+            "timestamp": 1559296015335,
+            "uuid": "89179583",
+            "seq": 236,
+            "id": "85386558",
+            "defaults": {}
+        },
+        {
+            "type": "CREATE_PROPERTY",
+            "host": "9147409",
+            "timestamp": 1559296015335,
+            "uuid": "97342808",
+            "seq": 237,
+            "object": "85386558",
+            "name": "type",
+            "value": "behavior_script"
+        },
+        {
+            "type": "CREATE_PROPERTY",
+            "host": "9147409",
+            "timestamp": 1559296015335,
+            "uuid": "85511562",
+            "seq": 238,
+            "object": "85386558",
+            "name": "title",
+            "value": " proximityTrigger"
+        },
+        {
+            "type": "CREATE_PROPERTY",
+            "host": "9147409",
+            "timestamp": 1559296015335,
+            "uuid": "48724930",
+            "seq": 239,
+            "object": "85386558",
+            "name": "description",
+            "value": " fires trigger event on proximity transitions"
+        },
+        {
+            "type": "CREATE_PROPERTY",
+            "host": "9147409",
+            "timestamp": 1559296015335,
+            "uuid": "86776518",
+            "seq": 240,
+            "object": "85386558",
+            "name": "src",
+            "value": "proximityTrigger.js"
+        },
+        {
+            "type": "CREATE_PROPERTY",
+            "host": "9147409",
+            "timestamp": 1559296015335,
+            "uuid": "93737130",
+            "seq": 241,
+            "object": "85386558",
+            "name": "parent",
+            "value": "66047517"
+        },
+        {
+            "type": "CREATE_PROPERTY",
+            "host": "9147409",
+            "timestamp": 1559296015335,
+            "uuid": "5747126",
+            "seq": 242,
+            "object": "85386558",
+            "name": "id",
+            "value": "85386558"
+        },
+        {
+            "type": "INSERT_ELEMENT",
+            "host": "9147409",
+            "timestamp": 1559296015335,
+            "uuid": "85136245",
+            "seq": 243,
+            "array": "13459442",
+            "value": "85386558",
+            "entryid": "99069553",
+            "prev": "48426248"
+        },
+        {
+            "type": "CREATE_OBJECT",
+            "host": "9147409",
+            "timestamp": 1559296015335,
+            "uuid": "1574629",
+            "seq": 244,
+            "id": "5209112",
+            "defaults": {}
+        },
+        {
+            "type": "CREATE_PROPERTY",
+            "host": "9147409",
+            "timestamp": 1559296015335,
+            "uuid": "9699727",
+            "seq": 245,
+            "object": "5209112",
+            "name": "type",
+            "value": "behavior_script"
+        },
+        {
+            "type": "CREATE_PROPERTY",
+            "host": "9147409",
+            "timestamp": 1559296015335,
+            "uuid": "27701947",
+            "seq": 246,
+            "object": "5209112",
+            "name": "title",
+            "value": " Play Sound on Trigger Event"
+        },
+        {
+            "type": "CREATE_PROPERTY",
+            "host": "9147409",
+            "timestamp": 1559296015335,
+            "uuid": "6844794",
+            "seq": 247,
+            "object": "5209112",
+            "name": "description",
+            "value": " Play a sound on a \"trigger\" event"
+        },
+        {
+            "type": "CREATE_PROPERTY",
+            "host": "9147409",
+            "timestamp": 1559296015335,
+            "uuid": "87851527",
+            "seq": 248,
+            "object": "5209112",
+            "name": "src",
+            "value": "playSoundOnTrigger.js"
+        },
+        {
+            "type": "CREATE_PROPERTY",
+            "host": "9147409",
+            "timestamp": 1559296015335,
+            "uuid": "80886711",
+            "seq": 249,
+            "object": "5209112",
+            "name": "parent",
+            "value": "66047517"
+        },
+        {
+            "type": "CREATE_PROPERTY",
+            "host": "9147409",
+            "timestamp": 1559296015335,
+            "uuid": "65483026",
+            "seq": 250,
+            "object": "5209112",
+            "name": "id",
+            "value": "5209112"
+        },
+        {
+            "type": "INSERT_ELEMENT",
+            "host": "9147409",
+            "timestamp": 1559296015335,
+            "uuid": "73919528",
+            "seq": 251,
+            "array": "13459442",
+            "value": "5209112",
+            "entryid": "16913165",
+            "prev": "99069553"
+        },
+        {
+            "type": "CREATE_PROPERTY",
+            "host": "9147409",
+            "timestamp": 1559296015335,
+            "uuid": "83296475",
+            "seq": 252,
+            "object": "66047517",
+            "name": "parent",
+            "value": "70756917"
+        },
+        {
+            "type": "CREATE_PROPERTY",
+            "host": "9147409",
+            "timestamp": 1559296015335,
+            "uuid": "32801691",
+            "seq": 253,
+            "object": "66047517",
+            "name": "id",
+            "value": "66047517"
+        },
+        {
+            "type": "INSERT_ELEMENT",
+            "host": "9147409",
+            "timestamp": 1559296015335,
+            "uuid": "71188846",
+            "seq": 254,
+            "array": "68625796",
+            "value": "66047517",
+            "entryid": "43777169",
+            "prev": "77707535"
+        },
+        {
+            "type": "CREATE_OBJECT",
+            "host": "9147409",
+            "timestamp": 1559296015335,
+            "uuid": "33061278",
+            "seq": 255,
+            "id": "20172346",
+            "defaults": {}
+        },
+        {
+            "type": "CREATE_PROPERTY",
+            "host": "9147409",
+            "timestamp": 1559296015335,
+            "uuid": "60551956",
+            "seq": 256,
+            "object": "20172346",
+            "name": "type",
+            "value": "assets"
+        },
+        {
+            "type": "CREATE_PROPERTY",
+            "host": "9147409",
+            "timestamp": 1559296015335,
+            "uuid": "88473790",
+            "seq": 257,
+            "object": "20172346",
+            "name": "title",
+            "value": "Assets"
+        },
+        {
+            "type": "CREATE_ARRAY",
+            "host": "9147409",
+            "timestamp": 1559296015335,
+            "uuid": "1778599",
+            "seq": 258,
+            "id": "55045517"
+        },
+        {
+            "type": "CREATE_PROPERTY",
+            "host": "9147409",
+            "timestamp": 1559296015335,
+            "uuid": "18657701",
+            "seq": 259,
+            "object": "20172346",
+            "name": "children",
+            "value": "55045517"
+        },
+        {
+            "type": "CREATE_OBJECT",
+            "host": "9147409",
+            "timestamp": 1559296015335,
+            "uuid": "30881270",
+            "seq": 260,
+            "id": "78180826",
+            "defaults": {}
+        },
+        {
+            "type": "CREATE_PROPERTY",
+            "host": "9147409",
+            "timestamp": 1559296015335,
+            "uuid": "51721928",
+            "seq": 261,
+            "object": "78180826",
+            "name": "type",
+            "value": "asset"
+        },
+        {
+            "type": "CREATE_PROPERTY",
+            "host": "9147409",
+            "timestamp": 1559296015335,
+            "uuid": "57970529",
+            "seq": 262,
+            "object": "78180826",
+            "name": "subtype",
+            "value": "image"
+        },
+        {
+            "type": "CREATE_PROPERTY",
+            "host": "9147409",
+            "timestamp": 1559296015335,
+            "uuid": "9190657",
+            "seq": 263,
+            "object": "78180826",
+            "name": "assetId",
+            "value": "bluemarble.jpg"
+        },
+        {
+            "type": "CREATE_PROPERTY",
+            "host": "9147409",
+            "timestamp": 1559296015335,
+            "uuid": "1653397",
+            "seq": 264,
+            "object": "78180826",
+            "name": "format",
+            "value": "image/jpeg"
+        },
+        {
+            "type": "CREATE_PROPERTY",
+            "host": "9147409",
+            "timestamp": 1559296015335,
+            "uuid": "66545384",
+            "seq": 265,
+            "object": "78180826",
+            "name": "src",
+            "value": "https://cdn.glitch.com/15b5fc9d-cb20-436f-81af-a3df950cb2e5%2Fbluemarble.jpg"
+        },
+        {
+            "type": "CREATE_PROPERTY",
+            "host": "9147409",
+            "timestamp": 1559296015335,
+            "uuid": "95573133",
+            "seq": 266,
+            "object": "78180826",
+            "name": "width",
+            "value": 100
+        },
+        {
+            "type": "CREATE_PROPERTY",
+            "host": "9147409",
+            "timestamp": 1559296015335,
+            "uuid": "73251199",
+            "seq": 267,
+            "object": "78180826",
+            "name": "height",
+            "value": 100
+        },
+        {
+            "type": "CREATE_PROPERTY",
+            "host": "9147409",
+            "timestamp": 1559296015335,
+            "uuid": "29685092",
+            "seq": 268,
+            "object": "78180826",
+            "name": "title",
+            "value": "bluemarble.jpg"
+        },
+        {
+            "type": "CREATE_PROPERTY",
+            "host": "9147409",
+            "timestamp": 1559296015335,
+            "uuid": "66600392",
+            "seq": 269,
+            "object": "78180826",
+            "name": "parent",
+            "value": "20172346"
+        },
+        {
+            "type": "CREATE_PROPERTY",
+            "host": "9147409",
+            "timestamp": 1559296015335,
+            "uuid": "40746435",
+            "seq": 270,
+            "object": "78180826",
+            "name": "id",
+            "value": "78180826"
+        },
+        {
+            "type": "INSERT_ELEMENT",
+            "host": "9147409",
+            "timestamp": 1559296015335,
+            "uuid": "72050700",
+            "seq": 271,
+            "array": "55045517",
+            "value": "78180826",
+            "entryid": "57251018",
+            "prev": -1
+        },
+        {
+            "type": "CREATE_OBJECT",
+            "host": "9147409",
+            "timestamp": 1559296015335,
+            "uuid": "15626110",
+            "seq": 272,
+            "id": "60063133",
+            "defaults": {}
+        },
+        {
+            "type": "CREATE_PROPERTY",
+            "host": "9147409",
+            "timestamp": 1559296015335,
+            "uuid": "3966271",
+            "seq": 273,
+            "object": "60063133",
+            "name": "type",
+            "value": "asset"
+        },
+        {
+            "type": "CREATE_PROPERTY",
+            "host": "9147409",
+            "timestamp": 1559296015335,
+            "uuid": "82021710",
+            "seq": 274,
+            "object": "60063133",
+            "name": "subtype",
+            "value": "gltf"
+        },
+        {
+            "type": "CREATE_PROPERTY",
+            "host": "9147409",
+            "timestamp": 1559296015335,
+            "uuid": "78465170",
+            "seq": 275,
+            "object": "60063133",
+            "name": "assetId",
+            "value": "robot-playground.glb"
+        },
+        {
+            "type": "CREATE_PROPERTY",
+            "host": "9147409",
+            "timestamp": 1559296015335,
+            "uuid": "66251179",
+            "seq": 276,
+            "object": "60063133",
+            "name": "format",
+            "value": "model/gltf-binary"
+        },
+        {
+            "type": "CREATE_PROPERTY",
+            "host": "9147409",
+            "timestamp": 1559296015335,
+            "uuid": "42382974",
+            "seq": 277,
+            "object": "60063133",
+            "name": "src",
+            "value": "https://cdn.glitch.com/15b5fc9d-cb20-436f-81af-a3df950cb2e5%2Frobot-playground.glb"
+        },
+        {
+            "type": "CREATE_PROPERTY",
+            "host": "9147409",
+            "timestamp": 1559296015335,
+            "uuid": "43110106",
+            "seq": 278,
+            "object": "60063133",
+            "name": "title",
+            "value": "robot-playground.glb"
+        },
+        {
+            "type": "CREATE_PROPERTY",
+            "host": "9147409",
+            "timestamp": 1559296015335,
+            "uuid": "56894255",
+            "seq": 279,
+            "object": "60063133",
+            "name": "parent",
+            "value": "20172346"
+        },
+        {
+            "type": "CREATE_PROPERTY",
+            "host": "9147409",
+            "timestamp": 1559296015335,
+            "uuid": "45978652",
+            "seq": 280,
+            "object": "60063133",
+            "name": "id",
+            "value": "60063133"
+        },
+        {
+            "type": "INSERT_ELEMENT",
+            "host": "9147409",
+            "timestamp": 1559296015335,
+            "uuid": "95737984",
+            "seq": 281,
+            "array": "55045517",
+            "value": "60063133",
+            "entryid": "44470982",
+            "prev": "57251018"
+        },
+        {
+            "type": "CREATE_OBJECT",
+            "host": "9147409",
+            "timestamp": 1559296015335,
+            "uuid": "23699622",
+            "seq": 282,
+            "id": "25257152",
+            "defaults": {}
+        },
+        {
+            "type": "CREATE_PROPERTY",
+            "host": "9147409",
+            "timestamp": 1559296015335,
+            "uuid": "26296161",
+            "seq": 283,
+            "object": "25257152",
+            "name": "type",
+            "value": "asset"
+        },
+        {
+            "type": "CREATE_PROPERTY",
+            "host": "9147409",
+            "timestamp": 1559296015335,
+            "uuid": "90864356",
+            "seq": 284,
+            "object": "25257152",
+            "name": "subtype",
+            "value": "image"
+        },
+        {
+            "type": "CREATE_PROPERTY",
+            "host": "9147409",
+            "timestamp": 1559296015335,
+            "uuid": "75902223",
+            "seq": 285,
+            "object": "25257152",
+            "name": "assetId",
+            "value": "penguin.png"
+        },
+        {
+            "type": "CREATE_PROPERTY",
+            "host": "9147409",
+            "timestamp": 1559296015335,
+            "uuid": "13525209",
+            "seq": 286,
+            "object": "25257152",
+            "name": "format",
+            "value": "image/png"
+        },
+        {
+            "type": "CREATE_PROPERTY",
+            "host": "9147409",
+            "timestamp": 1559296015335,
+            "uuid": "15606687",
+            "seq": 287,
+            "object": "25257152",
+            "name": "src",
+            "value": "https://cdn.glitch.com/15b5fc9d-cb20-436f-81af-a3df950cb2e5%2Fpenguin.png"
+        },
+        {
+            "type": "CREATE_PROPERTY",
+            "host": "9147409",
+            "timestamp": 1559296015335,
+            "uuid": "79955338",
+            "seq": 288,
+            "object": "25257152",
+            "name": "width",
+            "value": 400
+        },
+        {
+            "type": "CREATE_PROPERTY",
+            "host": "9147409",
+            "timestamp": 1559296015335,
+            "uuid": "37764716",
+            "seq": 289,
+            "object": "25257152",
+            "name": "height",
+            "value": 335
+        },
+        {
+            "type": "CREATE_PROPERTY",
+            "host": "9147409",
+            "timestamp": 1559296015335,
+            "uuid": "39345424",
+            "seq": 290,
+            "object": "25257152",
+            "name": "title",
+            "value": "penguin.png"
+        },
+        {
+            "type": "CREATE_PROPERTY",
+            "host": "9147409",
+            "timestamp": 1559296015335,
+            "uuid": "98168993",
+            "seq": 291,
+            "object": "25257152",
+            "name": "parent",
+            "value": "20172346"
+        },
+        {
+            "type": "CREATE_PROPERTY",
+            "host": "9147409",
+            "timestamp": 1559296015335,
+            "uuid": "29773254",
+            "seq": 292,
+            "object": "25257152",
+            "name": "id",
+            "value": "25257152"
+        },
+        {
+            "type": "INSERT_ELEMENT",
+            "host": "9147409",
+            "timestamp": 1559296015335,
+            "uuid": "37208539",
+            "seq": 293,
+            "array": "55045517",
+            "value": "25257152",
+            "entryid": "46209994",
+            "prev": "44470982"
+        },
+        {
+            "type": "CREATE_OBJECT",
+            "host": "9147409",
+            "timestamp": 1559296015335,
+            "uuid": "71413222",
+            "seq": 294,
+            "id": "26416758",
+            "defaults": {}
+        },
+        {
+            "type": "CREATE_PROPERTY",
+            "host": "9147409",
+            "timestamp": 1559296015335,
+            "uuid": "68503038",
+            "seq": 295,
+            "object": "26416758",
+            "name": "type",
+            "value": "asset"
+        },
+        {
+            "type": "CREATE_PROPERTY",
+            "host": "9147409",
+            "timestamp": 1559296015335,
+            "uuid": "80703981",
+            "seq": 296,
+            "object": "26416758",
+            "name": "subtype",
+            "value": "image"
+        },
+        {
+            "type": "CREATE_PROPERTY",
+            "host": "9147409",
+            "timestamp": 1559296015335,
+            "uuid": "82845884",
+            "seq": 297,
+            "object": "26416758",
+            "name": "assetId",
+            "value": "char_intro_04.gif"
+        },
+        {
+            "type": "CREATE_PROPERTY",
+            "host": "9147409",
+            "timestamp": 1559296015335,
+            "uuid": "93215561",
+            "seq": 298,
+            "object": "26416758",
+            "name": "format",
+            "value": "image/gif"
+        },
+        {
+            "type": "CREATE_PROPERTY",
+            "host": "9147409",
+            "timestamp": 1559296015335,
+            "uuid": "61481563",
+            "seq": 299,
+            "object": "26416758",
+            "name": "src",
+            "value": "https://cdn.glitch.com/15b5fc9d-cb20-436f-81af-a3df950cb2e5%2Fchar_intro_04.gif"
+        },
+        {
+            "type": "CREATE_PROPERTY",
+            "host": "9147409",
+            "timestamp": 1559296015335,
+            "uuid": "69245139",
+            "seq": 300,
+            "object": "26416758",
+            "name": "width",
+            "value": 960
+        },
+        {
+            "type": "CREATE_PROPERTY",
+            "host": "9147409",
+            "timestamp": 1559296015335,
+            "uuid": "39268633",
+            "seq": 301,
+            "object": "26416758",
+            "name": "height",
+            "value": 480
+        },
+        {
+            "type": "CREATE_PROPERTY",
+            "host": "9147409",
+            "timestamp": 1559296015335,
+            "uuid": "35328268",
+            "seq": 302,
+            "object": "26416758",
+            "name": "title",
+            "value": "char_intro_04.gif"
+        },
+        {
+            "type": "CREATE_PROPERTY",
+            "host": "9147409",
+            "timestamp": 1559296015335,
+            "uuid": "16392197",
+            "seq": 303,
+            "object": "26416758",
+            "name": "parent",
+            "value": "20172346"
+        },
+        {
+            "type": "CREATE_PROPERTY",
+            "host": "9147409",
+            "timestamp": 1559296015335,
+            "uuid": "83345088",
+            "seq": 304,
+            "object": "26416758",
+            "name": "id",
+            "value": "26416758"
+        },
+        {
+            "type": "INSERT_ELEMENT",
+            "host": "9147409",
+            "timestamp": 1559296015335,
+            "uuid": "89167419",
+            "seq": 305,
+            "array": "55045517",
+            "value": "26416758",
+            "entryid": "83509011",
+            "prev": "46209994"
+        },
+        {
+            "type": "CREATE_OBJECT",
+            "host": "9147409",
+            "timestamp": 1559296015335,
+            "uuid": "51909666",
+            "seq": 306,
+            "id": "68157950",
+            "defaults": {}
+        },
+        {
+            "type": "CREATE_PROPERTY",
+            "host": "9147409",
+            "timestamp": 1559296015335,
+            "uuid": "1799055",
+            "seq": 307,
+            "object": "68157950",
+            "name": "type",
+            "value": "asset"
+        },
+        {
+            "type": "CREATE_PROPERTY",
+            "host": "9147409",
+            "timestamp": 1559296015335,
+            "uuid": "47038961",
+            "seq": 308,
+            "object": "68157950",
+            "name": "subtype",
+            "value": "audio"
+        },
+        {
+            "type": "CREATE_PROPERTY",
+            "host": "9147409",
+            "timestamp": 1559296015335,
+            "uuid": "90547206",
+            "seq": 309,
+            "object": "68157950",
+            "name": "assetId",
+            "value": "quack.mp3"
+        },
+        {
+            "type": "CREATE_PROPERTY",
+            "host": "9147409",
+            "timestamp": 1559296015335,
+            "uuid": "37229328",
+            "seq": 310,
+            "object": "68157950",
+            "name": "format",
+            "value": "audio/mpeg"
+        },
+        {
+            "type": "CREATE_PROPERTY",
+            "host": "9147409",
+            "timestamp": 1559296015336,
+            "uuid": "24637263",
+            "seq": 311,
+            "object": "68157950",
+            "name": "src",
+            "value": "https://cdn.glitch.com/15b5fc9d-cb20-436f-81af-a3df950cb2e5%2Fquack.mp3"
+        },
+        {
+            "type": "CREATE_PROPERTY",
+            "host": "9147409",
+            "timestamp": 1559296015336,
+            "uuid": "41957299",
+            "seq": 312,
+            "object": "68157950",
+            "name": "title",
+            "value": "quack.mp3"
+        },
+        {
+            "type": "CREATE_PROPERTY",
+            "host": "9147409",
+            "timestamp": 1559296015336,
+            "uuid": "56927481",
+            "seq": 313,
+            "object": "68157950",
+            "name": "parent",
+            "value": "20172346"
+        },
+        {
+            "type": "CREATE_PROPERTY",
+            "host": "9147409",
+            "timestamp": 1559296015336,
+            "uuid": "4455511",
+            "seq": 314,
+            "object": "68157950",
+            "name": "id",
+            "value": "68157950"
+        },
+        {
+            "type": "INSERT_ELEMENT",
+            "host": "9147409",
+            "timestamp": 1559296015336,
+            "uuid": "21803375",
+            "seq": 315,
+            "array": "55045517",
+            "value": "68157950",
+            "entryid": "58219575",
+            "prev": "83509011"
+        },
+        {
+            "type": "CREATE_PROPERTY",
+            "host": "9147409",
+            "timestamp": 1559296015336,
+            "uuid": "3209409",
+            "seq": 316,
+            "object": "20172346",
+            "name": "parent",
+            "value": "70756917"
+        },
+        {
+            "type": "CREATE_PROPERTY",
+            "host": "9147409",
+            "timestamp": 1559296015336,
+            "uuid": "45206606",
+            "seq": 317,
+            "object": "20172346",
+            "name": "id",
+            "value": "20172346"
+        },
+        {
+            "type": "INSERT_ELEMENT",
+            "host": "9147409",
+            "timestamp": 1559296015336,
+            "uuid": "58979263",
+            "seq": 318,
+            "array": "68625796",
+            "value": "20172346",
+            "entryid": "11103868",
+            "prev": "43777169"
+        },
+        {
+            "type": "CREATE_PROPERTY",
+            "host": "9147409",
+            "timestamp": 1559296015336,
+            "uuid": "33796212",
+            "seq": 319,
+            "object": "70756917",
+            "name": "id",
+            "value": "70756917"
+        },
+        {
+            "type": "SET_PROPERTY",
+            "host": "49879647",
+            "timestamp": 1559296054158,
+            "uuid": "23716593",
+            "seq": 1,
+            "object": "70756917",
+            "name": "title",
+            "value": "image test",
+            "prevValue": "movie test"
+        },
+        {
+            "type": "SET_PROPERTY",
+            "host": "49879647",
+            "timestamp": 1559296311795,
+            "uuid": "56270323",
+            "seq": 2,
+            "object": "70756917",
+            "name": "splashImage",
+            "value": "26416758",
+            "prevValue": -30
+        }
+    ],
+    "type": "vr",
+    "id": "doc_64136059",
+    "graph": {
+        "type": "root",
+        "title": "image test",
+        "splashImage": "26416758",
+        "defaultScene": "30421273",
+        "children": [
+            {
+                "type": "scene",
+                "title": "Scene  0",
+                "autoRecenter": true,
+                "defaultFloor": false,
+                "parent": "70756917",
+                "children": [
+                    {
+                        "type": "text",
+                        "title": "some text",
+                        "visible": true,
+                        "text": "Look for the blue marble picture and point the phone at it",
+                        "cssStyle": "color:black; \nbackground-color: lightgrey;\nfont: Helvetica Neue,Helvetica,Arial,sans-serif;\nwidth: 10em;\nfont-size: 200%; \nborder: thick ridge green;\ntext-align: center;\nborder-radius: 3mm;",
+                        "tx": 0,
+                        "ty": 0,
+                        "tz": 0,
+                        "rx": 0,
+                        "ry": 0,
+                        "rz": 0,
+                        "sx": 1,
+                        "sy": 1,
+                        "sz": 1,
+                        "children": [
+                            {
+                                "type": "behavior",
+                                "title": " showIf",
+                                "description": " if the provide test evauates to true, the node is visible",
+                                "parent": "94175512",
+                                "behavior": "55997163",
+                                "conditional": "!this.globalStorage.found",
+                                "id": "43410440"
+                            },
+                            {
+                                "type": "behavior",
+                                "title": " setText",
+                                "description": " the provided code should return a text string, which will be set to the text object",
+                                "parent": "94175512",
+                                "behavior": "39402486",
+                                "code": "let props = this.properties\nif (!props.elapsed) {\n  props.elapsed = 0\n  props.dots = \"\"\n}\n\nprops.elapsed += e.deltaTime\nif (props.elapsed > 1000) {\n  props.elapsed = 1\n  props.dots = props.dots + \".\" \n  if (props.dots.length > 4) {\n     props.dots = \"\"\n  }\n} \n\nreturn  e.graphTarget.text + \"<p>.\" + props.dots + \"</p>\"",
+                                "id": "36612137"
+                            },
+                            {
+                                "type": "behavior",
+                                "title": " Billboard",
+                                "description": " Cause an object to face you ",
+                                "parent": "94175512",
+                                "behavior": "37604399",
+                                "id": "11858297"
+                            },
+                            {
+                                "type": "behavior",
+                                "title": " infrontof",
+                                "description": " be front of camera at a certain distance for a while at a speed",
+                                "parent": "94175512",
+                                "behavior": "39080501",
+                                "distance": 1,
+                                "delay": 2000,
+                                "alpha": 0.1,
+                                "id": "15708045"
+                            }
+                        ],
+                        "parent": "30421273",
+                        "id": "94175512"
+                    },
+                    {
+                        "type": "imageanchor",
+                        "title": "image anchor 0",
+                        "visible": true,
+                        "reactivate": false,
+                        "tx": 0,
+                        "ty": 0,
+                        "tz": 0,
+                        "rx": 0,
+                        "ry": 0,
+                        "rz": 0,
+                        "sx": 1,
+                        "sy": 1,
+                        "sz": 1,
+                        "color": "#00ff00",
+                        "children": [
+                            {
+                                "type": "img2d",
+                                "title": "image",
+                                "visible": true,
+                                "width": 0.5,
+                                "ratio": 1,
+                                "tx": 0,
+                                "ty": 0,
+                                "tz": 0,
+                                "rx": 0,
+                                "ry": 0,
+                                "rz": 0,
+                                "sx": 1,
+                                "sy": 1,
+                                "sz": 1,
+                                "asset": "26416758",
+                                "transparent": true,
+                                "parent": "96844817",
+                                "id": "21709188"
+                            },
+                            {
+                                "type": "model",
+                                "title": "a model",
+                                "visible": true,
+                                "tx": 0.822713049084403,
+                                "ty": 0.003372311643266901,
+                                "tz": 0,
+                                "rx": 0,
+                                "ry": 0,
+                                "rz": 0,
+                                "sx": 0.01,
+                                "sy": 0.01,
+                                "sz": 0.01,
+                                "color": "#ffffff",
+                                "children": [],
+                                "asset": "60063133",
+                                "parent": "96844817",
+                                "id": "51810411"
+                            },
+                            {
+                                "type": "behavior",
+                                "title": " Proximity To Image",
+                                "description": " sends messages on proximity events to an active image",
+                                "parent": "96844817",
+                                "behavior": "42495697",
+                                "near": 3,
+                                "far": 5,
+                                "id": "15002667"
+                            },
+                            {
+                                "type": "behavior",
+                                "title": " proximityTrigger",
+                                "description": " fires trigger event on proximity transitions",
+                                "parent": "96844817",
+                                "behavior": "85386558",
+                                "id": "82484541"
+                            },
+                            {
+                                "type": "behavior",
+                                "title": " Play Sound on Trigger Event",
+                                "description": " Play a sound on a \"trigger\" event",
+                                "parent": "96844817",
+                                "behavior": "5209112",
+                                "sound": "68157950",
+                                "id": "30266393"
+                            },
+                            {
+                                "type": "behavior",
+                                "title": " onEvent",
+                                "description": " Runs the provided code in the specified event handler",
+                                "parent": "96844817",
+                                "behavior": "88796652",
+                                "event": "proximity",
+                                "code": "this.globalStorage.found = true",
+                                "id": "56500186"
+                            }
+                        ],
+                        "targetImage": "78180826",
+                        "imageRealworldWidth": 0.23,
+                        "recType": "SCENE_START",
+                        "parent": "30421273",
+                        "id": "96844817"
+                    }
+                ],
+                "id": "30421273"
+            },
+            {
+                "type": "behaviors",
+                "title": "Behaviors",
+                "children": [
+                    {
+                        "type": "behavior_script",
+                        "title": " setText",
+                        "description": " the provided code should return a text string, which will be set to the text object",
+                        "src": "setText.js",
+                        "parent": "66047517",
+                        "id": "39402486"
+                    },
+                    {
+                        "type": "behavior_script",
+                        "title": " showIf",
+                        "description": " if the provide test evauates to true, the node is visible",
+                        "src": "showIf.js",
+                        "parent": "66047517",
+                        "id": "55997163"
+                    },
+                    {
+                        "type": "behavior_script",
+                        "title": " onEvent",
+                        "description": " Runs the provided code in the specified event handler",
+                        "src": "onEvent.js",
+                        "parent": "66047517",
+                        "id": "88796652"
+                    },
+                    {
+                        "type": "behavior_script",
+                        "title": " infrontof",
+                        "description": " be front of camera at a certain distance for a while at a speed",
+                        "src": "infrontof.js",
+                        "parent": "66047517",
+                        "id": "39080501"
+                    },
+                    {
+                        "type": "behavior_script",
+                        "title": " Billboard Horizontal",
+                        "description": " Cause an object to face you, but keep Y vertical ",
+                        "src": "billBoardHorizontal.js",
+                        "parent": "66047517",
+                        "id": "47787200"
+                    },
+                    {
+                        "type": "behavior_script",
+                        "title": " Billboard",
+                        "description": " Cause an object to face you ",
+                        "src": "billboard.js",
+                        "parent": "66047517",
+                        "id": "37604399"
+                    },
+                    {
+                        "type": "behavior_script",
+                        "title": " Proximity To Image",
+                        "description": " sends messages on proximity events to an active image",
+                        "src": "proximityToImage.js",
+                        "parent": "66047517",
+                        "id": "42495697"
+                    },
+                    {
+                        "type": "behavior_script",
+                        "title": " proximityTrigger",
+                        "description": " fires trigger event on proximity transitions",
+                        "src": "proximityTrigger.js",
+                        "parent": "66047517",
+                        "id": "85386558"
+                    },
+                    {
+                        "type": "behavior_script",
+                        "title": " Play Sound on Trigger Event",
+                        "description": " Play a sound on a \"trigger\" event",
+                        "src": "playSoundOnTrigger.js",
+                        "parent": "66047517",
+                        "id": "5209112"
+                    }
+                ],
+                "parent": "70756917",
+                "id": "66047517"
+            },
+            {
+                "type": "assets",
+                "title": "Assets",
+                "children": [
+                    {
+                        "type": "asset",
+                        "subtype": "image",
+                        "assetId": "bluemarble.jpg",
+                        "format": "image/jpeg",
+                        "src": "https://cdn.glitch.com/15b5fc9d-cb20-436f-81af-a3df950cb2e5%2Fbluemarble.jpg",
+                        "width": 100,
+                        "height": 100,
+                        "title": "bluemarble.jpg",
+                        "parent": "20172346",
+                        "id": "78180826"
+                    },
+                    {
+                        "type": "asset",
+                        "subtype": "gltf",
+                        "assetId": "robot-playground.glb",
+                        "format": "model/gltf-binary",
+                        "src": "https://cdn.glitch.com/15b5fc9d-cb20-436f-81af-a3df950cb2e5%2Frobot-playground.glb",
+                        "title": "robot-playground.glb",
+                        "parent": "20172346",
+                        "id": "60063133"
+                    },
+                    {
+                        "type": "asset",
+                        "subtype": "image",
+                        "assetId": "penguin.png",
+                        "format": "image/png",
+                        "src": "https://cdn.glitch.com/15b5fc9d-cb20-436f-81af-a3df950cb2e5%2Fpenguin.png",
+                        "width": 400,
+                        "height": 335,
+                        "title": "penguin.png",
+                        "parent": "20172346",
+                        "id": "25257152"
+                    },
+                    {
+                        "type": "asset",
+                        "subtype": "image",
+                        "assetId": "char_intro_04.gif",
+                        "format": "image/gif",
+                        "src": "https://cdn.glitch.com/15b5fc9d-cb20-436f-81af-a3df950cb2e5%2Fchar_intro_04.gif",
+                        "width": 960,
+                        "height": 480,
+                        "title": "char_intro_04.gif",
+                        "parent": "20172346",
+                        "id": "26416758"
+                    },
+                    {
+                        "type": "asset",
+                        "subtype": "audio",
+                        "assetId": "quack.mp3",
+                        "format": "audio/mpeg",
+                        "src": "https://cdn.glitch.com/15b5fc9d-cb20-436f-81af-a3df950cb2e5%2Fquack.mp3",
+                        "title": "quack.mp3",
+                        "parent": "20172346",
+                        "id": "68157950"
+                    }
+                ],
+                "parent": "70756917",
+                "id": "20172346"
+            }
+        ],
+        "id": "70756917"
+    },
+    "title": "image test"
+}
