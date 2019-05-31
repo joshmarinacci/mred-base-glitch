@@ -212,6 +212,380 @@
             "value": "58686540",
             "entryid": "4305462",
             "prev": "44041215"
+        },
+        {
+            "type": "CREATE_OBJECT",
+            "host": "20381415",
+            "timestamp": 1559298244709,
+            "uuid": "50616659",
+            "seq": 1,
+            "id": "23892158",
+            "defaults": {
+                "type": "asset",
+                "subtype": "video",
+                "assetId": "video-test.mp4",
+                "format": "video/mp4",
+                "src": "https://cdn.glitch.com/15b5fc9d-cb20-436f-81af-a3df950cb2e5%2Fvideo-test.mp4",
+                "title": "video-test.mp4",
+                "parent": 0
+            }
+        },
+        {
+            "type": "SET_PROPERTY",
+            "host": "20381415",
+            "timestamp": 1559298244711,
+            "uuid": "40387823",
+            "seq": 2,
+            "object": "23892158",
+            "name": "parent",
+            "value": "58686540"
+        },
+        {
+            "type": "INSERT_ELEMENT",
+            "host": "20381415",
+            "timestamp": 1559298244713,
+            "uuid": "87004170",
+            "seq": 3,
+            "array": "5975851",
+            "value": "23892158",
+            "entryid": "82373676",
+            "prev": -1
+        },
+        {
+            "type": "CREATE_OBJECT",
+            "host": "20381415",
+            "timestamp": 1559298256539,
+            "uuid": "97921070",
+            "seq": 7,
+            "id": "72089501",
+            "defaults": {
+                "type": "img2d",
+                "title": "image",
+                "visible": true,
+                "width": 0.5,
+                "ratio": 1,
+                "tx": 0,
+                "ty": 0,
+                "tz": 0,
+                "rx": 0,
+                "ry": 0,
+                "rz": 0,
+                "sx": 1,
+                "sy": 1,
+                "sz": 1,
+                "asset": -30,
+                "transparent": false,
+                "parent": "87920891"
+            }
+        },
+        {
+            "type": "SET_PROPERTY",
+            "host": "20381415",
+            "timestamp": 1559298256541,
+            "uuid": "58822630",
+            "seq": 8,
+            "object": "72089501",
+            "name": "parent",
+            "value": "87920891"
+        },
+        {
+            "type": "INSERT_ELEMENT",
+            "host": "20381415",
+            "timestamp": 1559298256541,
+            "uuid": "3064783",
+            "seq": 9,
+            "array": "66177758",
+            "value": "72089501",
+            "entryid": "61199966",
+            "prev": -1
+        },
+        {
+            "type": "SET_PROPERTY",
+            "host": "20381415",
+            "timestamp": 1559298259675,
+            "uuid": "75730455",
+            "seq": 13,
+            "object": "72089501",
+            "name": "asset",
+            "value": "23892158",
+            "prevValue": -30
+        },
+        {
+            "type": "SET_PROPERTY",
+            "host": "20381415",
+            "timestamp": 1559298269579,
+            "uuid": "51435051",
+            "seq": 393,
+            "object": "65258616",
+            "name": "ty",
+            "value": -0.43158734085414685,
+            "prevValue": -0.0035396491645891537
+        },
+        {
+            "type": "CREATE_OBJECT",
+            "host": "20381415",
+            "timestamp": 1559298284313,
+            "uuid": "45035712",
+            "seq": 461,
+            "id": "72172433",
+            "defaults": {
+                "type": "behavior_script",
+                "title": " Play Video on Click",
+                "description": " Play the video asset attached to this behavior",
+                "src": "playVideoOnClick.js",
+                "parent": 0
+            }
+        },
+        {
+            "type": "SET_PROPERTY",
+            "host": "20381415",
+            "timestamp": 1559298284314,
+            "uuid": "10872086",
+            "seq": 462,
+            "object": "72172433",
+            "name": "parent",
+            "value": "37889754"
+        },
+        {
+            "type": "INSERT_ELEMENT",
+            "host": "20381415",
+            "timestamp": 1559298284316,
+            "uuid": "90564626",
+            "seq": 463,
+            "array": "62610515",
+            "value": "72172433",
+            "entryid": "16253288",
+            "prev": -1
+        },
+        {
+            "type": "CREATE_OBJECT",
+            "host": "20381415",
+            "timestamp": 1559298284427,
+            "uuid": "76158368",
+            "seq": 464,
+            "id": "95206785",
+            "defaults": {
+                "type": "behavior",
+                "title": " Play Video on Click",
+                "description": " Play the video asset attached to this behavior",
+                "parent": 0,
+                "behavior": "72172433",
+                "media": null
+            }
+        },
+        {
+            "type": "SET_PROPERTY",
+            "host": "20381415",
+            "timestamp": 1559298284435,
+            "uuid": "31245430",
+            "seq": 465,
+            "object": "95206785",
+            "name": "parent",
+            "value": "72089501"
+        },
+        {
+            "type": "CREATE_OBJECT",
+            "host": "20381415",
+            "timestamp": 1559298291916,
+            "uuid": "69845462",
+            "seq": 476,
+            "id": "27757993",
+            "defaults": {
+                "type": "behavior",
+                "title": " Play Video on Click",
+                "description": " Play the video asset attached to this behavior",
+                "parent": 0,
+                "behavior": "72172433",
+                "media": null
+            }
+        },
+        {
+            "type": "SET_PROPERTY",
+            "host": "20381415",
+            "timestamp": 1559298291921,
+            "uuid": "57337257",
+            "seq": 477,
+            "object": "27757993",
+            "name": "parent",
+            "value": "72089501"
+        },
+        {
+            "type": "DELETE_ELEMENT",
+            "host": "20381415",
+            "timestamp": 1559298330678,
+            "uuid": "29553071",
+            "seq": 482,
+            "array": "66177758",
+            "entry": "81152445",
+            "value": "65258616"
+        },
+        {
+            "type": "CREATE_OBJECT",
+            "host": "20381415",
+            "timestamp": 1559298334923,
+            "uuid": "56300213",
+            "seq": 495,
+            "id": "97355068",
+            "defaults": {
+                "type": "behavior",
+                "title": " Play Video on Click",
+                "description": " Play the video asset attached to this behavior",
+                "parent": 0,
+                "behavior": "72172433",
+                "media": null
+            }
+        },
+        {
+            "type": "SET_PROPERTY",
+            "host": "20381415",
+            "timestamp": 1559298334927,
+            "uuid": "13242804",
+            "seq": 496,
+            "object": "97355068",
+            "name": "parent",
+            "value": "72089501"
+        },
+        {
+            "type": "CREATE_ARRAY",
+            "host": "20381415",
+            "timestamp": 1559298345131,
+            "uuid": "85602415",
+            "seq": 498,
+            "id": "47153728"
+        },
+        {
+            "type": "CREATE_OBJECT",
+            "host": "20381415",
+            "timestamp": 1559298345132,
+            "uuid": "46006902",
+            "seq": 499,
+            "id": "49841542",
+            "defaults": {
+                "type": "group",
+                "title": "group 0",
+                "visible": true,
+                "tx": 0,
+                "ty": 0,
+                "tz": 0,
+                "rx": 0,
+                "ry": 0,
+                "rz": 0,
+                "sx": 1,
+                "sy": 1,
+                "sz": 1,
+                "color": "#00ff00",
+                "children": "47153728",
+                "parent": "87920891"
+            }
+        },
+        {
+            "type": "SET_PROPERTY",
+            "host": "20381415",
+            "timestamp": 1559298345133,
+            "uuid": "35188673",
+            "seq": 500,
+            "object": "49841542",
+            "name": "parent",
+            "value": "87920891"
+        },
+        {
+            "type": "INSERT_ELEMENT",
+            "host": "20381415",
+            "timestamp": 1559298345133,
+            "uuid": "44557575",
+            "seq": 501,
+            "array": "66177758",
+            "value": "49841542",
+            "entryid": "23815972",
+            "prev": -1
+        },
+        {
+            "type": "CREATE_OBJECT",
+            "host": "20381415",
+            "timestamp": 1559298349426,
+            "uuid": "11618867",
+            "seq": 511,
+            "id": "87225816",
+            "defaults": {
+                "type": "behavior",
+                "title": " Play Video on Click",
+                "description": " Play the video asset attached to this behavior",
+                "parent": 0,
+                "behavior": "72172433",
+                "media": null
+            }
+        },
+        {
+            "type": "SET_PROPERTY",
+            "host": "20381415",
+            "timestamp": 1559298349429,
+            "uuid": "98450740",
+            "seq": 512,
+            "object": "87225816",
+            "name": "parent",
+            "value": "49841542"
+        },
+        {
+            "type": "INSERT_ELEMENT",
+            "host": "20381415",
+            "timestamp": 1559298349434,
+            "uuid": "28884239",
+            "seq": 513,
+            "array": "47153728",
+            "value": "87225816",
+            "entryid": "97672595",
+            "prev": -1
+        },
+        {
+            "type": "DELETE_ELEMENT",
+            "host": "20381415",
+            "timestamp": 1559298355050,
+            "uuid": "25046541",
+            "seq": 520,
+            "array": "66177758",
+            "entry": "61199966",
+            "value": "72089501"
+        },
+        {
+            "type": "SET_PROPERTY",
+            "host": "20381415",
+            "timestamp": 1559298355052,
+            "uuid": "58831201",
+            "seq": 524,
+            "object": "72089501",
+            "name": "parent",
+            "value": "49841542"
+        },
+        {
+            "type": "INSERT_ELEMENT",
+            "host": "20381415",
+            "timestamp": 1559298355053,
+            "uuid": "25826968",
+            "seq": 525,
+            "array": "47153728",
+            "value": "72089501",
+            "entryid": "76343668",
+            "prev": -1
+        },
+        {
+            "type": "DELETE_ELEMENT",
+            "host": "20381415",
+            "timestamp": 1559298359393,
+            "uuid": "62697503",
+            "seq": 526,
+            "array": "47153728",
+            "entry": "97672595",
+            "value": "87225816"
+        },
+        {
+            "type": "SET_PROPERTY",
+            "host": "20381415",
+            "timestamp": 1559298359395,
+            "uuid": "81952769",
+            "seq": 527,
+            "object": "87225816",
+            "name": "parent",
+            "value": "72089501"
         }
     ],
     "type": "vr",
@@ -230,12 +604,9 @@
                 "parent": "98234580",
                 "children": [
                     {
-                        "type": "cube",
-                        "title": "cube 0",
+                        "type": "group",
+                        "title": "group 0",
                         "visible": true,
-                        "width": 0.3,
-                        "height": 0.3,
-                        "depth": 0.3,
                         "tx": 0,
                         "ty": 0,
                         "tz": 0,
@@ -246,11 +617,30 @@
                         "sy": 1,
                         "sz": 1,
                         "color": "#00ff00",
-                        "children": [],
-                        "asset": -30,
-                        "transparent": false,
+                        "children": [
+                            {
+                                "type": "img2d",
+                                "title": "image",
+                                "visible": true,
+                                "width": 0.5,
+                                "ratio": 1,
+                                "tx": 0,
+                                "ty": 0,
+                                "tz": 0,
+                                "rx": 0,
+                                "ry": 0,
+                                "rz": 0,
+                                "sx": 1,
+                                "sy": 1,
+                                "sz": 1,
+                                "asset": "23892158",
+                                "transparent": false,
+                                "parent": "49841542",
+                                "id": "72089501"
+                            }
+                        ],
                         "parent": "87920891",
-                        "id": "65258616"
+                        "id": "49841542"
                     }
                 ],
                 "id": "87920891"
@@ -258,14 +648,34 @@
             {
                 "type": "behaviors",
                 "title": "Behaviors",
-                "children": [],
+                "children": [
+                    {
+                        "type": "behavior_script",
+                        "title": " Play Video on Click",
+                        "description": " Play the video asset attached to this behavior",
+                        "src": "playVideoOnClick.js",
+                        "parent": "37889754",
+                        "id": "72172433"
+                    }
+                ],
                 "parent": "98234580",
                 "id": "37889754"
             },
             {
                 "type": "assets",
                 "title": "Assets",
-                "children": [],
+                "children": [
+                    {
+                        "type": "asset",
+                        "subtype": "video",
+                        "assetId": "video-test.mp4",
+                        "format": "video/mp4",
+                        "src": "https://cdn.glitch.com/15b5fc9d-cb20-436f-81af-a3df950cb2e5%2Fvideo-test.mp4",
+                        "title": "video-test.mp4",
+                        "parent": "58686540",
+                        "id": "23892158"
+                    }
+                ],
                 "parent": "98234580",
                 "id": "58686540"
             }
