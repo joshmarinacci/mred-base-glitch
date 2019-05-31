@@ -6730,6 +6730,412 @@
             "object": "21709188",
             "name": "height",
             "value": 0.25
+        },
+        {
+            "type": "CREATE_OBJECT",
+            "host": "45207569",
+            "timestamp": 1559267131170,
+            "uuid": "53434273",
+            "seq": 1,
+            "id": "68157950",
+            "defaults": {
+                "type": "asset",
+                "subtype": "audio",
+                "assetId": "quack.mp3",
+                "format": "audio/mpeg",
+                "src": "https://cdn.glitch.com/15b5fc9d-cb20-436f-81af-a3df950cb2e5%2Fquack.mp3",
+                "title": "quack.mp3",
+                "parent": 0
+            }
+        },
+        {
+            "type": "SET_PROPERTY",
+            "host": "45207569",
+            "timestamp": 1559267131171,
+            "uuid": "91437131",
+            "seq": 2,
+            "object": "68157950",
+            "name": "parent",
+            "value": "20172346"
+        },
+        {
+            "type": "INSERT_ELEMENT",
+            "host": "45207569",
+            "timestamp": 1559267131171,
+            "uuid": "67247478",
+            "seq": 3,
+            "array": "30705231",
+            "value": "68157950",
+            "entryid": "27416543",
+            "prev": "84979738"
+        },
+        {
+            "type": "CREATE_OBJECT",
+            "host": "45207569",
+            "timestamp": 1559267147647,
+            "uuid": "50729719",
+            "seq": 13,
+            "id": "42495697",
+            "defaults": {
+                "type": "behavior_script",
+                "title": " Proximity",
+                "description": " sends messages on proximity events to an active image",
+                "src": "proximityToImage.js",
+                "parent": 0
+            }
+        },
+        {
+            "type": "SET_PROPERTY",
+            "host": "45207569",
+            "timestamp": 1559267147647,
+            "uuid": "68133724",
+            "seq": 14,
+            "object": "42495697",
+            "name": "parent",
+            "value": "66047517"
+        },
+        {
+            "type": "INSERT_ELEMENT",
+            "host": "45207569",
+            "timestamp": 1559267147648,
+            "uuid": "75750977",
+            "seq": 15,
+            "array": "18684209",
+            "value": "42495697",
+            "entryid": "823564",
+            "prev": "8716080"
+        },
+        {
+            "type": "CREATE_OBJECT",
+            "host": "45207569",
+            "timestamp": 1559267147744,
+            "uuid": "70954301",
+            "seq": 16,
+            "id": "23472408",
+            "defaults": {
+                "type": "behavior",
+                "title": " Proximity",
+                "description": " sends messages on proximity events to an active image",
+                "parent": 0,
+                "behavior": "42495697",
+                "near": 3,
+                "far": 5
+            }
+        },
+        {
+            "type": "SET_PROPERTY",
+            "host": "45207569",
+            "timestamp": 1559267147750,
+            "uuid": "85572613",
+            "seq": 17,
+            "object": "23472408",
+            "name": "parent",
+            "value": "96844817"
+        },
+        {
+            "type": "INSERT_ELEMENT",
+            "host": "45207569",
+            "timestamp": 1559267147758,
+            "uuid": "4594306",
+            "seq": 18,
+            "array": "34878009",
+            "value": "23472408",
+            "entryid": "2421829",
+            "prev": "83224964"
+        },
+        {
+            "type": "SET_PROPERTY",
+            "host": "45207569",
+            "timestamp": 1559267167372,
+            "uuid": "30802374",
+            "seq": 19,
+            "object": "42495697",
+            "name": "title",
+            "value": " Proximity To Image"
+        },
+        {
+            "type": "SET_PROPERTY",
+            "host": "45207569",
+            "timestamp": 1559267167379,
+            "uuid": "58690578",
+            "seq": 20,
+            "object": "42495697",
+            "name": "description",
+            "value": " sends messages on proximity events to an active image"
+        },
+        {
+            "type": "CREATE_OBJECT",
+            "host": "45207569",
+            "timestamp": 1559267176356,
+            "uuid": "52509723",
+            "seq": 24,
+            "id": "15002667",
+            "defaults": {
+                "type": "behavior",
+                "title": " Proximity To Image",
+                "description": " sends messages on proximity events to an active image",
+                "parent": 0,
+                "behavior": "42495697",
+                "near": 3,
+                "far": 5
+            }
+        },
+        {
+            "type": "SET_PROPERTY",
+            "host": "45207569",
+            "timestamp": 1559267176362,
+            "uuid": "24126901",
+            "seq": 25,
+            "object": "15002667",
+            "name": "parent",
+            "value": "96844817"
+        },
+        {
+            "type": "INSERT_ELEMENT",
+            "host": "45207569",
+            "timestamp": 1559267176368,
+            "uuid": "63173486",
+            "seq": 26,
+            "array": "34878009",
+            "value": "15002667",
+            "entryid": "47285435",
+            "prev": "2421829"
+        },
+        {
+            "type": "DELETE_ELEMENT",
+            "host": "45207569",
+            "timestamp": 1559267217588,
+            "uuid": "71713428",
+            "seq": 27,
+            "array": "34878009",
+            "entry": "83224964",
+            "value": "68165280"
+        },
+        {
+            "type": "DELETE_ELEMENT",
+            "host": "45207569",
+            "timestamp": 1559267219375,
+            "uuid": "93718760",
+            "seq": 28,
+            "array": "34878009",
+            "entry": "2421829",
+            "value": "23472408"
+        },
+        {
+            "type": "CREATE_OBJECT",
+            "host": "45207569",
+            "timestamp": 1559267243595,
+            "uuid": "17718654",
+            "seq": 38,
+            "id": "85386558",
+            "defaults": {
+                "type": "behavior_script",
+                "title": " proximityTrigger",
+                "description": " fires trigger event on proximity transitions",
+                "src": "proximityTrigger.js",
+                "parent": 0
+            }
+        },
+        {
+            "type": "SET_PROPERTY",
+            "host": "45207569",
+            "timestamp": 1559267243596,
+            "uuid": "15978205",
+            "seq": 39,
+            "object": "85386558",
+            "name": "parent",
+            "value": "66047517"
+        },
+        {
+            "type": "INSERT_ELEMENT",
+            "host": "45207569",
+            "timestamp": 1559267243596,
+            "uuid": "4913285",
+            "seq": 40,
+            "array": "18684209",
+            "value": "85386558",
+            "entryid": "87661675",
+            "prev": "823564"
+        },
+        {
+            "type": "CREATE_OBJECT",
+            "host": "45207569",
+            "timestamp": 1559267243757,
+            "uuid": "8269733",
+            "seq": 41,
+            "id": "82484541",
+            "defaults": {
+                "type": "behavior",
+                "title": " proximityTrigger",
+                "description": " fires trigger event on proximity transitions",
+                "parent": 0,
+                "behavior": "85386558"
+            }
+        },
+        {
+            "type": "SET_PROPERTY",
+            "host": "45207569",
+            "timestamp": 1559267243760,
+            "uuid": "22659713",
+            "seq": 42,
+            "object": "82484541",
+            "name": "parent",
+            "value": "96844817"
+        },
+        {
+            "type": "INSERT_ELEMENT",
+            "host": "45207569",
+            "timestamp": 1559267243764,
+            "uuid": "10102694",
+            "seq": 43,
+            "array": "34878009",
+            "value": "82484541",
+            "entryid": "58011453",
+            "prev": "47285435"
+        },
+        {
+            "type": "CREATE_OBJECT",
+            "host": "45207569",
+            "timestamp": 1559267291265,
+            "uuid": "56821120",
+            "seq": 53,
+            "id": "5209112",
+            "defaults": {
+                "type": "behavior_script",
+                "title": " Play Sound on Trigger Event",
+                "description": " Play a sound on a \"trigger\" event",
+                "src": "playSoundOnTrigger.js",
+                "parent": 0
+            }
+        },
+        {
+            "type": "SET_PROPERTY",
+            "host": "45207569",
+            "timestamp": 1559267291266,
+            "uuid": "55042514",
+            "seq": 54,
+            "object": "5209112",
+            "name": "parent",
+            "value": "66047517"
+        },
+        {
+            "type": "INSERT_ELEMENT",
+            "host": "45207569",
+            "timestamp": 1559267291266,
+            "uuid": "57840196",
+            "seq": 55,
+            "array": "18684209",
+            "value": "5209112",
+            "entryid": "75776585",
+            "prev": "87661675"
+        },
+        {
+            "type": "CREATE_OBJECT",
+            "host": "45207569",
+            "timestamp": 1559267291625,
+            "uuid": "32700712",
+            "seq": 56,
+            "id": "30266393",
+            "defaults": {
+                "type": "behavior",
+                "title": " Play Sound on Trigger Event",
+                "description": " Play a sound on a \"trigger\" event",
+                "parent": 0,
+                "behavior": "5209112",
+                "sound": null
+            }
+        },
+        {
+            "type": "SET_PROPERTY",
+            "host": "45207569",
+            "timestamp": 1559267291630,
+            "uuid": "88542796",
+            "seq": 57,
+            "object": "30266393",
+            "name": "parent",
+            "value": "96844817"
+        },
+        {
+            "type": "INSERT_ELEMENT",
+            "host": "45207569",
+            "timestamp": 1559267291635,
+            "uuid": "68286885",
+            "seq": 58,
+            "array": "34878009",
+            "value": "30266393",
+            "entryid": "17927547",
+            "prev": "58011453"
+        },
+        {
+            "type": "SET_PROPERTY",
+            "host": "45207569",
+            "timestamp": 1559267317716,
+            "uuid": "5896502",
+            "seq": 59,
+            "object": "30266393",
+            "name": "sound",
+            "value": "68157950",
+            "prevValue": null
+        },
+        {
+            "type": "CREATE_OBJECT",
+            "host": "45207569",
+            "timestamp": 1559267414652,
+            "uuid": "50283033",
+            "seq": 72,
+            "id": "56500186",
+            "defaults": {
+                "type": "behavior",
+                "title": " onEvent",
+                "description": " Runs the provided code in the specified event handler",
+                "parent": 0,
+                "behavior": "88796652",
+                "event": "",
+                "code": ""
+            }
+        },
+        {
+            "type": "SET_PROPERTY",
+            "host": "45207569",
+            "timestamp": 1559267414659,
+            "uuid": "65162873",
+            "seq": 73,
+            "object": "56500186",
+            "name": "parent",
+            "value": "96844817"
+        },
+        {
+            "type": "INSERT_ELEMENT",
+            "host": "45207569",
+            "timestamp": 1559267414664,
+            "uuid": "13965262",
+            "seq": 74,
+            "array": "34878009",
+            "value": "56500186",
+            "entryid": "45151991",
+            "prev": "17927547"
+        },
+        {
+            "type": "SET_PROPERTY",
+            "host": "45207569",
+            "timestamp": 1559267421144,
+            "uuid": "38252351",
+            "seq": 75,
+            "object": "56500186",
+            "name": "event",
+            "value": "proximity",
+            "prevValue": ""
+        },
+        {
+            "type": "SET_PROPERTY",
+            "host": "45207569",
+            "timestamp": 1559267432468,
+            "uuid": "40699450",
+            "seq": 76,
+            "object": "56500186",
+            "name": "code",
+            "value": "this.globalStorage.found = true",
+            "prevValue": ""
         }
     ],
     "type": "vr",
@@ -6861,13 +7267,40 @@
                             },
                             {
                                 "type": "behavior",
+                                "title": " Proximity To Image",
+                                "description": " sends messages on proximity events to an active image",
+                                "parent": "96844817",
+                                "behavior": "42495697",
+                                "near": 3,
+                                "far": 5,
+                                "id": "15002667"
+                            },
+                            {
+                                "type": "behavior",
+                                "title": " proximityTrigger",
+                                "description": " fires trigger event on proximity transitions",
+                                "parent": "96844817",
+                                "behavior": "85386558",
+                                "id": "82484541"
+                            },
+                            {
+                                "type": "behavior",
+                                "title": " Play Sound on Trigger Event",
+                                "description": " Play a sound on a \"trigger\" event",
+                                "parent": "96844817",
+                                "behavior": "5209112",
+                                "sound": "68157950",
+                                "id": "30266393"
+                            },
+                            {
+                                "type": "behavior",
                                 "title": " onEvent",
                                 "description": " Runs the provided code in the specified event handler",
                                 "parent": "96844817",
                                 "behavior": "88796652",
-                                "event": "recognized",
-                                "code": "this.logger.log(\"image target found\")\nthis.globalStorage.found = true",
-                                "id": "68165280"
+                                "event": "proximity",
+                                "code": "this.globalStorage.found = true",
+                                "id": "56500186"
                             }
                         ],
                         "targetImage": "78180826",
@@ -6930,6 +7363,30 @@
                         "src": "billboard.js",
                         "parent": "66047517",
                         "id": "37604399"
+                    },
+                    {
+                        "type": "behavior_script",
+                        "title": " Proximity To Image",
+                        "description": " sends messages on proximity events to an active image",
+                        "src": "proximityToImage.js",
+                        "parent": "66047517",
+                        "id": "42495697"
+                    },
+                    {
+                        "type": "behavior_script",
+                        "title": " proximityTrigger",
+                        "description": " fires trigger event on proximity transitions",
+                        "src": "proximityTrigger.js",
+                        "parent": "66047517",
+                        "id": "85386558"
+                    },
+                    {
+                        "type": "behavior_script",
+                        "title": " Play Sound on Trigger Event",
+                        "description": " Play a sound on a \"trigger\" event",
+                        "src": "playSoundOnTrigger.js",
+                        "parent": "66047517",
+                        "id": "5209112"
                     }
                 ],
                 "parent": "70756917",
@@ -6984,6 +7441,16 @@
                         "title": "char_intro_04.gif",
                         "parent": "20172346",
                         "id": "26416758"
+                    },
+                    {
+                        "type": "asset",
+                        "subtype": "audio",
+                        "assetId": "quack.mp3",
+                        "format": "audio/mpeg",
+                        "src": "https://cdn.glitch.com/15b5fc9d-cb20-436f-81af-a3df950cb2e5%2Fquack.mp3",
+                        "title": "quack.mp3",
+                        "parent": "20172346",
+                        "id": "68157950"
                     }
                 ],
                 "parent": "70756917",
