@@ -13,6 +13,7 @@
     enter: function (e) {
       this.startTime = e.time
       e.target.visible = false    
+      this.shown = false
     },
   
     tick: function(e) {
