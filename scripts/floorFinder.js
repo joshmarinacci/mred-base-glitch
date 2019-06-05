@@ -46,8 +46,8 @@ the player, but the intent is to also allow ray shooting.
         type:'node',
       }
     }
-  },
 */
+  },
   start: function(e) {
       console.log("Start****************************")
       this.sgp.startWorldInfo()
