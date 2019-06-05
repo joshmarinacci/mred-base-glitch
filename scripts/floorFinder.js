@@ -1,4 +1,4 @@
-*
+/*
  #title floorfinder
  #description This is a test of world info (floor finding)
  
