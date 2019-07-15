@@ -17,7 +17,7 @@
     },
  
     click: function(e) {
-        const video = this.getObjectById(this.properties.video)
+        const video = this.getObjectById(this.properties.media)
         this.getAssetByTitle(video.title).play()
     }
 })

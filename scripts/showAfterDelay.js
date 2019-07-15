@@ -13,12 +13,14 @@
     enter: function (e) {
       this.startTime = e.time
       e.target.visible = false    
+      this.shown = false
     },
   
     tick: function(e) {
       var props = this.properties  
       
-      if ((e.time - this.startTime) > props.delay) {
+      if (!this.shown && (e.time - this.startTime) > props.delay) {
+         this.shown = true
          e.target.visible = true 
       }
     }

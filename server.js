@@ -153,6 +153,7 @@ function supportedMimetype(type,name) {
     if(type === 'audio/wav') return true
 
     if(type === 'video/mp4') return true
+    if(type === 'video/quicktime') return true
     if(type === 'model/gltf-binary') return true
     return false
 }

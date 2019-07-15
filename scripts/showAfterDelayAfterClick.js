@@ -27,6 +27,7 @@
       var props = this.properties  
       
       if (!props.waiting && ((e.time - this.startTime) > props.delay)) {
+         props.wating = true
          e.target.visible = true 
       }
     }
