@@ -313,11 +313,11 @@ app.get('/', function(request, response) {
       <li>
           ${doc.title}
         <a class='edit'
-href="./.general-editor/build/?mode=edit&doc=${doc.id}">
+href="./.mred/build/?mode=edit&doc=${doc.id}">
           edit
         </a>
         <a class='view'
-href="./.general-editor/build/?mode=play&doc=${doc.id}">
+href="./.mred/build/?mode=play&doc=${doc.id}">
           view
         </a>
       </li>
@@ -328,7 +328,7 @@ href="./.general-editor/build/?mode=play&doc=${doc.id}">
  <link rel='stylesheet' href="./frontpage.css">
 </head>
 <body>
-<a href="./.general-editor/build/?mode=edit">make new project</a>
+<a href="./.mred/build/?mode=edit">make new project</a>
 <h3>existing projects</h3>
 <ul>
 ${list.join("")}
